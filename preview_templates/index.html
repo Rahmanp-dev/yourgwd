@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{BUSINESS_NAME}} - Professional {{NICHE}} in {{CITY}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: {{PRIMARY_COLOR}};
+      --primary-hover: {{PRIMARY_HOVER}};
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Ribbon -->
+  <div class="top-ribbon">
+    This is a free preview website built for {{BUSINESS_NAME}} by WebSpark Studio
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <span>🛠️</span> {{BUSINESS_NAME}}
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <a href="tel:{{PHONE}}" class="btn">Call Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="rating-badge">
+          ⭐ {{RATING}} out of 5 stars ({{REVIEWS_COUNT}} Local Reviews)
+        </div>
+        <h1>Premium {{NICHE}} Services in {{CITY}}</h1>
+        <p>Your local trusted experts for all your {{NICHE}} needs. We provide reliable, high-quality, and prompt services. Don't settle for less—book your appointment or request an estimate today!</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Get Free Quote</a>
+          <a href="tel:{{PHONE}}" class="btn btn-secondary">Call {{PHONE}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Professional Services</h2>
+        <p>We offer a comprehensive range of premium solutions tailored to keep your systems running smoothly.</p>
+      </div>
+      <div class="services-grid">
+        {{SERVICES_CARDS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Customers Say</h2>
+        <p>We pride ourselves on offering outstanding customer care and quality craftsmanship.</p>
+      </div>
+      <div class="testimonials-grid">
+        {{TESTIMONIALS_CARDS}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Get in touch with us</h3>
+          <p>Have an urgent problem or want a scheduled service? Send us a message or give us a call directly. Our team is standing by to help you.</p>
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <h4>Service Area</h4>
+              <p>{{CITY}} and surrounding areas</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-text">
+              <h4>Phone Number</h4>
+              <p>{{PHONE}}</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🕒</div>
+            <div class="info-text">
+              <h4>Working Hours</h4>
+              <p>Mon - Sat: 8:00 AM - 6:00 PM (Emergency 24/7)</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form onsubmit="event.preventDefault(); alert('Thank you! Your request has been sent. We will contact you shortly.');">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="msg">Message / Service Needed</label>
+              <textarea id="msg" rows="4" required placeholder="Describe what you need..."></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Send Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 {{BUSINESS_NAME}}. All rights reserved. Created for demonstration purposes.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,323 @@
+[
+  {
+    "id": "LEAD-001",
+    "name": "Apex Plumbing Services",
+    "ownerName": "John Apex",
+    "city": "Hyderabad",
+    "niche": "dental clinics",
+    "phone": "+919999990192",
+    "website": "http://apexplumbingtx.com",
+    "score": 3.2,
+    "rating": 4.1,
+    "reviewsCount": 28,
+    "previewUrl": "/previews/apex-plumbing-services",
+    "status": "Contacted",
+    "lastContactDate": "2026-06-13T03:36:36.474Z",
+    "notes": "Slow mobile page speed, outdated branding, missing contact form. First outreach sent. Follow-up scheduled.",
+    "assignedFollowUpDate": "2026-06-16T03:36:36.474Z",
+    "history": [
+      {
+        "timestamp": "2026-06-11T08:00:00.000Z",
+        "action": "Discovered",
+        "message": "Lead found via Maps. Website score: 3.2/10. Needs digital modernizing."
+      },
+      {
+        "timestamp": "2026-06-13T03:35:34.854Z",
+        "action": "Preview Built",
+        "message": "Audited digital footprint. Generated customized preview site at /previews/apex-plumbing-services and set status to 'Ready to Contact'."
+      },
+      {
+        "timestamp": "2026-06-13T03:36:36.474Z",
+        "action": "Contacted",
+        "message": "Outreach message sent: \"Hey, checked out Apex Plumbing's site — your work looks great but the site doesn't do it justice. Made a concept:\nhttp://localhost:5000/previews/apex-plumbing-services\nNo pressure, just wanted to show you what's possible.\""
+      }
+    ]
+  },
+  {
+    "id": "LEAD-002",
+    "name": "Bella Italia Bistro",
+    "ownerName": "Marco Rossi",
+    "city": "Hyderabad",
+    "niche": "restaurants",
+    "phone": "+919999990143",
+    "website": "",
+    "score": 2,
+    "rating": 4.3,
+    "reviewsCount": 142,
+    "previewUrl": "/previews/bella-italia-bistro",
+    "status": "Contacted",
+    "lastContactDate": "2026-06-12T10:00:00.000Z",
+    "notes": "No website found. Relies solely on Facebook profile. Outreach sent.",
+    "assignedFollowUpDate": "2026-06-15T10:00:00.000Z",
+    "history": [
+      {
+        "timestamp": "2026-06-11T08:30:00.000Z",
+        "action": "Discovered",
+        "message": "Lead found via Maps. No website detected. Score: 2.0/10."
+      },
+      {
+        "timestamp": "2026-06-11T09:15:00.000Z",
+        "action": "Preview Built",
+        "message": "Generated website preview page at /previews/bella-italia-bistro."
+      },
+      {
+        "timestamp": "2026-06-12T10:00:00.000Z",
+        "action": "Contacted",
+        "message": "Outreach WhatsApp sent: 'Hi Marco, saw Bella Italia Bistro on Maps — Hyderabad's hidden gem honestly. Built a quick look at what your site could be:\nhttp://localhost:5000/previews/bella-italia-bistro\nNo pressure, just wanted to show you what's possible.'"
+      }
+    ]
+  },
+  {
+    "id": "LEAD-003",
+    "name": "Downtown Dental Care",
+    "ownerName": "Dr. Ramesh Kumar",
+    "city": "Hyderabad",
+    "niche": "dental clinics",
+    "phone": "+919999990188",
+    "website": "http://downtowndentalchi.com",
+    "score": 4.2,
+    "rating": 4.6,
+    "reviewsCount": 85,
+    "previewUrl": "/previews/downtown-dental-care",
+    "status": "Hot",
+    "lastContactDate": "2026-06-10T14:30:00.000Z",
+    "notes": "Interested in updates. Objections handled. Lead replied asking for price.",
+    "assignedFollowUpDate": "2026-06-14T09:00:00.000Z",
+    "history": [
+      {
+        "timestamp": "2026-06-10T09:00:00.000Z",
+        "action": "Discovered",
+        "message": "Lead found via Maps. Score: 4.2/10."
+      },
+      {
+        "timestamp": "2026-06-10T10:00:00.000Z",
+        "action": "Preview Built",
+        "message": "Generated modern dentist preview page."
+      },
+      {
+        "timestamp": "2026-06-10T14:30:00.000Z",
+        "action": "Contacted",
+        "message": "Outreach WhatsApp sent."
+      },
+      {
+        "timestamp": "2026-06-11T11:20:00.000Z",
+        "action": "Replied",
+        "message": "Lead: 'How much does it cost to set this up?'"
+      },
+      {
+        "timestamp": "2026-06-11T11:22:00.000Z",
+        "action": "Replied (AI)",
+        "message": "Agent: 'Depends on what you need — the basic site is pretty affordable, but I'd rather show you the full thing first. Got 15 mins this week?'"
+      }
+    ]
+  },
+  {
+    "id": "LEAD-004",
+    "name": "Summit Auto Repair",
+    "ownerName": "",
+    "city": "Hyderabad",
+    "niche": "auto repair",
+    "phone": "+919999990127",
+    "website": "",
+    "score": 2.5,
+    "rating": 3.9,
+    "reviewsCount": 42,
+    "previewUrl": "/previews/summit-auto-repair",
+    "status": "Closed",
+    "lastContactDate": "2026-06-09T13:00:00.000Z",
+    "notes": "Deal closed! Client signed contract for $1,200 setup. Value: 1200",
+    "assignedFollowUpDate": "",
+    "history": [
+      {
+        "timestamp": "2026-06-09T10:00:00.000Z",
+        "action": "Discovered",
+        "message": "Lead found via Maps. Score: 2.5/10."
+      },
+      {
+        "timestamp": "2026-06-09T11:00:00.000Z",
+        "action": "Preview Built",
+        "message": "Generated garage booking preview."
+      },
+      {
+        "timestamp": "2026-06-09T13:00:00.000Z",
+        "action": "Contacted",
+        "message": "Outreach WhatsApp sent."
+      },
+      {
+        "timestamp": "2026-06-10T15:00:00.000Z",
+        "action": "Contract Signed",
+        "message": "Deal closed. Status set to Closed."
+      }
+    ]
+  },
+  {
+    "id": "LEAD-005",
+    "name": "Greenhouse Cafe",
+    "ownerName": "Priya Sen",
+    "city": "Hyderabad",
+    "niche": "restaurants",
+    "phone": "+919999990134",
+    "website": "http://greenhousecafe.com",
+    "score": 4.8,
+    "rating": 4.5,
+    "reviewsCount": 110,
+    "previewUrl": "/previews/greenhouse-cafe",
+    "status": "Contacted",
+    "lastContactDate": "2026-06-13T03:36:36.474Z",
+    "notes": "Slow LCP (5.1s), low resolution imagery. First outreach sent. Follow-up scheduled.",
+    "assignedFollowUpDate": "2026-06-16T03:36:36.474Z",
+    "history": [
+      {
+        "timestamp": "2026-06-12T09:30:00.000Z",
+        "action": "Discovered",
+        "message": "Lead found via Maps. Score: 4.8/10."
+      },
+      {
+        "timestamp": "2026-06-13T03:35:34.856Z",
+        "action": "Preview Built",
+        "message": "Audited digital footprint. Generated customized preview site at /previews/greenhouse-cafe and set status to 'Ready to Contact'."
+      },
+      {
+        "timestamp": "2026-06-13T03:36:36.474Z",
+        "action": "Contacted",
+        "message": "Outreach message sent: \"Hey, checked out Greenhouse Cafe's site — your work looks great but the site doesn't do it justice. Made a concept:\nhttp://localhost:5000/previews/greenhouse-cafe\nNo pressure, just wanted to show you what's possible.\""
+      }
+    ]
+  },
+  {
+    "id": "LEAD-006",
+    "name": "Srinivasa Dental Hospital",
+    "ownerName": "",
+    "city": "Kondapur",
+    "niche": "Plumber",
+    "phone": "+919999990201",
+    "website": "",
+    "score": 2,
+    "rating": 4,
+    "reviewsCount": 14,
+    "previewUrl": "/previews/srinivasa-dental-hospital",
+    "status": "Contacted",
+    "lastContactDate": "2026-06-13T03:36:36.472Z",
+    "notes": "No website found. Active Facebook page with outdated contact info. First outreach sent. Follow-up scheduled.",
+    "assignedFollowUpDate": "2026-06-16T03:36:36.471Z",
+    "history": [
+      {
+        "timestamp": "2026-06-13T03:35:15.105Z",
+        "action": "Discovered",
+        "message": "Lead discovered via Maps scan in Kondapur. Website Score: 2/10. Reason: No website found. Active Facebook page with outdated contact info."
+      },
+      {
+        "timestamp": "2026-06-13T03:35:34.859Z",
+        "action": "Preview Built",
+        "message": "Audited digital footprint. Generated customized preview site at /previews/srinivasa-dental-hospital and set status to 'Ready to Contact'."
+      },
+      {
+        "timestamp": "2026-06-13T03:36:36.473Z",
+        "action": "Contacted",
+        "message": "Outreach message sent: \"Hi, saw Srinivasa Dental on Maps — Kondapur's hidden gem honestly. Built a quick idea:\nhttp://localhost:5000/previews/srinivasa-dental-hospital\nNo pressure, just wanted to show you what's possible.\""
+      }
+    ]
+  },
+  {
+    "id": "LEAD-007",
+    "name": "Healthy Smiles Clinic",
+    "ownerName": "",
+    "city": "Kondapur",
+    "niche": "Plumber",
+    "phone": "+919999990203",
+    "website": "http://healthysmileshyd.com",
+    "score": 4,
+    "rating": 4.2,
+    "reviewsCount": 29,
+    "previewUrl": "/previews/healthy-smiles-clinic",
+    "status": "Contacted",
+    "lastContactDate": "2026-06-13T03:36:36.474Z",
+    "notes": "Wix/Squarespace site that hasn't been updated in years. Score 4. First outreach sent. Follow-up scheduled.",
+    "assignedFollowUpDate": "2026-06-16T03:36:36.474Z",
+    "history": [
+      {
+        "timestamp": "2026-06-13T03:35:15.106Z",
+        "action": "Discovered",
+        "message": "Lead discovered via Maps scan in Kondapur. Website Score: 4/10. Reason: Wix/Squarespace site that hasn't been updated in years. Score 4."
+      },
+      {
+        "timestamp": "2026-06-13T03:35:34.860Z",
+        "action": "Preview Built",
+        "message": "Audited digital footprint. Generated customized preview site at /previews/healthy-smiles-clinic and set status to 'Ready to Contact'."
+      },
+      {
+        "timestamp": "2026-06-13T03:36:36.474Z",
+        "action": "Contacted",
+        "message": "Outreach message sent: \"Hey, checked out Healthy Smiles's site — your work looks great but the site doesn't do it justice. Made a concept:\nhttp://localhost:5000/previews/healthy-smiles-clinic\nNo pressure, just wanted to show you what's possible.\""
+      }
+    ]
+  },
+  {
+    "id": "LEAD-008",
+    "name": "Apex Dental Center",
+    "ownerName": "",
+    "city": "Kondapur",
+    "niche": "Plumber",
+    "phone": "+919999990204",
+    "website": "http://apexdentalhyd.in",
+    "score": 4.5,
+    "rating": 3.7,
+    "reviewsCount": 8,
+    "previewUrl": "/previews/apex-dental-center",
+    "status": "Contacted",
+    "lastContactDate": "2026-06-13T03:36:36.474Z",
+    "notes": "Outdated design, missing SSL (HTTP only), no call-to-action button, no mobile responsiveness. First outreach sent. Follow-up scheduled.",
+    "assignedFollowUpDate": "2026-06-16T03:36:36.474Z",
+    "history": [
+      {
+        "timestamp": "2026-06-13T03:35:15.107Z",
+        "action": "Discovered",
+        "message": "Lead discovered via Maps scan in Kondapur. Website Score: 4.5/10. Reason: Outdated design, missing SSL (HTTP only), no call-to-action button, no mobile responsiveness."
+      },
+      {
+        "timestamp": "2026-06-13T03:35:34.862Z",
+        "action": "Preview Built",
+        "message": "Audited digital footprint. Generated customized preview site at /previews/apex-dental-center and set status to 'Ready to Contact'."
+      },
+      {
+        "timestamp": "2026-06-13T03:36:36.474Z",
+        "action": "Contacted",
+        "message": "Outreach message sent: \"Hey, checked out Apex Dental's site — your work looks great but the site doesn't do it justice. Made a concept:\nhttp://localhost:5000/previews/apex-dental-center\nNo pressure, just wanted to show you what's possible.\""
+      }
+    ]
+  },
+  {
+    "id": "LEAD-009",
+    "name": "Sai Clinic",
+    "ownerName": "",
+    "city": "Kondapur",
+    "niche": "Plumber",
+    "phone": "+919999990205",
+    "website": "",
+    "score": 2,
+    "rating": 4.1,
+    "reviewsCount": 22,
+    "previewUrl": "/previews/sai-clinic",
+    "status": "Contacted",
+    "lastContactDate": "2026-06-13T03:36:36.473Z",
+    "notes": "No website found. Relying strictly on Google Maps listing. First outreach sent. Follow-up scheduled.",
+    "assignedFollowUpDate": "2026-06-16T03:36:36.473Z",
+    "history": [
+      {
+        "timestamp": "2026-06-13T03:35:15.107Z",
+        "action": "Discovered",
+        "message": "Lead discovered via Maps scan in Kondapur. Website Score: 2/10. Reason: No website found. Relying strictly on Google Maps listing."
+      },
+      {
+        "timestamp": "2026-06-13T03:35:34.865Z",
+        "action": "Preview Built",
+        "message": "Audited digital footprint. Generated customized preview site at /previews/sai-clinic and set status to 'Ready to Contact'."
+      },
+      {
+        "timestamp": "2026-06-13T03:36:36.474Z",
+        "action": "Contacted",
+        "message": "Outreach message sent: \"Hi, saw Sai on Maps — Kondapur's hidden gem honestly. Built a quick idea:\nhttp://localhost:5000/previews/sai-clinic\nNo pressure, just wanted to show you what's possible.\""
+      }
+    ]
+  }
+]

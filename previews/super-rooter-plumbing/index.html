@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Rooter Plumbing - Professional Plumber in Austin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --primary-color: #0284c7;
+      --primary-hover: #0369a1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <span>🛠️</span> Super Rooter Plumbing
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
+        <a href="tel:+15125559092" class="btn">Call Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="rating-badge">
+          ⭐ 4.2 out of 5 stars (19 Local Reviews)
+        </div>
+        <h1>Premium Plumber Services in Austin</h1>
+        <p>Your local trusted experts for all your Plumber needs. We provide reliable, high-quality, and prompt services. Don't settle for less—book your appointment or request an estimate today!</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Get Free Quote</a>
+          <a href="tel:+15125559092" class="btn btn-secondary">Call +15125559092</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Professional Services</h2>
+        <p>We offer a comprehensive range of premium solutions tailored to keep your systems running smoothly.</p>
+      </div>
+      <div class="services-grid">
+        
+      <div class="service-card">
+        <div class="service-icon">⚡</div>
+        <h3>24/7 Emergency Repairs</h3>
+        <p>Leaking pipes, bursting lines, or hot water failures resolved instantly by local experts.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🛡️</div>
+        <h3>Drain Cleaning & Unclogging</h3>
+        <p>Advanced hydro-jetting and inspection cameras to remove stubborn blockages forever.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏆</div>
+        <h3>Water Heater Installation</h3>
+        <p>Eco-friendly tankless and traditional water heater setups optimized for maximum energy savings.</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Customers Say</h2>
+        <p>We pride ourselves on offering outstanding customer care and quality craftsmanship.</p>
+      </div>
+      <div class="testimonials-grid">
+        
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Absolutely phenomenal work! They arrived on time, fixed my issue quickly, and charged exactly what they quoted. Highly recommend!"</p>
+        <div class="author">- Markus R.</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"The team was polite, professional, and kept their work area incredibly clean. Five stars for sure!"</p>
+        <div class="author">- Sarah L.</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>"Quick response times and very honest rates. I'm definitely going to use their services again."</p>
+        <div class="author">- David K.</div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Get in touch with us</h3>
+          <p>Have an urgent problem or want a scheduled service? Send us a message or give us a call directly. Our team is standing by to help you.</p>
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div class="info-text">
+              <h4>Service Area</h4>
+              <p>Austin and surrounding areas</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📞</div>
+            <div class="info-text">
+              <h4>Phone Number</h4>
+              <p>+15125559092</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🕒</div>
+            <div class="info-text">
+              <h4>Working Hours</h4>
+              <p>Mon - Sat: 8:00 AM - 6:00 PM (Emergency 24/7)</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form onsubmit="event.preventDefault(); alert('Thank you! Your request has been sent. We will contact you shortly.');">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="msg">Message / Service Needed</label>
+              <textarea id="msg" rows="4" required placeholder="Describe what you need..."></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Send Request</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Super Rooter Plumbing. All rights reserved. Created for demonstration purposes.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

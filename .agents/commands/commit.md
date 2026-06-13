@@ -1,0 +1,1 @@
+D:/GWD/Sales Machine/skills/antigravity-skills/commands/commit.md
