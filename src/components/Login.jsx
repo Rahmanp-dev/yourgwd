@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { Zap, Lock, Mail, ArrowRight } from 'lucide-react';
 
@@ -69,3 +70,4 @@ export default function Login({ onLogin }) {
     </div>
   );
 }
+

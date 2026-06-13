@@ -1,24 +1,59 @@
+"use client";
 import React, { useState } from 'react';
-import { Search, Eye, MessageSquare, ChevronDown, ChevronUp, Star, Globe, History, AlertCircle } from 'lucide-react';
+import { Search, MessageSquare, ChevronDown, ChevronUp, Star, Globe, History, AlertCircle, Calendar } from 'lucide-react';
 
-export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForPreview }) {
+export default function LeadTable({ leads, onSelectLeadForChat }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('All');
+  const [dateFilter, setDateFilter] = useState('All');
   const [expandedLead, setExpandedLead] = useState(null);
 
   const toggleExpand = (id) => {
     setExpandedLead(expandedLead === id ? null : id);
   };
 
+  const getTodayDateString = () => {
+    const d = new Date();
+    d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
+    return d.toISOString().split('T')[0];
+  };
+
+  const handleDateChange = async (leadId, newDate) => {
+    // Optimistic local update isn't strictly necessary since we mutate on save
+    // but we can dispatch to the backend directly.
+    const token = localStorage.getItem('gwd_token');
+    fetch(`/api/leads`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      },
+      body: JSON.stringify({ id: leadId, workDate: newDate })
+    });
+    // For simplicity, we assume the parent container fetches or the user refreshes
+  };
+
   // Filter logic
   const filteredLeads = leads.filter(lead => {
-    const matchesSearch = lead.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          lead.city.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          lead.niche.toLowerCase().includes(searchTerm.toLowerCase());
+    const name = lead.name || '';
+    const city = lead.city || '';
+    const niche = lead.niche || '';
+    
+    const matchesSearch = name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          city.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          niche.toLowerCase().includes(searchTerm.toLowerCase());
     
     const matchesStatus = statusFilter === 'All' || lead.status === statusFilter;
     
-    return matchesSearch && matchesStatus;
+    let matchesDate = true;
+    const today = getTodayDateString();
+    if (dateFilter === 'Today') {
+      matchesDate = lead.workDate === today;
+    } else if (dateFilter === 'Unassigned') {
+      matchesDate = !lead.workDate;
+    }
+
+    return matchesSearch && matchesStatus && matchesDate;
   });
 
   const getScoreColor = (score) => {
@@ -32,18 +67,33 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
       
       {/* Filters & Search Header */}
       <div className="glass-panel" style={{ padding: '20px', display: 'flex', gap: '16px', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
-        <div style={{ display: 'flex', gap: '12px', flexGrow: 1, maxWidth: '500px', position: 'relative' }}>
+        <div style={{ display: 'flex', gap: '12px', flexGrow: 1, maxWidth: '400px', position: 'relative' }}>
           <Search size={18} style={{ position: 'absolute', left: '12px', top: '12px', color: 'var(--text-muted)' }} />
           <input
             type="text"
             className="form-input"
             style={{ paddingLeft: '38px' }}
-            placeholder="Search leads by name, city, or niche..."
+            placeholder="Search leads..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </div>
         
+        {/* Date Filter */}
+        <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+          <Calendar size={18} color="var(--text-muted)" />
+          <select 
+            className="form-input" 
+            style={{ width: '140px', padding: '8px', cursor: 'pointer' }}
+            value={dateFilter}
+            onChange={(e) => setDateFilter(e.target.value)}
+          >
+            <option value="All">All Dates</option>
+            <option value="Today">Today's Work</option>
+            <option value="Unassigned">Unassigned</option>
+          </select>
+        </div>
+
         {/* Status Filters */}
         <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
           {['All', 'New', 'Contacted', 'Hot', 'Closed', 'Cold'].map(status => (
@@ -66,12 +116,12 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
 
       {/* Leads CRM Table */}
       <div className="glass-panel" style={{ overflowX: 'auto', padding: '10px' }}>
-        <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '800px' }}>
+        <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '950px' }}>
           <thead>
             <tr style={{ borderBottom: '1px solid var(--border-glass)', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
               <th style={{ padding: '16px' }}>Business Details</th>
               <th style={{ padding: '16px' }}>Maps Rating</th>
-              <th style={{ padding: '16px' }}>Presence Weakness</th>
+              <th style={{ padding: '16px' }}>Work Date</th>
               <th style={{ padding: '16px' }}>Outreach Status</th>
               <th style={{ padding: '16px' }}>Action Channels</th>
               <th style={{ padding: '16px' }}></th>
@@ -81,7 +131,7 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
             {filteredLeads.length === 0 ? (
               <tr>
                 <td colSpan="6" style={{ padding: '40px', textAlignment: 'center', color: 'var(--text-secondary)' }}>
-                  No leads found matching your active filter criteria. Run the Lead Finder agent to search Maps.
+                  No leads found. Use the Antigravity Sync Center to push new leads to the CRM.
                 </td>
               </tr>
             ) : (
@@ -117,24 +167,16 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
                           <span style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>({lead.reviewsCount || 0})</span>
                         </div>
                       </td>
-                      
-                      {/* Weakness Score */}
-                      <td style={{ padding: '16px' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                          <span style={{ 
-                            fontWeight: 700, 
-                            color: getScoreColor(lead.score),
-                            background: `${getScoreColor(lead.score)}15`,
-                            padding: '2px 8px',
-                            borderRadius: '4px',
-                            fontSize: '0.9rem'
-                          }}>
-                            {lead.score.toFixed(1)}/10
-                          </span>
-                          <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', maxWidth: '180px', display: 'inline-block', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                            {lead.score < 8 ? (lead.website ? 'Weak Website' : 'No Website') : 'Strong Website'}
-                          </span>
-                        </div>
+
+                      {/* Work Date (Everyday) */}
+                      <td style={{ padding: '16px' }} onClick={(e) => e.stopPropagation()}>
+                        <input 
+                          type="date" 
+                          className="form-input" 
+                          style={{ padding: '6px 10px', fontSize: '0.85rem', width: '130px', cursor: 'pointer' }}
+                          defaultValue={lead.workDate || ''}
+                          onChange={(e) => handleDateChange(lead.id, e.target.value)}
+                        />
                       </td>
                       
                       {/* Status */}
@@ -148,22 +190,23 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
                       <td style={{ padding: '16px' }} onClick={e => e.stopPropagation()}>
                         <div style={{ display: 'flex', gap: '8px' }}>
                           {lead.previewUrl ? (
-                            <button 
+                            <a 
+                              href={lead.previewUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
                               className="btn-secondary" 
-                              style={{ padding: '6px 10px', fontSize: '0.8rem' }}
-                              onClick={() => onSelectLeadForPreview(lead)}
-                              title="Inspect Generated Website Preview"
+                              style={{ padding: '6px 10px', fontSize: '0.8rem', textDecoration: 'none' }}
+                              title="Open Deployed Preview Site"
                             >
-                              <Eye size={14} /> Preview Site
-                            </button>
+                              <Globe size={14} /> Open Site
+                            </a>
                           ) : (
                             <button 
                               className="btn-secondary" 
                               style={{ padding: '6px 10px', fontSize: '0.8rem', opacity: 0.5, cursor: 'not-allowed' }}
                               disabled
-                              title="No Website Preview Built Yet"
                             >
-                              <Globe size={14} /> No Preview
+                              <Globe size={14} /> No Site
                             </button>
                           )}
                           
@@ -171,13 +214,13 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
                             className="btn-secondary" 
                             style={{ padding: '6px 10px', fontSize: '0.8rem', backgroundColor: '#25D366', color: '#fff', border: 'none' }}
                             onClick={() => {
-                              const message = lead.whatsappMessage || `Hi ${lead.name}, we've built a free custom preview website for you. Check it out here: ${lead.previewUrl ? 'http://localhost:5000' + lead.previewUrl : 'N/A'}`;
+                              const message = lead.whatsappMessage || `Hi ${lead.name}, we've built a free custom preview website for you. Check it out here: ${lead.previewUrl || 'N/A'}`;
                               const phone = lead.phone || '1234567890';
                               window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
                             }}
                             title="Send Native WhatsApp Message"
                           >
-                            <MessageSquare size={14} /> Send WhatsApp
+                            <MessageSquare size={14} /> WhatsApp
                           </button>
                         </div>
                       </td>
@@ -215,12 +258,11 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
                             {/* Agent History Logs */}
                             <div>
                               <h4 style={{ fontSize: '0.95rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-                                <History size={16} style={{ color: 'var(--accent-green)' }} /> Agent Pipeline Audit Trail
+                                <History size={16} style={{ color: 'var(--accent-green)' }} /> Database Audit Trail
                               </h4>
                               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                                {lead.history.map((h, i) => (
+                                {lead.history && lead.history.map((h, i) => (
                                   <div key={i} style={{ display: 'flex', gap: '12px', fontSize: '0.8rem', position: 'relative' }}>
-                                    {/* Timeline dot */}
                                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                                       <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent-cyan)', marginTop: '4px' }}></div>
                                       {i < lead.history.length - 1 && (
@@ -231,7 +273,7 @@ export default function LeadTable({ leads, onSelectLeadForChat, onSelectLeadForP
                                       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                         <span style={{ fontWeight: 600, color: '#ffffff' }}>{h.action}</span>
                                         <span style={{ color: 'var(--text-muted)' }}>
-                                          {new Date(h.timestamp).toLocaleDateString()} {new Date(h.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
+                                          {new Date(h.timestamp).toLocaleDateString()}
                                         </span>
                                       </div>
                                       <p style={{ color: 'var(--text-secondary)', marginTop: '4px', lineHeight: 1.4 }}>{h.message}</p>

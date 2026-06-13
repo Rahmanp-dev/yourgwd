@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { Send, Phone, Video, MoreVertical, CheckCheck, Smile, Paperclip } from 'lucide-react';
 
@@ -279,3 +280,4 @@ export default function ChatSimulator({ leads, selectedLead, onRefreshLeads, onS
     </div>
   );
 }
+

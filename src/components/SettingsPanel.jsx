@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from 'react';
 import { Save, Shield, Key, FileText, Share2, Layers, Briefcase } from 'lucide-react';
 
@@ -333,3 +334,4 @@ export default function SettingsPanel() {
     </div>
   );
 }
+

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, PieChart, Pie } from 'recharts';
 import { TrendingUp, RefreshCw, FileText, CheckCircle2, AlertTriangle, HelpCircle } from 'lucide-react';
@@ -209,3 +210,4 @@ export default function PipelineStats({ leads }) {
     </div>
   );
 }
+

@@ -18,9 +18,10 @@ const leadSchema = new mongoose.Schema({
   score: { type: Number, default: 0 },
   websiteQuality: { type: String },
   status: { type: String, default: 'New' },
+  workDate: { type: String, default: '' },
   previewUrl: { type: String },
   whatsappMessage: { type: String },
   history: [historySchema]
 }, { timestamps: true });
 
-export default mongoose.model('Lead', leadSchema);
+export default mongoose.models.Lead || mongoose.model('Lead', leadSchema);
