@@ -135,12 +135,13 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
                 </td>
               </tr>
             ) : (
-              filteredLeads.map(lead => {
-                const isExpanded = expandedLead === lead.id;
+              filteredLeads.map((lead, index) => {
+                const uniqueId = lead.id || lead._id || `lead-${index}`;
+                const isExpanded = expandedLead === uniqueId;
                 return (
-                  <React.Fragment key={lead.id}>
+                  <React.Fragment key={uniqueId}>
                     <tr 
-                      onClick={() => toggleExpand(lead.id)}
+                      onClick={() => toggleExpand(uniqueId)}
                       style={{ 
                         borderBottom: '1px solid rgba(255,255,255,0.04)',
                         cursor: 'pointer',
@@ -175,7 +176,7 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
                           className="form-input" 
                           style={{ padding: '6px 10px', fontSize: '0.85rem', width: '130px', cursor: 'pointer' }}
                           defaultValue={lead.workDate || ''}
-                          onChange={(e) => handleDateChange(lead.id, e.target.value)}
+                          onChange={(e) => handleDateChange(uniqueId, e.target.value)}
                         />
                       </td>
                       

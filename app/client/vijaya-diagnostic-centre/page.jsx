@@ -1,0 +1,316 @@
+import React from 'react';
+
+export default function VijayaDiagnosticCentre() {
+  return (
+    <div className="min-h-screen bg-[#FAFAF9] font-sans text-gray-800">
+      {/* Top Bar */}
+      <div className="bg-[#1E3A8A] text-white py-2 px-4 sm:px-6 lg:px-8 text-sm hidden sm:block">
+        <div className="max-w-7xl mx-auto flex justify-between items-center">
+          <div className="flex items-center space-x-6">
+            <span className="flex items-center gap-2">
+              <svg className="w-4 h-4 text-[#FF6B6B]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+              040-2339 3333
+            </span>
+            <span className="flex items-center gap-2">
+              <svg className="w-4 h-4 text-[#FF6B6B]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              Mon - Sun: 6:30 AM to 10:00 PM
+            </span>
+          </div>
+          <div className="flex items-center space-x-4 font-medium">
+            <a href="#" className="hover:text-[#FF6B6B] transition-colors">Download Report</a>
+            <span className="w-px h-4 bg-white/30"></span>
+            <a href="#" className="hover:text-[#FF6B6B] transition-colors">Find a Centre</a>
+          </div>
+        </div>
+      </div>
+
+      {/* Main Navigation */}
+      <nav className="bg-white shadow-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-24">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-[#1E3A8A] flex items-center justify-center">
+                <span className="text-white font-serif font-bold text-2xl">V</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-serif font-bold text-2xl text-[#1E3A8A] leading-none tracking-tight">VIJAYA</span>
+                <span className="text-[10px] font-bold text-gray-500 tracking-[0.2em] uppercase mt-1">Diagnostic Centre</span>
+              </div>
+            </div>
+            <div className="hidden lg:flex space-x-8 items-center">
+              <a href="#about" className="font-medium text-gray-700 hover:text-[#1E3A8A] transition-colors">About Us</a>
+              <a href="#services" className="font-medium text-gray-700 hover:text-[#1E3A8A] transition-colors">Our Services</a>
+              <a href="#packages" className="font-medium text-gray-700 hover:text-[#1E3A8A] transition-colors">Health Packages</a>
+              <button className="px-6 py-3 bg-[#FF6B6B] hover:bg-[#ff5252] text-white font-semibold rounded-md shadow-lg shadow-red-500/20 transition-all active:scale-95">
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="relative bg-[#1E3A8A] overflow-hidden">
+        {/* Subtle geometric pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="diagonal-stripes" width="40" height="40" patternTransform="rotate(45)">
+                <rect width="20" height="40" fill="white" />
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#diagonal-stripes)" />
+          </svg>
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="inline-block py-1 px-3 rounded bg-white/10 text-white text-sm font-medium tracking-wider uppercase mb-6 border border-white/20">
+                Tolichowki Branch Now Open
+              </span>
+              <h1 className="text-4xl md:text-6xl font-serif text-white leading-tight mb-6">
+                Over Four Decades of <span className="text-[#FF6B6B] italic">Trust</span> in Diagnostics.
+              </h1>
+              <p className="text-lg text-blue-100 mb-10 max-w-lg leading-relaxed">
+                Experience comprehensive health checkups with world-class technology and experienced professionals right here in Tolichowki.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <button className="px-8 py-4 bg-[#FF6B6B] text-white font-bold rounded-md hover:bg-[#ff5252] transition-colors shadow-lg">
+                  Book Home Sample Collection
+                </button>
+                <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-bold rounded-md hover:bg-white/10 transition-colors">
+                  View Health Packages
+                </button>
+              </div>
+            </div>
+            
+            {/* Quick Action Neumorphic/Flat Card */}
+            <div className="bg-white p-8 rounded-xl shadow-2xl relative mt-10 lg:mt-0">
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#FF6B6B]/10 rounded-full blur-xl"></div>
+              <h3 className="font-serif text-2xl text-[#1E3A8A] mb-2">Quick Enquiry</h3>
+              <p className="text-gray-500 text-sm mb-6">Request a callback from our care team.</p>
+              
+              <form className="space-y-5">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Patient Name</label>
+                  <input type="text" className="w-full border-b-2 border-gray-200 py-2 focus:outline-none focus:border-[#1E3A8A] transition-colors bg-transparent" placeholder="Enter full name" />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Mobile Number</label>
+                  <input type="tel" className="w-full border-b-2 border-gray-200 py-2 focus:outline-none focus:border-[#1E3A8A] transition-colors bg-transparent" placeholder="+91" />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">Select Service</label>
+                  <select className="w-full border-b-2 border-gray-200 py-2 focus:outline-none focus:border-[#1E3A8A] transition-colors bg-transparent text-gray-600">
+                    <option>Blood Tests</option>
+                    <option>MRI / CT Scan</option>
+                    <option>Ultrasound</option>
+                    <option>Executive Health Checkup</option>
+                  </select>
+                </div>
+                <button type="button" className="w-full py-4 bg-[#1E3A8A] text-white font-bold rounded-md mt-4 hover:bg-[#152e73] transition-colors">
+                  Submit Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section overlapping Hero */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 -mt-16 mb-20">
+        <div className="bg-white rounded-xl shadow-xl p-8 grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-gray-100">
+          <div className="text-center px-4">
+            <div className="font-serif text-4xl text-[#1E3A8A] mb-1">40+</div>
+            <div className="text-sm text-gray-500 font-medium">Years of Trust</div>
+          </div>
+          <div className="text-center px-4">
+            <div className="font-serif text-4xl text-[#1E3A8A] mb-1">120+</div>
+            <div className="text-sm text-gray-500 font-medium">Centres in India</div>
+          </div>
+          <div className="text-center px-4">
+            <div className="font-serif text-4xl text-[#1E3A8A] mb-1">50M+</div>
+            <div className="text-sm text-gray-500 font-medium">Patients Served</div>
+          </div>
+          <div className="text-center px-4">
+            <div className="font-serif text-4xl text-[#1E3A8A] mb-1">250+</div>
+            <div className="text-sm text-gray-500 font-medium">Expert Doctors</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Services Grid */}
+      <section id="services" className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div className="max-w-2xl">
+              <h2 className="font-serif text-4xl text-[#1E3A8A] mb-4">World-Class Facilities at Tolichowki</h2>
+              <p className="text-gray-600 text-lg">We bring the latest diagnostic technology and expertise closer to your home.</p>
+            </div>
+            <a href="#" className="mt-6 md:mt-0 font-medium text-[#FF6B6B] hover:text-[#e55050] flex items-center gap-2">
+              View All Services
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            </a>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              { title: 'MRI & CT Scan', desc: 'High-resolution imaging with 3T MRI and 128-slice CT scanners for precise diagnosis.', bg: 'bg-blue-50' },
+              { title: 'Advanced Pathology', desc: 'Fully automated NABL-accredited labs for accurate blood and tissue analysis.', bg: 'bg-orange-50' },
+              { title: 'Cardiology (ECG, 2D Echo)', desc: 'Comprehensive heart health assessments by senior cardiologists.', bg: 'bg-teal-50' },
+              { title: 'Ultrasound & Color Doppler', desc: 'State-of-the-art sonography for obstetrics, abdomen, and vascular studies.', bg: 'bg-purple-50' },
+              { title: 'Digital X-Ray & Mammography', desc: 'Low radiation, high clarity digital imaging for bones and breast health.', bg: 'bg-rose-50' },
+              { title: 'Gastroenterology', desc: 'Advanced endoscopy and colonoscopy procedures performed safely.', bg: 'bg-amber-50' },
+            ].map((service, idx) => (
+              <div key={idx} className={`${service.bg} p-8 rounded-xl hover:shadow-lg transition-shadow duration-300 border border-transparent hover:border-gray-200 cursor-pointer`}>
+                <div className="w-12 h-12 bg-white rounded-lg shadow-sm flex items-center justify-center mb-6 text-[#1E3A8A]">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <h3 className="font-serif text-xl text-[#1E3A8A] mb-3">{service.title}</h3>
+                <p className="text-gray-600 leading-relaxed">{service.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Packages */}
+      <section id="packages" className="py-20 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="font-serif text-4xl text-[#1E3A8A] mb-4">Preventive Health Packages</h2>
+            <p className="text-gray-600 text-lg">Proactive health management with comprehensive, carefully curated screening packages.</p>
+          </div>
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            {[
+              {
+                name: 'Basic Health Check',
+                price: '₹1,499',
+                tests: '54 Parameters',
+                features: ['Complete Blood Count', 'Lipid Profile', 'Liver Function Test', 'Kidney Function Test', 'Fasting Blood Sugar'],
+                highlight: false
+              },
+              {
+                name: 'Executive Health Check',
+                price: '₹3,999',
+                tests: '72 Parameters',
+                features: ['All Basic Tests', 'Thyroid Profile', 'HbA1c', 'Urine Routine', 'Vitamin D & B12', 'ECG'],
+                highlight: true
+              },
+              {
+                name: 'Comprehensive Well Woman',
+                price: '₹4,499',
+                tests: '68 Parameters',
+                features: ['Executive Package', 'Pap Smear', 'Ultrasound Pelvis', 'Thyroid Assessment', 'Iron Deficiency Profile'],
+                highlight: false
+              }
+            ].map((pkg, idx) => (
+              <div key={idx} className={`relative rounded-2xl overflow-hidden ${pkg.highlight ? 'bg-[#1E3A8A] text-white shadow-2xl transform scale-105 z-10' : 'bg-[#FAFAF9] text-gray-800 border border-gray-200'}`}>
+                {pkg.highlight && (
+                  <div className="absolute top-0 inset-x-0 bg-[#FF6B6B] text-white text-xs font-bold text-center py-1 uppercase tracking-widest">
+                    Most Popular
+                  </div>
+                )}
+                <div className="p-8 mt-4">
+                  <h3 className={`font-serif text-2xl mb-2 ${pkg.highlight ? 'text-white' : 'text-[#1E3A8A]'}`}>{pkg.name}</h3>
+                  <div className="flex items-baseline gap-2 mb-6">
+                    <span className="text-4xl font-bold">{pkg.price}</span>
+                    <span className={`text-sm ${pkg.highlight ? 'text-blue-200' : 'text-gray-500'}`}>/ {pkg.tests}</span>
+                  </div>
+                  <ul className="space-y-4 mb-8">
+                    {pkg.features.map((feature, fIdx) => (
+                      <li key={fIdx} className="flex items-start gap-3">
+                        <svg className={`w-5 h-5 shrink-0 mt-0.5 ${pkg.highlight ? 'text-[#FF6B6B]' : 'text-[#1E3A8A]'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                        <span className={pkg.highlight ? 'text-blue-50' : 'text-gray-600'}>{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <button className={`w-full py-4 rounded-md font-bold transition-colors ${pkg.highlight ? 'bg-[#FF6B6B] hover:bg-[#ff5252] text-white' : 'bg-white hover:bg-gray-50 text-[#1E3A8A] border border-gray-200'}`}>
+                    Book Package
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Location */}
+      <section className="py-20 bg-[#FAFAF9]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-[#1E3A8A] rounded-2xl overflow-hidden flex flex-col lg:flex-row shadow-2xl">
+            <div className="lg:w-1/2 p-10 md:p-16 text-white flex flex-col justify-center">
+              <h2 className="font-serif text-3xl md:text-4xl mb-6">Vijaya Diagnostic Centre <br/><span className="text-[#FF6B6B]">Tolichowki</span></h2>
+              <p className="text-blue-100 mb-8 leading-relaxed">
+                Located conveniently in the heart of Tolichowki, our flagship centre offers parking, wheelchair accessibility, and priority services for senior citizens.
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded bg-white/10 flex items-center justify-center shrink-0">
+                    <svg className="w-6 h-6 text-[#FF6B6B]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg">Address</h4>
+                    <p className="text-blue-200">#8-1-21/118, Surya Nagar, Tolichowki Main Road, Hyderabad, Telangana 500008</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded bg-white/10 flex items-center justify-center shrink-0">
+                    <svg className="w-6 h-6 text-[#FF6B6B]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg">Timings</h4>
+                    <p className="text-blue-200">6:30 AM to 10:00 PM (Open all 7 days)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="lg:w-1/2 bg-gray-200 min-h-[400px] relative">
+              {/* Map placeholder */}
+              <div className="absolute inset-0 flex items-center justify-center bg-slate-300">
+                <div className="text-center text-slate-500">
+                  <svg className="w-12 h-12 mx-auto mb-2 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+                  <span>Interactive Map View</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-white pt-16 pb-8 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-10">
+            <div className="flex items-center gap-3 mb-6 md:mb-0">
+              <div className="w-10 h-10 rounded-full bg-[#1E3A8A] flex items-center justify-center">
+                <span className="text-white font-serif font-bold text-xl">V</span>
+              </div>
+              <span className="font-serif font-bold text-xl text-[#1E3A8A]">VIJAYA Diagnostic Centre</span>
+            </div>
+            <div className="flex gap-4">
+              <span className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-[#1E3A8A] hover:text-white transition-colors cursor-pointer">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+              </span>
+              <span className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-[#1E3A8A] hover:text-white transition-colors cursor-pointer">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </span>
+            </div>
+          </div>
+          <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+            <p>&copy; {new Date().getFullYear()} Vijaya Diagnostic Centre. All Rights Reserved.</p>
+            <div className="flex gap-4 mt-4 md:mt-0">
+              <a href="#" className="hover:text-[#1E3A8A]">Privacy Policy</a>
+              <a href="#" className="hover:text-[#1E3A8A]">Terms of Service</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
