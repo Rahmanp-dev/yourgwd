@@ -100,7 +100,7 @@ export default function PipelineStats({ leads }) {
       </div>
 
       {/* Charts Panel Grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '32px' }}>
+      <div className="charts-grid">
         
         {/* Status Distribution Chart */}
         <div className="glass-panel" style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -131,8 +131,8 @@ export default function PipelineStats({ leads }) {
             {nicheData.length === 0 ? (
               <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>No niche data compiled.</div>
             ) : (
-              <div style={{ width: '100%', height: '100%', display: 'flex', flexPosition: 'relative' }}>
-                <div style={{ flex: 1.2 }}>
+              <div className="niche-chart-container" style={{ position: 'relative' }}>
+                <div style={{ flex: 1.2, width: '100%', height: '100%', minHeight: '220px' }}>
                   <ResponsiveContainer width="100%" height="100%">
                     <PieChart>
                       <Pie
@@ -154,7 +154,7 @@ export default function PipelineStats({ leads }) {
                     </PieChart>
                   </ResponsiveContainer>
                 </div>
-                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '10px' }}>
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '10px', width: '100%' }}>
                   {nicheData.map((entry, index) => (
                     <div key={entry.name} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '0.8rem' }}>
                       <div style={{ width: '12px', height: '12px', borderRadius: '3px', background: COLORS[index % COLORS.length] }}></div>
@@ -171,13 +171,13 @@ export default function PipelineStats({ leads }) {
       </div>
 
       {/* Weekly Report Digest Display */}
-      <div className="glass-panel" style={{ padding: '32px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px', borderBottom: '1px solid var(--border-glass)', paddingBottom: '16px' }}>
+      <div className="glass-panel crm-panel">
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px', borderBottom: '1px solid var(--border-glass)', paddingBottom: '16px', flexWrap: 'wrap', gap: '12px' }}>
           <h3 style={{ fontSize: '1.25rem', color: '#ffffff', display: 'flex', alignItems: 'center', gap: '10px' }}>
             <FileText size={22} style={{ color: 'var(--accent-cyan)' }} /> Staged Pipeline Report Digest
           </h3>
           <button 
-            className="btn-secondary" 
+            className="btn-secondary btn-responsive-full" 
             style={{ padding: '6px 12px', fontSize: '0.8rem' }}
             onClick={fetchReport}
             disabled={loadingReport}

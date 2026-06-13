@@ -67,7 +67,7 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
       
       {/* Filters & Search Header */}
       <div className="glass-panel" style={{ padding: '20px', display: 'flex', gap: '16px', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
-        <div style={{ display: 'flex', gap: '12px', flexGrow: 1, maxWidth: '400px', position: 'relative' }}>
+        <div style={{ display: 'flex', gap: '12px', flexGrow: 1, maxWidth: '400px', position: 'relative', minWidth: '250px' }}>
           <Search size={18} style={{ position: 'absolute', left: '12px', top: '12px', color: 'var(--text-muted)' }} />
           <input
             type="text"
@@ -95,7 +95,7 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
         </div>
 
         {/* Status Filters */}
-        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+        <div className="scrollable-filters" style={{ display: 'flex', gap: '8px', overflowX: 'auto', paddingBottom: '4px', maxWidth: '100%', WebkitOverflowScrolling: 'touch', width: '100%' }}>
           {['All', 'New', 'Contacted', 'Hot', 'Closed', 'Cold'].map(status => (
             <button
               key={status}
@@ -104,6 +104,7 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
               style={{
                 padding: '6px 14px',
                 fontSize: '0.85rem',
+                flexShrink: 0,
                 background: statusFilter === status ? undefined : 'rgba(255, 255, 255, 0.02)',
                 border: statusFilter === status ? undefined : '1px solid var(--border-glass)'
               }}
@@ -114,8 +115,8 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
         </div>
       </div>
 
-      {/* Leads CRM Table */}
-      <div className="glass-panel" style={{ overflowX: 'auto', padding: '10px' }}>
+      {/* Leads CRM Table (Desktop View) */}
+      <div className="glass-panel desktop-only" style={{ overflowX: 'auto', padding: '10px' }}>
         <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '950px' }}>
           <thead>
             <tr style={{ borderBottom: '1px solid var(--border-glass)', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
@@ -130,7 +131,7 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
           <tbody>
             {filteredLeads.length === 0 ? (
               <tr>
-                <td colSpan="6" style={{ padding: '40px', textAlignment: 'center', color: 'var(--text-secondary)' }}>
+                <td colSpan="6" style={{ padding: '40px', textAlign: 'center', color: 'var(--text-secondary)' }}>
                   No leads found. Use the Antigravity Sync Center to push new leads to the CRM.
                 </td>
               </tr>
@@ -294,6 +295,149 @@ export default function LeadTable({ leads, onSelectLeadForChat }) {
             )}
           </tbody>
         </table>
+      </div>
+
+      {/* Leads CRM List (Mobile View) */}
+      <div className="mobile-lead-list mobile-only">
+        {filteredLeads.length === 0 ? (
+          <div className="glass-panel" style={{ padding: '40px', textAlign: 'center', color: 'var(--text-secondary)' }}>
+            No leads found. Use the Antigravity Sync Center to push new leads to the CRM.
+          </div>
+        ) : (
+          filteredLeads.map((lead, index) => {
+            const uniqueId = lead.id || lead._id || `lead-${index}`;
+            const isExpanded = expandedLead === uniqueId;
+            return (
+              <div 
+                key={uniqueId} 
+                className={`lead-mobile-card ${isExpanded ? 'expanded' : ''}`}
+                onClick={() => toggleExpand(uniqueId)}
+                style={{ cursor: 'pointer' }}
+              >
+                {/* Header: Name and Status */}
+                <div className="lead-mobile-card-header">
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                    <div className="lead-mobile-card-title">{lead.name}</div>
+                    <div className="lead-mobile-card-meta">
+                      <span>🏢 {lead.niche}</span>
+                      <span>📍 {lead.city}</span>
+                    </div>
+                  </div>
+                  <span className={`status-pill ${lead.status.toLowerCase().replace(/\s+/g, '-')}`} style={{ fontSize: '0.65rem', flexShrink: 0 }}>
+                    {lead.status}
+                  </span>
+                </div>
+
+                {/* Rating and Work Date Row */}
+                <div className="lead-mobile-card-row">
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                    <Star size={14} fill="#fbbf24" color="#fbbf24" />
+                    <span style={{ fontWeight: 600 }}>{lead.rating ? lead.rating.toFixed(1) : "N/A"}</span>
+                    <span style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>({lead.reviewsCount || 0})</span>
+                  </div>
+                  
+                  {/* Work Date Input */}
+                  <div onClick={(e) => e.stopPropagation()} style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <Calendar size={14} color="var(--text-muted)" />
+                    <input 
+                      type="date" 
+                      className="form-input" 
+                      style={{ padding: '4px 8px', fontSize: '0.8rem', width: '125px', cursor: 'pointer' }}
+                      defaultValue={lead.workDate || ''}
+                      onChange={(e) => handleDateChange(uniqueId, e.target.value)}
+                    />
+                  </div>
+                </div>
+
+                {/* Action Buttons */}
+                <div className="lead-mobile-card-actions" onClick={(e) => e.stopPropagation()}>
+                  {lead.previewUrl ? (
+                    <a 
+                      href={lead.previewUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-secondary" 
+                      style={{ padding: '10px', fontSize: '0.8rem', textDecoration: 'none', justifyContent: 'center', display: 'flex', alignItems: 'center', gap: '6px' }}
+                    >
+                      <Globe size={14} /> Site
+                    </a>
+                  ) : (
+                    <button 
+                      className="btn-secondary" 
+                      style={{ padding: '10px', fontSize: '0.8rem', opacity: 0.5, cursor: 'not-allowed', justifyContent: 'center', display: 'flex', alignItems: 'center', gap: '6px' }}
+                      disabled
+                    >
+                      <Globe size={14} /> No Site
+                    </button>
+                  )}
+                  
+                  <button 
+                    className="btn-secondary" 
+                    style={{ padding: '10px', fontSize: '0.8rem', backgroundColor: '#25D366', color: '#fff', border: 'none', justifyContent: 'center', display: 'flex', alignItems: 'center', gap: '6px' }}
+                    onClick={() => {
+                      const message = lead.whatsappMessage || `Hi ${lead.name}, we've built a free custom preview website for you. Check it out here: ${lead.previewUrl || 'N/A'}`;
+                      const phone = lead.phone || '1234567890';
+                      window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+                    }}
+                  >
+                    <MessageSquare size={14} /> WhatsApp
+                  </button>
+                </div>
+
+                {/* Mobile Expanded Drawer */}
+                {isExpanded && (
+                  <div className="lead-mobile-card-details" onClick={(e) => e.stopPropagation()}>
+                    {/* Technical Audit */}
+                    <div>
+                      <h4 style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <AlertCircle size={14} style={{ color: 'var(--accent-cyan)' }} /> Technical Audit Details
+                      </h4>
+                      <div style={{ background: 'rgba(0,0,0,0.15)', padding: '12px', borderRadius: '8px', border: '1px solid var(--border-glass)' }}>
+                        <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', lineHeight: 1.4 }}>
+                          <strong>Website:</strong> {lead.website ? <a href={lead.website} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-cyan)' }}>{lead.website}</a> : 'No domain registered.'}
+                        </p>
+                        <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '6px', lineHeight: 1.4 }}>
+                          <strong>Presence Score:</strong> {lead.score}/10 weakness index.
+                        </p>
+                        <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '6px', lineHeight: 1.4 }}>
+                          <strong>Audit Findings:</strong> <span style={{ color: '#f87171' }}>{lead.websiteQuality}</span>
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Database Audit Trail */}
+                    <div>
+                      <h4 style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-primary)', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <History size={14} style={{ color: 'var(--accent-green)' }} /> Database Audit Trail
+                      </h4>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {lead.history && lead.history.map((h, i) => (
+                          <div key={i} style={{ display: 'flex', gap: '8px', fontSize: '0.75rem' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                              <div style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--accent-cyan)', marginTop: '4px' }}></div>
+                              {i < lead.history.length - 1 && (
+                                <div style={{ width: '1px', flexGrow: 1, background: 'var(--border-glass)', margin: '4px 0' }}></div>
+                              )}
+                            </div>
+                            <div style={{ flexGrow: 1, paddingBottom: '4px' }}>
+                              <div style={{ display: 'flex', justifyContent: 'space-between', gap: '8px' }}>
+                                <span style={{ fontWeight: 600, color: '#ffffff' }}>{h.action}</span>
+                                <span style={{ color: 'var(--text-muted)', fontSize: '0.7rem' }}>
+                                  {new Date(h.timestamp).toLocaleDateString()}
+                                </span>
+                              </div>
+                              <p style={{ color: 'var(--text-secondary)', marginTop: '2px', lineHeight: 1.3 }}>{h.message}</p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })
+        )}
       </div>
 
       <style>{`

@@ -48,7 +48,7 @@ export default function AntigravitySync({ onRefreshLeads }) {
 
   return (
     <div className="animate-slide-up" style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
-      <div className="glass-panel" style={{ padding: '32px' }}>
+      <div className="glass-panel crm-panel">
         <h2 style={{ fontSize: '1.5rem', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '10px' }}>
           <Database size={24} style={{ color: 'var(--primary)' }} /> Antigravity Data Sync
         </h2>
@@ -86,9 +86,9 @@ export default function AntigravitySync({ onRefreshLeads }) {
             onChange={(e) => setJsonPayload(e.target.value)}
           ></textarea>
 
-          <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', width: '100%' }}>
             <button 
-              className="btn-primary" 
+              className="btn-primary btn-responsive-full" 
               disabled={syncing || !jsonPayload.trim()} 
               onClick={handleSync}
             >

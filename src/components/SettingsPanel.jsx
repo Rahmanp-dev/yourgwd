@@ -80,7 +80,7 @@ export default function SettingsPanel() {
   return (
     <div className="animate-slide-up" style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
       
-      <div className="glass-panel" style={{ padding: '32px' }}>
+      <div className="glass-panel crm-panel">
         <h2 style={{ fontSize: '1.5rem', marginBottom: '8px', display: 'flex', alignItems: 'center', gap: '10px' }}>
           <Briefcase size={24} style={{ color: 'var(--accent-cyan)' }} /> Sales Machine Core Configuration
         </h2>
@@ -105,7 +105,7 @@ export default function SettingsPanel() {
         <form onSubmit={handleSave} style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
           
           {/* Section 1: Sales Machine Config */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
+          <div className="dashboard-grid" style={{ marginBottom: 0 }}>
             <div className="form-group">
               <label className="form-label" htmlFor="TARGET_NICHE">Target Niche</label>
               <input
@@ -144,7 +144,7 @@ export default function SettingsPanel() {
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '20px' }}>
+          <div className="dashboard-grid" style={{ marginBottom: 0 }}>
             <div className="form-group">
               <label className="form-label" htmlFor="COMPANY_NAME">Company Name</label>
               <input
@@ -200,7 +200,7 @@ export default function SettingsPanel() {
             <Shield size={20} style={{ color: 'var(--accent-cyan)' }} /> Credentials & MCP Server Settings
           </h2>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '24px' }}>
+          <div className="settings-grid">
             
             {/* Google Sheets Card */}
             <div className="glass-panel" style={{ padding: '20px', background: 'rgba(0, 0, 0, 0.2)' }}>
@@ -322,8 +322,8 @@ export default function SettingsPanel() {
 
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '12px' }}>
-            <button type="submit" className="btn-primary" disabled={saving}>
+          <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '12px', width: '100%' }}>
+            <button type="submit" className="btn-primary btn-responsive-full" disabled={saving}>
               <Save size={18} /> {saving ? 'Saving...' : 'Save Configuration'}
             </button>
           </div>
