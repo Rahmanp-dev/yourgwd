@@ -1,4 +1,4 @@
-# Execution Context — 2026-06-13T05:13:04Z
+# Execution Context — 2026-06-14T11:45:00+05:30
 
 ## Environment
 - OS: Windows
@@ -7,7 +7,17 @@
 - Framework: Next.js (defined in `package.json`)
 
 ## Codebase Details
-- Targets to discover: 10 clinics in Tolichowki, Hyderabad.
-- Output page locations: `app/client/[lead-slug]/page.jsx`
-- Target MongoDB database collection: Mongoose schema defined in codebase (to be explored).
-- Integrity mode: development
+- Targets: 10 CA/Tax/Consultant leads (R1 is already complete)
+- Output page locations: `app/client/[slug]/page.jsx` and `app/client/[slug]/layout.jsx`
+- Slugs:
+  - mohammad-ibrahim-co-ca
+  - suneel-phani-associates
+  - maximum-tax-consultant
+  - shiv-kumar-mididoddi-tax
+  - spr-associates
+  - k-praveen-kumar-associates
+  - sai-reddy-yanala-ca
+  - y-tax-consultancy
+  - kasula-associates
+  - ns-co
+- Integrity mode: demo

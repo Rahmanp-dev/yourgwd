@@ -27,3 +27,46 @@ Verify the Next.js builds. Commit all new files to git and push them to GitHub t
 - [ ] 10 new folders exist in `app/client/`, each containing a `page.jsx` with extensive Tailwind CSS styling and a `layout.jsx` for custom OpenGraph metadata.
 - [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
 - [ ] Changes are successfully pushed to the `main` branch on GitHub.
+
+## 2026-06-14T06:14:30Z
+
+# Teamwork Project Prompt
+
+Find 10 real-world CA firms and tax consultants in LB Nagar, Hyderabad, inject them into MongoDB with live Vercel URLs, build 10 bespoke long-format Next.js Tailwind preview sites using subagents, and push everything to GitHub to trigger a Vercel deployment.
+
+Working directory: `d:\GWD\Sales Machine`
+Integrity mode: demo
+
+## Requirements
+
+### R1. Lead Discovery & Injection
+Research 10 real-world CA firms & tax consultants in LB Nagar, Hyderabad (with working WhatsApp numbers). Push them to the main MongoDB database using a Node.js script. Hardcode the `previewUrl` to `https://yourgwd.vercel.app/client/[slug]`. Generate a custom WhatsApp outreach message referencing their preview URL.
+**(NOTE: I have ALREADY completed R1. The leads are in MongoDB. Please focus on R2 and R3.)**
+
+### R2. Bespoke UI Generation
+Use the `invoke_subagent` tool to spawn 5 parallel frontend subagents to build 10 distinct, premium LONG-FORMAT Next.js UI preview pages inside `app/client/[slug]`. 
+The 10 slugs are:
+1. mohammad-ibrahim-co-ca
+2. suneel-phani-associates
+3. maximum-tax-consultant
+4. shiv-kumar-mididoddi-tax
+5. spr-associates
+6. k-praveen-kumar-associates
+7. sai-reddy-yanala-ca
+8. y-tax-consultancy
+9. kasula-associates
+10. ns-co
+
+The subagents MUST strictly read and apply the `ui-ux-pro-max` skill to construct different design systems (Glassmorphism, Neumorphism, Dark Mode, etc.) using Tailwind CSS classes. No generic templates allowed. The pages must be LONG FORMAT (multiple sections like Hero, Services, About Us, Testimonials, CTA, Footer).
+
+### R3. Deployment
+Verify the Next.js builds. Commit all new files to git and push them to GitHub to trigger the Vercel deployment.
+
+## Acceptance Criteria
+
+### Verification & Quality
+- [x] MongoDB contains 10 new leads for LB Nagar CA firms with `previewUrl` pointing to `https://yourgwd.vercel.app/client/[slug]` and real WhatsApp numbers. (ALREADY DONE)
+- [ ] 10 new folders exist in `app/client/`, each containing a LONG-FORMAT `page.jsx` with extensive Tailwind CSS styling and unique premium design systems.
+- [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
+- [ ] Changes are successfully pushed to the `main` branch on GitHub.
+

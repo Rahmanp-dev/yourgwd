@@ -1,33 +1,33 @@
-# Project: Tolichowki Healthtech/Clinic Sales Machine
+# Project: CA & Tax Consultant Sales Machine
 
 ## Architecture
-- **Target Discovery**: Search/gather 10 real Healthtech or local outpatient clinics in Tolichowki, Hyderabad that have no website (only Justdial/Google Maps presence).
-- **Database Injection**: Insert/sync the 10 leads directly to MongoDB database using Mongoose (`models/Lead.js` schema).
-- **Next.js Frontends**: Code 10 unique Next.js client pages under `app/client/[lead-slug]/page.jsx`.
-- **E2E Testing**: Verify Next.js compilation, routing, and database records.
+- **Next.js Frontends**: Code 10 premium client pages under `app/client/[slug]/page.jsx` and `layout.jsx`.
+- **E2E Testing / Verification**: Verify Next.js compilation using `npm run build` with zero errors.
+- **Git Deployment**: Commit and push to `main` branch.
 
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| 1 | Target Discovery & Niche Verification | Search, verify, and identify 10 real clinic targets in Tolichowki, Hyderabad. | None | PLANNED |
-| 2 | MongoDB Schema & Database Integration | Populate Mongoose Lead model and push to MongoDB. | M1 | PLANNED |
-| 3 | Bespoke Next.js Frontend Development | Code 10 completely unique client pages under `app/client/`. | M1, M2 | PLANNED |
-| 4 | E2E Integration and Compilation | Verify Next.js compilation, page routes, and database contents. | M3 | PLANNED |
-| 5 | Forensic Audit and Final Synthesis | Run challenger and forensic audits, verify integrity. | M4 | PLANNED |
+| 1 | UI Page Generation | Create 10 distinct, premium LONG-FORMAT client pages with Tailwind CSS via 5 parallel worker subagents. | None | PLANNED |
+| 2 | Build Verification | Run `npm run build` and ensure compilation passes with zero errors. | M1 | PLANNED |
+| 3 | Git Deployment | Commit all generated files and push to `main` branch. | M2 | PLANNED |
 
 ## Interface Contracts
-### MongoDB Schema Fields (Mongoose)
-- `id`: Unique string ID (e.g. `LEAD-TOLICHOWKI-xxx`)
-- `name`: Clinic name (e.g. `Tolichowki Clinic`)
-- `city`: `"Tolichowki, Hyderabad"`
-- `niche`: Specialty clinic niche
-- `websiteQuality`: Audit description
-- `whatsappMessage`: Contact copy with custom preview URL
-- `previewUrl`: `/client/[lead-slug]`
-- `status`: `'New'` or `'Ready to Contact'`
-- `workDate`: Date string
-
 ### Next.js Frontend Pages
-- Component: `app/client/[lead-slug]/page.jsx`
-- Layout: Standalone Next.js client-side component (using `"use client"` and Lucide icons).
-- Styling: Inline style attribute object, unique visual layout and color palette (minimum 4 hex tokens).
+- Component: `app/client/[slug]/page.jsx`
+- Layout: `app/client/[slug]/layout.jsx` for OpenGraph metadata.
+- Styling: Tailwind CSS classes applying distinct premium design systems based on the `ui-ux-pro-max` skill.
+- Content: Long format with Hero, Services, About Us, Testimonials, CTA, Footer. No generic templates allowed.
+- Icons: Vector-based Lucide icons (import React and lucide-react if needed, or use inline SVG).
+
+## Slugs and Design Systems:
+1. mohammad-ibrahim-co-ca -> Glassmorphism
+2. suneel-phani-associates -> Neumorphism
+3. maximum-tax-consultant -> Dark Mode / Midnight Tech
+4. shiv-kumar-mididoddi-tax -> Bento Grid
+5. spr-associates -> Minimalist / Swiss Typography
+6. k-praveen-kumar-associates -> Neo-brutalism
+7. sai-reddy-yanala-ca -> Retro-futurism/Cyberpunk
+8. y-tax-consultancy -> Corporate Gold & Navy
+9. kasula-associates -> Pastel/Organic Modern
+10. ns-co -> High-Contrast Geometric/Architectural

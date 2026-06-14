@@ -1,38 +1,32 @@
-# Execution Plan — 2026-06-13T11:37:35Z
+# Execution Plan — 2026-06-14T11:45:00+05:30
 
 ## Task Overview
-Discover 10 real-world PropTech & Real Estate businesses in Shaikpet, Hyderabad, inject them into MongoDB with custom outreach messages and Vercel preview URLs, generate 10 unique, premium Next.js frontend pages using parallel subagents implementing different design systems (from `ui-ux-pro-max`), verify compile correctness, and deploy to GitHub.
+Generate 10 distinct, premium LONG-FORMAT Next.js UI preview pages inside `app/client/[slug]` for the 10 CA/Tax/Consultant slugs, verify compile correctness, and deploy to GitHub main branch.
 
 ## Decomposed Milestones
 1. **Milestone 1: Lead Discovery & Verification**
-   - Search/gather 10 real-world PropTech / Real Estate businesses in Shaikpet, Hyderabad.
-   - Ensure each has a name, niche, specific details, and a working WhatsApp phone number.
-   - Output: Structured array of 10 validated leads.
-
-2. **Milestone 2: MongoDB Schema & Database Injection**
-   - Write/run a Node.js script to push the 10 leads to the live MongoDB database using the standard Mongoose schema (`models/Lead.js`).
-   - Hardcode the `previewUrl` to `https://yourgwd.vercel.app/client/[slug]`.
-   - Generate a custom WhatsApp outreach message referencing their preview URL.
-   - Output: Verified MongoDB records.
+   - Already complete (R1 is already complete).
+   
+2. **Milestone 2: MongoDB Schema & Database Integration**
+   - Already complete (R1 is already complete).
 
 3. **Milestone 3: Bespoke Next.js Frontend Development**
    - Spawn 5 parallel frontend subagents (each handling 2 pages, total 10 pages).
-   - Each page must be coded under `app/client/[slug]/page.jsx`.
-   - The subagents must strictly use Tailwind CSS classes and apply different design systems from the `ui-ux-pro-max` skill (e.g., Neumorphism, Glassmorphism, Dark Mode, Bento Grid, Minimalism, etc.).
+   - Each page must be coded under `app/client/[slug]/page.jsx` and `layout.jsx`.
+   - The subagents must strictly use Tailwind CSS classes and apply different premium design systems from the `ui-ux-pro-max` skill (e.g., Glassmorphism, Neumorphism, Dark Mode, Bento Grid, Minimalism, Neo-brutalism, Retro-futurism, Corporate Gold/Navy, Pastel Modern, High-contrast Geometric).
    - Sibling `layout.jsx` must be created with custom metadata for WhatsApp unfurling (metadata fix).
-   - Output: 10 unique, high-quality client preview folders.
+   - Output: 10 unique, premium long-format client preview folders.
 
-4. **Milestone 5: Build Verification**
+4. **Milestone 4: Build Verification**
    - Verify Next.js compilation using `npm run build` via a worker agent.
    - Validate routing and ensure zero build/type/compilation errors.
    - Output: Passing build logs.
 
-5. **Milestone 6: GitHub Deployment**
-   - Commit the generated code and push it to the GitHub repository to trigger the Vercel deployment.
+5. **Milestone 5: GitHub Deployment**
+   - Commit the generated code and push it to the GitHub repository `main` branch.
    - Output: Successfully pushed changes to remote.
 
 ## Strategy & Topology
 - Use Project Pattern (Implementation Track and parallel worker agents).
-- We will spawn an Explorer/Worker for Lead Discovery & Injection.
 - We will spawn 5 parallel Workers/Subagents for Bespoke UI Generation.
 - We will spawn a final Worker/Reviewer for Build Verification and GitHub Deployment.
