@@ -34,3 +34,9 @@ Verify Next.js compilation of the newly added car detailing pages, and push all 
 - d:\GWD\Sales Machine\.agents\worker_build_deploy_detailing\progress.md — Subagent progress tracking
 - d:\GWD\Sales Machine\.agents\worker_build_deploy_detailing\ORIGINAL_REQUEST.md — The original task description
 - d:\GWD\Sales Machine\.agents\worker_build_deploy_detailing\handoff.md — Handoff report for task completion
+
+## Change Tracker
+- **Files modified**: All generated files under `app/client/` (the 10 detailing pages and layouts) and all `.agents/` metadata files.
+- **Build status**: Pass (Next.js build succeeded in 5.5s with exit code 0)
+- **Pending issues**: None
+
