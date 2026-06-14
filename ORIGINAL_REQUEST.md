@@ -76,3 +76,45 @@ Verify the Next.js builds. Commit all new files to git and push them to GitHub t
 - [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
 - [ ] Changes are successfully pushed to the `main` branch on GitHub.
 
+## Follow-up — 2026-06-14T06:36:18Z
+
+# Teamwork Project Prompt
+
+Generate 10 highly distinct, premium Next.js UI preview pages for Premium Car Detailing businesses in Attapur, Hyderabad, deploying 5 parallel subagents.
+
+Working directory: d:\GWD\Sales Machine
+Integrity mode: demo
+
+## Requirements
+
+### R1. Bespoke UI Generation
+Use the `invoke_subagent` tool to spawn 5 parallel frontend subagents to build 10 distinct, premium Next.js UI preview pages inside `app/client/[slug]`. 
+
+**The 10 Premium Car Detailing Leads are:**
+1. The Detailing Mafia (Attapur) at `app/client/detailing-mafia-attapur`
+2. Aqua Shine Auto Detailing Studio at `app/client/aqua-shine-detailing-attapur`
+3. Gorgeous Car Detailers at `app/client/gorgeous-car-detailers-attapur`
+4. 5K Car Care at `app/client/5k-car-care-attapur`
+5. Vinayaka Car Wash at `app/client/vinayaka-car-wash-attapur`
+6. GoMechanic Attapur at `app/client/gomechanic-attapur`
+7. Ceramic Pro Jubilee Hills at `app/client/ceramic-pro-jubilee-hills`
+8. Ceramic Pro Hyderabad at `app/client/ceramic-pro-hyderabad`
+9. Clean Fast Car Wash at `app/client/clean-fast-car-wash-attapur`
+10. The Detailing Mafia Banjara Hills at `app/client/detailing-mafia-banjara-hills`
+
+### R2. Design Aesthetics
+The subagents MUST strictly read and apply the `/frontend-design ui-ux-pro-max` skill to construct different design systems (Glassmorphism, Neumorphism, Dark Mode, etc.) using Tailwind CSS classes. No generic templates allowed. 
+
+### R3. Long Format Sites
+The pages must be **LONG FORMAT SITES**. Do not create short or single-screen landing pages. Every page must contain multiple extensive sections: Hero, Services, Pricing Packages (e.g. Ceramic Coating, PPF), Testimonials, Before/After Gallery, FAQ, and Contact. 
+
+### R4. WhatsApp Unfurling
+Ensure the custom `layout.jsx` metadata fix is applied for each so WhatsApp unfurling works correctly.
+
+## Acceptance Criteria
+
+### Verification & Quality
+- [ ] 10 new folders exist in `app/client/`, each containing a `page.jsx` with extensive Tailwind CSS styling and a `layout.jsx` for custom OpenGraph metadata.
+- [ ] The generated pages are extremely long-format, scrolling through multiple detailing-specific sections.
+- [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
+
