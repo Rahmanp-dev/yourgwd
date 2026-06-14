@@ -1,17 +1,17 @@
 export const metadata = {
-  title: 'Tara Design Solutions | Architecture & Residential',
-  description: 'Premium modern architecture and residential design in Kollur, Hyderabad.',
+  title: 'Tara Design Solutions | Japandi Fusion Architecture & Interiors',
+  description: 'Experience the stillness of Japan and the warmth of Scandinavia. Bespoke Japandi Fusion residential designs and interiors in Hyderabad by Tara Design Solutions.',
   openGraph: {
-    title: 'Tara Design Solutions',
-    description: 'Bespoke architecture and modern residential designs tailored for your lifestyle in Kollur, Hyderabad.',
+    title: 'Tara Design Solutions | Japandi Fusion Architecture',
+    description: 'Bespoke Japandi Fusion residential designs and interiors. Merging clean plaster, bamboo beige, and deep slate in Hyderabad.',
     url: 'https://taradesign.com',
     siteName: 'Tara Design Solutions',
     images: [
       {
-        url: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2075&q=80',
+        url: 'https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&h=630&q=85',
         width: 1200,
         height: 630,
-        alt: 'Tara Design Solutions - Modern Architecture',
+        alt: 'Tara Design Solutions - Japandi Fusion Architecture',
       },
     ],
     locale: 'en_IN',
@@ -21,7 +21,7 @@ export const metadata = {
 
 export default function TaraDesignLayout({ children }) {
   return (
-    <div className="bg-neutral-950 text-neutral-50 min-h-screen font-sans selection:bg-orange-500 selection:text-white">
+    <div className="bg-[#FAF9F5] text-[#2C302E] min-h-screen font-sans antialiased selection:bg-[#E5DFD3] selection:text-[#2C302E]">
       {children}
     </div>
   );
