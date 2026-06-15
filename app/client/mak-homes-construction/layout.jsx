@@ -1,0 +1,24 @@
+export const metadata = {
+  title: 'MAK Homes Construction | Industrial Chic & Brutalist Residential Builds',
+  description: 'Heavy-duty residential construction, custom structural steel, and raw concrete interior design in Attapur, Hyderabad. Bold aesthetics and precise engineering.',
+  openGraph: {
+    title: 'MAK Homes Construction | Brutalist Build Services & Structural Steel',
+    description: 'Raw concrete structures, custom steel framing, and industrial chic architectural finishes in Attapur, Hyderabad. High-caliber durability and design.',
+    url: 'https://sales-machine.gwd.com/client/mak-homes-construction',
+    siteName: 'MAK Homes Construction',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&h=630&q=80',
+        width: 1200,
+        height: 630,
+        alt: 'MAK Homes Construction | Industrial Chic Structural Build'
+      }
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  }
+};
+
+export default function Layout({ children }) {
+  return children;
+}

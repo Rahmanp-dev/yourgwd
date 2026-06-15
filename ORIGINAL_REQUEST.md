@@ -118,3 +118,93 @@ Ensure the custom `layout.jsx` metadata fix is applied for each so WhatsApp unfu
 - [ ] The generated pages are extremely long-format, scrolling through multiple detailing-specific sections.
 - [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
 
+## Follow-up — 2026-06-14T16:24:12+05:30
+
+# Teamwork Project Prompt
+
+Generate 10 highly distinct, premium LONG FORMAT Next.js UI preview pages for Interior Designers in Kokapet, Hyderabad, deploying 5 parallel subagents.
+
+Working directory: d:\GWD\Sales Machine
+Integrity mode: demo
+
+## Requirements
+
+### R1. Bespoke LONG FORMAT UI Generation
+Use the `invoke_subagent` tool to spawn 5 parallel frontend subagents to build 10 distinct, premium Next.js UI preview pages inside `app/client/[slug]`. 
+The sites must be LONG FORMAT (extensive, multi-section landing pages), not short generic ones.
+
+**The 10 Interior Designers are:**
+1. Luxe Designs & Spaces (luxe-designs-kokapet)
+2. HomeLane Kokapet (homelane-kokapet)
+3. Livspace Kokapet (livspace-kokapet)
+4. Apple Interiors (apple-interiors-kokapet)
+5. Tara Design Solutions (tara-design-solutions)
+6. Metal & More (metal-and-more-interiors)
+7. Namasvi Interiors (namasvi-interiors-narsingi)
+8. Simply Interiors Gachibowli (simply-interiors-gachibowli)
+9. Morph Design Co. (morph-design-co)
+10. D'LIFE Interiors (dlife-interiors-hyderabad)
+
+### R2. Design Aesthetics
+The subagents MUST strictly read and apply the `/frontend-design ui-ux-pro-max` skill to construct different design systems (Glassmorphism, Neumorphism, Dark Mode, Minimalist, Brutalist, etc.) using Tailwind CSS classes. No generic templates allowed. 
+
+### R3. WhatsApp Unfurling
+Ensure the custom `layout.jsx` metadata fix is applied for each so WhatsApp unfurling works correctly.
+
+## Acceptance Criteria
+
+### Verification & Quality
+- [ ] 10 new folders exist in `app/client/`, each containing a LONG FORMAT `page.jsx` with extensive Tailwind CSS styling and a `layout.jsx` for custom OpenGraph metadata.
+- [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
+
+## Follow-up — 2026-06-15T17:14:33Z
+
+# Teamwork Project Prompt
+
+Generate 20 highly distinct, premium LONG FORMAT Next.js UI preview pages for Interior Designers in Attapur, Hyderabad, deploying 10 parallel subagents.
+
+Working directory: d:\GWD\Sales Machine
+Integrity mode: demo
+
+## Requirements
+
+### R1. Bespoke LONG FORMAT UI Generation
+Use the `invoke_subagent` tool to spawn 10 parallel frontend subagents to build 20 distinct, premium Next.js UI preview pages inside `app/client/[slug]`. 
+The sites must be LONG FORMAT (extensive, multi-section landing pages), not short generic ones. Each subagent will handle 2 clients.
+
+**The 20 Interior Designers are:**
+1. Tara Design Solutions (tara-design-solutions-attapur)
+2. Livspace Attapur (livspace-attapur)
+3. Dasos Cabinets (dasos-cabinets-hyderabad)
+4. MAK Homes Construction (mak-homes-construction)
+5. Luxe Designs & Spaces (luxe-designs-spaces-hyd)
+6. HomeLane Attapur (homelane-attapur)
+7. Apple Interiors (apple-interiors-hyd)
+8. Metal & More (metal-and-more)
+9. Namasvi Interiors (namasvi-interiors)
+10. Simply Interiors (simply-interiors-hyd)
+11. D'LIFE Interiors (dlife-interiors-hyd)
+12. Seema Design Studio (seema-design-studio)
+13. DesignCafe Hyderabad (designcafe-hyderabad)
+14. Bonito Designs Hyderabad (bonito-designs-hyderabad)
+15. Decorpot Hyderabad (decorpot-hyderabad)
+16. Chary Interiors & Furnitures (chary-interiors)
+17. SS Interiors Secunderabad (ss-interiors-secunderabad)
+18. Icon Interior Design (icon-interior-design-attapur)
+19. Elements Design Lab (elements-design-lab)
+20. Style Home Interiors (style-home-interiors-attapur)
+
+### R2. Design Aesthetics
+The subagents MUST strictly read and apply the `/frontend-design ui-ux-pro-max` skill to construct different design systems (Glassmorphism, Neumorphism, Light Mode, Dark Mode, Minimalist, Brutalist, etc.) using Tailwind CSS classes. No generic templates allowed. 
+
+### R3. WhatsApp Unfurling
+Ensure the custom `layout.jsx` metadata fix is applied for each so WhatsApp unfurling works correctly.
+
+## Acceptance Criteria
+
+### Verification & Quality
+- [ ] 20 new folders exist in `app/client/`, each containing a LONG FORMAT `page.jsx` with extensive Tailwind CSS styling and a `layout.jsx` for custom OpenGraph metadata.
+- [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
+
+
+

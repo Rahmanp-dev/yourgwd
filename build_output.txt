@@ -1,0 +1,134 @@
+﻿Γû▓ Next.js 16.2.9 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 10.1s
+  Running TypeScript ...
+  Finished TypeScript in 219ms ...
+  Collecting page data using 15 workers ...
+  Generating static pages using 15 workers (0/112) ...
+  Generating static pages using 15 workers (28/112) 
+  Generating static pages using 15 workers (56/112) 
+  Generating static pages using 15 workers (84/112) 
+Γ£ô Generating static pages using 15 workers (112/112) in 1800ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî Γùï /
+Γö£ Γùï /_not-found
+Γö£ ╞Æ /api/auth/login
+Γö£ ╞Æ /api/auth/register
+Γö£ ╞Æ /api/leads
+Γö£ ╞Æ /api/leads/[id]/status
+Γö£ ╞Æ /api/settings
+Γö£ ╞Æ /api/sync/commit
+Γö£ ╞Æ /client/[clientName]
+Γö£ Γùï /client/3m-diagnostics
+Γö£ Γùï /client/5k-car-care-attapur
+Γö£ Γùï /client/aamir-hameeda
+Γö£ Γùï /client/aarthi-scans
+Γö£ Γùï /client/aditya-construction-company
+Γö£ Γùï /client/apple-interiors-hyd
+Γö£ Γùï /client/apple-interiors-kokapet
+Γö£ Γùï /client/aqua-shine-detailing-attapur
+Γö£ Γùï /client/arts-of-architecture
+Γö£ Γùï /client/avm-pre-primary
+Γö£ Γùï /client/b-design-studios
+Γö£ Γùï /client/bachpan-play-school-rajendranagar
+Γö£ Γùï /client/bonito-designs-hyderabad
+Γö£ Γùï /client/brightlands-diag
+Γö£ Γùï /client/care-medical-center
+Γö£ Γùï /client/ceramic-pro-hyderabad
+Γö£ Γùï /client/ceramic-pro-jubilee-hills
+Γö£ Γùï /client/chary-interiors
+Γö£ Γùï /client/cion-cancer-clinics
+Γö£ Γùï /client/clean-fast-car-wash-attapur
+Γö£ Γùï /client/dasos-cabinets-hyderabad
+Γö£ Γùï /client/decorpot-hyderabad
+Γö£ Γùï /client/dental-care-omer
+Γö£ Γùï /client/dental-station
+Γö£ Γùï /client/designcafe-hyderabad
+Γö£ Γùï /client/detailing-mafia-attapur
+Γö£ Γùï /client/detailing-mafia-banjara-hills
+Γö£ Γùï /client/dlife-interiors-hyd
+Γö£ Γùï /client/dlife-interiors-hyderabad
+Γö£ Γùï /client/duchenne-smile
+Γö£ Γùï /client/elements-design-lab
+Γö£ Γùï /client/eminent-tiny-tots
+Γö£ Γùï /client/eurokids-preschool-rajendranagar
+Γö£ Γùï /client/firstcry-intellitots-rajendranagar
+Γö£ Γùï /client/gomechanic-attapur
+Γö£ Γùï /client/gorgeous-car-detailers-attapur
+Γö£ Γùï /client/hanu-reddy-realty-hyderabad
+Γö£ Γùï /client/hayatt-diag
+Γö£ Γùï /client/health-inn
+Γö£ Γùï /client/homelane-attapur
+Γö£ Γùï /client/homelane-kokapet
+Γö£ Γùï /client/icon-interior-design-attapur
+Γö£ Γùï /client/iris-diagnostic
+Γö£ Γùï /client/iris-diagnostics
+Γö£ Γùï /client/janata-diagnostic-centre
+Γö£ Γùï /client/k-praveen-kumar-associates
+Γö£ Γùï /client/kangaroo-kids-rajendranagar
+Γö£ Γùï /client/kasula-associates
+Γö£ Γùï /client/kidzee-rajendranagar
+Γö£ Γùï /client/little-millennium-rajendranagar
+Γö£ Γùï /client/livspace-attapur
+Γö£ Γùï /client/livspace-kokapet
+Γö£ Γùï /client/luxe-designs-kokapet
+Γö£ Γùï /client/luxe-designs-spaces-hyd
+Γö£ Γùï /client/m-deepa-architects
+Γö£ Γùï /client/mak-homes-construction
+Γö£ Γùï /client/maple-bear-rajendranagar
+Γö£ Γùï /client/maximum-tax-consultant
+Γö£ Γùï /client/metal-and-more
+Γö£ Γùï /client/metal-and-more-interiors
+Γö£ Γùï /client/metro-dentistry
+Γö£ Γùï /client/mm-clinic
+Γö£ Γùï /client/mohammad-ibrahim-co-ca
+Γö£ Γùï /client/moriq
+Γö£ Γùï /client/morph-design-co
+Γö£ Γùï /client/muslim-general-hospital
+Γö£ Γùï /client/namasvi-interiors
+Γö£ Γùï /client/namasvi-interiors-narsingi
+Γö£ Γùï /client/ns-co
+Γö£ Γùï /client/phc-diagnostic
+Γö£ Γùï /client/proptiger-shaikpet-office
+Γö£ Γùï /client/raja-architects
+Γö£ Γùï /client/rhythm-emphasis-design
+Γö£ Γùï /client/rk-property-consultants
+Γö£ Γùï /client/sai-reddy-yanala-ca
+Γö£ Γùï /client/sanjeevani-clinic
+Γö£ Γùï /client/sap-kidney-center
+Γö£ Γùï /client/seema-design-studio
+Γö£ Γùï /client/sep-architects
+Γö£ Γùï /client/shaikpet-property-advisors
+Γö£ Γùï /client/shaikpet-real-estate-agency
+Γö£ Γùï /client/shiv-kumar-mididoddi-tax
+Γö£ Γùï /client/simply-interiors-gachibowli
+Γö£ Γùï /client/simply-interiors-hyd
+Γö£ Γùï /client/spr-associates
+Γö£ Γùï /client/square-yards-shaikpet
+Γö£ Γùï /client/sri-sreenivasa-constructions
+Γö£ Γùï /client/ss-interiors-secunderabad
+Γö£ Γùï /client/starcare-diag
+Γö£ Γùï /client/studio-infinite
+Γö£ Γùï /client/style-home-interiors-attapur
+Γö£ Γùï /client/suneel-phani-associates
+Γö£ Γùï /client/sv-builders-developers
+Γö£ Γùï /client/tara-design-solutions
+Γö£ Γùï /client/tara-design-solutions-attapur
+Γö£ Γùï /client/treasure-land-creche
+Γö£ Γùï /client/trucare-clinic
+Γö£ Γùï /client/vasavi-group-shaikpet
+Γö£ Γùï /client/vijaya-diagnostic-centre
+Γö£ Γùï /client/vinayaka-car-wash-attapur
+Γö£ Γùï /client/vitalitys-laser-piles
+Γö£ Γùï /client/y-tax-consultancy
+Γö£ Γùï /dashboard
+Γöö Γùï /login
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+

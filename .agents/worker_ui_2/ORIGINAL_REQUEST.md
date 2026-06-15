@@ -1,44 +1,16 @@
-## 2026-06-14T06:16:02Z
+## 2026-06-14T10:55:33Z
+You are teamwork_preview_worker. Your working directory is d:\GWD\Sales Machine\.agents\worker_ui_2.
+Your task is to generate 2 distinct, premium LONG FORMAT Next.js UI preview pages inside the main project directory under:
+1. livspace-kokapet -> d:\GWD\Sales Machine\app\client\livspace-kokapet
+2. apple-interiors-kokapet -> d:\GWD\Sales Machine\app\client\apple-interiors-kokapet
 
-Your role: Bespoke UI Generator 2
-Your working directory is: d:\GWD\Sales Machine\.agents\worker_ui_2
-Your task is to generate 2 distinct, premium LONG-FORMAT Next.js UI preview pages inside the workspace.
-Target Slugs:
-1. maximum-tax-consultant
-   - Business Name: Maximum Tax Consultant
-   - Design System: Dark Mode / Midnight Tech (deep dark bg, emerald green & copper/gold accents, thin glowing lines, modern corporate look).
-2. shiv-kumar-mididoddi-tax
-   - Business Name: Shiv Kumar Mididoddi Tax
-   - Design System: Bento Grid (modular rectangular cards, neat grids, distinct features, high clean hierarchy).
+Requirements:
+- livspace-kokapet: Apply a Modern Mid-Century design system (Teal and terracotta palette, clean geometries, warm sand backdrop, bold section headers, modular card structure).
+- apple-interiors-kokapet: Apply a High-Tech Modern / Midnight Tech design system (Jet black '#0A0A0A', brushed steel silver, subtle neon white/ice-blue glows, futuristic structural grids, clean sans-serif typography).
+- Every page must be LONG FORMAT with multiple extensive sections: Hero, About Us, Services Portfolio (e.g. Living Room, Modular Kitchen, Wardrobes, Lighting), Design Process (e.g. Consult, Design, Execute), Testimonials, FAQ, and a working contact form. No generic templates allowed. Use rich, premium Tailwind CSS styling.
+- Create both page.jsx and layout.jsx in each folder. Ensure layout.jsx contains the custom OpenGraph metadata fix for WhatsApp unfurling (Title, description, image, etc. matching the brand).
+- Use Lucide icons (import React and lucide-react, or use inline SVG).
 
-Instructions:
-1. For each slug, create a folder under `app/client/[slug]`.
-2. Inside each folder, create `layout.jsx` with custom metadata for WhatsApp OpenGraph preview:
-```javascript
-export const metadata = {
-  title: '[Business Name] - Chartered Accountants & Tax Consultants',
-  description: 'Official premium website preview for [Business Name]. Discover our bespoke auditing, tax compliance, and financial consulting services.',
-  openGraph: {
-    title: '[Business Name] - Chartered Accountants & Tax Consultants',
-    description: 'Official premium website preview for [Business Name]. Discover our bespoke auditing, tax compliance, and financial consulting services.',
-    siteName: '[Business Name]'
-  }
-};
+DO NOT CHEAT. All implementations must be genuine. DO NOT hardcode test results, create dummy/facade implementations, or circumvent the intended task. A Forensic Auditor will independently verify your work. Integrity violations WILL be detected and your work WILL be rejected.
 
-export default function Layout({ children }) {
-  return children;
-}
-```
-Replace [Business Name] with the actual business name.
-3. Inside each folder, create `page.jsx` as a client-side component (using `"use client"` at the top if using React state/hooks or interactive UI elements).
-4. Each `page.jsx` MUST be LONG FORMAT, containing:
-   - Navigation Bar (Sticky, with logo, links, and action button)
-   - Hero Section (Eye-catching tagline, intro text, premium interactive background elements, primary & secondary CTAs)
-   - Services Section (Detailed cards/grid outlining tax filing, GST audit, corporate consulting, bookkeeping, etc.)
-   - About Us Section (Introduction to the partners, credentials, mission)
-   - Testimonials (Satisfied corporate and individual client quotes)
-   - CTA Section (Bespoke contact form or callback request form)
-   - Footer (Links, location/contact info, copyright)
-5. Strictly read and apply the `ui-ux-pro-max` skill (located in `d:\GWD\Sales Machine\.agents\skills\ui-ux-pro-max`). Implement distinct premium design system details and color palettes. Do not use generic, unstyled templates.
-6. Make sure to use Lucide React icons (`lucide-react`) or inline SVG icons.
-7. Verify your pages build successfully without issues. Do not push to git yet; report completion back to the orchestrator.
+When completed, write a handoff.md in your working directory (d:\GWD\Sales Machine\.agents\worker_ui_2\handoff.md) explaining the designs, files created, and verifying they compile correctly. Send a message to the orchestrator (7ea3ee05-33cc-4810-9f19-c50f8856ab5e) with a link to your handoff.md.
