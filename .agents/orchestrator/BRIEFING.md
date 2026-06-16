@@ -59,18 +59,19 @@ Generate 20 highly distinct, premium LONG FORMAT Next.js UI preview pages for In
 | worker_ui_attapur_8 | teamwork_preview_worker | UI Decorpot & Chary Interiors | completed | e176119c-7d74-4df2-ab9d-e1bac9966062 |
 | worker_ui_attapur_9 | teamwork_preview_worker | UI SS Interiors & Icon Interior | completed | ffc57d68-ebae-4f38-9138-f9753fbc1b5a |
 | worker_ui_attapur_10 | teamwork_preview_worker | UI Elements Design & Style Home | completed | dc22edb1-ed92-4382-af96-16df280ecc4b |
-| worker_build_deploy_attapur | teamwork_preview_worker | UI Build & Deploy | pending | 5bf20c9d-d568-4d38-844e-8410c1221ed3 |
+| worker_build_deploy_attapur | teamwork_preview_worker | UI Build & Deploy | failed (quota) | 5bf20c9d-d568-4d38-844e-8410c1221ed3 |
+| worker_build_deploy_attapur_2 | teamwork_preview_worker | UI Build & Deploy Replacement | pending | df686595-8a50-4234-a321-a0cd1db206b3 |
 
 ## Succession Status
 - Succession required: no
-- Spawn count: 1 / 16
-- Pending subagents: [5bf20c9d-d568-4d38-844e-8410c1221ed3]
+- Spawn count: 2 / 16
+- Pending subagents: [df686595-8a50-4234-a321-a0cd1db206b3]
 - Predecessor: gen1_orchestrator
 - Successor: not yet spawned
 
 ## Active Timers
 - Heartbeat cron: task-27
-- Safety timer: task-53
+- Safety timer: task-76
 - On succession: kill all timers before spawning successor
 - On context truncation: run `manage_task(Action="list")` — re-create if missing
 

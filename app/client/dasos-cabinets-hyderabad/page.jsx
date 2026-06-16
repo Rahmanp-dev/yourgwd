@@ -795,7 +795,7 @@ export default function DasosCabinetsPage() {
                 </div>
                 <div className="flex items-center gap-4 text-sm">
                   <Phone size={20} className="text-[#D2B48C] shrink-0" />
-                  <span>+91 98480 22338</span>
+                  <span>+91 85858 58587</span>
                 </div>
                 <div className="flex items-center gap-4 text-sm">
                   <Mail size={20} className="text-[#D2B48C] shrink-0" />
@@ -891,7 +891,7 @@ export default function DasosCabinetsPage() {
                       required
                       value={formState.email}
                       onChange={handleInputChange}
-                      placeholder="ananya@gmail.com"
+                      placeholder="hello@dasoscabinets.com"
                       className="w-full px-4 py-3 rounded-xl border border-[#E3E7E3] focus:border-[#4F772D] focus:ring-1 focus:ring-[#4F772D] outline-none text-sm text-[#2E3A2F]"
                     />
                   </div>
@@ -997,7 +997,7 @@ export default function DasosCabinetsPage() {
             <h4 className="text-xs font-semibold uppercase tracking-wider text-[#D2B48C] font-mono">Direct Technical Contact</h4>
             <p className="text-xs text-white/70 leading-relaxed font-mono">
               Experience Center: Opp Pillar 125, PVNR Expressway, Attapur, Hyderabad.<br />
-              Developer Desk: +91 98480 22338
+              Developer Desk: +91 85858 58587
             </p>
           </div>
 

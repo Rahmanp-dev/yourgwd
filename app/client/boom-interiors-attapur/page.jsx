@@ -25,7 +25,7 @@ import {
   Layers
 } from 'lucide-react';
 
-export default function HomeLaneAttapurPage() {
+export default function BoomInteriorsAttapurPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('kitchen');
   const [openFaq, setOpenFaq] = useState(null);
@@ -149,7 +149,7 @@ export default function HomeLaneAttapurPage() {
 
   const faqs = [
     {
-      q: "What defines the Pastel Glassmorphism style at HomeLane Attapur?",
+      q: "What defines the Pastel Glassmorphism style at Boom Interiors?",
       a: "Pastel Glassmorphism is a fresh, futuristic interior trend combining frosted translucent surfaces with rounded corners and colorful soft-glow lighting. We utilize glowing pastel color accents (pinks, blues, and purples) behind premium glass panels, creating a modern, airy space that feels lighter, larger, and highly advanced."
     },
     {
@@ -158,7 +158,7 @@ export default function HomeLaneAttapurPage() {
     },
     {
       q: "Is the 45-day delivery promise applicable in Attapur, Hyderabad?",
-      a: "Yes. HomeLane Attapur guarantees delivery and installation within 45 days of design sign-off. If we miss this date, we pay you a daily delay penalty. All modular furniture is manufactured at our high-precision automated factory and assembled quickly on-site to minimize mess."
+      a: "Yes. Boom Interiors guarantees delivery and installation within 45 days of design sign-off. If we miss this date, we pay you a daily delay penalty. All modular furniture is manufactured at our high-precision automated factory and assembled quickly on-site to minimize mess."
     },
     {
       q: "Do you offer a warranty on modular elements?",
@@ -193,7 +193,7 @@ export default function HomeLaneAttapurPage() {
           </div>
           <div className="flex flex-col">
             <span className="text-xl font-extrabold tracking-tight text-white font-jakarta">
-              HomeLane
+              Boom Interiors
             </span>
             <span className="text-[9px] tracking-widest text-pink-400 uppercase font-bold">Attapur Smart Studio</span>
           </div>
@@ -270,7 +270,7 @@ export default function HomeLaneAttapurPage() {
             </h1>
 
             <p className="text-sm lg:text-base text-[#b8bccc] leading-relaxed max-w-xl">
-              HomeLane Attapur designs fluid residential spaces configured with frosted translucent panels, 
+              Boom Interiors designs fluid residential spaces configured with frosted translucent panels, 
               soft-glow gradients, and pre-integrated IoT home automation. Elevate your everyday living.
             </p>
 
@@ -352,7 +352,7 @@ export default function HomeLaneAttapurPage() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 rounded-full my-2"></div>
           <p className="text-sm lg:text-base text-[#b8bccc] leading-relaxed max-w-2xl font-sans">
-            HomeLane Attapur is shifting the paradigm of interior fit-outs. We bypass outdated, chunky laminates 
+            Boom Interiors is shifting the paradigm of interior fit-outs. We bypass outdated, chunky laminates 
             and heavy wooden blocks. Instead, we use sleek, frosted glass structures, 
             rounded panels that diffuse light softly, and integrated smart sensors. 
             Designed for busy tech professionals, families, and modern urban spaces in Hyderabad.
@@ -657,7 +657,7 @@ export default function HomeLaneAttapurPage() {
                   ))}
                 </div>
                 <p className="text-sm text-[#e0e2ee] leading-relaxed italic font-sans">
-                  "Our 3 BHK apartment near the Attapur PVNR Expressway was fitted out in exactly 43 days. The glassmorphic panels and soft pink LED backlighting behind our media console look incredible. The integration with our Google Home works perfectly. HomeLane's budget transparency is outstanding."
+                  "Our 3 BHK apartment near the Attapur PVNR Expressway was fitted out in exactly 43 days. The glassmorphic panels and soft pink LED backlighting behind our media console look incredible. The integration with our Google Home works perfectly. Boom Interiors's budget transparency is outstanding."
                 </p>
               </div>
               <div className="border-t border-white/5 pt-6 mt-6 flex justify-between items-center">
@@ -760,7 +760,7 @@ export default function HomeLaneAttapurPage() {
                 </div>
                 <h3 className="text-lg font-bold text-white tracking-wider uppercase font-jakarta">Consultation Session Booked!</h3>
                 <p className="text-xs text-[#b8bccc] leading-relaxed max-w-sm mx-auto font-sans">
-                  Success. A Smart Home Designer from HomeLane Attapur will call you shortly to confirm your booking and pre-arrange your 3D design mapping.
+                  Success. A Smart Home Designer from Boom Interiors will call you shortly to confirm your booking and pre-arrange your 3D design mapping.
                 </p>
               </div>
             ) : (
@@ -801,7 +801,7 @@ export default function HomeLaneAttapurPage() {
                       value={formState.phone}
                       onChange={(e) => setFormState({...formState, phone: e.target.value})}
                       className="w-full bg-[#0b0c16]/50 border border-white/10 rounded-xl focus:border-pink-400 px-4 py-3 text-xs tracking-wider outline-none text-white transition-colors"
-                      placeholder="e.g. +91 98765 43210"
+                      placeholder="e.g. +91 81255 13400"
                     />
                   </div>
                 </div>
@@ -878,7 +878,7 @@ export default function HomeLaneAttapurPage() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-lg font-extrabold tracking-tight text-white font-jakarta">
-                    HomeLane
+                    Boom Interiors
                   </span>
                   <span className="text-[8px] tracking-widest text-pink-400 uppercase font-bold">Attapur Smart Studio</span>
                 </div>
@@ -914,11 +914,11 @@ export default function HomeLaneAttapurPage() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <Phone className="h-4.5 w-4.5 text-pink-400 shrink-0" />
-                  <span>+91 98765 01234 / +91 40 6789 0123</span>
+                  <span>+91 81255 13400 / +91 40 6789 0123</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <Mail className="h-4.5 w-4.5 text-pink-400 shrink-0" />
-                  <span>attapur.design@homelane.com</span>
+                  <span>boominteriors.in@gmail.com</span>
                 </li>
               </ul>
             </div>
@@ -927,7 +927,7 @@ export default function HomeLaneAttapurPage() {
 
           {/* Copyright */}
           <div className="pt-8 flex flex-col sm:flex-row justify-between items-center text-[10px] text-[#606575] tracking-wider uppercase">
-            <span>© {new Date().getFullYear()} HomeLane Attapur. All Rights Reserved.</span>
+            <span>© {new Date().getFullYear()} Boom Interiors. All Rights Reserved.</span>
             <span className="mt-4 sm:mt-0 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent font-bold">Smart Home & Glassmorphic Codes v2.0</span>
           </div>
 

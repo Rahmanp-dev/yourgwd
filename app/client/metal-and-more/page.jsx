@@ -760,7 +760,7 @@ export default function MetalAndMorePage() {
                     name="email"
                     value={formData.email}
                     onChange={handleInputChange}
-                    placeholder="e.g. anand@gmail.com"
+                    placeholder="e.g. info@metalandmore.in"
                     className="w-full bg-[#FAF9F6] border-2 border-black rounded-none px-4 py-3 text-sm text-black focus:outline-none focus:bg-white font-sans"
                   />
                 </div>
@@ -775,7 +775,7 @@ export default function MetalAndMorePage() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleInputChange}
-                    placeholder="e.g. +91 99887 76655"
+                    placeholder="e.g. +91 83286 40392"
                     className="w-full bg-[#FAF9F6] border-2 border-black rounded-none px-4 py-3 text-sm text-black focus:outline-none focus:bg-white font-sans"
                   />
                 </div>
@@ -861,11 +861,11 @@ export default function MetalAndMorePage() {
             <div className="space-y-2 text-zinc-500 font-sans">
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-[#F97316]" />
-                <span>+91 99488 55400</span>
+                <span>+91 83286 40392</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={14} className="text-[#F97316]" />
-                <span>shop@metalandmore.in</span>
+                <span>info@metalandmore.in</span>
               </div>
               <div className="pt-2 font-mono text-[10px] text-zinc-600">
                 YARD COMM LINK: ACTIVE (08:00 - 18:00)

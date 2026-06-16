@@ -757,7 +757,7 @@ export default function TaraDesignSolutionsPage() {
                 <Phone className="w-5 h-5 text-[#2F3E46]/70 mt-1 flex-shrink-0" strokeWidth={1.5} />
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-[#2F3E46]/50 block">Call Inquiries</span>
-                  <span className="text-sm font-medium">+91 91234 56789</span>
+                  <span className="text-sm font-medium">+91 76750 99724</span>
                 </div>
               </div>
 
@@ -765,7 +765,7 @@ export default function TaraDesignSolutionsPage() {
                 <Mail className="w-5 h-5 text-[#2F3E46]/70 mt-1 flex-shrink-0" strokeWidth={1.5} />
                 <div>
                   <span className="text-[10px] uppercase tracking-wider text-[#2F3E46]/50 block">Direct Email</span>
-                  <span className="text-sm font-medium">consult@taradesign.in</span>
+                  <span className="text-sm font-medium">info@taradesignsolutions.com</span>
                 </div>
               </div>
             </div>
@@ -832,7 +832,7 @@ export default function TaraDesignSolutionsPage() {
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="e.g. +91 99999 88888"
+                      placeholder="e.g. +91 76750 99724"
                       className="w-full px-4 py-3 bg-[#FDFDFD] border border-[#2F3E46]/20 rounded-sm text-sm focus:outline-none focus:border-[#2F3E46] transition-colors"
                       required
                     />
@@ -847,7 +847,7 @@ export default function TaraDesignSolutionsPage() {
                     type="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="e.g. rahul@gmail.com"
+                    placeholder="e.g. info@taradesignsolutions.com"
                     className="w-full px-4 py-3 bg-[#FDFDFD] border border-[#2F3E46]/20 rounded-sm text-sm focus:outline-none focus:border-[#2F3E46] transition-colors"
                     required
                   />
@@ -967,8 +967,8 @@ export default function TaraDesignSolutionsPage() {
               Attapur, Hyderabad, Telangana - 500048
             </p>
             <p className="text-xs text-[#F5F2EB]/60 font-light">
-              T: +91 91234 56789<br />
-              E: consult@taradesign.in
+              T: +91 76750 99724<br />
+              E: info@taradesignsolutions.com
             </p>
             
             <div className="pt-4 flex gap-4 text-xs font-light text-[#F5F2EB]/50">

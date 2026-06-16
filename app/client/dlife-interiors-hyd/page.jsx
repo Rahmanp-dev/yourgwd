@@ -794,7 +794,7 @@ export default function DLifeInteriorsPage() {
                   <Phone className="w-5 h-5 text-[#D4AF37] shrink-0" />
                   <div>
                     <span className="font-bold text-white block">Direct Concierge</span>
-                    <span className="text-[#fbf8f3]/60 block mt-0.5">+91 91008 82345 / +91 91008 82346</span>
+                    <span className="text-[#fbf8f3]/60 block mt-0.5">+91 94950 87777 / +91 94950 87777</span>
                   </div>
                 </div>
 
@@ -802,7 +802,7 @@ export default function DLifeInteriorsPage() {
                   <Mail className="w-5 h-5 text-[#D4AF37] shrink-0" />
                   <div>
                     <span className="font-bold text-white block">Email Enquiry</span>
-                    <span className="text-[#fbf8f3]/60 block mt-0.5">atelier.hyd@dlifeinteriors.com</span>
+                    <span className="text-[#fbf8f3]/60 block mt-0.5">info@dlifeinteriors.com</span>
                   </div>
                 </div>
               </div>
@@ -855,7 +855,7 @@ export default function DLifeInteriorsPage() {
                         required
                         value={formData.phone}
                         onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                        placeholder="e.g. +91 98765 43210" 
+                        placeholder="e.g. +91 94950 87777" 
                         className="w-full bg-[#053b31]/20 border border-[#D4AF37]/30 text-white p-3 text-xs focus:outline-none focus:border-[#D4AF37] transition-all"
                       />
                     </div>
@@ -868,7 +868,7 @@ export default function DLifeInteriorsPage() {
                         type="email" 
                         value={formData.email}
                         onChange={(e) => setFormData({...formData, email: e.target.value})}
-                        placeholder="e.g. anand@outlook.com" 
+                        placeholder="e.g. info@dlifeinteriors.com" 
                         className="w-full bg-[#053b31]/20 border border-[#D4AF37]/30 text-white p-3 text-xs focus:outline-none focus:border-[#D4AF37] transition-all"
                       />
                     </div>
@@ -964,8 +964,8 @@ export default function DLifeInteriorsPage() {
               Pillar 143, Main Ring Road,<br />
               Attapur, Hyderabad - 500048
             </p>
-            <p className="hover:text-[#D4AF37] transition-colors">+91 91008 82345</p>
-            <p className="hover:text-[#D4AF37] transition-colors mt-1">enquiry@dlifeinteriors-hyd.com</p>
+            <p className="hover:text-[#D4AF37] transition-colors">+91 94950 87777</p>
+            <p className="hover:text-[#D4AF37] transition-colors mt-1">info@dlifeinteriors.com</p>
           </div>
 
           <div>

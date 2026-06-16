@@ -718,7 +718,7 @@ export default function SSInteriorsSecunderabadPage() {
                   </div>
                   <div>
                     <span className="block text-xs uppercase text-[#A9A9A9] font-mono">Call Studio</span>
-                    <span className="text-sm font-bold text-white">+91 90009 88721</span>
+                    <span className="text-sm font-bold text-white">+91 99123 64302</span>
                   </div>
                 </div>
 
@@ -728,7 +728,7 @@ export default function SSInteriorsSecunderabadPage() {
                   </div>
                   <div>
                     <span className="block text-xs uppercase text-[#A9A9A9] font-mono">Email Team</span>
-                    <span className="text-sm font-bold text-white">design@ss-interiors.in</span>
+                    <span className="text-sm font-bold text-white">info@ssinteriorshyderabad.in</span>
                   </div>
                 </div>
 
@@ -787,7 +787,7 @@ export default function SSInteriorsSecunderabadPage() {
                       <input
                         type="tel"
                         required
-                        placeholder="e.g., +91 98765 43210"
+                        placeholder="e.g., +91 99123 64302"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full bg-[#1C1C1C] border border-[#A9A9A9]/30 focus:border-[#87CEEB] rounded-lg p-3 text-sm text-white focus:outline-none transition-colors"
@@ -800,7 +800,7 @@ export default function SSInteriorsSecunderabadPage() {
                     <input
                       type="email"
                       required
-                      placeholder="e.g., vikram@gmail.com"
+                      placeholder="e.g., info@ssinteriorshyderabad.in"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full bg-[#1C1C1C] border border-[#A9A9A9]/30 focus:border-[#87CEEB] rounded-lg p-3 text-sm text-white focus:outline-none transition-colors"

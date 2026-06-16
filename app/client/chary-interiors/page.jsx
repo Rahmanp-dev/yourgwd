@@ -696,11 +696,11 @@ export default function CharyInteriorsHeritage() {
               </div>
               <div className="flex items-start gap-3">
                 <Phone size={16} className="text-[#8B5A2B] shrink-0 mt-0.5" />
-                <span>+91 98480 22338 / +91 40 4220 5K5K</span>
+                <span>+91 91821 64142 / +91 40 4220 5K5K</span>
               </div>
               <div className="flex items-start gap-3">
                 <Mail size={16} className="text-[#8B5A2B] shrink-0 mt-0.5" />
-                <span>contact@charyinteriors.com</span>
+                <span>charyinteriors@gmail.com</span>
               </div>
             </div>
           </div>
@@ -758,7 +758,7 @@ export default function CharyInteriorsHeritage() {
                       required
                       value={formState.email}
                       onChange={handleInputChange}
-                      placeholder="e.g. satish@outlook.com"
+                      placeholder="e.g. charyinteriors@gmail.com"
                       className="w-full bg-[#FAF7F0]/40 border border-stone-200 focus:border-[#800020] rounded-xl outline-none px-4 py-3 text-xs text-[#2C1E15] transition-colors"
                     />
                   </div>
@@ -824,8 +824,8 @@ export default function CharyInteriorsHeritage() {
 
           <div className="space-y-4">
             <span className="text-white font-bold uppercase tracking-wider block">CHANNELS</span>
-            <a href="mailto:contact@charyinteriors.com" className="text-stone-400 hover:text-white transition-colors block text-[11px]">contact@charyinteriors.com</a>
-            <a href="tel:+919848022338" className="text-stone-400 hover:text-white transition-colors block text-[11px]">+91 98480 22338</a>
+            <a href="mailto:charyinteriors@gmail.com" className="text-stone-400 hover:text-white transition-colors block text-[11px]">charyinteriors@gmail.com</a>
+            <a href="tel:+91 91821 64142" className="text-stone-400 hover:text-white transition-colors block text-[11px]">+91 91821 64142</a>
           </div>
 
           <div className="space-y-4">

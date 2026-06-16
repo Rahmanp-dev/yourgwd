@@ -971,7 +971,7 @@ export default function StyleHomeInteriorsPage() {
                   </div>
                   <div>
                     <span className="text-zinc-400 text-[10px] block font-bold">CONTACT PHONE</span>
-                    <span className="text-zinc-950 font-semibold">+91 91212 98450</span>
+                    <span className="text-zinc-950 font-semibold">+91 73309 23363</span>
                   </div>
                 </div>
 
@@ -981,7 +981,7 @@ export default function StyleHomeInteriorsPage() {
                   </div>
                   <div>
                     <span className="text-zinc-400 text-[10px] block font-bold">EMAIL INTAKE</span>
-                    <span className="text-zinc-950 font-semibold">studio@stylehomeinteriors.co.in</span>
+                    <span className="text-zinc-950 font-semibold">stylehome96@gmail.com</span>
                   </div>
                 </div>
               </div>
@@ -1059,7 +1059,7 @@ export default function StyleHomeInteriorsPage() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
-                        placeholder="e.g. anand@outlook.com"
+                        placeholder="e.g. stylehome96@gmail.com"
                         className="w-full bg-white border border-zinc-200 py-3 px-4 text-zinc-900 rounded-xl focus:border-[#008080] focus:outline-none shadow-inner"
                       />
                     </div>
@@ -1073,7 +1073,7 @@ export default function StyleHomeInteriorsPage() {
                         required
                         value={formData.phone}
                         onChange={(e) => setFormData(prev => ({ ...prev, phone: e.target.value }))}
-                        placeholder="e.g. +91 99880 77660"
+                        placeholder="e.g. +91 73309 23363"
                         className="w-full bg-white border border-zinc-200 py-3 px-4 text-zinc-900 rounded-xl focus:border-[#008080] focus:outline-none shadow-inner"
                       />
                     </div>

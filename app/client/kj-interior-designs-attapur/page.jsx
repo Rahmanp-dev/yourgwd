@@ -21,7 +21,7 @@ import {
   Grid
 } from 'lucide-react';
 
-export default function LivspaceAttapurPage() {
+export default function KjInteriorDesignsAttapurPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeCatalogCategory, setActiveCatalogCategory] = useState('kitchen');
   const [faqOpen, setFaqOpen] = useState({});
@@ -95,7 +95,7 @@ export default function LivspaceAttapurPage() {
       ...prev,
       roomType: roomType,
       themePalette: themePalette,
-      message: `Hi Livspace Attapur, I configured a ${roomType} using the ${themePalette} theme. Selected add-ons: [${selectedAddons || 'None'}]. Please contact me with a modular design quote.`
+      message: `Hi KJ Interior Designs, I configured a ${roomType} using the ${themePalette} theme. Selected add-ons: [${selectedAddons || 'None'}]. Please contact me with a modular design quote.`
     }));
 
     const contactSection = document.getElementById('contact');
@@ -174,7 +174,7 @@ export default function LivspaceAttapurPage() {
 
   const stories = [
     {
-      text: "Livspace made our home interior journey absolutely seamless. The mid-century design suggestions matched our style perfectly, especially the terracotta kitchen accent paneling. Delivery was on the exact day promised!",
+      text: "KJ Interior Designs made our home interior journey absolutely seamless. The mid-century design suggestions matched our style perfectly, especially the terracotta kitchen accent paneling. Delivery was on the exact day promised!",
       name: "Sreedhar & Lakshmi",
       location: "Happy Homes, Attapur",
       highlight: "Completed in 42 Days"
@@ -231,7 +231,7 @@ export default function LivspaceAttapurPage() {
               L
             </div>
             <div>
-              <span className="font-extrabold text-xl tracking-tight uppercase block text-[#006E7F]">LIVSPACE</span>
+              <span className="font-extrabold text-xl tracking-tight uppercase block text-[#006E7F]">KJ INTERIORS</span>
               <span className="text-[10px] text-[#D84B20] tracking-[0.2em] uppercase block font-bold -mt-1">Attapur Studio</span>
             </div>
           </a>
@@ -325,7 +325,7 @@ export default function LivspaceAttapurPage() {
               <div className="p-5 bg-white border-t-4 border-[#1C1917] flex justify-between items-center">
                 <div>
                   <h3 className="font-extrabold text-sm text-[#006E7F] uppercase tracking-wider">Terracotta Cozy Lounge</h3>
-                  <p className="text-xs text-stone-500 font-bold mt-1">Model Studio, Ring Road Attapur</p>
+                  <p className="text-xs text-stone-500 font-bold mt-1">Model Studio, Attapur</p>
                 </div>
                 <div className="bg-[#D84B20] text-white px-3 py-1 text-[10px] font-black uppercase rounded border border-[#1C1917]">
                   Best Seller
@@ -745,7 +745,7 @@ export default function LivspaceAttapurPage() {
                 <MapPin className="w-6 h-6 text-[#006E7F] mt-1 flex-shrink-0" />
                 <div>
                   <span className="text-[10px] uppercase tracking-widest font-black text-stone-400 block">Experience Studio</span>
-                  <span className="text-sm font-bold">Opposite Happy Homes, PVNR Expressway Pillar 130, Attapur, Hyderabad - 500048</span>
+                  <span className="text-sm font-bold">Opposite Fish Building, Attapur, Hyderabad - 500052</span>
                 </div>
               </div>
 
@@ -753,7 +753,7 @@ export default function LivspaceAttapurPage() {
                 <Phone className="w-6 h-6 text-[#D84B20] mt-1 flex-shrink-0" />
                 <div>
                   <span className="text-[10px] uppercase tracking-widest font-black text-stone-400 block">Studio Helpline</span>
-                  <span className="text-sm font-bold">+91 98765 43210</span>
+                  <span className="text-sm font-bold">+91 90301 13269</span>
                 </div>
               </div>
 
@@ -761,7 +761,7 @@ export default function LivspaceAttapurPage() {
                 <Mail className="w-6 h-6 text-[#006E7F] mt-1 flex-shrink-0" />
                 <div>
                   <span className="text-[10px] uppercase tracking-widest font-black text-stone-400 block">Official Support</span>
-                  <span className="text-sm font-bold">attapur.studio@livspace.com</span>
+                  <span className="text-sm font-bold">Kjinteriorhyd12@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -827,7 +827,7 @@ export default function LivspaceAttapurPage() {
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="e.g. +91 98765 11111"
+                      placeholder="e.g. +91 90301 13269"
                       className="w-full px-4 py-3 bg-white border-2 border-[#1C1917] rounded-lg text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[#006E7F]"
                       required
                     />
@@ -842,7 +842,7 @@ export default function LivspaceAttapurPage() {
                     type="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="e.g. shalini@gmail.com"
+                    placeholder="e.g. Kjinteriorhyd12@gmail.com"
                     className="w-full px-4 py-3 bg-white border-2 border-[#1C1917] rounded-lg text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[#006E7F]"
                     required
                   />
@@ -929,7 +929,7 @@ export default function LivspaceAttapurPage() {
                 L
               </div>
               <div>
-                <span className="font-extrabold text-xl tracking-tight uppercase block text-[#F9F5F0]">LIVSPACE</span>
+                <span className="font-extrabold text-xl tracking-tight uppercase block text-[#F9F5F0]">KJ INTERIORS</span>
                 <span className="text-[10px] text-[#D84B20] tracking-[0.2em] uppercase block font-bold -mt-1">Attapur Studio</span>
               </div>
             </div>
@@ -937,7 +937,7 @@ export default function LivspaceAttapurPage() {
               Premium modular interior design and execution specialists. Delivering high-precision modular furniture layouts with our signature Mid-Century Modern styling on a flat 45-day guaranteed timeline.
             </p>
             <p className="text-[10px] text-stone-500 font-bold tracking-wider">
-              © {new Date().getFullYear()} Livspace Attapur Center. Manufactured by Livspace India. All rights reserved.
+              © {new Date().getFullYear()} KJ Interior Designs Center. Manufactured by KJ Interior Designs India. All rights reserved.
             </p>
           </div>
 
@@ -961,8 +961,8 @@ export default function LivspaceAttapurPage() {
               Attapur, Hyderabad, Telangana - 500048
             </p>
             <p className="text-xs text-stone-400 font-bold">
-              Helpline: +91 98765 43210<br />
-              Email: attapur.studio@livspace.com
+              Helpline: +91 90301 13269<br />
+              Email: Kjinteriorhyd12@gmail.com
             </p>
             
             <div className="pt-4 flex gap-4 text-xs font-bold text-stone-500">

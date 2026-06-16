@@ -629,11 +629,11 @@ export default function MakHomesPage() {
             </div>
             <div className="flex items-center gap-3">
               <Phone size={18} className="text-[#FF7F50]" />
-              <span>+91 99630 11994</span>
+              <span>+91 78429 60039</span>
             </div>
             <div className="flex items-center gap-3">
               <Mail size={18} className="text-[#FF7F50]" />
-              <span>engineering@makhomes.com</span>
+              <span>makhomesconstruction@gmail.com</span>
             </div>
           </div>
 
@@ -715,7 +715,7 @@ export default function MakHomesPage() {
                   required
                   value={formState.clientEmail}
                   onChange={handleInputChange}
-                  placeholder="khan@makhomes.com"
+                  placeholder="makhomesconstruction@gmail.com"
                   className="w-full px-4 py-3 rounded-none border-2 border-black focus:bg-[#E5E5E5] focus:outline-none text-xs font-bold text-black"
                 />
               </div>
@@ -816,7 +816,7 @@ export default function MakHomesPage() {
             <p className="text-[10px] font-semibold text-gray-400 leading-relaxed uppercase">
               Plot 112, Service Road,<br />
               Attapur, Hyderabad, India.<br />
-              Audits Desk: +91 99630 11994
+              Audits Desk: +91 78429 60039
             </p>
           </div>
 

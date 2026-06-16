@@ -882,7 +882,7 @@ export default function NamasviInteriorsPage() {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-[#1E3F20]/80">
                   <Phone className="w-4 h-4 text-[#50C878]" />
-                  <span className="font-bold">+91 91540 68899</span>
+                  <span className="font-bold">+91 87120 10801</span>
                 </div>
               </div>
             </div>
@@ -914,7 +914,7 @@ export default function NamasviInteriorsPage() {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-[#1E3F20]/80">
                   <Mail className="w-4 h-4 text-[#50C878]" />
-                  <span className="font-bold">studio@namasviinteriors.com</span>
+                  <span className="font-bold">namasviinteriors@gmail.com</span>
                 </div>
               </div>
             </div>
@@ -975,7 +975,7 @@ export default function NamasviInteriorsPage() {
                         type="email"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="e.g. srikkanth@gmail.com"
+                        placeholder="e.g. namasviinteriors@gmail.com"
                         className="w-full bg-[#F4F8F4] border border-[#1E3F20]/10 text-[#1E3F20] px-4 py-3 text-xs focus:outline-none focus:border-[#50C878] rounded-xl placeholder-[#1E3F20]/40"
                       />
                       {formErrors.email && <p className="text-red-500 text-[10px] mt-1 font-semibold">{formErrors.email}</p>}

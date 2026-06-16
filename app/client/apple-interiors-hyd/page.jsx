@@ -825,7 +825,7 @@ export default function AppleInteriorsHydPage() {
                     required
                     value={formData.email}
                     onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
-                    placeholder="e.g. sreenivas@domain.com"
+                    placeholder="e.g. aravind.bandaru@appleinteriors.in"
                     className="w-full bg-zinc-900 border border-zinc-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-[#00E5FF] font-sans"
                   />
                 </div>
@@ -839,7 +839,7 @@ export default function AppleInteriorsHydPage() {
                     required
                     value={formData.phone}
                     onChange={(e) => setFormData(prev => ({ ...prev, phone: e.target.value }))}
-                    placeholder="e.g. +91 98765 43210"
+                    placeholder="e.g. +91 96039 60337"
                     className="w-full bg-zinc-900 border border-zinc-800 rounded px-4 py-3 text-sm text-white focus:outline-none focus:border-[#00E5FF] font-sans"
                   />
                 </div>
@@ -942,11 +942,11 @@ export default function AppleInteriorsHydPage() {
             <div className="space-y-2 text-zinc-500 font-sans">
               <div className="flex items-center gap-2">
                 <Phone size={14} className="text-[#00E5FF]" />
-                <span>+91 91008 22100</span>
+                <span>+91 96039 60337</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={14} className="text-[#00E5FF]" />
-                <span>attapur@appleinteriors.in</span>
+                <span>aravind.bandaru@appleinteriors.in</span>
               </div>
               <div className="pt-2 font-mono text-[10px] text-zinc-600">
                 DAILY LINK STATUS: ACTIVE (09:00 - 19:30)

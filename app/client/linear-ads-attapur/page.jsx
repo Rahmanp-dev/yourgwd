@@ -23,7 +23,7 @@ import {
   FileText
 } from 'lucide-react';
 
-export default function ElementsDesignLabPage() {
+export default function LinearAdsAttapurPage() {
   // Navigation states
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeTab, setActiveTab] = useState('kitchen');
@@ -820,7 +820,7 @@ export default function ElementsDesignLabPage() {
               <h2 className="text-3xl font-black text-white uppercase">CLIENT TESTIMONIALS</h2>
             </div>
             <p className="text-zinc-500 text-xs font-mono max-w-sm mt-4 md:mt-0">
-              Verbatim transcripts from clients who commissioned Elements Design Lab to reconstruct their Hyderabad spaces.
+              Verbatim transcripts from clients who commissioned Linear A.D.S. to reconstruct their Hyderabad spaces.
             </p>
           </div>
 
@@ -954,7 +954,7 @@ export default function ElementsDesignLabPage() {
                 <span className="text-xs font-bold text-[#FFCC00] block mb-2 tracking-widest">// SECURE CONTACT CHANNEL</span>
                 <h2 className="text-3xl font-black text-white uppercase">INITIALIZE PROJECT</h2>
                 <p className="text-xs text-zinc-400 font-mono mt-3 leading-relaxed">
-                  Establish a secure connection with Elements Design Lab. Submit your telemetry logs and structural constraints to queue your site verification.
+                  Establish a secure connection with Linear A.D.S.. Submit your telemetry logs and structural constraints to queue your site verification.
                 </p>
               </div>
 
@@ -975,7 +975,7 @@ export default function ElementsDesignLabPage() {
                   </div>
                   <div>
                     <span className="text-zinc-500 block">COMMS_PHONE</span>
-                    <span className="text-white font-bold">+91 98850 72120</span>
+                    <span className="text-white font-bold">+91 98498 50348</span>
                   </div>
                 </div>
 
@@ -985,7 +985,7 @@ export default function ElementsDesignLabPage() {
                   </div>
                   <div>
                     <span className="text-zinc-500 block">SECURE_MAIL</span>
-                    <span className="text-white font-bold">handshake@elementsdesignlab.in</span>
+                    <span className="text-white font-bold">linearads@gmail.com</span>
                   </div>
                 </div>
               </div>
@@ -1068,7 +1068,7 @@ export default function ElementsDesignLabPage() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
-                        placeholder="OPERATOR_EMAIL@DOMAIN.COM"
+                        placeholder="linearads@gmail.com"
                         className="w-full bg-zinc-900 border border-zinc-800 py-3 px-4 text-white font-mono rounded-sm focus:border-[#FFCC00] focus:outline-none"
                       />
                     </div>
@@ -1146,7 +1146,7 @@ export default function ElementsDesignLabPage() {
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
           
           <div className="space-y-3">
-            <span className="font-extrabold text-white text-sm block">ELEMENTS DESIGN LAB</span>
+            <span className="font-extrabold text-white text-sm block">LINEAR A.D.S.</span>
             <p className="text-[10px] leading-relaxed">
               Industrial and cybernetic interior architectures designed and built from scratch. Executing high-tensile concrete, steel frames, and modular layouts.
             </p>
@@ -1195,7 +1195,7 @@ export default function ElementsDesignLabPage() {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 mt-8 pt-8 border-t border-zinc-800/80 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px]">
-          <span>© 2026 ELEMENTS DESIGN LAB. ALL SYSTEM RIGHTS SECURED.</span>
+          <span>© 2026 LINEAR A.D.S.. ALL SYSTEM RIGHTS SECURED.</span>
           <span className="text-zinc-600">ATTAPUR // SECURE PREVIEW VERSION</span>
         </div>
       </footer>

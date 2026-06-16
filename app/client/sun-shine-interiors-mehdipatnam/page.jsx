@@ -24,7 +24,7 @@ import {
   Loader2
 } from 'lucide-react';
 
-export default function DesignCafeHyderabadPage() {
+export default function SunShineInteriorsMehdipatnamPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activePortfolioTab, setActivePortfolioTab] = useState('tuscan');
   const [faqOpen, setFaqOpen] = useState({
@@ -117,7 +117,7 @@ export default function DesignCafeHyderabadPage() {
       ...prev,
       preferredProperty: propertyType,
       selectedTier: qualityTier,
-      message: `Hi DesignCafe Hyderabad, I used your Mediterranean Configurator to design my ${propertyType}. I selected the '${qualityTier}' tier and the following finishes: [${selectedFinishes || 'None'}]. Please share a detailed design proposal and floor plans.`
+      message: `Hi Sun Shine Interiors Hyderabad, I used your Mediterranean Configurator to design my ${propertyType}. I selected the '${qualityTier}' tier and the following finishes: [${selectedFinishes || 'None'}]. Please share a detailed design proposal and floor plans.`
     }));
 
     const contactSection = document.getElementById('contact-form-section');
@@ -206,7 +206,7 @@ export default function DesignCafeHyderabadPage() {
               <Compass className="w-6 h-6 animate-spin-slow" />
             </div>
             <div>
-              <span className="font-serif text-xl font-bold tracking-tight text-[#C04000]">DesignCafe</span>
+              <span className="font-serif text-xl font-bold tracking-tight text-[#C04000]">Sun Shine Interiors</span>
               <span className="text-xs block text-[#808000] font-medium tracking-widest uppercase -mt-1">Hyderabad</span>
             </div>
           </div>
@@ -300,7 +300,7 @@ export default function DesignCafeHyderabadPage() {
                 Modern <span className="text-[#C04000] relative">Mediterranean</span> Living Engineered for Hyderabad
               </h1>
               <p className="text-lg text-[#2C1810]/80 leading-relaxed">
-                DesignCafe brings warm terracotta, arched alcoves, and European coastal breezes directly to Attapur. Experience functional luxury built with 10-year warranties and 51,000+ happy homes across India.
+                Sun Shine Interiors brings warm terracotta, arched alcoves, and European coastal breezes directly to Attapur. Experience functional luxury built with 10-year warranties and 51,000+ happy homes across India.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -656,21 +656,21 @@ export default function DesignCafeHyderabadPage() {
               {
                 name: 'Kiran & Kavitha Reddy',
                 location: 'Maple Town, Attapur',
-                quote: 'We wanted a warm home that did not look like standard flat modern boxes. DesignCafe Mediterranean style was perfect. The terracotta kitchen wall and white plaster living room look beautiful under warm spotlights. Their modular quality is exceptional.',
+                quote: 'We wanted a warm home that did not look like standard flat modern boxes. Sun Shine Interiors Mediterranean style was perfect. The terracotta kitchen wall and white plaster living room look beautiful under warm spotlights. Their modular quality is exceptional.',
                 rating: 5,
                 tag: '3 BHK Apartment'
               },
               {
                 name: 'Anirudh Verma',
                 location: 'Hyderguda, Hyderabad',
-                quote: 'The cost planner tool gave us a very accurate budget target. We chose the Modern Med Select tier with custom plaster arches. DesignCafe delivered the home in exactly 43 days. Their project managers in Attapur handled all approvals flawlessly.',
+                quote: 'The cost planner tool gave us a very accurate budget target. We chose the Modern Med Select tier with custom plaster arches. Sun Shine Interiors delivered the home in exactly 43 days. Their project managers in Attapur handled all approvals flawlessly.',
                 rating: 5,
                 tag: '4 BHK Duplex'
               },
               {
                 name: 'Dr. Srinivas Rao',
                 location: 'Happy Homes, Attapur',
-                quote: 'Extremely professional team. We requested olive cabinetry in our kitchen and custom niches for books in the study. DesignCafe translated our sketches into robust modular products. The 10-year warranty gives complete peace of mind.',
+                quote: 'Extremely professional team. We requested olive cabinetry in our kitchen and custom niches for books in the study. Sun Shine Interiors translated our sketches into robust modular products. The 10-year warranty gives complete peace of mind.',
                 rating: 5,
                 tag: 'Premium Villa'
               }
@@ -736,7 +736,7 @@ export default function DesignCafeHyderabadPage() {
               },
               {
                 q: 'What guarantees do you offer on modular cabinetry and finishes?',
-                a: 'DesignCafe offers a 10-year warranty on modular plywood cabinets and kitchen modules. Hardware fittings (like hinges and channels) from partner brands like Hettich and Blum carry individual lifetime functional warranties.'
+                a: 'Sun Shine Interiors offers a 10-year warranty on modular plywood cabinets and kitchen modules. Hardware fittings (like hinges and channels) from partner brands like Hettich and Blum carry individual lifetime functional warranties.'
               },
               {
                 q: 'How long does a complete interior project take to deliver?',
@@ -793,7 +793,7 @@ export default function DesignCafeHyderabadPage() {
                   </div>
                   <div>
                     <h5 className="font-bold text-sm text-[#2C1810]/60 uppercase tracking-wider">Call Our Attapur Studio</h5>
-                    <p className="text-base font-semibold text-[#2C1810]">+91 90001 23456</p>
+                    <p className="text-base font-semibold text-[#2C1810]">+91 73370 64870</p>
                   </div>
                 </div>
 
@@ -803,7 +803,7 @@ export default function DesignCafeHyderabadPage() {
                   </div>
                   <div>
                     <h5 className="font-bold text-sm text-[#2C1810]/60 uppercase tracking-wider">Email Support</h5>
-                    <p className="text-base font-semibold text-[#2C1810]">attapur@designcafe.com</p>
+                    <p className="text-base font-semibold text-[#2C1810]">sunshineinteriors.hyd@gmail.com</p>
                   </div>
                 </div>
 
@@ -884,7 +884,7 @@ export default function DesignCafeHyderabadPage() {
                       id="email"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      placeholder="e.g. kavitha.reddy@gmail.com"
+                      placeholder="e.g. sunshineinteriors.hyd@gmail.com"
                       className="w-full bg-[#F5EFE6]/40 border border-[#2C1810]/15 rounded-xl px-4 py-3 text-sm focus:ring-2 focus:ring-[#C04000] outline-none text-[#2C1810] placeholder-[#2C1810]/40 transition-all"
                     />
                   </div>
@@ -949,7 +949,7 @@ export default function DesignCafeHyderabadPage() {
                     )}
                   </button>
                   <p className="text-[10px] text-center text-[#2C1810]/50">
-                    * By clicking above, you authorize DesignCafe representatives to call/message you regarding our modular interior services.
+                    * By clicking above, you authorize Sun Shine Interiors representatives to call/message you regarding our modular interior services.
                   </p>
                 </form>
               )}
@@ -969,13 +969,13 @@ export default function DesignCafeHyderabadPage() {
                 <div className="w-8 h-8 rounded-full bg-[#C04000] flex items-center justify-center text-white">
                   <Compass className="w-5 h-5" />
                 </div>
-                <span className="font-serif text-xl font-bold tracking-tight text-[#C04000]">DesignCafe</span>
+                <span className="font-serif text-xl font-bold tracking-tight text-[#C04000]">Sun Shine Interiors</span>
               </div>
               <p className="text-xs text-[#FDFBF7]/60 leading-relaxed">
-                DesignCafe builds premium, bespoke homes that blend custom beauty with state-of-the-art modular technology. Made in our ISO-9001 certified manufacturing plant.
+                Sun Shine Interiors builds premium, bespoke homes that blend custom beauty with state-of-the-art modular technology. Made in our ISO-9001 certified manufacturing plant.
               </p>
               <div className="text-xs text-[#808000] font-bold">
-                © 2026 DesignCafe. All rights reserved.
+                © 2026 Sun Shine Interiors. All rights reserved.
               </div>
             </div>
 

@@ -663,11 +663,11 @@ export default function DecorpotMinimalist() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={16} className="text-neutral-400" />
-                <span className="text-neutral-600">+91 98480 22338 / +91 40 4220 5K5K</span>
+                <span className="text-neutral-600">+91 91086 02000 / +91 40 4220 5K5K</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail size={16} className="text-neutral-400" />
-                <span className="text-neutral-600">hyderabad@decorpot.com</span>
+                <span className="text-neutral-600">hello@decorpot.com</span>
               </div>
             </div>
           </div>
@@ -725,7 +725,7 @@ export default function DecorpotMinimalist() {
                       required
                       value={formState.email}
                       onChange={handleInputChange}
-                      placeholder="e.g. vikram@gmail.com"
+                      placeholder="e.g. hello@decorpot.com"
                       className="w-full bg-white border border-neutral-200 focus:border-[#111111] outline-none px-4 py-3 text-xs text-[#111111] transition-colors"
                     />
                   </div>
@@ -790,8 +790,8 @@ export default function DecorpotMinimalist() {
 
           <div className="space-y-4">
             <span className="text-white font-bold uppercase tracking-wider block">CHANNELS</span>
-            <a href="mailto:hyderabad@decorpot.com" className="text-neutral-500 hover:text-white transition-colors block">hyderabad@decorpot.com</a>
-            <a href="tel:+919848022338" className="text-neutral-500 hover:text-white transition-colors block">+91 98480 22338</a>
+            <a href="mailto:hello@decorpot.com" className="text-neutral-500 hover:text-white transition-colors block">hello@decorpot.com</a>
+            <a href="tel:+91 91086 02000" className="text-neutral-500 hover:text-white transition-colors block">+91 91086 02000</a>
           </div>
 
           <div className="space-y-4">

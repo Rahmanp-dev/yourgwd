@@ -768,7 +768,7 @@ export default function SeemaDesignStudioPage() {
                   <Phone className="w-5 h-5 text-[#00D2FF] shrink-0" />
                   <div>
                     <span className="font-bold text-[#1A1A1C] block">Direct Studio Ring</span>
-                    <span className="block mt-0.5 text-[#8A8A93]">+91 90100 81223</span>
+                    <span className="block mt-0.5 text-[#8A8A93]">+91 96760 28887</span>
                   </div>
                 </div>
 
@@ -776,7 +776,7 @@ export default function SeemaDesignStudioPage() {
                   <Mail className="w-5 h-5 text-[#00D2FF] shrink-0" />
                   <div>
                     <span className="font-bold text-[#1A1A1C] block">General Desk</span>
-                    <span className="block mt-0.5 text-[#8A8A93]">hello@seemadesignstudio.in</span>
+                    <span className="block mt-0.5 text-[#8A8A93]">studioseemadesign@gmail.com</span>
                   </div>
                 </div>
 
@@ -829,7 +829,7 @@ export default function SeemaDesignStudioPage() {
                           required
                           value={formData.phone}
                           onChange={(e) => setFormData({...formData, phone: e.target.value})}
-                          placeholder="e.g. +91 90000 12345" 
+                          placeholder="e.g. +91 96760 28887" 
                           className="w-full bg-[#F0F0F3] shadow-[inset_3px_3px_6px_rgba(163,177,198,0.4),_inset_-3px_-3px_6px_rgba(255,255,255,0.8)] border-none text-[#1A1A1C] p-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#00D2FF] transition-all"
                         />
                       </div>
@@ -842,7 +842,7 @@ export default function SeemaDesignStudioPage() {
                           type="email" 
                           value={formData.email}
                           onChange={(e) => setFormData({...formData, email: e.target.value})}
-                          placeholder="e.g. sanjay@gmail.com" 
+                          placeholder="e.g. studioseemadesign@gmail.com" 
                           className="w-full bg-[#F0F0F3] shadow-[inset_3px_3px_6px_rgba(163,177,198,0.4),_inset_-3px_-3px_6px_rgba(255,255,255,0.8)] border-none text-[#1A1A1C] p-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#00D2FF] transition-all"
                         />
                       </div>
@@ -938,8 +938,8 @@ export default function SeemaDesignStudioPage() {
               Level 2, Shadow Arcade,<br />
               Attapur, Hyderabad - 500048
             </p>
-            <p className="hover:text-[#00D2FF] transition-colors">+91 90100 81223</p>
-            <p className="hover:text-[#00D2FF] transition-colors mt-1">enquiries@seemadesignstudio.in</p>
+            <p className="hover:text-[#00D2FF] transition-colors">+91 96760 28887</p>
+            <p className="hover:text-[#00D2FF] transition-colors mt-1">studioseemadesign@gmail.com</p>
           </div>
 
           <div>

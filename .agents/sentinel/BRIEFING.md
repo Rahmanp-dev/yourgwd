@@ -6,7 +6,7 @@ Coordinate and monitor the generation of 20 distinct, premium LONG FORMAT Next.j
 ## 🔒 My Identity
 - Archetype: sentinel
 - Working directory: d:\GWD\Sales Machine\.agents\sentinel
-- Orchestrator: aa69ff90-9237-4c50-93ea-427cfcb58330
+- Orchestrator: acdafb7d-2657-44bb-ad52-e71799d6de48
 - Victory Auditor: TBD
 
 ## 🔒 Key Constraints

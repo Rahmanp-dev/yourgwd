@@ -724,7 +724,7 @@ export default function IconInteriorDesignAttapurPage() {
                   </div>
                   <div>
                     <span className="block text-[10px] uppercase text-stone-500 font-semibold font-mono">Talk to Designer</span>
-                    <span className="text-sm font-bold text-stone-900">+91 91000 66524</span>
+                    <span className="text-sm font-bold text-stone-900">+91 98667 93847</span>
                   </div>
                 </div>
 
@@ -734,7 +734,7 @@ export default function IconInteriorDesignAttapurPage() {
                   </div>
                   <div>
                     <span className="block text-[10px] uppercase text-stone-500 font-semibold font-mono">Email Studio</span>
-                    <span className="text-sm font-bold text-stone-900">hello@iconinteriors.in</span>
+                    <span className="text-sm font-bold text-stone-900">info@iconinteriordesign.com</span>
                   </div>
                 </div>
 
@@ -794,7 +794,7 @@ export default function IconInteriorDesignAttapurPage() {
                       <input
                         type="tel"
                         required
-                        placeholder="e.g. +91 99009 99009"
+                        placeholder="e.g. +91 98667 93847"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full bg-[#FAF0E6]/30 border border-[#E6E6FA] focus:border-[#E6E6FA] focus:ring-1 focus:ring-[#E6E6FA] rounded-xl p-3 text-sm text-stone-800 focus:outline-none transition-all"
@@ -807,7 +807,7 @@ export default function IconInteriorDesignAttapurPage() {
                     <input
                       type="email"
                       required
-                      placeholder="e.g. kavitha@gmail.com"
+                      placeholder="e.g. info@iconinteriordesign.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full bg-[#FAF0E6]/30 border border-[#E6E6FA] focus:border-[#E6E6FA] focus:ring-1 focus:ring-[#E6E6FA] rounded-xl p-3 text-sm text-stone-800 focus:outline-none transition-all"

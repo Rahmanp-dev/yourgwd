@@ -788,7 +788,7 @@ export default function SimplyInteriorsPage() {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-[#A0A0A0]">
                   <Phone className="w-4.5 h-4.5 text-[#E67E22]" />
-                  <span className="font-bold text-white">+91 40 4880 7777</span>
+                  <span className="font-bold text-white">+91 93410 74074</span>
                 </div>
               </div>
             </div>
@@ -820,7 +820,7 @@ export default function SimplyInteriorsPage() {
                 </div>
                 <div className="flex items-center gap-3 text-xs text-[#A0A0A0]">
                   <Mail className="w-4 h-4 text-[#E67E22]" />
-                  <span className="font-bold text-white">consulting@simplyinteriorshyd.com</span>
+                  <span className="font-bold text-white">enquiry@simplyinteriors.in</span>
                 </div>
               </div>
             </div>
@@ -881,7 +881,7 @@ export default function SimplyInteriorsPage() {
                         type="email"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="e.g. srikkanth@gmail.com"
+                        placeholder="e.g. enquiry@simplyinteriors.in"
                         className="w-full bg-[#1E2630] border border-[#2C3E50]/30 text-white px-4 py-3 text-xs focus:outline-none focus:border-[#E67E22] rounded-md placeholder-zinc-650"
                       />
                       {formErrors.email && <p className="text-red-500 text-[10px] mt-1 font-semibold">{formErrors.email}</p>}

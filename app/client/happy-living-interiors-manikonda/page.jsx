@@ -24,7 +24,7 @@ import {
   Award
 } from 'lucide-react';
 
-export default function BonitoDesignsHyderabadPage() {
+export default function HappyLivingInteriorsManikondaPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activePortfolioTab, setActivePortfolioTab] = useState('penthouse');
   const [faqOpen, setFaqOpen] = useState({
@@ -112,7 +112,7 @@ export default function BonitoDesignsHyderabadPage() {
       materialChoice: selectedMaterial,
       lightingChoice: selectedLighting,
       layoutChoice: selectedLayout,
-      message: `Hi Bonito Designs, I configured a premium luxury space. Selected Specifications: Material: [${selectedMaterial}], Lighting: [${selectedLighting}], Layout: [${selectedLayout}]. Please share custom architectural blueprints and budget details.`
+      message: `Hi Happy Living Interiors, I configured a premium luxury space. Selected Specifications: Material: [${selectedMaterial}], Lighting: [${selectedLighting}], Layout: [${selectedLayout}]. Please share custom architectural blueprints and budget details.`
     }));
 
     const contactSection = document.getElementById('contact-form-section');
@@ -300,7 +300,7 @@ export default function BonitoDesignsHyderabadPage() {
                   High-End <span className="text-[#C5A059] italic block sm:inline">Obsidian</span> Interiors for Attapur
                 </h1>
                 <p className="text-base sm:text-lg text-zinc-400 leading-relaxed max-w-xl">
-                  Bonito Designs crafts luxury residential spaces centered around obsidian marble walls, titanium gold detailing, and warm, theatrical spotlighting configurations. Made for individuals who demand bold, premium aesthetics.
+                  Happy Living Interiors crafts luxury residential spaces centered around obsidian marble walls, titanium gold detailing, and warm, theatrical spotlighting configurations. Made for individuals who demand bold, premium aesthetics.
                 </p>
               </div>
 
@@ -616,7 +616,7 @@ export default function BonitoDesignsHyderabadPage() {
               {
                 name: 'Rahul K. Chowdary',
                 location: 'Hyderguda Highrises, Hyderabad',
-                quote: 'I wanted a high-tech media room that doubled as a luxury lounge. Bonito Designs executed the acoustic suede profiling and backlit panels flawlessly. The final finish matches the 3D renders with millimeter accuracy.',
+                quote: 'I wanted a high-tech media room that doubled as a luxury lounge. Happy Living Interiors executed the acoustic suede profiling and backlit panels flawlessly. The final finish matches the 3D renders with millimeter accuracy.',
                 rating: 5,
                 tag: '4 BHK Penthouse'
               },
@@ -745,7 +745,7 @@ export default function BonitoDesignsHyderabadPage() {
                   </div>
                   <div>
                     <h5 className="font-bold text-xs text-zinc-500 uppercase tracking-widest">Direct Commission Line</h5>
-                    <p className="text-sm font-bold text-white">+91 91000 87654</p>
+                    <p className="text-sm font-bold text-white">+91 98488 56000</p>
                   </div>
                 </div>
 
@@ -755,7 +755,7 @@ export default function BonitoDesignsHyderabadPage() {
                   </div>
                   <div>
                     <h5 className="font-bold text-xs text-zinc-500 uppercase tracking-widest">Architectural Registry</h5>
-                    <p className="text-sm font-bold text-white">commission@bonitohyderabad.com</p>
+                    <p className="text-sm font-bold text-white">info@happylivinginteriors.com</p>
                   </div>
                 </div>
 
@@ -837,7 +837,7 @@ export default function BonitoDesignsHyderabadPage() {
                       id="email"
                       value={formData.email}
                       onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      placeholder="e.g. vikram.sen@outlook.com"
+                      placeholder="e.g. info@happylivinginteriors.com"
                       className="w-full bg-zinc-900 border border-zinc-800 rounded px-4 py-3 text-xs focus:ring-1 focus:ring-[#C5A059] outline-none text-white placeholder-zinc-500 transition-all"
                     />
                   </div>
@@ -918,7 +918,7 @@ export default function BonitoDesignsHyderabadPage() {
                     )}
                   </button>
                   <p className="text-[9px] text-center text-zinc-500">
-                    By submitting, you agree to receive professional callback schedules from Bonito Designs Gallery.
+                    By submitting, you agree to receive professional callback schedules from Happy Living Interiors Gallery.
                   </p>
                 </form>
               )}
@@ -941,10 +941,10 @@ export default function BonitoDesignsHyderabadPage() {
                 <span className="font-serif text-lg font-bold tracking-widest text-white">BONITO</span>
               </div>
               <p className="text-xs text-zinc-500 leading-relaxed">
-                Bonito Designs creates customized dark-mode interior environments. Engineered in our automated production facility to match architectural models perfectly.
+                Happy Living Interiors creates customized dark-mode interior environments. Engineered in our automated production facility to match architectural models perfectly.
               </p>
               <div className="text-[10px] text-zinc-600 font-bold uppercase tracking-wider">
-                © 2026 Bonito Designs. All rights reserved.
+                © 2026 Happy Living Interiors. All rights reserved.
               </div>
             </div>
 

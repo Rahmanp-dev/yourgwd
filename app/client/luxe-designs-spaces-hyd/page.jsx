@@ -892,7 +892,7 @@ export default function LuxeDesignsPage() {
                       value={formState.phone}
                       onChange={(e) => setFormState({...formState, phone: e.target.value})}
                       className="w-full bg-[#FAFAFA] border border-[#4A3B32]/15 focus:border-[#D4AF37] px-4 py-3 text-xs tracking-wider outline-none text-[#1C1613] transition-colors"
-                      placeholder="e.g. +91 98765 43210"
+                      placeholder="e.g. +91 98660 70908"
                     />
                   </div>
                 </div>
@@ -1004,11 +1004,11 @@ export default function LuxeDesignsPage() {
                 </li>
                 <li className="flex items-center space-x-3">
                   <Phone className="h-4.5 w-4.5 text-[#D4AF37] shrink-0" />
-                  <span>+91 91234 56789 / +91 40 4567 8901</span>
+                  <span>+91 98660 70908 / +91 40 4567 8901</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <Mail className="h-4.5 w-4.5 text-[#D4AF37] shrink-0" />
-                  <span>concierge@luxedesigns.spaces</span>
+                  <span>info@luxedesigns.ltd</span>
                 </li>
               </ul>
             </div>
