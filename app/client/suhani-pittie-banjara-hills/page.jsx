@@ -1,0 +1,1143 @@
+"use client";
+
+import React, { useState } from 'react';
+import { 
+  Sparkles, 
+  Heart, 
+  Mail, 
+  MapPin, 
+  Phone, 
+  Star, 
+  Send, 
+  ChevronRight, 
+  Check, 
+  Loader2, 
+  Calendar, 
+  Clock, 
+  User, 
+  ShieldCheck, 
+  Instagram, 
+  Facebook, 
+  ArrowRight,
+  Info
+} from 'lucide-react';
+
+export default function SuhaniPittiePage() {
+  // Customizer State
+  const [selectedMetal, setSelectedMetal] = useState('22K Gold');
+  const [selectedGem, setSelectedGem] = useState('Pearl');
+  const [customizerSaved, setCustomizerSaved] = useState(false);
+  const [likedItems, setLikedItems] = useState({});
+
+  // Form State
+  const [formData, setFormData] = useState({
+    name: '',
+    phone: '',
+    email: '',
+    collection: 'The Beaten Gold Cuff',
+    date: '',
+    timeSlot: '12:00 PM - 2:00 PM',
+    type: 'In-Store Private Salon (Banjara Hills)'
+  });
+  const [formErrors, setFormErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
+
+  // Design config constants
+  const metals = {
+    '22K Gold': {
+      name: 'Beaten 22K Sheet Gold',
+      color: '#D4AF37', // Yellow gold
+      gradient: 'from-[#AA7C11] via-[#D4AF37] to-[#F1C40F]',
+      basePrice: 210000,
+      description: 'Hand-hammered 22K gold sheets displaying rich texture and organic, uneven contours.'
+    },
+    '18K Rose Gold': {
+      name: 'Patinated 18K Rose Gold',
+      color: '#B76E79', // Rose gold
+      gradient: 'from-[#8C4A54] via-[#B76E79] to-[#E5C2C6]',
+      basePrice: 175000,
+      description: 'A custom coppery alloy offering a warm, matte blush finish, oxidized slightly for a rustic feel.'
+    },
+    'Platinum': {
+      name: 'Brushed Matte Platinum',
+      color: '#E5E4E2', // Platinum
+      gradient: 'from-[#B3B2B0] via-[#E5E4E2] to-[#FFFFFF]',
+      basePrice: 235000,
+      description: 'Precious platinum hand-scratched for a industrial, non-reflective slate-white contemporary look.'
+    }
+  };
+
+  const gemstones = {
+    'Pearl': {
+      name: 'Irregular Baroque Pearl',
+      color: '#FFFDF9',
+      glow: 'rgba(255, 253, 249, 0.6)',
+      price: 55000,
+      description: 'Naturally deformed organic saltwater pearls, making every single drop completely unique.'
+    },
+    'Diamond': {
+      name: 'Rough Uncut Octahedral Diamond',
+      color: '#E0F2FE',
+      glow: 'rgba(224, 242, 254, 0.5)',
+      price: 140000,
+      description: 'Raw, unpolished diamond crystals in their natural cubic-octahedral geometric state.'
+    },
+    'Emerald': {
+      name: 'Tumbled Emerald Bead',
+      color: '#10B981',
+      glow: 'rgba(16, 185, 129, 0.4)',
+      price: 90000,
+      description: 'Smooth, asymmetrical free-form emerald beads carrying dense, deep green botanical inclusions.'
+    },
+    'Ruby': {
+      name: 'Raw Uncut Star Ruby',
+      color: '#EF4444',
+      glow: 'rgba(239, 68, 68, 0.4)',
+      price: 105000,
+      description: 'Opaque hexagonal ruby crystals with natural silk fibers that display a soft, raw star effect.'
+    }
+  };
+
+  const collectionItems = [
+    {
+      id: 'beaten-cuff',
+      name: 'The Beaten Gold Cuff',
+      category: 'Sculptural Cuffs',
+      price: 285000,
+      imageDesc: 'Wide statement wrist cuff in hand-hammered 22K yellow gold sheet with asymmetrical folded edges.',
+      specs: '22K Gold Sheet, Beaten Textured Finish',
+      visualClass: 'bg-gradient-to-tr from-[#F4EFEA] to-[#D5C2B1]'
+    },
+    {
+      id: 'steel-ruby',
+      name: 'Symmetry in Bronze & Ruby',
+      category: 'Asymmetrical Drops',
+      price: 180000,
+      imageDesc: 'Long statement earrings with abstract geometric cutout bronze plates and raw star ruby beads.',
+      specs: 'Raw Rubies, Hand-chased Bronze, 18K Post',
+      visualClass: 'bg-gradient-to-tr from-[#EBE4D8] to-[#C0AD98]'
+    },
+    {
+      id: 'raw-collar',
+      name: 'The Raw Diamond Torc',
+      category: 'Chokers & Torcs',
+      price: 360000,
+      imageDesc: 'Rigid minimalist collar necklace in brushed platinum, featuring rough octahedral diamond crystal terminals.',
+      specs: 'Rough Octahedral Diamonds, Matte Platinum',
+      visualClass: 'bg-gradient-to-tr from-[#FAF5EE] to-[#DDD0C0]'
+    },
+    {
+      id: 'baroque-cascade',
+      name: 'Baroque Pearl Cascade',
+      category: 'Contemporary Earrings',
+      price: 215000,
+      imageDesc: 'Multi-tiered mobile earrings featuring gold geometric wires balancing irregular saltwater baroque pearls.',
+      specs: 'Australian Baroque Pearls, 22K Gold Wirework',
+      visualClass: 'bg-gradient-to-tr from-[#EFEAE2] to-[#D5C7B7]'
+    }
+  ];
+
+  // Price Calculations
+  const basePrice = metals[selectedMetal].basePrice;
+  const gemPrice = gemstones[selectedGem].price;
+  const craftCharges = Math.round((basePrice + gemPrice) * 0.15); // 15% making charges for designer craft
+  const gst = Math.round((basePrice + gemPrice + craftCharges) * 0.03); // 3% GST
+  const totalPrice = basePrice + gemPrice + craftCharges + gst;
+
+  const formatCurrency = (val) => {
+    return new Intl.NumberFormat('en-IN', {
+      style: 'currency',
+      currency: 'INR',
+      maximumFractionDigits: 0
+    }).format(val);
+  };
+
+  const handleLike = (id) => {
+    setLikedItems(prev => ({ ...prev, [id]: !prev[id] }));
+  };
+
+  // Form Validation
+  const validateForm = () => {
+    const errors = {};
+    
+    if (!formData.name.trim()) {
+      errors.name = 'Full name is required.';
+    } else if (formData.name.trim().length < 3) {
+      errors.name = 'Name must be at least 3 characters.';
+    }
+
+    const phoneRegex = /^[6-9]\d{9}$/;
+    if (!formData.phone.trim()) {
+      errors.phone = 'Mobile number is required.';
+    } else if (!phoneRegex.test(formData.phone.trim())) {
+      errors.phone = 'Enter a valid 10-digit Indian mobile number.';
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!formData.email.trim()) {
+      errors.email = 'Email address is required.';
+    } else if (!emailRegex.test(formData.email.trim())) {
+      errors.email = 'Enter a valid email address.';
+    }
+
+    if (!formData.date) {
+      errors.date = 'Preferred date is required.';
+    } else {
+      const selectedDate = new Date(formData.date);
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      if (selectedDate < today) {
+        errors.date = 'Date cannot be in the past.';
+      }
+    }
+
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    if (!validateForm()) return;
+
+    setIsSubmitting(true);
+    
+    // Simulate API request
+    setTimeout(() => {
+      setIsSubmitting(false);
+      setSubmitSuccess(true);
+      // Reset form fields
+      setFormData({
+        name: '',
+        phone: '',
+        email: '',
+        collection: 'The Beaten Gold Cuff',
+        date: '',
+        timeSlot: '12:00 PM - 2:00 PM',
+        type: 'In-Store Private Salon (Banjara Hills)'
+      });
+      // Dismiss success screen after 8 seconds
+      setTimeout(() => setSubmitSuccess(false), 8000);
+    }, 1500);
+  };
+
+  const selectCollectionForConsultation = (itemName) => {
+    setFormData(prev => ({ ...prev, collection: itemName }));
+    const element = document.getElementById('consultation-form');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <div className="min-h-screen bg-[#FAF6F0] text-[#1C1816] font-sans antialiased selection:bg-[#96724E]/30 selection:text-[#1C1816]">
+      {/* Google Fonts Import */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif; }
+      ` }} />
+
+      {/* Header / Navigation */}
+      <header className="sticky top-0 z-50 bg-[#FAF6F0]/95 backdrop-blur-md border-b border-[#DFD3C3]">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="flex justify-between items-center h-24">
+            {/* Logo */}
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 border border-[#96724E] flex items-center justify-center bg-[#FAF6F0] rotate-45">
+                <Sparkles size={16} className="text-[#96724E] -rotate-45" />
+              </div>
+              <div>
+                <span className="font-cinzel text-lg tracking-[0.15em] text-[#1C1816] block font-semibold">SUHANI PITTIE</span>
+                <span className="text-[9px] tracking-[0.3em] text-[#96724E] uppercase block font-jakarta -mt-1">Banjara Hills • Hyderabad</span>
+              </div>
+            </div>
+
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex space-x-10">
+              <a href="#artistry" className="text-[10px] tracking-[0.25em] uppercase text-[#1C1816] hover:text-[#96724E] transition-colors font-semibold">Artistry</a>
+              <a href="#customizer" className="text-[10px] tracking-[0.25em] uppercase text-[#1C1816] hover:text-[#96724E] transition-colors font-semibold">Customizer</a>
+              <a href="#collections" className="text-[10px] tracking-[0.25em] uppercase text-[#1C1816] hover:text-[#96724E] transition-colors font-semibold">Catalogs</a>
+              <a href="#testimonials" className="text-[10px] tracking-[0.25em] uppercase text-[#1C1816] hover:text-[#96724E] transition-colors font-semibold">Testimonials</a>
+            </nav>
+
+            {/* Header Action Button with Tap Feedback */}
+            <div>
+              <a 
+                href="#consultation-form" 
+                className="inline-flex items-center justify-center px-6 py-3 border border-[#1C1816] text-[10px] font-bold uppercase tracking-widest text-[#1C1816] hover:bg-[#1C1816] hover:text-[#FAF6F0] transition-all duration-300 active:scale-95 rounded-none"
+              >
+                Reserve Salon Slot
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      {/* Hero Header Section - Asymmetric Block */}
+      <section className="relative min-h-[90vh] flex items-center py-20 overflow-hidden border-b border-[#DFD3C3]">
+        {/* Asymmetrical grid background lines */}
+        <div className="absolute top-0 bottom-0 left-[20%] w-[1px] bg-[#DFD3C3]/30 hidden md:block"></div>
+        <div className="absolute top-0 bottom-0 left-[55%] w-[1px] bg-[#DFD3C3]/30 hidden md:block"></div>
+        <div className="absolute left-0 right-0 top-[40%] h-[1px] bg-[#DFD3C3]/30 hidden md:block"></div>
+
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 w-full grid md:grid-cols-12 gap-12 items-center relative z-10">
+          
+          <div className="md:col-span-7 space-y-8">
+            <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#1C1816] text-[#FAF6F0]">
+              <span className="w-1.5 h-1.5 bg-[#C49C72] animate-pulse"></span>
+              <span className="text-[9px] tracking-[0.35em] uppercase font-jakarta font-bold">Contemporary Wearable Art</span>
+            </div>
+
+            <h1 className="font-cinzel text-5xl sm:text-7xl text-[#1C1816] tracking-tight leading-[1.05]">
+              Sculpted Metal.<br />
+              <span className="text-[#96724E] font-medium">Beaten & Beautiful.</span>
+            </h1>
+
+            <p className="font-jakarta text-xs sm:text-sm text-[#1C1816]/70 max-w-xl leading-relaxed font-light">
+              Rejecting standard symmetries, Suhani Pittie creates raw, handcrafted metal sculptures made to be worn on the skin. Every fold, hammer strike, and rough-cut diamond rivet is a tribute to raw Deccani tribal metalcraft.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <a 
+                href="#customizer" 
+                className="inline-flex items-center justify-center px-8 py-4 bg-[#1C1816] text-[10px] font-bold uppercase tracking-widest text-[#FAF6F0] hover:bg-[#96724E] transition-all duration-300 active:scale-95 rounded-none"
+              >
+                Customize Earring Concept
+                <ArrowRight size={14} className="ml-2" />
+              </a>
+              <a 
+                href="#collections" 
+                className="inline-flex items-center justify-center px-8 py-4 border border-[#DFD3C3] bg-transparent text-[10px] font-bold uppercase tracking-widest text-[#1C1816] hover:bg-[#F1EBE0] hover:border-[#1C1816]/50 transition-all duration-300 active:scale-95 rounded-none"
+              >
+                Browse Sculptures
+              </a>
+            </div>
+          </div>
+
+          {/* Asymmetric Graphic block representing contemporary metal sheets */}
+          <div className="md:col-span-5 relative">
+            <div className="absolute -inset-4 border border-[#96724E]/20 rotate-3 pointer-events-none"></div>
+            <div className="bg-[#F1EBE0] border border-[#DFD3C3] p-10 relative">
+              <div className="aspect-[3/4] bg-gradient-to-br from-[#EAE3D9] to-[#C8B8A3] flex items-center justify-center relative overflow-hidden group">
+                {/* Abstract geometric sketch lines */}
+                <div className="absolute inset-0 bg-grid-lines opacity-10"></div>
+                <svg className="w-full max-w-[180px] h-auto text-[#1C1816]/80 stroke-1" viewBox="0 0 100 130" fill="none">
+                  {/* Sculptural wireframe path */}
+                  <path d="M50 10 L80 40 L60 80 L30 110 L20 70 L40 50 Z" stroke="#96724E" strokeWidth="1.5" />
+                  <path d="M50 10 L60 80 M80 40 L30 110" stroke="#DFD3C3" strokeWidth="0.75" />
+                  <circle cx="60" cy="80" r="5" fill="#FFFDF9" stroke="#96724E" />
+                  <circle cx="30" cy="110" r="8" fill="#FFF" stroke="#96724E" strokeWidth="0.5" />
+                </svg>
+                <div className="absolute bottom-4 right-4 text-[9px] uppercase font-bold tracking-widest text-[#1C1816] bg-[#FAF6F0] px-3 py-1.5">
+                  Banjara Hills Studio Plan
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* Brand Heritage Section */}
+      <section id="artistry" className="py-24 border-b border-[#DFD3C3] bg-[#F1EBE0]/40">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          <div className="grid lg:grid-cols-12 gap-16 items-center">
+            
+            {/* Collage representation of raw sheet metal */}
+            <div className="lg:col-span-5 relative order-last lg:order-first">
+              <div className="absolute inset-0 border border-[#1C1816]/10 transform -translate-x-4 translate-y-4"></div>
+              <div className="bg-[#FAF6F0] border border-[#DFD3C3] p-8 md:p-12 space-y-6 relative">
+                <div className="aspect-video bg-[#FAF6F0] flex items-center justify-center relative border border-[#DFD3C3] overflow-hidden">
+                  <div className="absolute top-2 left-2 text-[8px] font-mono text-[#96724E] tracking-wider">SKETCH REF #4928</div>
+                  {/* Geometric raw metal plate layout */}
+                  <div className="w-24 h-24 border border-[#96724E]/40 rotate-12 flex items-center justify-center">
+                    <div className="w-20 h-20 border border-[#1C1816]/30 -rotate-45"></div>
+                  </div>
+                </div>
+                
+                <div className="border-t border-[#DFD3C3] pt-6">
+                  <span className="text-[10px] tracking-widest text-[#96724E] uppercase font-bold block mb-2">CRITIC ALIGNMENT</span>
+                  <p className="font-cinzel text-sm text-[#1C1816] leading-relaxed italic">
+                    "Suhani Pittie has redefined the landscape of Indian jewelry by proving that metal sheets can be beaten, shaped, and folded into high-fashion canvases."
+                  </p>
+                  <span className="block text-[9px] uppercase tracking-widest text-[#1C1816]/60 font-semibold mt-2">— Vogue India Review</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Narrative */}
+            <div className="lg:col-span-7 space-y-8">
+              <span className="text-[10px] tracking-[0.25em] text-[#96724E] uppercase font-bold block font-jakarta">THE RAW PHILOSOPHY</span>
+              <h2 className="font-cinzel text-3xl sm:text-4xl md:text-5xl text-[#1C1816] tracking-tight leading-tight">
+                Sculpting Contemporary Narratives in Banjara Hills
+              </h2>
+              
+              <div className="h-[2px] w-20 bg-[#1C1816]"></div>
+              
+              <div className="font-jakarta text-xs sm:text-sm text-[#1C1816]/85 space-y-6 leading-relaxed font-light">
+                <p>
+                  From our boutique workshop on Road No. 4, Banjara Hills, Suhani Pittie has spearheaded a design movement that celebrates imperfections. We believe the story of the metal lies in the hammer strike — in the visible joints, clean solder marks, and organic surface patinas.
+                </p>
+                <p>
+                  While conventional jewellers hide structure, we frame it. Our designs combine hand-beaten gold sheet ribbons, matte-brushed platinum wireframes, and raw copper folds with irregular baroque saltwater pearls and uncut diamond crystals.
+                </p>
+                <p>
+                  Named among India's most influential designers, Suhani Pittie’s award-winning studio continues to craft individual commissions that are as much gallery sculptures as they are jewelry.
+                </p>
+              </div>
+
+              {/* Stat blocks */}
+              <div className="grid grid-cols-3 gap-6 pt-6 border-t border-[#DFD3C3]">
+                <div>
+                  <span className="block font-cinzel text-xl sm:text-2xl text-[#96724E]">Global</span>
+                  <span className="block text-[9px] tracking-widest text-[#1C1816]/70 uppercase font-bold mt-1">Exhibitions</span>
+                </div>
+                <div>
+                  <span className="block font-cinzel text-xl sm:text-2xl text-[#96724E]">Raw</span>
+                  <span className="block text-[9px] tracking-widest text-[#1C1816]/70 uppercase font-bold mt-1">Metal Ethos</span>
+                </div>
+                <div>
+                  <span className="block font-cinzel text-xl sm:text-2xl text-[#96724E]">Patented</span>
+                  <span className="block text-[9px] tracking-widest text-[#1C1816]/70 uppercase font-bold mt-1">Beating Tech</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      {/* Interactive Jewelry Customizer Section */}
+      <section id="customizer" className="py-24 border-b border-[#DFD3C3] bg-[#FAF6F0]">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <span className="text-[10px] tracking-[0.25em] text-[#96724E] uppercase font-bold block font-jakarta mb-3">DIGITAL ATELIER</span>
+            <h2 className="font-cinzel text-3xl sm:text-4xl text-[#1C1816] tracking-tight">Sculptural Wireframe Customizer</h2>
+            <div className="h-[2px] w-12 bg-[#96724E] mx-auto mt-4 mb-6"></div>
+            <p className="font-jakarta text-xs sm:text-sm text-[#1C1816]/70 font-light leading-relaxed">
+              Synthesize metal structures with organic mineral gems. Preview the estimated designer valuation and watch the layout reflow.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-12 gap-12 items-stretch">
+            
+            {/* Visualizer Panel - Asymmetrical with Offset Borders */}
+            <div className="lg:col-span-7 bg-[#FAF6F0] border border-[#DFD3C3] p-6 sm:p-10 flex flex-col justify-between relative">
+              <div className="absolute top-4 left-4 flex items-center gap-1 text-[8px] uppercase tracking-widest text-[#96724E] bg-[#F1EBE0] px-2.5 py-1 font-bold border border-[#DFD3C3]">
+                <Info size={10} />
+                Raw Structural Drawing
+              </div>
+
+              {/* Dynamic SVG Visualizer Container */}
+              <div className="flex-1 min-h-[320px] sm:min-h-[400px] flex items-center justify-center relative">
+                
+                {/* SVG Visualizer */}
+                <svg className="w-full max-w-[280px] sm:max-w-[320px] h-auto" viewBox="0 0 400 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* Definition for gradients depending on metal type */}
+                  <defs>
+                    {/* Metal Colors */}
+                    <linearGradient id="goldSheet" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#AA7C11" />
+                      <stop offset="30%" stopColor="#FFF294" />
+                      <stop offset="70%" stopColor="#D4AF37" />
+                      <stop offset="100%" stopColor="#916E14" />
+                    </linearGradient>
+                    <linearGradient id="roseSheet" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#8C4A54" />
+                      <stop offset="40%" stopColor="#E5C2C6" />
+                      <stop offset="70%" stopColor="#B76E79" />
+                      <stop offset="100%" stopColor="#69343B" />
+                    </linearGradient>
+                    <linearGradient id="platSheet" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="#9C9B99" />
+                      <stop offset="30%" stopColor="#FFFFFF" />
+                      <stop offset="70%" stopColor="#E5E4E2" />
+                      <stop offset="100%" stopColor="#7F7E7C" />
+                    </linearGradient>
+
+                    {/* Gemstone Glow Gradients */}
+                    <radialGradient id="baroqueRad" cx="40%" cy="30%" r="60%">
+                      <stop offset="0%" stopColor="#FFFFFF" />
+                      <stop offset="50%" stopColor="#FAF5EE" />
+                      <stop offset="100%" stopColor="#D2C5B5" />
+                    </radialGradient>
+                    <radialGradient id="roughDiaRad" cx="30%" cy="30%" r="70%">
+                      <stop offset="0%" stopColor="#FFFFFF" />
+                      <stop offset="50%" stopColor="#E0F2FE" />
+                      <stop offset="100%" stopColor="#93C5FD" />
+                    </radialGradient>
+                    <radialGradient id="tumbledEmeraldRad" cx="40%" cy="40%" r="60%">
+                      <stop offset="0%" stopColor="#A7F3D0" />
+                      <stop offset="60%" stopColor="#10B981" />
+                      <stop offset="100%" stopColor="#065F46" />
+                    </radialGradient>
+                    <radialGradient id="starRubyRad" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stopColor="#FECACA" />
+                      <stop offset="60%" stopColor="#EF4444" />
+                      <stop offset="100%" stopColor="#991B1B" />
+                    </radialGradient>
+                  </defs>
+
+                  {/* Wireframe hanging ring */}
+                  <circle cx="200" cy="50" r="12" stroke="#1C1816" strokeWidth="1.5" />
+                  <line x1="200" y1="62" x2="200" y2="120" stroke="#1C1816" strokeWidth="1.5" />
+
+                  {/* Main Beaten Sheet Metal Shape 1 (Large Polygon) */}
+                  <polygon 
+                    points="140,120 280,140 250,280 160,260" 
+                    fill={`url(#${selectedMetal === '22K Gold' ? 'goldSheet' : selectedMetal === '18K Rose Gold' ? 'roseSheet' : 'platSheet'})`} 
+                    stroke="#1C1816" 
+                    strokeWidth="1.5" 
+                  />
+
+                  {/* Secondary Overlapping Plate (Smaller Polygon) */}
+                  <polygon 
+                    points="180,180 290,200 270,300 210,310" 
+                    fill={`url(#${selectedMetal === '22K Gold' ? 'goldSheet' : selectedMetal === '18K Rose Gold' ? 'roseSheet' : 'platSheet'})`} 
+                    stroke="#1C1816" 
+                    strokeWidth="1" 
+                    style={{ mixBlendMode: 'multiply', opacity: 0.9 }}
+                  />
+
+                  {/* Modern geometric lines chiseled into metal */}
+                  <line x1="160" y1="130" x2="230" y2="270" stroke="#1C1816" strokeWidth="0.5" opacity="0.4" />
+                  <line x1="260" y1="160" x2="180" y2="250" stroke="#1C1816" strokeWidth="0.5" opacity="0.4" />
+
+                  {/* Rivets representing gemstone placement */}
+                  {/* Bottom Pendant Hanger wire */}
+                  <path d="M240,305 C240,330 220,330 220,350" stroke="#1C1816" strokeWidth="1.5" fill="none" />
+
+                  {/* Selected Gemstone Drop */}
+                  {selectedGem === 'Pearl' && (
+                    <path 
+                      d="M220,346 C210,346 198,358 198,372 C198,392 212,398 222,398 C238,398 244,386 242,370 C240,356 230,346 220,346 Z" 
+                      fill="url(#baroqueRad)" 
+                      stroke="#1C1816" 
+                      strokeWidth="1.5"
+                      style={{ filter: `drop-shadow(0 0 10px ${gemstones.Pearl.glow})` }}
+                    />
+                  )}
+                  {selectedGem === 'Diamond' && (
+                    <polygon 
+                      points="220,346 238,368 220,392 202,368" 
+                      fill="url(#roughDiaRad)" 
+                      stroke="#1C1816" 
+                      strokeWidth="1.5"
+                      style={{ filter: `drop-shadow(0 0 10px ${gemstones.Diamond.glow})` }}
+                    />
+                  )}
+                  {selectedGem === 'Emerald' && (
+                    <path 
+                      d="M202,364 C202,352 238,352 238,364 C238,378 226,392 220,392 C214,392 202,378 202,364 Z"
+                      fill="url(#tumbledEmeraldRad)" 
+                      stroke="#1C1816" 
+                      strokeWidth="1.5"
+                      style={{ filter: `drop-shadow(0 0 10px ${gemstones.Emerald.glow})` }}
+                    />
+                  )}
+                  {selectedGem === 'Ruby' && (
+                    <polygon 
+                      points="220,342 242,354 242,382 220,396 198,382 198,354"
+                      fill="url(#starRubyRad)" 
+                      stroke="#1C1816" 
+                      strokeWidth="1.5"
+                      style={{ filter: `drop-shadow(0 0 10px ${gemstones.Ruby.glow})` }}
+                    />
+                  )}
+
+                  {/* Tiny metal rivet details */}
+                  <circle cx="160" cy="150" r="2.5" fill="#1C1816" />
+                  <circle cx="260" cy="250" r="2.5" fill="#1C1816" />
+                </svg>
+
+              </div>
+
+              {/* Dynamic specs display */}
+              <div className="pt-6 border-t border-[#DFD3C3] flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                <div>
+                  <span className="text-[9px] tracking-widest text-[#96724E] uppercase font-bold block">Current Composition Specs</span>
+                  <span className="font-cinzel text-base text-[#1C1816] block mt-1">
+                    {metals[selectedMetal].name} & {gemstones[selectedGem].name}
+                  </span>
+                </div>
+                <button 
+                  onClick={() => {
+                    setCustomizerSaved(true);
+                    setTimeout(() => setCustomizerSaved(false), 4000);
+                  }}
+                  className="px-4 py-2 border border-[#1C1816] text-[9px] tracking-widest uppercase font-bold text-[#1C1816] hover:bg-[#1C1816] hover:text-[#FAF6F0] active:scale-95 transition-all"
+                >
+                  {customizerSaved ? 'Saved to Consult' : 'Save Setup'}
+                </button>
+              </div>
+            </div>
+
+            {/* Customizer Control Panel */}
+            <div className="lg:col-span-5 flex flex-col justify-between space-y-8">
+              
+              {/* Metal Alloy Selector */}
+              <div className="bg-[#FAF6F0] border border-[#DFD3C3] p-6 sm:p-8 space-y-5">
+                <div>
+                  <span className="text-[9px] tracking-[0.2em] text-[#96724E] uppercase font-bold block">METAL BASE</span>
+                  <h3 className="font-cinzel text-lg text-[#1C1816] mt-1">Choose Sheet Alloy</h3>
+                </div>
+                
+                <div className="space-y-3">
+                  {Object.keys(metals).map((mKey) => (
+                    <button 
+                      key={mKey}
+                      onClick={() => setSelectedMetal(mKey)}
+                      className={`w-full text-left p-4 border transition-all duration-300 active:scale-[0.98] ${
+                        selectedMetal === mKey 
+                          ? 'border-[#1C1816] bg-[#F1EBE0] shadow-sm' 
+                          : 'border-[#DFD3C3] bg-[#FAF6F0] hover:border-[#1C1816]/50'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                          <span 
+                            className="w-4 h-4 rounded-none border border-black/10 inline-block rotate-45 shadow-inner" 
+                            style={{ backgroundColor: metals[mKey].color }} 
+                          />
+                          <span className="text-xs font-bold uppercase tracking-wider text-[#1C1816] font-jakarta">
+                            {mKey}
+                          </span>
+                        </div>
+                        {selectedMetal === mKey && <Check size={12} className="text-[#1C1816]" />}
+                      </div>
+                      <p className="text-[11px] text-[#1C1816]/70 font-light mt-2 leading-relaxed">
+                        {metals[mKey].description}
+                      </p>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Gemstone Selector */}
+              <div className="bg-[#FAF6F0] border border-[#DFD3C3] p-6 sm:p-8 space-y-5">
+                <div>
+                  <span className="text-[9px] tracking-[0.2em] text-[#96724E] uppercase font-bold block">MINERAL GEM</span>
+                  <h3 className="font-cinzel text-lg text-[#1C1816] mt-1">Choose Uncut Jewel</h3>
+                </div>
+                
+                <div className="grid grid-cols-2 gap-3">
+                  {Object.keys(gemstones).map((gKey) => (
+                    <button
+                      key={gKey}
+                      onClick={() => setSelectedGem(gKey)}
+                      className={`text-center p-4 border transition-all duration-300 active:scale-95 flex flex-col items-center justify-center gap-2 ${
+                        selectedGem === gKey
+                          ? 'border-[#1C1816] bg-[#F1EBE0] shadow-sm'
+                          : 'border-[#DFD3C3] bg-[#FAF6F0] hover:border-[#1C1816]/50'
+                      }`}
+                    >
+                      <span 
+                        className="w-5 h-5 border border-black/10 block rotate-12" 
+                        style={{ backgroundColor: gemstones[gKey].color, boxShadow: `0 0 8px ${gemstones[gKey].glow}` }} 
+                      />
+                      <span className="text-[10px] font-bold uppercase tracking-widest text-[#1C1816] font-jakarta">
+                        {gKey}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+                
+                <p className="text-[11px] text-[#1C1816]/70 font-light leading-relaxed mt-2 border-t border-[#DFD3C3] pt-3">
+                  {gemstones[selectedGem].description}
+                </p>
+              </div>
+
+              {/* Real-time Pricing Summary Box */}
+              <div className="bg-[#F1EBE0] border border-[#1C1816] p-6 sm:p-8 space-y-4">
+                <div className="flex justify-between items-center pb-3 border-b border-[#DFD3C3]">
+                  <span className="text-xs uppercase tracking-widest text-[#1C1816]/70 font-bold">Designer Valuation</span>
+                  <span className="text-[9px] uppercase tracking-widest text-[#1C1816] bg-[#FAF6F0] px-2 py-0.5 border border-[#DFD3C3] font-bold">INR</span>
+                </div>
+                
+                <div className="space-y-2 text-xs text-[#1C1816]/80 font-jakarta">
+                  <div className="flex justify-between">
+                    <span>Base Alloy ({selectedMetal})</span>
+                    <span className="font-semibold text-[#1C1816]">{formatCurrency(basePrice)}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Raw Mineral ({selectedGem})</span>
+                    <span className="font-semibold text-[#1C1816]">{formatCurrency(gemPrice)}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Atelier Hand-hammering (15%)</span>
+                    <span className="font-semibold text-[#1C1816]">{formatCurrency(craftCharges)}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>GST (3%)</span>
+                    <span className="font-semibold text-[#1C1816]">{formatCurrency(gst)}</span>
+                  </div>
+                </div>
+
+                <div className="h-[1px] bg-[#DFD3C3] my-2"></div>
+
+                <div className="flex justify-between items-baseline pt-2">
+                  <span className="text-xs uppercase tracking-widest text-[#1C1816] font-extrabold">Final Price Estimate</span>
+                  <span className="font-cinzel text-xl sm:text-2xl text-[#96724E] font-bold">
+                    {formatCurrency(totalPrice)}
+                  </span>
+                </div>
+
+                <div className="pt-2">
+                  <button 
+                    onClick={() => selectCollectionForConsultation(`Bespoke ${selectedMetal} & ${selectedGem} Sculpture`)}
+                    className="w-full py-3 bg-[#1C1816] text-[10px] font-bold uppercase tracking-widest text-[#FAF6F0] hover:bg-[#96724E] active:scale-95 transition-all"
+                  >
+                    Inquire On Sculptural Spec
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      {/* Signature Collection Grid Section - Asymmetric Grid */}
+      <section id="collections" className="py-24 border-b border-[#DFD3C3] bg-[#F1EBE0]/20">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+            <div>
+              <span className="text-[10px] tracking-[0.25em] text-[#96724E] uppercase font-bold block font-jakarta mb-3">WEARABLE ARCHITECTURE</span>
+              <h2 className="font-cinzel text-3xl sm:text-4xl text-[#1C1816] tracking-tight">The Signature Sculptures</h2>
+              <div className="h-[2px] w-12 bg-[#1C1816] mt-4"></div>
+            </div>
+            <p className="font-jakarta text-xs sm:text-sm text-[#1C1816]/70 max-w-md font-light leading-relaxed">
+              Award-winning pieces. Handcrafted in our Banjara Hills studio in limited numbers or single-owner commissions.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {collectionItems.map((item) => (
+              <div 
+                key={item.id} 
+                className="group bg-[#FAF6F0] border border-[#DFD3C3] flex flex-col justify-between h-full hover:border-[#1C1816] transition-all duration-300"
+              >
+                <div>
+                  {/* Visual block */}
+                  <div className={`aspect-square w-full ${item.visualClass} relative flex items-center justify-center p-8 overflow-hidden`}>
+                    
+                    {/* Like Button */}
+                    <button 
+                      onClick={() => handleLike(item.id)}
+                      className="absolute top-4 right-4 w-8 h-8 bg-[#FAF6F0] hover:bg-[#FAF6F0] flex items-center justify-center text-[#1C1816] border border-[#DFD3C3] active:scale-90 transition-all shadow-sm z-10"
+                    >
+                      <Heart 
+                        size={14} 
+                        className={`transition-colors ${likedItems[item.id] ? 'fill-[#1C1816] text-[#1C1816]' : 'text-[#1C1816]'}`} 
+                      />
+                    </button>
+
+                    {/* Conceptual graphics */}
+                    <svg className="w-full max-w-[100px] h-auto text-[#1C1816] opacity-75 group-hover:scale-105 transition-transform duration-500" viewBox="0 0 100 100" fill="none">
+                      {item.id === 'beaten-cuff' && (
+                        <path d="M20 50 C20 30, 80 30, 80 50 M20 60 C20 80, 80 80, 80 60" stroke="#96724E" strokeWidth="5" strokeLinecap="round" />
+                      )}
+                      {item.id === 'steel-ruby' && (
+                        <>
+                          <rect x="25" y="25" width="50" height="50" stroke="#1C1816" strokeWidth="1.5" />
+                          <circle cx="50" cy="50" r="6" fill="#EF4444" />
+                        </>
+                      )}
+                      {item.id === 'raw-collar' && (
+                        <>
+                          <path d="M15 50 C15 20, 85 20, 85 50" stroke="#1C1816" strokeWidth="2" />
+                          <polygon points="15,50 10,60 20,60" fill="#96724E" />
+                          <polygon points="85,50 80,60 90,60" fill="#96724E" />
+                        </>
+                      )}
+                      {item.id === 'baroque-cascade' && (
+                        <>
+                          <line x1="50" y1="20" x2="50" y2="80" stroke="#1C1816" strokeWidth="1" />
+                          <polygon points="50,40 70,50 50,60 30,50" fill="#FAF6F0" stroke="#1C1816" />
+                          <circle cx="50" cy="74" r="5" fill="#FFFDF9" stroke="#96724E" />
+                        </>
+                      )}
+                    </svg>
+                  </div>
+
+                  <div className="p-6 space-y-2">
+                    <span className="text-[8px] uppercase tracking-widest text-[#96724E] font-bold block font-jakarta">{item.category}</span>
+                    <h3 className="font-cinzel text-base text-[#1C1816] tracking-tight group-hover:text-[#96724E] transition-colors">{item.name}</h3>
+                    <p className="text-[11px] text-[#1C1816]/75 font-light leading-relaxed line-clamp-3">
+                      {item.imageDesc}
+                    </p>
+                    <div className="text-[9px] text-[#1C1816] font-mono mt-2 bg-[#F1EBE0] p-2 border border-[#DFD3C3] font-semibold">
+                      Specs: {item.specs}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="p-6 pt-0 border-t border-[#DFD3C3] flex justify-between items-center bg-[#F1EBE0]/20 mt-4">
+                  <span className="font-cinzel text-sm font-bold text-[#96724E]">{formatCurrency(item.price)}</span>
+                  
+                  <button 
+                    onClick={() => selectCollectionForConsultation(item.name)}
+                    className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] hover:text-[#96724E] flex items-center gap-1 active:scale-95 transition-all"
+                  >
+                    Acquire
+                    <ChevronRight size={12} />
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* Virtual Design Consultation form Section */}
+      <section id="consultation-form" className="py-24 border-b border-[#DFD3C3] bg-[#FAF6F0]">
+        <div className="max-w-4xl mx-auto px-6">
+          <div className="bg-[#FAF6F0] border border-[#1C1816] p-8 md:p-12 relative">
+            
+            {/* Fine border accents */}
+            <div className="absolute inset-1 border border-[#DFD3C3] pointer-events-none"></div>
+
+            <div className="text-center space-y-4 mb-10 relative z-10">
+              <span className="text-[9px] tracking-[0.25em] text-[#96724E] uppercase font-bold block font-jakarta">PRIVATE SALON</span>
+              <h2 className="font-cinzel text-2xl sm:text-3xl text-[#1C1816]">Virtual Design Consultation</h2>
+              <p className="font-jakarta text-xs text-[#1C1816]/70 font-light max-w-md mx-auto leading-relaxed">
+                Schedule a one-on-one session with our master metalcraft appraisers at Banjara Hills or via secure HD video link.
+              </p>
+              <div className="h-[1px] w-20 bg-[#1C1816] mx-auto"></div>
+            </div>
+
+            {submitSuccess ? (
+              <div className="bg-[#F1EBE0] border border-[#1C1816] p-8 text-center space-y-4 relative z-10 animate-fade-in">
+                <div className="w-12 h-12 rounded-none border border-[#1C1816] bg-[#FAF6F0] flex items-center justify-center mx-auto text-[#1C1816] rotate-45">
+                  <ShieldCheck size={24} className="-rotate-45" />
+                </div>
+                <h3 className="font-cinzel text-lg text-[#1C1816] font-bold">Request Lodged Successfully</h3>
+                <p className="text-xs text-[#1C1816]/70 leading-relaxed max-w-sm mx-auto font-light font-jakarta">
+                  Thank you. An invitation to our private digital showroom along with scheduling confirmation has been sent to your email. Our representative will contact you on your mobile shortly.
+                </p>
+                <div className="pt-2">
+                  <button 
+                    onClick={() => setSubmitSuccess(false)}
+                    className="px-6 py-2.5 border border-[#1C1816] text-[9px] uppercase font-bold tracking-widest text-[#1C1816] hover:bg-[#1C1816] hover:text-[#FAF6F0] transition-all"
+                  >
+                    Submit Another Request
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <form onSubmit={handleFormSubmit} className="space-y-6 relative z-10">
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* Name Input */}
+                  <div className="space-y-2">
+                    <label className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] flex items-center gap-1.5 font-jakarta">
+                      <User size={12} className="text-[#96724E]" />
+                      Full Name *
+                    </label>
+                    <input 
+                      type="text" 
+                      placeholder="e.g. Priya Naidu"
+                      value={formData.name}
+                      onChange={(e) => setFormData(prev => ({ ...prev, name: e.target.value }))}
+                      className={`w-full bg-[#FAF6F0] border px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#1C1816] rounded-none transition-colors ${
+                        formErrors.name ? 'border-red-400' : 'border-[#DFD3C3]'
+                      }`}
+                    />
+                    {formErrors.name && (
+                      <span className="text-[10px] text-red-500 font-medium block">{formErrors.name}</span>
+                    )}
+                  </div>
+
+                  {/* Phone Input */}
+                  <div className="space-y-2">
+                    <label className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] flex items-center gap-1.5 font-jakarta">
+                      <Phone size={12} className="text-[#96724E]" />
+                      Indian Mobile Number *
+                    </label>
+                    <input 
+                      type="tel" 
+                      placeholder="10-digit mobile number"
+                      value={formData.phone}
+                      onChange={(e) => setFormData(prev => ({ ...prev, phone: e.target.value }))}
+                      className={`w-full bg-[#FAF6F0] border px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#1C1816] rounded-none transition-colors ${
+                        formErrors.phone ? 'border-red-400' : 'border-[#DFD3C3]'
+                      }`}
+                    />
+                    {formErrors.phone && (
+                      <span className="text-[10px] text-red-500 font-medium block">{formErrors.phone}</span>
+                    )}
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  {/* Email Input */}
+                  <div className="space-y-2">
+                    <label className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] flex items-center gap-1.5 font-jakarta">
+                      <Mail size={12} className="text-[#96724E]" />
+                      Email Address *
+                    </label>
+                    <input 
+                      type="email" 
+                      placeholder="e.g. name@domain.com"
+                      value={formData.email}
+                      onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
+                      className={`w-full bg-[#FAF6F0] border px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#1C1816] rounded-none transition-colors ${
+                        formErrors.email ? 'border-red-400' : 'border-[#DFD3C3]'
+                      }`}
+                    />
+                    {formErrors.email && (
+                      <span className="text-[10px] text-red-500 font-medium block">{formErrors.email}</span>
+                    )}
+                  </div>
+
+                  {/* Selected Collection */}
+                  <div className="space-y-2">
+                    <label className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] flex items-center gap-1.5 font-jakarta">
+                      <Sparkles size={12} className="text-[#96724E]" />
+                      Selected Sculpture / Design ID
+                    </label>
+                    <input 
+                      type="text"
+                      value={formData.collection}
+                      onChange={(e) => setFormData(prev => ({ ...prev, collection: e.target.value }))}
+                      className="w-full bg-[#FAF6F0] border border-[#DFD3C3] px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#1C1816] rounded-none text-[#1C1816]"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-3 gap-6">
+                  {/* Date Input */}
+                  <div className="space-y-2">
+                    <label className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] flex items-center gap-1.5 font-jakarta">
+                      <Calendar size={12} className="text-[#96724E]" />
+                      Preferred Date *
+                    </label>
+                    <input 
+                      type="date"
+                      value={formData.date}
+                      onChange={(e) => setFormData(prev => ({ ...prev, date: e.target.value }))}
+                      className={`w-full bg-[#FAF6F0] border px-4 py-2.5 text-xs focus:outline-none focus:ring-1 focus:ring-[#1C1816] rounded-none transition-colors ${
+                        formErrors.date ? 'border-red-400' : 'border-[#DFD3C3]'
+                      }`}
+                    />
+                    {formErrors.date && (
+                      <span className="text-[10px] text-red-500 font-medium block">{formErrors.date}</span>
+                    )}
+                  </div>
+
+                  {/* Time Slot Select */}
+                  <div className="space-y-2">
+                    <label className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] flex items-center gap-1.5 font-jakarta">
+                      <Clock size={12} className="text-[#96724E]" />
+                      Time Slot
+                    </label>
+                    <select 
+                      value={formData.timeSlot}
+                      onChange={(e) => setFormData(prev => ({ ...prev, timeSlot: e.target.value }))}
+                      className="w-full bg-[#FAF6F0] border border-[#DFD3C3] px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#1C1816] rounded-none text-[#1C1816]"
+                    >
+                      <option>12:00 PM - 2:00 PM</option>
+                      <option>2:30 PM - 4:30 PM</option>
+                      <option>5:00 PM - 7:00 PM</option>
+                    </select>
+                  </div>
+
+                  {/* Consultation Type */}
+                  <div className="space-y-2">
+                    <label className="text-[9px] tracking-widest uppercase font-bold text-[#1C1816] flex items-center gap-1.5 font-jakarta">
+                      <MapPin size={12} className="text-[#96724E]" />
+                      Session Mode
+                    </label>
+                    <select 
+                      value={formData.type}
+                      onChange={(e) => setFormData(prev => ({ ...prev, type: e.target.value }))}
+                      className="w-full bg-[#FAF6F0] border border-[#DFD3C3] px-4 py-3 text-xs focus:outline-none focus:ring-1 focus:ring-[#1C1816] rounded-none text-[#1C1816]"
+                    >
+                      <option>In-Store Private Salon (Banjara Hills)</option>
+                      <option>Virtual Private HD Video Consultation</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div className="pt-4">
+                  <button 
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full py-4 bg-[#1C1816] text-[10px] font-bold uppercase tracking-widest text-[#FAF6F0] hover:bg-[#96724E] disabled:bg-[#1C1816]/60 transition-all duration-300 active:scale-95 flex items-center justify-center gap-2"
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <Loader2 size={14} className="animate-spin" />
+                        Routing Secure Link...
+                      </>
+                    ) : (
+                      <>
+                        <Send size={14} />
+                        Request Private Session
+                      </>
+                    )}
+                  </button>
+                </div>
+              </form>
+            )}
+
+          </div>
+        </div>
+      </section>
+
+      {/* Customer Stories / Testimonials Section */}
+      <section id="testimonials" className="py-24 border-b border-[#DFD3C3] bg-[#F1EBE0]/25">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <span className="text-[10px] tracking-[0.25em] text-[#96724E] uppercase font-bold block font-jakarta mb-3">COLLECTOR REVIEWS</span>
+            <h2 className="font-cinzel text-3xl sm:text-4xl text-[#1C1816] tracking-tight">Collector Stories</h2>
+            <div className="h-[2px] w-12 bg-[#1C1816] mx-auto mt-4 mb-6"></div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                text: "Suhani Pittie’s designs are pure wearable art. The beaten gold cuff we commissioned for my gallery opening in Banjara Hills is an absolute conversation starter. It is bold, asymmetrical, yet unbelievably light.",
+                client: "Priya Naidu",
+                location: "Banjara Hills",
+                date: "February 2026",
+                rating: 5
+              },
+              {
+                text: "I love the raw, organic aesthetic. It completely breaks away from traditional Hyderabad jewelry. The virtual video consultation at the Banjara Hills studio felt like talking directly with a sculptor.",
+                client: "Kavitha Reddy",
+                location: "Jubilee Hills",
+                date: "April 2026",
+                rating: 5
+              },
+              {
+                text: "Every piece feels like a sculpture. The rough diamond collar torc is stunningly minimalist yet holds a presence. The team understands high-fashion design. Highly recommend visiting the studio.",
+                client: "Shalini Rao",
+                location: "Film Nagar",
+                date: "June 2026",
+                rating: 5
+              }
+            ].map((t, idx) => (
+              <div key={idx} className="bg-[#FAF6F0] border border-[#DFD3C3] p-8 flex flex-col justify-between hover:shadow-sm transition-all duration-300">
+                <div className="space-y-6">
+                  {/* Rating stars */}
+                  <div className="flex gap-1">
+                    {Array.from({ length: t.rating }).map((_, sIdx) => (
+                      <Star key={sIdx} size={14} className="fill-[#1C1816] text-[#1C1816]" />
+                    ))}
+                  </div>
+                  <p className="font-jakarta text-xs sm:text-sm text-[#1C1816]/80 italic leading-relaxed font-light">
+                    "{t.text}"
+                  </p>
+                </div>
+                <div className="pt-6 border-t border-[#DFD3C3]/60 mt-6 flex justify-between items-center text-[10px] font-bold">
+                  <div>
+                    <span className="block text-[#1C1816] font-extrabold uppercase tracking-wider">{t.client}</span>
+                    <span className="block text-[#96724E] font-medium tracking-wide">{t.location}, Hyderabad</span>
+                  </div>
+                  <span className="text-[#1C1816]/50 font-normal font-mono">{t.date}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+
+      {/* Store Details Footer */}
+      <footer className="bg-[#1C1816] text-[#FAF6F0] pt-16 pb-12 border-t border-[#96724E]/30">
+        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+          
+          <div className="grid md:grid-cols-4 gap-12 pb-12 border-b border-[#FAF6F0]/10">
+            {/* Brand Block */}
+            <div className="space-y-4 md:col-span-1">
+              <div className="flex items-center gap-2 text-[#FAF6F0]">
+                <Sparkles size={18} className="text-[#C49C72]" />
+                <span className="font-cinzel text-lg tracking-wider font-semibold">SUHANI PITTIE</span>
+              </div>
+              <p className="font-jakarta text-[11px] text-[#FAF6F0]/60 font-light leading-relaxed">
+                Award-winning contemporary metal jewellery designs and raw-sculptural statement collections.
+              </p>
+              <div className="flex gap-3 pt-2">
+                <a href="#" className="w-8 h-8 rounded-none border border-[#FAF6F0]/20 flex items-center justify-center text-[#FAF6F0]/60 hover:text-[#C49C72] hover:border-[#C49C72] transition-colors active:scale-90">
+                  <Instagram size={14} />
+                </a>
+                <a href="#" className="w-8 h-8 rounded-none border border-[#FAF6F0]/20 flex items-center justify-center text-[#FAF6F0]/60 hover:text-[#C49C72] hover:border-[#C49C72] transition-colors active:scale-90">
+                  <Facebook size={14} />
+                </a>
+              </div>
+            </div>
+
+            {/* Address / Locations */}
+            <div className="space-y-4">
+              <span className="block text-xs uppercase tracking-widest text-[#C49C72] font-bold font-cinzel">Banjara Hills Studio</span>
+              <div className="space-y-3 font-jakarta text-[11px] text-[#FAF6F0]/70 font-light">
+                <div className="flex items-start gap-2.5">
+                  <MapPin size={14} className="text-[#C49C72] shrink-0 mt-0.5" />
+                  <span>
+                    Road No. 4, Banjara Hills,<br />
+                    Hyderabad, Telangana 500034.
+                  </span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <Phone size={14} className="text-[#C49C72] shrink-0" />
+                  <span>+91 40 6462 8200</span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <Mail size={14} className="text-[#C49C72] shrink-0" />
+                  <span>care@suhanipittie.com</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Timings */}
+            <div className="space-y-4">
+              <span className="block text-xs uppercase tracking-widest text-[#C49C72] font-bold font-cinzel">Salon Hours</span>
+              <div className="space-y-2 font-jakarta text-[11px] text-[#FAF6F0]/70 font-light">
+                <div className="flex justify-between">
+                  <span>Monday — Saturday</span>
+                  <span>11:30 AM — 8:00 PM</span>
+                </div>
+                <div className="flex justify-between text-[#C49C72] font-semibold">
+                  <span>Sunday</span>
+                  <span>Closed</span>
+                </div>
+                <div className="h-[1px] bg-[#FAF6F0]/10 my-2"></div>
+                <p className="text-[10px] text-[#FAF6F0]/40 leading-relaxed font-light">
+                  * Gated secure parking is available on Road No. 4.
+                </p>
+              </div>
+            </div>
+
+            {/* Quick Links */}
+            <div className="space-y-4">
+              <span className="block text-xs uppercase tracking-widest text-[#C49C72] font-bold font-cinzel">Atelier Links</span>
+              <ul className="space-y-2 font-jakarta text-[11px] text-[#FAF6F0]/70 font-light">
+                <li><a href="#artistry" className="hover:text-[#C49C72] transition-colors">Philosophy</a></li>
+                <li><a href="#customizer" className="hover:text-[#C49C72] transition-colors">Customizer Tool</a></li>
+                <li><a href="#collections" className="hover:text-[#C49C72] transition-colors">Sculptural Catalogs</a></li>
+                <li><a href="#consultation-form" className="hover:text-[#C49C72] transition-colors">Book Private Salon</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] text-[#FAF6F0]/40 font-jakarta font-light">
+            <p>© {new Date().getFullYear()} Suhani Pittie. All rights reserved.</p>
+            <div className="flex gap-4">
+              <a href="#" className="hover:text-[#C49C72] transition-colors">Privacy Policy</a>
+              <span>•</span>
+              <a href="#" className="hover:text-[#C49C72] transition-colors">Design Authenticity Certificate</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  );
+}

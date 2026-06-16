@@ -1,0 +1,15 @@
+export const metadata = {
+  title: 'Tibarumal Ramnivas Jewellers | Jubilee Hills, Hyderabad | Contemporary & Bridal Luxury',
+  description: 'Experience Tibarumal Ramnivas Jewellers at Road No. 36, Jubilee Hills. Hyderabad\'s premier showroom for elite solitaire diamonds, rose-gold luxury, and fine contemporary bridal collections. Contact: +91 40 4004 9999.',
+  openGraph: {
+    title: 'Tibarumal Ramnivas Jewellers Jubilee Hills - Luxury Diamond & Contemporary Ornaments',
+    description: 'Browse our custom design collections and schedule a private bridal suite consultation in the heart of Jubilee Hills.',
+    siteName: 'Tibarumal Ramnivas Jewellers',
+    locale: 'en_IN',
+    type: 'website',
+  }
+};
+
+export default function Layout({ children }) {
+  return children;
+}
