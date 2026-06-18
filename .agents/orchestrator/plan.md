@@ -1,33 +1,55 @@
-# Execution Plan — 2026-06-15T22:45:21+05:30
+# Plan: Tolichowki Skin & Cosmetic Clinics Preview Pages
 
-## Task Overview
-Generate 20 distinct, premium LONG-FORMAT Next.js UI preview pages inside `app/client/[slug]` for the 20 Attapur Interior Design slugs, verify compilation correctness via Next.js production build, and notify completion.
+## Task Assessment
+- **Scope**: Multi-file, 20 distinct premium pages under `app/client/[slug]`. High-volume, highly stylized, long-format content.
+- **Restrictions**: Strictly Light Mode (NO dark mode). No emojis (use Lucide icons instead).
+- **Risk**: Next.js build compilation failure if files have syntax/import errors. Duplicate code or clashing designs.
+- **Complexity**: High, requiring unique premium designs, interactive treatment estimators, responsive contact forms, testimonials, and layout metadata.
 
-## Decomposed Milestones
-1. **Milestone 1: Bespoke Next.js Frontend Development**
-    - Spawn 10 parallel frontend subagents (each handling 2 pages, total 20 pages).
-    - Each page must be coded under `app/client/[slug]/page.jsx` and `layout.jsx`.
-    - The subagents must strictly use Tailwind CSS classes and apply different premium design systems from the `ui-ux-pro-max` skill.
-    - Sibling `layout.jsx` must be created with custom metadata for WhatsApp unfurling (metadata fix).
-    - Output: 20 unique, premium long-format client preview folders.
+## Step-by-Step Execution Plan
 
-2. **Milestone 2: Build Verification & Git Deployment**
-    - Spawn a worker agent to run `npm run build` and verify production compilation with zero errors.
-    - The worker should also verify that all 20 client routes compile and are visible in the build log.
-    - Perform a git commit to save the progress.
-    - Output: Successful Next.js build compilation with no errors.
+### Step 1: Initial Setup
+- Overwrite `plan.md`, `progress.md`, and `BRIEFING.md` in `.agents/orchestrator/` to reflect the new mission.
+- Establish global tracking in `PROJECT.md` with the 20 slugs and their design styles.
+- Start a recurring heartbeat cron (every 10 minutes) for monitoring.
 
-## Strategy & Topology
-- Use Project Pattern (Implementation Track and parallel worker agents).
-- We will spawn 10 parallel Workers/Subagents for Bespoke UI Generation:
-  - Agent 1: `tara-design-solutions-attapur` & `livspace-attapur`
-  - Agent 2: `dasos-cabinets-hyderabad` & `mak-homes-construction`
-  - Agent 3: `luxe-designs-spaces-hyd` & `homelane-attapur`
-  - Agent 4: `apple-interiors-hyd` & `metal-and-more`
-  - Agent 5: `namasvi-interiors` & `simply-interiors-hyd`
-  - Agent 6: `dlife-interiors-hyd` & `seema-design-studio`
-  - Agent 7: `designcafe-hyderabad` & `bonito-designs-hyderabad`
-  - Agent 8: `decorpot-hyderabad` & `chary-interiors`
-  - Agent 9: `ss-interiors-secunderabad` & `icon-interior-design-attapur`
-  - Agent 10: `elements-design-lab` & `style-home-interiors-attapur`
-- After all 10 parallel agents complete, we will spawn an 11th agent for Build Verification and optional Git commit.
+### Step 2: Parallel Delegate Execution
+- Spawn 10 parallel worker subagents using `teamwork_preview_worker` with `ui-ux-pro-max` and `frontend-design` skills.
+- Each subagent handles 2 clinics sharing the same visual style, ensuring no overlap or duplicate templates.
+- Each subagent will:
+  - Read instructions, `PROJECT.md`, and skills.
+  - Create directories for the 2 slugs inside `app/client/`.
+  - Implement a fully mobile-responsive, strictly light-mode `page.jsx` with Hero, About/Clinic Expertise, Interactive Treatment Estimator (price calculator), Services Grid, Booking Form (with active state validation), Testimonials, and Footer.
+  - Implement a `layout.jsx` for OpenGraph metadata (rich WhatsApp unfurling).
+  - Use vector-based Lucide icons (no emojis).
+  - Use real phone numbers from the lead discovery data and realistic Tolichowki addresses.
+  - Verify syntax and run a build check.
+  - Deliver a completion report with paths to files.
+
+### Step 3: Monitor & Track
+- Periodically check subagent progress via `progress.md` updates.
+- Handle failures or timeouts using the retry/replace workflow.
+
+### Step 4: Aggregate & Verification
+- Verify that `npm run build` succeeds with zero errors across all 20 pages.
+- Review responsive designs and ensure no dark mode is present on any page.
+
+### Step 5: Report Results
+- Synthesize all outcomes into `.agents/orchestrator/handoff.md` and notify the main agent.
+
+---
+
+## Subagent Allocation Matrix
+
+| Subagent ID | Workspace Dir | Style | Target Slugs |
+|-------------|---------------|-------|--------------|
+| worker_style_1 | `.agents/worker_style_1` | Glassmorphism Light / Frosted Translucent | `dermed-clinic-tolichowki`, `afaq-laser-cosmetic-clinic` |
+| worker_style_2 | `.agents/worker_style_2` | Neumorphic Clean / Soft Dermatology | `celestee-skin-clinic-tolichowki`, `ambrosia-clinic-tolichowki` |
+| worker_style_3 | `.agents/worker_style_3` | Luxury Classic Gold & Cream | `cura-skin-hair-clinic`, `eternelle-aesthetics-tolichowki` |
+| worker_style_4 | `.agents/worker_style_4` | Soft Pastel Blush & Rose | `oliva-skin-clinic-tolichowki`, `kaya-skin-clinic-tolichowki` |
+| worker_style_5 | `.agents/worker_style_5` | Modern Bento Grid / Clean Slate | `clear-skin-centre-tolichowki`, `sree-skin-care-clinic-tolichowki` |
+| worker_style_6 | `.agents/worker_style_6` | Organic Wellness Green / Sage & Forest | `radiance-skin-clinic-tolichowki`, `dr-nivedita-dadu-dermatology` |
+| worker_style_7 | `.agents/worker_style_7` | Minimalist High-Contrast Chic | `dermaclinix-hyderabad-tolichowki`, `elite-skin-hair-clinic-tolichowki` |
+| worker_style_8 | `.agents/worker_style_8` | Futuristic Pearl / Cyber-Metallic | `vcare-skin-hair-clinic-tolichowki`, `labelle-skin-hair-clinic-tolichowki` |
+| worker_style_9 | `.agents/worker_style_9` | Bold Retro / Warm Clay & Terracotta | `kosmoderma-skin-clinic-tolichowki`, `skinns-clinic-tolichowki` |
+| worker_style_10| `.agents/worker_style_10`| Luxury Orchid & Plum | `rejuve-skin-hair-clinic-tolichowki`, `flawless-skin-laser-clinic-tolichowki` |

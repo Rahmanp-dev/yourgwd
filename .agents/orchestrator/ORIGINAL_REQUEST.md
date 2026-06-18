@@ -1,118 +1,64 @@
 # Original User Request
 
-## 2026-06-13T06:07:06Z
+## 2026-06-16T13:24:35+05:30
 
-# Teamwork Project Prompt
+You are the Project Orchestrator. A new follow-up request has been added to d:\GWD\Sales Machine\.agents\ORIGINAL_REQUEST.md for building 20 highly distinct, premium, long-format Next.js UI preview pages for independent jewellery stores in Hyderabad inside app/client/[slug].
 
-Find 10 real-world PropTech & Real Estate leads in Shaikpet, Hyderabad, inject them into MongoDB with live Vercel URLs, build 10 bespoke Next.js Tailwind preview sites using subagents, and push everything to GitHub to trigger a Vercel deployment.
+Your directory is d:\GWD\Sales Machine\.agents\orchestrator/.
+Please read the request in d:\GWD\Sales Machine\.agents\ORIGINAL_REQUEST.md under the header ## 2026-06-16T07:54:00Z and create a plan to build these pages.
+Initialize/overwrite your files in d:\GWD\Sales Machine\.agents\orchestrator/ including plan.md, progress.md, and BRIEFING.md for this new mission.
+Then, spawn parallel workers to execute the plan, monitor their progress, verify the builds, and report back when finished.
+Ensure that the design systems assigned to each of the 20 jewellery stores are strictly followed:
+1. Tibarumal & Sons (tibarumal-sons-shaikpet): Modern Luxury / Glassmorphism
+2. Tibarumal Ramnivas Jewellers (tibarumal-ramnivas-jubilee-hills): Modern Luxury / Glassmorphism
+3. Darpan Mangatrai Pearls & Jewellers (darpan-mangatrai-pearls): Royal Indian Heritage (Gold/Crimson theme)
+4. Krishna Pearls & Jewellers (krishna-pearls-jewellers): Royal Indian Heritage (Gold/Crimson theme)
+5. Sri Jagdamba Pearls (sri-jagdamba-pearls): Contemporary Minimalist (Cream/Bronze theme)
+6. Suhani Pittie (suhani-pittie-banjara-hills): Contemporary Minimalist (Cream/Bronze theme)
+7. PMJ Jewels (pmj-jewels-banjara-hills): Dark Mode / Luxury Diamond (Slate/Gold theme)
+8. Vasundhara Diamond Roof (vasundhara-diamond-roof): Dark Mode / Luxury Diamond (Slate/Gold theme)
+9. Manepally Jewellers (manepally-jewellers-general-bazar): Classic Elegance / High-Contrast Serif (Emerald/Ivory theme)
+10. Sri Krishna Jewellers (sri-krishna-jewellers-banjara-hills): Classic Elegance / High-Contrast Serif (Emerald/Ivory theme)
+11. Totaram & Sons Jewellers (totaram-sons-jewellers-abids): Neumorphic Modern (Soft shadows, light theme)
+12. Totaram Murarilal & Sons (totaram-murarilal-sons): Neumorphic Modern (Soft shadows, light theme)
+13. Meena Jewellers (meena-jewellers-banjara-hills): Soft Pastel Luxury (Rose Gold/Blush theme)
+14. Musaddilal Jewellers (musaddilal-jewellers-basheer-bagh): Soft Pastel Luxury (Rose Gold/Blush theme)
+15. Ghanshyamdas Jewellers (ghanshyamdas-jewellers-abids): Cyber-Platinum / Futuristic Metal (Silver/Teal theme)
+16. Modi Pearls (modi-pearls-original): Cyber-Platinum / Futuristic Metal (Silver/Teal theme)
+17. Akoya Pearls (akoya-pearls-ghanshyamdas): Organic Biophilic / Floral Nature (Sage/Pearl theme)
+18. Suraj Bhan Jewellers (suraj-bhan-jewellers): Organic Biophilic / Floral Nature (Sage/Pearl theme)
+19. Gopal Jewellers (gopal-jewellers-moula-ali): Bold Art Deco / Retro (Navy/Mustard theme)
+20. Neelkanth Jewellers (neelkanth-jewellers-somajiguda): Bold Art Deco / Retro (Navy/Mustard theme)
 
-Working directory: `d:\GWD\Sales Machine`
-Integrity mode: demo
+Each page must contain:
+- Hero Header
+- Brand Heritage
+- Interactive Jewelry Customizer (client-side interactive widget where users can choose metal type (22K Gold, 18K Rose Gold, Platinum) and gemstone (Diamond, Emerald, Ruby, Pearl) to see custom price estimates and mock visuals)
+- Signature Collection Grid
+- Virtual Design Consultation form (with validation)
+- Customer Stories / Testimonials
+- Store Details Footer
 
-## Requirements
+Integrity mode: development.
+Let's begin!
 
-### R1. Lead Discovery & Injection
-Research 10 real-world PropTech/Real Estate businesses in Shaikpet, Hyderabad (with working WhatsApp numbers). Push them to the main MongoDB database using a Node.js script. Hardcode the `previewUrl` to `https://yourgwd.vercel.app/client/[slug]`. Generate a custom WhatsApp outreach message referencing their preview URL.
+## 2026-06-17T11:18:47+05:30
 
-### R2. Bespoke UI Generation
-Use the `invoke_subagent` tool to spawn 5 parallel frontend subagents to build 10 distinct, premium Next.js UI preview pages inside `app/client/[slug]`. The subagents MUST strictly read and apply the `ui-ux-pro-max` skill to construct different design systems (Glassmorphism, Neumorphism, Dark Mode, etc.) using Tailwind CSS classes. Ensure the custom `layout.jsx` metadata fix is applied for each so WhatsApp unfurling works correctly.
+You are the Project Orchestrator. Your task is to coordinate the team of subagents to implement the user request specified in `d:\GWD\Sales Machine\.agents\ORIGINAL_REQUEST.md`.
+Scope: Build 20 highly distinct, premium, long-format Next.js UI preview pages for Caterers & Cloud Kitchens in Uppal, Hyderabad inside `app/client/[slug]`.
+Workspace: `d:\GWD\Sales Machine`.
+You must read ORIGINAL_REQUEST.md, decompose the task, write your `plan.md` and `progress.md` inside `.agents/orchestrator/`, and spawn worker/reviewer subagents to implement the pages. Keep in mind: No dark mode is allowed, and pages must be long-format with the required sections and calculators. Once complete, write a handoff/completion report to `.agents/orchestrator/handoff.md` and report back to the main agent.
 
-### R3. Deployment
-Verify the Next.js builds. Commit all new files to git and push them to GitHub to trigger the Vercel deployment.
+## 2026-06-18T03:17:37Z
 
-## Acceptance Criteria
+You are the Project Orchestrator. Your mission is to coordinate the development of 20 highly distinct, premium, LONG FORMAT Next.js UI preview pages for Skin & Cosmetic Clinics in Tolichowki, Hyderabad inside `app/client/[slug]`.
+Please refer to the latest user request in `d:\GWD\Sales Machine\ORIGINAL_REQUEST.md`.
+Use the working directory `d:\GWD\Sales Machine\.agents\orchestrator`.
+Create your plan in `plan.md` and log your progress in `progress.md`.
+Hire specialist subagents to execute the pages, ensuring:
+- Strictly Light Mode (NO dark mode).
+- Highly distinct design systems (Glassmorphism, Neumorphism, bright/pastel theme, etc.).
+- Long-format sections (Hero, About, Interactive Treatment Estimator, Services Grid, Booking Form, Testimonials, Footer).
+- Compilation with zero errors.
 
-### Verification & Quality
-- [ ] MongoDB contains 10 new leads for Shaikpet Real Estate with `previewUrl` pointing to `https://yourgwd.vercel.app/client/[slug]`.
-- [ ] 10 new folders exist in `app/client/`, each containing a `page.jsx` with extensive Tailwind CSS styling and a `layout.jsx` for custom OpenGraph metadata.
-- [ ] Running `npm run build` succeeds with zero errors across the newly generated routes.
-- [ ] Changes are successfully pushed to the `main` branch on GitHub.
-
-## 2026-06-14T11:44:54+05:30
-
-## Project Completion Request
-1. R1 is already complete (leads are already injected in MongoDB).
-2. Spawn parallel worker subagents (up to 5) to generate 10 distinct, premium LONG-FORMAT Next.js UI preview pages inside `app/client/[slug]`. The slugs are:
-   - mohammad-ibrahim-co-ca
-   - suneel-phani-associates
-   - maximum-tax-consultant
-   - shiv-kumar-mididoddi-tax
-   - spr-associates
-   - k-praveen-kumar-associates
-   - sai-reddy-yanala-ca
-   - y-tax-consultancy
-   - kasula-associates
-   - ns-co
-   Ensure each page is LONG FORMAT, with multiple sections like Hero, Services, About Us, Testimonials, CTA, Footer. Use distinct premium design systems (e.g. Glassmorphism, Neumorphism, Dark Mode, etc.) styled with Tailwind CSS, strictly reading and applying the `ui-ux-pro-max` skill. No generic templates allowed.
-3. Verify the Next.js builds. Running `npm run build` must succeed with zero errors.
-4. Commit all new files to git and push them to the `main` branch on GitHub.
-
-## 2026-06-14T12:06:43+05:30
-
-Generate 10 highly distinct, premium Next.js UI preview pages for Premium Car Detailing businesses in Attapur, Hyderabad, deploying 5 parallel subagents.
-
-Mission:
-Generate 10 highly distinct, premium Next.js UI preview pages for Premium Car Detailing businesses in Attapur, Hyderabad, deploying 5 parallel subagents.
-
-Key Requirements:
-1. Bespoke UI Generation: Spawn 5 parallel frontend subagents to build 10 distinct, premium Next.js UI preview pages inside `app/client/[slug]`.
-The 10 leads are:
-- The Detailing Mafia (Attapur) at `app/client/detailing-mafia-attapur`
-- Aqua Shine Auto Detailing Studio at `app/client/aqua-shine-detailing-attapur`
-- Gorgeous Car Detailers at `app/client/gorgeous-car-detailers-attapur`
-- 5K Car Care at `app/client/5k-car-care-attapur`
-- Vinayaka Car Wash at `app/client/vinayaka-car-wash-attapur`
-- GoMechanic Attapur at `app/client/gomechanic-attapur`
-- Ceramic Pro Jubilee Hills at `app/client/ceramic-pro-jubilee-hills`
-- Ceramic Pro Hyderabad at `app/client/ceramic-pro-hyderabad`
-- Clean Fast Car Wash at `app/client/clean-fast-car-wash-attapur`
-- The Detailing Mafia Banjara Hills at `app/client/detailing-mafia-banjara-hills`
-
-2. Design Aesthetics: Read and apply the `/frontend-design ui-ux-pro-max` skill to construct different design systems (Glassmorphism, Neumorphism, Dark Mode, etc.) using Tailwind CSS classes. No generic templates allowed.
-3. Long Format Sites: The pages must be long-format. Every page must contain multiple extensive sections: Hero, Services, Pricing Packages (e.g., Ceramic Coating, PPF), Testimonials, Before/After Gallery, FAQ, and Contact.
-4. WhatsApp Unfurling: Ensure the custom `layout.jsx` metadata fix is applied for each so WhatsApp unfurling works correctly.
-
-Acceptance Criteria:
-- 10 new folders exist in `app/client/`, each containing a `page.jsx` with extensive Tailwind CSS styling and a `layout.jsx` for custom OpenGraph metadata.
-- The generated pages are extremely long-format, scrolling through multiple detailing-specific sections.
-- Running `npm run build` succeeds with zero errors across the newly generated routes.
-
-## 2026-06-14T10:54:39Z
-
-You are the Project Orchestrator (teamwork_preview_orchestrator). Your working directory is d:\GWD\Sales Machine\.agents\orchestrator. Your mission is to coordinate the generation of 10 distinct, premium LONG FORMAT Next.js UI preview pages for Interior Designers in Kokapet, Hyderabad. Use the ui-ux-pro-max skill. Please read d:\GWD\Sales Machine\.agents\ORIGINAL_REQUEST.md for the full requirements and start execution. Make sure to generate the files, verify the build, and notify when all milestones are completed.
-
-## 2026-06-15T22:45:21+05:30
-
-Generate 20 highly distinct, premium LONG FORMAT Next.js UI preview pages for Interior Designers in Attapur, Hyderabad, deploying 10 parallel subagents.
-
-- The 20 clients and slugs are:
-  1. Tara Design Solutions (tara-design-solutions-attapur)
-  2. Livspace Attapur (livspace-attapur)
-  3. Dasos Cabinets (dasos-cabinets-hyderabad)
-  4. MAK Homes Construction (mak-homes-construction)
-  5. Luxe Designs & Spaces (luxe-designs-spaces-hyd)
-  6. HomeLane Attapur (homelane-attapur)
-  7. Apple Interiors (apple-interiors-hyd)
-  8. Metal & More (metal-and-more)
-  9. Namasvi Interiors (namasvi-interiors)
-  10. Simply Interiors (simply-interiors-hyd)
-  11. D'LIFE Interiors (dlife-interiors-hyd)
-  12. Seema Design Studio (seema-design-studio)
-  13. DesignCafe Hyderabad (designcafe-hyderabad)
-  14. Bonito Designs Hyderabad (bonito-designs-hyderabad)
-  15. Decorpot Hyderabad (decorpot-hyderabad)
-  16. Chary Interiors & Furnitures (chary-interiors)
-  17. SS Interiors Secunderabad (ss-interiors-secunderabad)
-  18. Icon Interior Design (icon-interior-design-attapur)
-  19. Elements Design Lab (elements-design-lab)
-  20. Style Home Interiors (style-home-interiors-attapur)
-
-- Apply the ui-ux-pro-max skill to build premium design systems (e.g. Glassmorphism, Neumorphism, Dark Mode, Minimalist, Brutalist, Light Mode, etc.) using Tailwind CSS.
-- Ensure custom layout.jsx files are created for each folder to support custom OpenGraph metadata for WhatsApp unfurling.
-- Verify that the routes build cleanly (npm run build succeeds).
-
-## 2026-06-15T22:52:09+05:30
-
-Resume work at d:\GWD\Sales Machine. Read handoff.md, BRIEFING.md, ORIGINAL_REQUEST.md, and progress.md for current state.
-Your parent is aa69ff90-9237-4c50-93ea-427cfcb58330 — use this ID for all escalation and status reporting (send_message).
 

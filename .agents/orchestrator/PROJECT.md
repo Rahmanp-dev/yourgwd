@@ -1,4 +1,4 @@
-# Project: Premium Interior Designers in Attapur, Hyderabad
+# Project: Tolichowki Skin & Cosmetic Clinics Preview Pages
 
 ## Architecture
 - **Next.js Frontends**: Code 20 premium client pages under `app/client/[slug]/page.jsx` and `layout.jsx`.
@@ -8,7 +8,7 @@
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| 1 | UI Page Generation | Create 20 distinct, premium LONG-FORMAT client pages with Tailwind CSS via 10 parallel worker subagents. | None | DONE |
+| 1 | UI Page Generation | Create 20 distinct, premium LONG-FORMAT client pages with Tailwind CSS via 10 parallel worker subagents. No dark mode. | None | PLANNED |
 | 2 | Build Verification | Run `npm run build` and ensure compilation passes with zero errors. | M1 | PLANNED |
 | 3 | Git Deployment | Commit all generated files and push to `main` branch. | M2 | PLANNED |
 
@@ -16,28 +16,55 @@
 ### Next.js Frontend Pages
 - Component: `app/client/[slug]/page.jsx`
 - Layout: `app/client/[slug]/layout.jsx` for OpenGraph metadata.
-- Styling: Tailwind CSS classes applying distinct premium design systems based on the `ui-ux-pro-max` skill.
-- Content: Long format with Hero, About Us, Services Portfolio (e.g. Living Room, Modular Kitchen, Wardrobes, Lighting), Design Process (e.g. Consult, Design, Execute), Testimonials, FAQ, and Contact Form. No generic templates allowed.
-- Icons: Vector-based Lucide icons (import React and lucide-react, or use inline SVG).
+- Styling: Tailwind CSS classes applying distinct premium design systems based on the `ui-ux-pro-max` skill. Strictly Light Mode (NO dark mode).
+- Content: Long format with:
+  - **Hero Header**: Engaging title, taglines, and immersive background gradients/imagery.
+  - **Clinic Expertise/About**: A section detailing their cosmetic legacy and specialty.
+  - **Interactive Treatment Estimator**: Client-side interactive widget where users can select treatment types (e.g. Laser Hair Removal, Acne Scar Treatment, Anti-Aging, Botox), body areas, and sessions to see custom price estimates and mock visuals.
+  - **Services Grid**: Grid display of premium treatment cards.
+  - **Booking Consultation Form**: A contact/booking form with active state validations.
+  - **Patient Transformations/Testimonials**: Real-looking reviews from Hyderabad-based clients.
+  - **Store Details Footer**: Showcasing real contact numbers, address, and email details.
+- Icons: Vector-based Lucide icons (import React and lucide-react, or use inline SVG). No emojis allowed.
 
 ## Slugs and Design Systems:
-1. `tara-design-solutions-attapur` -> Japandi Fusion (Very minimal, slate `#2F3E46` and bamboo beige `#F5F2EB`, textured plaster whites `#FDFDFD`, massive breathing room, delicate lines, thin borders)
-2. `livspace-attapur` -> Mid-Century Modern (Teal `#006E7F` and terracotta `#D84B20`, clean geometries, warm sand backdrop `#F9F5F0`, bold section headers, modular card structure)
-3. `dasos-cabinets-hyderabad` -> Minimalist Scandinavian (Warm light oak wood tones `#D2B48C`, off-white background `#FAFAFA`, forest green/sage accents `#4F772D`, soft organic curves, spacious grid layout, clean sans-serif typography)
-4. `mak-homes-construction` -> Industrial Chic/Neo-Brutalism (Raw concrete grey `#E5E5E5`, rusty amber/orange accents `#FF7F50`, heavy black borders, stark grid layout, monospaced tech fonts, bold metalwork showcase)
-5. `luxe-designs-spaces-hyd` -> Neo-Classical Elegance / French Luxury (Champagne gold `#D4AF37`, marble white background `#FAFAFA`, rich bronze accents `#4A3B32`, high-contrast serif typography, ultra-premium editorial layout)
-6. `homelane-attapur` -> Pastel Glassmorphism (Frosted translucent panels, soft pastel pink/purple/blue gradients, glowing background blobs, round corners, modern fluid typography)
-7. `apple-interiors-hyd` -> High-Tech Modern / Midnight Tech (Jet black `#0A0A0A`, brushed steel silver `#E0E0E0`, subtle neon white/ice-blue glows `#00E5FF`, futuristic structural grids, clean sans-serif typography)
-8. `metal-and-more` -> Brutalist (Stark grids, bold high-contrast primary colors, thick dark borders, offset shadows, custom typography)
-9. `namasvi-interiors` -> Biophilic / Organic Green (Forest green `#1E3F20`, emerald `#50C878`, gold accents `#FFD700`, soft floral background tints `#F4F8F4`, curved cards, elegant serif headings, focusing on nature-integrated luxury)
-10. `simply-interiors-hyd` -> Bento Grid / Contemporary (Structured grid sections, charcoal `#2C3E50` and burnt orange `#E67E22`, clean dividers, high information density, interactive tab sections for layout options)
-11. `dlife-interiors-hyd` -> Art Deco (Deep emerald green `#097969` and metallic gold `#D4AF37`, geometric patterns, bold diagonal sections, serif display font, high contrast editorial styling)
-12. `seema-design-studio` -> Neumorphism (Soft inset/outset shadows on soft grey backgrounds `#F0F0F3`, subtle glowing accents, clean minimalist UI elements)
-13. `designcafe-hyderabad` -> Modern Mediterranean (Warm terracotta `#C04000`, olive green `#808000`, cream white backgrounds `#FDFBF7`, arches, elegant typography, warm sun-drenched feel)
-14. `bonito-designs-hyderabad` -> Luxury Dark Mode (Polished obsidian black `#0B0C10`, titanium gold accents `#C5A059`, soft warm spotlights, high-end photography grids, luxury branding)
-15. `decorpot-hyderabad` -> Modern Minimalist (Off-black text `#111111`, pure white `#FFFFFF` canvas, ultra-thin light gray borders, generous margins, delicate typography, clean line icons)
-16. `chary-interiors` -> Craft / Heritage Warm (Warm walnut wood tones `#8B5A2B`, rich crimson/burgundy accents `#800020`, beige backgrounds `#F5F5DC`, focusing on bespoke woodcraft and traditional-modern fusion)
-17. `ss-interiors-secunderabad` -> Scandinavian Dark (Deep charcoal `#1C1C1C`, cool grey `#A9A9A9`, ice blue accents `#87CEEB`, light ash wood highlights `#E6E6FA`, clean functional layouts)
-18. `icon-interior-design-attapur` -> Pastel Minimalism (Soft lavender `#E6E6FA`, peach `#FFDAB9`, light sand backgrounds `#FAF0E6`, rounded buttons, friendly serif headings, clean and calming UI)
-19. `elements-design-lab` -> Cyber-Industrial (Charcoal grey `#333333`, hazard yellow accents `#FFCC00`, technical grids, monospace code-like styling, raw material tables)
-20. `style-home-interiors-attapur` -> Coastal Chic (Ocean breeze blue `#008080`, warm sand beige `#F4A460`, crisp white `#FFFFFF`, airy and light sections, soft driftwood textures)
+
+1. `dermed-clinic-tolichowki` & `afaq-laser-cosmetic-clinic`
+   - **Design Style**: Glassmorphism Light / Frosted Translucent (Soft pink/peach background, frosted glass cards, glow effects, rose gold borders)
+   - **Palette**: Blush Pink (`#FFF0EE`), Rose Gold (`#B76E79`), Warm White (`#FFFDFD`).
+
+2. `celestee-skin-clinic-tolichowki` & `ambrosia-clinic-tolichowki`
+   - **Design Style**: Neumorphic Clean / Soft Dermatology (Soft grey-blue background, soft shadows, inset/outset inputs and cards, calming cyan highlights)
+   - **Palette**: Soft grey-blue background (`#F0F4F8`), calming cyan (`#06B6D4`), dark slate (`#1E293B`).
+
+3. `cura-skin-hair-clinic` & `eternelle-aesthetics-tolichowki`
+   - **Design Style**: Luxury Classic Gold & Cream (Rich cream base, elegant serif headings, warm gold accent, thin dark slate borders)
+   - **Palette**: Cream base (`#FAF8F5`), gold accent (`#D4AF37`), slate text (`#334155`).
+
+4. `oliva-skin-clinic-tolichowki` & `kaya-skin-clinic-tolichowki`
+   - **Design Style**: Soft Pastel Blush & Rose (Rose gold accents, soft pink/lavender backdrop, rounded cards, organic waves)
+   - **Palette**: Soft pink background (`#FFF5F5`), lavender-blush (`#FFF0F5`), deep slate (`#2D3748`).
+
+5. `clear-skin-centre-tolichowki` & `sree-skin-care-clinic-tolichowki`
+   - **Design Style**: Modern Bento Grid / Clean Slate (Crisp off-white background, structured borders, pastel teal accent buttons, dense info cards)
+   - **Palette**: Off-white base (`#F8FAFC`), teal accent (`#0D9488`), dark grey (`#1F2937`).
+
+6. `radiance-skin-clinic-tolichowki` & `dr-nivedita-dadu-dermatology`
+   - **Design Style**: Organic Wellness Green / Sage & Forest (Sage and mint base, eucalyptus green buttons, raw/organic shapes, leaf motifs, fresh hydration feel)
+   - **Palette**: Sage green (`#EAF0EB`), mint accents (`#A7F3D0`), forest green (`#065F46`).
+
+7. `dermaclinix-hyderabad-tolichowki` & `elite-skin-hair-clinic-tolichowki`
+   - **Design Style**: Minimalist High-Contrast Chic (Pure white base, crisp slate text, sharp 1px borders, bold elegant sans-serif, high-fashion medical vibe, vivid sky blue highlight)
+   - **Palette**: Pure white (`#FFFFFF`), sky blue highlight (`#0EA5E9`), dark slate (`#0F172A`).
+
+8. `vcare-skin-hair-clinic-tolichowki` & `labelle-skin-hair-clinic-tolichowki`
+   - **Design Style**: Futuristic Pearl / Cyber-Metallic (Ultra light silver/pearl background, soft metallic blue gradients, holographic glass cards, lavender buttons)
+   - **Palette**: Pearl background (`#F3F4F6`), metallic blue (`#3B82F6`), lavender (`#8B5CF6`).
+
+9. `kosmoderma-skin-clinic-tolichowki` & `skinns-clinic-tolichowki`
+   - **Design Style**: Bold Retro / Warm Clay & Terracotta (Creamy warm sand background, terracotta, warm honey accents, rounded playful layout, friendly family clinic feel)
+   - **Palette**: Warm sand (`#F5EBE6`), terracotta (`#C2593F`), honey (`#F59E0B`).
+
+10. `rejuve-skin-hair-clinic-tolichowki` & `flawless-skin-laser-clinic-tolichowki`
+    - **Design Style**: Luxury Orchid & Plum (Very pale lavender-blush base, deep royal plum accents, orchid buttons, elegant floral borders)
+    - **Palette**: Lavender-blush base (`#FAF5FF`), plum accents (`#4A154B`), orchid highlight (`#A855F7`).

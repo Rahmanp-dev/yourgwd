@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from 'react';
 import { useParams } from 'next/navigation';
+import DermedClinicPage from '../dermed-clinic-tolichowki/page';
+import AfaqClinicPage from '../afaq-laser-cosmetic-clinic/page';
 import { 
   Phone, MapPin, Mail, Award, Clock, Star, Sparkles, ChevronRight, 
   Send, Compass, HelpCircle, RefreshCw, Scissors, Gem, Crown, 
@@ -1764,6 +1766,12 @@ export default function DynamicClientPage() {
   }
   if (slug === 'suhani-pittie-banjara-hills') {
     return <SuhaniPittiePage />;
+  }
+  if (slug === 'dermed-clinic-tolichowki') {
+    return <DermedClinicPage />;
+  }
+  if (slug === 'afaq-laser-cosmetic-clinic') {
+    return <AfaqClinicPage />;
   }
 
   // Fallback to Healthtech Preview

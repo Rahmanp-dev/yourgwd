@@ -1,0 +1,24 @@
+export const metadata = {
+  title: 'Radiance Skin & Hair Clinic | Tolichowki, Hyderabad',
+  description: 'Experience premium dermatological care at Radiance Skin & Hair Clinic. Specializing in advanced acne scar treatments, hair transplantation, botanical hydrafacials, and anti-aging therapies. Located in Tolichowki, Hyderabad.',
+  openGraph: {
+    title: 'Radiance Skin & Hair Clinic | Premium Dermatology Tolichowki',
+    description: 'Transform your skin and hair with clinical wellness. Experience cutting-edge laser rejuvenation, hair restoration, and clinical skincare in a calming, organic wellness sanctuary.',
+    siteName: 'Radiance Skin & Hair Clinic',
+    url: 'https://gwd-sales-machine.vercel.app/client/radiance-skin-clinic-tolichowki',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=1200&h=630',
+        width: 1200,
+        height: 630,
+        alt: 'Radiance Skin & Hair Clinic Tolichowki',
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+};
+
+export default function Layout({ children }) {
+  return children;
+}

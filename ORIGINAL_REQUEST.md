@@ -208,3 +208,184 @@ Ensure the custom `layout.jsx` metadata fix is applied for each so WhatsApp unfu
 
 
 
+
+## Follow-up — 2026-06-16T07:54:00Z
+
+Build 20 highly distinct, premium, long-format Next.js UI preview pages for independent jewellery stores in Hyderabad inside `app/client/[slug]`. The subagents must utilize different design systems (Glassmorphism, Neumorphism, Heritage, Dark Mode, etc.) using Tailwind CSS and follow the `ui-ux-pro-max` and `frontend-design` guidelines.
+
+Working directory: `d:\GWD\Sales Machine`
+Integrity mode: development
+
+## Requirements
+
+### R1. UI Page Components
+Create the Next.js `page.jsx` and `layout.jsx` files for each of the 20 independent jewellery stores. Each page must be highly polished, visually premium, and completely functional on the client side.
+
+The 20 leads and their assigned design styles are:
+1. **Tibarumal & Sons** (`tibarumal-sons-shaikpet`): Modern Luxury / Glassmorphism
+2. **Tibarumal Ramnivas Jewellers** (`tibarumal-ramnivas-jubilee-hills`): Modern Luxury / Glassmorphism
+3. **Darpan Mangatrai Pearls & Jewellers** (`darpan-mangatrai-pearls`): Royal Indian Heritage (Gold/Crimson theme)
+4. **Krishna Pearls & Jewellers** (`krishna-pearls-jewellers`): Royal Indian Heritage (Gold/Crimson theme)
+5. **Sri Jagdamba Pearls** (`sri-jagdamba-pearls`): Contemporary Minimalist (Cream/Bronze theme)
+6. **Suhani Pittie** (`suhani-pittie-banjara-hills`): Contemporary Minimalist (Cream/Bronze theme)
+7. **PMJ Jewels** (`pmj-jewels-banjara-hills`): Dark Mode / Luxury Diamond (Slate/Gold theme)
+8. **Vasundhara Diamond Roof** (`vasundhara-diamond-roof`): Dark Mode / Luxury Diamond (Slate/Gold theme)
+9. **Manepally Jewellers** (`manepally-jewellers-general-bazar`): Classic Elegance / High-Contrast Serif (Emerald/Ivory theme)
+10. **Sri Krishna Jewellers** (`sri-krishna-jewellers-banjara-hills`): Classic Elegance / High-Contrast Serif (Emerald/Ivory theme)
+11. **Totaram & Sons Jewellers** (`totaram-sons-jewellers-abids`): Neumorphic Modern (Soft shadows, light theme)
+12. **Totaram Murarilal & Sons** (`totaram-murarilal-sons`): Neumorphic Modern (Soft shadows, light theme)
+13. **Meena Jewellers** (`meena-jewellers-banjara-hills`): Soft Pastel Luxury (Rose Gold/Blush theme)
+14. **Musaddilal Jewellers** (`musaddilal-jewellers-basheer-bagh`): Soft Pastel Luxury (Rose Gold/Blush theme)
+15. **Ghanshyamdas Jewellers** (`ghanshyamdas-jewellers-abids`): Cyber-Platinum / Futuristic Metal (Silver/Teal theme)
+16. **Modi Pearls** (`modi-pearls-original`): Cyber-Platinum / Futuristic Metal (Silver/Teal theme)
+17. **Akoya Pearls** (`akoya-pearls-ghanshyamdas`): Organic Biophilic / Floral Nature (Sage/Pearl theme)
+18. **Suraj Bhan Jewellers** (`suraj-bhan-jewellers`): Organic Biophilic / Floral Nature (Sage/Pearl theme)
+19. **Gopal Jewellers** (`gopal-jewellers-moula-ali`): Bold Art Deco / Retro (Navy/Mustard theme)
+20. **Neelkanth Jewellers** (`neelkanth-jewellers-somajiguda`): Bold Art Deco / Retro (Navy/Mustard theme)
+
+### R2. Long Format Content Sections
+Each client page must be **long-format** and include the following sections:
+- **Hero Header**: Engaging title, taglines, and immersive background gradients/imagery.
+- **Brand Heritage**: A section detailing their independent legacy and craft.
+- **Interactive Jewelry Customizer**: Client-side interactive widget where users can choose metal type (22K Gold, 18K Rose Gold, Platinum) and gemstone (Diamond, Emerald, Ruby, Pearl) to see custom price estimates and mock visuals.
+- **Signature Collection Grid**: Grid display of premium product cards (e.g., Temple Necklaces, Diamond Chokers, Pearl Strings).
+- **Virtual Design Consultation**: A contact/booking form with active state validations.
+- **Customer Stories / Testimonials**: Real-looking reviews from Hyderabad-based clients.
+- **Store Details Footer**: Showcasing real contact numbers, address, and email details.
+
+### R3. Visual Excellence & Responsiveness
+All pages must be fully mobile responsive. The typography must pair elegant display fonts (e.g. Playfair Display, Cinzel, Prata) with readable body faces (e.g. Plus Jakarta Sans, Inter). Vector-based icons (Lucide/Heroicons) must be used instead of emojis. Active tap feedback must be implemented for all buttons and tabs.
+
+---
+
+## Acceptance Criteria
+
+### Compilation & Routing
+- [ ] All 20 page routes compile under `npm run build` with zero errors.
+- [ ] Direct URLs `https://yourgwd.vercel.app/client/[slug]` correctly resolve and load.
+
+### Visual Quality & UX
+- [ ] All 20 pages feature mobile responsive layouts (checked at 375px and 1280px width) with no horizontal overflow.
+- [ ] No emojis are used as structural icons on any page.
+- [ ] Interactive customizer widgets update state and calculate pricing correctly.
+- [ ] Dynamic OpenGraph metadata is configured in each client's `layout.jsx` for rich WhatsApp unfurling.
+- [ ] The contact footer displays the correct phone and email details.
+
+## Follow-up — 2026-06-17T05:48:11Z
+
+# Teamwork Project Prompt — Draft
+
+Build 20 highly distinct, premium, long-format Next.js UI preview pages for Caterers & Cloud Kitchens in Uppal, Hyderabad inside `app/client/[slug]`.
+
+Working directory: d:\GWD\Sales Machine
+Integrity mode: development
+
+## Requirements
+
+### R1. Develop 20 Distinct UI Pages
+Create the Next.js `page.jsx` and `layout.jsx` files for 20 real-world caterers and cloud kitchens in Uppal. Each page must be highly polished, visually premium, and completely functional on the client side. Use different design systems (Glassmorphism, Neumorphism, Light Mode, etc.) using Tailwind CSS classes. No generic templates allowed. **Do not use Dark Mode**.
+
+The 20 leads and slugs are:
+1. Amba Ji Sri Panchamukhi Caterers (amba-ji-caterers-uppal)
+2. Jyothi Caterers (jyothi-caterers-uppal)
+3. Jaswanth Caterers (jaswanth-caterers-uppal)
+4. Sri Venkateshwara Caterers (sri-venkateshwara-caterers-uppal)
+5. New Vindu Caterers (new-vindu-caterers-uppal)
+6. Raaj Thaarak Caterers (raaj-thaarak-caterers-uppal)
+7. Nakshatra Catering (nakshatra-catering-uppal)
+8. Golden Caterers (golden-caterers-uppal)
+9. Shri Lakshmi Caterers (shri-lakshmi-caterers-uppal)
+10. SV Caterers (sv-caterers-uppal)
+11. Ruchi Caterers (ruchi-caterers-uppal)
+12. Balaji Caterers (balaji-caterers-uppal)
+13. Annapurna Caterers (annapurna-caterers-uppal)
+14. Srishti Cloud Kitchen (srishti-cloud-kitchen-uppal)
+15. Swagath Caterers (swagath-caterers-uppal)
+16. Maharaja Caterers (maharaja-caterers-uppal)
+17. Spice Route Cloud Kitchen (spice-route-cloud-kitchen-uppal)
+18. Vantillu Caterers (vantillu-caterers-uppal)
+19. Shahi Darbar Caterers (shahi-darbar-caterers-uppal)
+20. Ulavacharu Cloud Kitchen (ulavacharu-cloud-kitchen-uppal)
+
+### R2. Long Format Content Sections
+Each client page must be **long-format** and include the following sections:
+- **Hero Header**: Engaging title, taglines, and immersive background gradients/imagery.
+- **Brand Story/Heritage**: A section detailing their catering legacy and specialty.
+- **Interactive Menu Customizer/Estimator**: Client-side interactive widget where users can select event types (Wedding, Corporate, Birthday), guest count, and menu tiers (Standard, Premium, Royal) to see custom price estimates.
+- **Signature Dishes Grid**: Grid display of premium food cards.
+- **Booking Consultation**: A contact/booking form with active state validations.
+- **Customer Testimonials**: Real-looking reviews from Hyderabad-based clients.
+- **Store Details Footer**: Showcasing real contact numbers, address, and email details.
+
+### R3. Visual Excellence & Responsiveness
+All pages must be fully mobile responsive. The typography must pair elegant display fonts with readable body faces. Vector-based icons (Lucide) must be used instead of emojis. Active tap feedback must be implemented for all buttons and tabs. Strictly follow the `frontend-design` and `ui-ux-pro-max` guidelines.
+
+## Acceptance Criteria
+
+### Compilation & Routing
+- [ ] All 20 page routes compile under `npm run build` with zero errors.
+- [ ] Direct URLs `https://yourgwd.vercel.app/client/[slug]` correctly resolve and load.
+
+### Visual Quality & UX
+- [ ] All 20 pages feature mobile responsive layouts with no horizontal overflow.
+- [ ] No dark mode is used on any page.
+- [ ] Interactive customizer widgets update state and calculate pricing correctly.
+- [ ] The contact footer displays the correct authentic phone and email details.
+
+## Follow-up — 2026-06-18T08:47:09+05:30
+
+# Teamwork Project Prompt
+
+Build 20 highly distinct, premium, LONG FORMAT Next.js UI preview pages for Skin & Cosmetic Clinics in Tolichowki, Hyderabad inside `app/client/[slug]`.
+
+Working directory: d:\GWD\Sales Machine
+
+## Requirements
+
+### R1. Develop 20 Distinct UI Pages
+Create the Next.js `page.jsx` and `layout.jsx` files for 20 real-world clinics in Tolichowki. Each page must be highly polished, visually premium, and completely functional on the client side.
+You MUST strictly use the `frontend-design`, `ui-ux-pro-max`, and `theme-factory` guidelines.
+Use different design systems like Glassmorphism, Neumorphism, Light Mode, etc. using Tailwind CSS classes. No generic templates allowed. 
+**STRICT RULE: NO DARK MODE**. All pages must use Light Mode or bright/pastel themes.
+
+The 20 leads and slugs are:
+1. Dermed Skin & Hair Clinic (dermed-clinic-tolichowki)
+2. Afaq Laser & Cosmetic Clinic (afaq-laser-cosmetic-clinic)
+3. Celestee Skin, Laser and Hair Clinic (celestee-skin-clinic-tolichowki)
+4. Ambrosia Clinic (ambrosia-clinic-tolichowki)
+5. Cura Skin, Hair & Laser Clinic (cura-skin-hair-clinic)
+6. Eternelle Aesthetics (eternelle-aesthetics-tolichowki)
+7. Oliva Skin & Hair Clinic (oliva-skin-clinic-tolichowki)
+8. Kaya Skin Clinic (kaya-skin-clinic-tolichowki)
+9. Clear Skin Centre (clear-skin-centre-tolichowki)
+10. Sree Skin Care Clinic (sree-skin-care-clinic-tolichowki)
+11. Radiance Skin & Hair Clinic (radiance-skin-clinic-tolichowki)
+12. Dr. Nivedita Dadu Dermatology Clinic (dr-nivedita-dadu-dermatology)
+13. Dermaclinix Hyderabad (dermaclinix-hyderabad-tolichowki)
+14. Elite Skin & Hair Clinic (elite-skin-hair-clinic-tolichowki)
+15. Vcare Skin & Hair Clinic (vcare-skin-hair-clinic-tolichowki)
+16. Labelle Skin & Hair Clinic (labelle-skin-hair-clinic-tolichowki)
+17. Kosmoderma Skin & Hair Clinic (kosmoderma-skin-clinic-tolichowki)
+18. Skinns Clinic (skinns-clinic-tolichowki)
+19. Rejuve Skin & Hair Clinic (rejuve-skin-hair-clinic-tolichowki)
+20. Flawless Skin & Laser Clinic (flawless-skin-laser-clinic-tolichowki)
+
+### R2. Long Format Content Sections
+Each client page must be **long-format** and include the following sections:
+- **Hero Header**: Engaging title, taglines, and immersive background gradients/imagery.
+- **Clinic Expertise/About**: A section detailing their cosmetic legacy and specialty.
+- **Interactive Treatment Estimator**: Client-side interactive widget where users can select treatment types (e.g., Laser Hair Removal, Acne Scar Treatment, Anti-Aging, Botox), body areas, and sessions to see custom price estimates.
+- **Services Grid**: Grid display of premium treatment cards.
+- **Booking Consultation**: A contact/booking form with active state validations.
+- **Patient Transformations/Testimonials**: Real-looking reviews from Hyderabad-based clients.
+- **Store Details Footer**: Showcasing real contact numbers, address, and email details.
+
+### R3. Visual Excellence & Responsiveness
+All pages must be fully mobile responsive. The typography must pair elegant display fonts with readable body faces. Vector-based icons (Lucide) must be used instead of emojis. Active tap feedback must be implemented for all buttons and tabs.
+
+## Acceptance Criteria
+- [ ] All 20 page routes compile under `npm run build` with zero errors.
+- [ ] Direct URLs `https://yourgwd.vercel.app/client/[slug]` correctly resolve and load.
+- [ ] All 20 pages feature mobile responsive layouts with no horizontal overflow.
+- [ ] Strictly NO dark mode is used on any page.
+- [ ] Interactive customizer widgets update state and calculate pricing correctly.

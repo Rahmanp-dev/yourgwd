@@ -132,6 +132,44 @@ export async function generateMetadata({ params }) {
         siteName: 'Suraj Bhan Jewellers',
       }
     };
+  } else if (slug === 'dermed-clinic-tolichowki') {
+    return {
+      title: 'Dermed Skin & Hair Clinic | Premium Dermatological Excellence Tolichowki',
+      description: 'Experience elite skin, hair, and laser treatments at Dermed Clinic, Tolichowki. Advanced USFDA-approved therapies, chemical peels, and hair restoration. Book your premium consultation.',
+      openGraph: {
+        title: 'Dermed Skin & Hair Clinic - Tolichowki',
+        description: 'Bespoke clinical dermatology, advanced laser skin rejuvenation, and hair restoration therapies. Visit us near Pillar No. 120, Tolichowki Main Road, Hyderabad.',
+        url: 'https://gwd-sales.com/client/dermed-clinic-tolichowki',
+        siteName: 'Dermed Skin & Hair Clinic',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Dermed Skin & Hair Clinic Consultation Room'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'afaq-laser-cosmetic-clinic') {
+    return {
+      title: 'Afaq Laser & Cosmetic Clinic | Premier Aesthetic Dermatology Tolichowki',
+      description: 'Experience state-of-the-art laser treatments, carbon peels, hair transplantation, and cosmetic solutions at Afaq Clinic, Tolichowki, Hyderabad. Book your premium assessment today.',
+      openGraph: {
+        title: 'Afaq Laser & Cosmetic Clinic - Tolichowki',
+        description: 'Premier laser and aesthetic dermatology clinic. Experience advanced chemical peels, laser hair removal, and skin rejuvenation treatments. Located near Kakatiya Nagar Colony Cross Road, Tolichowki.',
+        url: 'https://gwd-sales.com/client/afaq-laser-cosmetic-clinic',
+        siteName: 'Afaq Laser & Cosmetic Clinic',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Afaq Laser & Cosmetic Clinic Treatment Room'
+          }
+        ]
+      }
+    };
   }
 
   return {
