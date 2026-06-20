@@ -1,70 +1,83 @@
-# Project: Tolichowki Skin & Cosmetic Clinics Preview Pages
+# Project: Tolichowki Pre-school Preview Pages
 
 ## Architecture
-- **Next.js Frontends**: Code 20 premium client pages under `app/client/[slug]/page.jsx` and `layout.jsx`.
+- **Next.js Frontends**: Code 10 premium pre-school pages under `app/client/[slug]/page.jsx` and `layout.jsx`.
 - **E2E Testing / Verification**: Verify Next.js compilation using `npm run build` with zero errors.
-- **Git Deployment**: Commit and push to `main` branch.
+- **Rules**: Strictly Light Mode (NO dark mode), no emojis as structural icons (use Lucide React icons), fully mobile responsive, single CamelCase identifiers for components.
 
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| 1 | UI Page Generation | Create 20 distinct, premium LONG-FORMAT client pages with Tailwind CSS via 10 parallel worker subagents. No dark mode. | None | PLANNED |
+| 1 | UI Page Generation | Create 10 distinct, premium LONG-FORMAT client pages with Tailwind CSS via 5 parallel worker subagents. Strictly Light Mode. | None | IN_PROGRESS (73c9969c-d730-49e3-bc2e-dc1fe72bf4d6, 4464d181-db61-43eb-91a1-4ee469dfe2c4, c3d52801-5b70-42a6-89ba-cd4b06c97480, 7f8aafd0-028f-4b4d-b12b-00c4ddcd1e03, 1aa2b3e4-c912-476b-ba0a-2fbc9979682d) |
 | 2 | Build Verification | Run `npm run build` and ensure compilation passes with zero errors. | M1 | PLANNED |
-| 3 | Git Deployment | Commit all generated files and push to `main` branch. | M2 | PLANNED |
+| 3 | Final Reporting | Deliver handoff and report to Sentinel. | M2 | PLANNED |
 
 ## Interface Contracts
 ### Next.js Frontend Pages
-- Component: `app/client/[slug]/page.jsx`
-- Layout: `app/client/[slug]/layout.jsx` for OpenGraph metadata.
+- Component: `app/client/[slug]/page.jsx` (must use `"use client"` directive)
+- Layout: `app/client/[slug]/layout.jsx` for custom OpenGraph metadata with single CamelCase layout function names.
 - Styling: Tailwind CSS classes applying distinct premium design systems based on the `ui-ux-pro-max` skill. Strictly Light Mode (NO dark mode).
-- Content: Long format with:
-  - **Hero Header**: Engaging title, taglines, and immersive background gradients/imagery.
-  - **Clinic Expertise/About**: A section detailing their cosmetic legacy and specialty.
-  - **Interactive Treatment Estimator**: Client-side interactive widget where users can select treatment types (e.g. Laser Hair Removal, Acne Scar Treatment, Anti-Aging, Botox), body areas, and sessions to see custom price estimates and mock visuals.
-  - **Services Grid**: Grid display of premium treatment cards.
-  - **Booking Consultation Form**: A contact/booking form with active state validations.
-  - **Patient Transformations/Testimonials**: Real-looking reviews from Hyderabad-based clients.
-  - **Store Details Footer**: Showcasing real contact numbers, address, and email details.
-- Icons: Vector-based Lucide icons (import React and lucide-react, or use inline SVG). No emojis allowed.
+- Sections: Minimum 7 full content sections per page (specifically the 9 required sections):
+  1. **Hero Section**: Engaging title, taglines, light gradient backgrounds, primary CTA linking to admission form.
+  2. **Stats Bar**: 3-4 metrics (e.g. Years Est., Enrolled, Activities, Parent Satisfaction %).
+  3. **About / Philosophy**: Mission, teaching approach, unique factors in Tolichowki.
+  4. **Curriculum & Programs**: 4-6 cards (Playgroup, Nursery, LKG, UKG, Daycare, After-school) with icon, age range, highlights.
+  5. **Facilities Gallery**: Visual showcase of classrooms/play areas using Unsplash images with hover effects.
+  6. **Fee Estimator**: Interactive widget using `useState` to calculate fees.
+  7. **Parent Testimonials**: 3-4 review cards with star ratings.
+  8. **Admission Enquiry Form**: Child's/Parent's details, DOB (with auto age calculation), program dropdown, date, validations, success card.
+  9. **Contact & Location Footer**: Address in Tolichowki, phone, email, operating hours, Google Maps iframe placeholder.
+
+- Icons: Vector-based Lucide React icons. No emojis as structural icons.
 
 ## Slugs and Design Systems:
 
-1. `dermed-clinic-tolichowki` & `afaq-laser-cosmetic-clinic`
-   - **Design Style**: Glassmorphism Light / Frosted Translucent (Soft pink/peach background, frosted glass cards, glow effects, rose gold borders)
-   - **Palette**: Blush Pink (`#FFF0EE`), Rose Gold (`#B76E79`), Warm White (`#FFFDFD`).
+1. `bachpan-play-school-tolichowki`
+   - **Design Style**: Cheerful Glassmorphism
+   - **Palette**: Primary rose/coral (`#F76E6E`), white frosted cards, playful rounded corners
+   - **Font**: Nunito
 
-2. `celestee-skin-clinic-tolichowki` & `ambrosia-clinic-tolichowki`
-   - **Design Style**: Neumorphic Clean / Soft Dermatology (Soft grey-blue background, soft shadows, inset/outset inputs and cards, calming cyan highlights)
-   - **Palette**: Soft grey-blue background (`#F0F4F8`), calming cyan (`#06B6D4`), dark slate (`#1E293B`).
+2. `kidzee-tolichowki`
+   - **Design Style**: Fresh Neumorphism
+   - **Palette**: Soft mint green (`#A8E6CF`), subtle shadow-inset elements, clean aesthetics
+   - **Font**: Plus Jakarta Sans
 
-3. `cura-skin-hair-clinic` & `eternelle-aesthetics-tolichowki`
-   - **Design Style**: Luxury Classic Gold & Cream (Rich cream base, elegant serif headings, warm gold accent, thin dark slate borders)
-   - **Palette**: Cream base (`#FAF8F5`), gold accent (`#D4AF37`), slate text (`#334155`).
+3. `little-millennium-tolichowki`
+   - **Design Style**: Sunshine Flat
+   - **Palette**: Bright yellow (`#FFD166`), orange accents (`#F4845F`), geometric shapes
+   - **Font**: Poppins
 
-4. `oliva-skin-clinic-tolichowki` & `kaya-skin-clinic-tolichowki`
-   - **Design Style**: Soft Pastel Blush & Rose (Rose gold accents, soft pink/lavender backdrop, rounded cards, organic waves)
-   - **Palette**: Soft pink background (`#FFF5F5`), lavender-blush (`#FFF0F5`), deep slate (`#2D3748`).
+4. `eurokids-tolichowki`
+   - **Design Style**: Sky Blue Minimal
+   - **Palette**: Soft sky blue (`#BDE0FE`), white cards, gentle gradients
+   - **Font**: Inter
 
-5. `clear-skin-centre-tolichowki` & `sree-skin-care-clinic-tolichowki`
-   - **Design Style**: Modern Bento Grid / Clean Slate (Crisp off-white background, structured borders, pastel teal accent buttons, dense info cards)
-   - **Palette**: Off-white base (`#F8FAFC`), teal accent (`#0D9488`), dark grey (`#1F2937`).
+5. `kangaroo-kids-tolichowki`
+   - **Design Style**: Nature Green
+   - **Palette**: Earthy sage (`#6BAA75`), cream backgrounds (`#FEFAE0`)
+   - **Font**: Merriweather (headings) + Open Sans (body)
 
-6. `radiance-skin-clinic-tolichowki` & `dr-nivedita-dadu-dermatology`
-   - **Design Style**: Organic Wellness Green / Sage & Forest (Sage and mint base, eucalyptus green buttons, raw/organic shapes, leaf motifs, fresh hydration feel)
-   - **Palette**: Sage green (`#EAF0EB`), mint accents (`#A7F3D0`), forest green (`#065F46`).
+6. `orchids-international-school-tolichowki`
+   - **Design Style**: Luxury Pearl
+   - **Palette**: Champagne (`#F5E6C8`), deep navy accent text (`#1B4080`), premium feel
+   - **Font**: Playfair Display (headings) + Inter (body)
 
-7. `dermaclinix-hyderabad-tolichowki` & `elite-skin-hair-clinic-tolichowki`
-   - **Design Style**: Minimalist High-Contrast Chic (Pure white base, crisp slate text, sharp 1px borders, bold elegant sans-serif, high-fashion medical vibe, vivid sky blue highlight)
-   - **Palette**: Pure white (`#FFFFFF`), sky blue highlight (`#0EA5E9`), dark slate (`#0F172A`).
+7. `stem-kids-preschool-tolichowki`
+   - **Design Style**: Tech Bright
+   - **Palette**: Electric purple (`#7B61FF`), lime green accents (`#B5FF6D`), futuristic clean design
+   - **Font**: Space Grotesk
 
-8. `vcare-skin-hair-clinic-tolichowki` & `labelle-skin-hair-clinic-tolichowki`
-   - **Design Style**: Futuristic Pearl / Cyber-Metallic (Ultra light silver/pearl background, soft metallic blue gradients, holographic glass cards, lavender buttons)
-   - **Palette**: Pearl background (`#F3F4F6`), metallic blue (`#3B82F6`), lavender (`#8B5CF6`).
+8. `maple-bear-preschool-tolichowki`
+   - **Design Style**: Canadian Warmth
+   - **Palette**: Maple red (`#C0392B`) on warm cream, bear paw motifs
+   - **Font**: Lato (headings) + Georgia (body)
 
-9. `kosmoderma-skin-clinic-tolichowki` & `skinns-clinic-tolichowki`
-   - **Design Style**: Bold Retro / Warm Clay & Terracotta (Creamy warm sand background, terracotta, warm honey accents, rounded playful layout, friendly family clinic feel)
-   - **Palette**: Warm sand (`#F5EBE6`), terracotta (`#C2593F`), honey (`#F59E0B`).
+9. `little-elly-preschool-tolichowki`
+   - **Design Style**: Pastel Rainbow
+   - **Palette**: Lavender (`#C9B8FF`), soft pink (`#FFB3C6`), multi-hue gradient hero
+   - **Font**: Quicksand
 
-10. `rejuve-skin-hair-clinic-tolichowki` & `flawless-skin-laser-clinic-tolichowki`
-    - **Design Style**: Luxury Orchid & Plum (Very pale lavender-blush base, deep royal plum accents, orchid buttons, elegant floral borders)
-    - **Palette**: Lavender-blush base (`#FAF5FF`), plum accents (`#4A154B`), orchid highlight (`#A855F7`).
+10. `footprints-play-school-tolichowki`
+    - **Design Style**: Terracotta Warmth
+    - **Palette**: Dusty terracotta (`#E07A5F`), sand (`#F2CC8F`), footprint-inspired dividers
+    - **Font**: Josefin Sans

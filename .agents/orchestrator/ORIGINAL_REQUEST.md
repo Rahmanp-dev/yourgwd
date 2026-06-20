@@ -60,5 +60,28 @@ Hire specialist subagents to execute the pages, ensuring:
 - Highly distinct design systems (Glassmorphism, Neumorphism, bright/pastel theme, etc.).
 - Long-format sections (Hero, About, Interactive Treatment Estimator, Services Grid, Booking Form, Testimonials, Footer).
 - Compilation with zero errors.
+## 2026-06-20T09:55:52Z
 
+Initialize and orchestrate the project to build 10 premium pre-school UI preview pages in app/client/[slug] for Tolichowki, Hyderabad.
+The 10 slugs are:
+1. bachpan-play-school-tolichowki
+2. kidzee-tolichowki
+3. little-millennium-tolichowki
+4. eurokids-tolichowki
+5. kangaroo-kids-tolichowki
+6. orchids-international-school-tolichowki
+7. stem-kids-preschool-tolichowki
+8. maple-bear-preschool-tolichowki
+9. little-elly-preschool-tolichowki
+10. footprints-play-school-tolichowki
 
+Rules:
+1. STRICTLY NO DARK MODE.
+2. Long-format: minimum 7 full content sections per page.
+3. Visually distinct: apply the specific design system, font, and color scheme assigned to each school slug.
+4. Tailwind CSS classes only, Lucide React icons only, fully mobile responsive.
+5. Interactive Fee & Admission Estimator widget using useState.
+6. Admission Enquiry Form with active validations and success screen.
+7. Smooth scroll navigation and mobile hamburger menu.
+8. Single CamelCase identifiers for function names in page.jsx and layout.jsx.
+9. Verify by running npm run build.

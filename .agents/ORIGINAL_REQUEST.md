@@ -329,3 +329,79 @@ All pages must be fully mobile responsive. The typography must pair elegant disp
 
 
 
+
+## 2026-06-20T15:25:16Z
+
+# Teamwork Project: 10 Premium Pre-school UI Preview Pages — Tolichowki, Hyderabad
+
+Build 10 highly distinct, premium, LONG FORMAT Next.js UI preview pages for Pre-schools & Play schools in Tolichowki, Hyderabad, inside `app/client/[slug]`.
+
+Working directory: d:\GWD\Sales Machine
+
+## Critical Rules (NON-NEGOTIABLE)
+- **STRICTLY NO DARK MODE** on any page whatsoever. All pages must use Light Mode, bright pastels, or clean whitespace aesthetics.
+- All pages must be **long-format** — minimum 7 full content sections per page.
+- Each page must be **visually distinct** — use completely different color palettes, typography pairings, and layout structures. No two pages should look alike.
+- Use **Tailwind CSS** classes for all styling. No inline styles.
+- Use **Lucide React** icons only. No emoji used as structural icons.
+- All pages must be **fully mobile responsive** with no horizontal overflow.
+- Use `"use client"` directive at the top of every `page.jsx`.
+
+## Schools to Build (10 pages)
+1. Bachpan Play School Tolichowki → slug: `bachpan-play-school-tolichowki`
+2. Kidzee Tolichowki → slug: `kidzee-tolichowki`
+3. Little Millennium Tolichowki → slug: `little-millennium-tolichowki`
+4. EuroKids Tolichowki → slug: `eurokids-tolichowki`
+5. Kangaroo Kids Tolichowki → slug: `kangaroo-kids-tolichowki`
+6. Orchids The International School Tolichowki → slug: `orchids-international-school-tolichowki`
+7. STEM Kids Preschool Tolichowki → slug: `stem-kids-preschool-tolichowki`
+8. Maple Bear Canadian Preschool Tolichowki → slug: `maple-bear-preschool-tolichowki`
+9. Little Elly Preschool Tolichowki → slug: `little-elly-preschool-tolichowki`
+10. Footprints Play School Tolichowki → slug: `footprints-play-school-tolichowki`
+
+## Required Sections per Page (Long Format)
+Each page MUST include ALL of the following sections:
+1. Hero Section — Large headline, tagline, engaging hero visual with gradient backgrounds (NO dark colors), primary CTA button linking to admission form section.
+2. Stats Bar — 3-4 achievement metrics (e.g., Years Established, Children Enrolled, Activities Offered, Parent Satisfaction %).
+3. About / Our Philosophy — Mission statement, teaching approach, what makes this school unique in Tolichowki.
+4. Curriculum & Programs — 4-6 program cards (Playgroup, Nursery, LKG, UKG, Daycare, After-school). Each card with icon, program name, age range, key highlights.
+5. Facilities Gallery — Visual showcase of classrooms, play areas, library, activity rooms using Unsplash images with beautiful hover effects.
+6. Fee & Admission Estimator — Interactive widget: user selects program type (Playgroup/Nursery/LKG/UKG) and sees estimated annual fees, registration fees, with a breakdown table.
+7. Parent Testimonials — 3-4 review cards with star ratings, parent names, and authentic-sounding feedback specific to Tolichowki families.
+8. Admission Enquiry Form — Full form with: Child's Name, Parent's Name, Phone, Email, Child's DOB (with age auto-calculation), Program Interest (dropdown), Preferred Start Date, Message. Include real-time validation (required fields, phone format, email format). On successful submission show a confirmation card with a reference number.
+9. Contact & Location Footer — Real school address in Tolichowki, phone number, email, operating hours, and an embedded Google Maps placeholder iframe.
+
+## Design System Assignments (apply distinctly per page)
+- `bachpan-play-school-tolichowki`: Cheerful Glassmorphism — primary rose/coral (#F76E6E), white frosted cards, playful rounded corners, bubbly font (Nunito)
+- `kidzee-tolichowki`: Fresh Neumorphism — soft mint green (#A8E6CF), subtle shadow-inset elements, clean sans-serif (Plus Jakarta Sans)
+- `little-millennium-tolichowki`: Sunshine Flat — bright yellow (#FFD166), orange accents (#F4845F), geometric shapes, bold Poppins
+- `eurokids-tolichowki`: Sky Blue Minimal — soft sky blue (#BDE0FE), white cards, gentle gradients, Inter font
+- `kangaroo-kids-tolichowki`: Nature Green — earthy sage (#6BAA75), cream backgrounds (#FEFAE0), warm serif + sans pairing (Merriweather + Open Sans)
+- `orchids-international-school-tolichowki`: Luxury Pearl — champagne (#F5E6C8), deep navy accent text (#1B4080), serif-forward design (Playfair Display), premium feel
+- `stem-kids-preschool-tolichowki`: Tech Bright — electric purple (#7B61FF), lime green accents (#B5FF6D), dark-free futuristic design, Space Grotesk
+- `maple-bear-preschool-tolichowki`: Canadian Warmth — maple red (#C0392B) on warm cream, bear paw motif in icons, Lato + Georgia
+- `little-elly-preschool-tolichowki`: Pastel Rainbow — lavender (#C9B8FF), soft pink (#FFB3C6), multi-hue gradient hero, Quicksand font
+- `footprints-play-school-tolichowki`: Terracotta Warmth — dusty terracotta (#E07A5F), sand (#F2CC8F), Josefin Sans, playful footprint-inspired dividers
+
+## File Structure per School
+For each slug, create:
+- `app/client/{slug}/page.jsx` — Full interactive React component (use client)
+- `app/client/{slug}/layout.jsx` — SEO metadata layout with school name in title
+
+## Technical Requirements
+- Function names in page.jsx and layout.jsx must be single CamelCase identifiers (no spaces). E.g., `BachpanPlaySchoolPage`, `KidzeeTolichowkiLayout`.
+- All images: use real Unsplash URLs with ?auto=format&fit=crop&q=80&w=800 parameters.
+- Interactive Fee Estimator: use useState to track selected program and render price breakdown dynamically.
+- Admission form: use useState for form fields and errors; show success confirmation on submit (simulated with setTimeout).
+- Smooth scroll navigation in header to section anchors.
+- Mobile hamburger menu for small screens.
+
+## Acceptance Criteria
+- [ ] All 10 page.jsx and layout.jsx files created in correct app/client/{slug}/ paths.
+- [ ] npm run build passes with zero errors for all 10 new routes.
+- [ ] Zero dark mode: no dark: Tailwind classes, no bg-gray-900, bg-slate-900, bg-black or similar dark backgrounds used as primary backgrounds.
+- [ ] Each page has all 9 required sections.
+- [ ] Fee Estimator widget correctly changes price breakdown when user selects different programs.
+- [ ] Admission form validates inputs and shows success state.
+- [ ] All pages are fully mobile responsive (no horizontal overflow at 375px viewport).
+- [ ] Each page uses a visually distinct color palette from the design system assignments above.
