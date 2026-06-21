@@ -1,0 +1,162 @@
+[
+  {
+    "clinic_name": "Oliva Skin & Hair Clinic",
+    "address": "House No. 8-2-270/B/1, 2nd Floor, Q Mart Building, Road No. 3, Uptown Banjara, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://www.olivaclinic.com",
+    "instagram_url": "https://www.instagram.com/olivaclinics/",
+    "phone_number": "+91 8977755473",
+    "lead_dermatologist": {
+      "name": "Dr. Chadalavada Pragathi",
+      "credentials": "MBBS, MD (DVL)"
+    },
+    "top_treatments": [
+      "Laser hair reduction",
+      "Acne scar treatment",
+      "Pigmentation treatment"
+    ]
+  },
+  {
+    "clinic_name": "Kaya Clinic",
+    "address": "Municipal No. 6/3, Le Benaka, Opposite GIVA Silver & Gold Jewellery, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://www.kaya.in",
+    "instagram_url": "https://www.instagram.com/kayaskinclinic/",
+    "phone_number": "+91 8657569378",
+    "lead_dermatologist": {
+      "name": "Dr. Samatha Nuthalapati",
+      "credentials": "MBBS, MD (DVL)"
+    },
+    "top_treatments": [
+      "Laser hair reduction",
+      "Acne scar treatment",
+      "Chemical peels"
+    ]
+  },
+  {
+    "clinic_name": "Clinica Derm",
+    "address": "2nd Floor, H.No: 8-2-686, 16/2, Road No. 12, beside Pepperfry, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://clinicaderm.in",
+    "instagram_url": "https://www.instagram.com/clinicaderm/",
+    "phone_number": "+91 6309801421",
+    "lead_dermatologist": {
+      "name": "Dr. Deepthi Atmakuri",
+      "credentials": "MBBS, DDVL"
+    },
+    "top_treatments": [
+      "Morpheus8 RF microneedling",
+      "HydraFacial",
+      "Laser hair reduction"
+    ]
+  },
+  {
+    "clinic_name": "Sri Skin & Cosmetology Centre",
+    "address": "First Floor, Kimtee Banjara Heights, Opposite Pride Honda Showroom, Road No. 12, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://www.sriskinclinic.com",
+    "instagram_url": null,
+    "phone_number": "+91 9849303221",
+    "lead_dermatologist": {
+      "name": "Dr. D. Sudha Vani",
+      "credentials": "MBBS, MD (Dermatology)"
+    },
+    "top_treatments": [
+      "Vitiligo light therapy (PUVA/NBUVB)",
+      "Q-switched laser resurfacing",
+      "Skin tightening"
+    ]
+  },
+  {
+    "clinic_name": "Reborn Skin & Hair Clinic",
+    "address": "4th Floor, Brooks Brothers Building, Road Number 2, BNR Colony, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://rebornclinics.in",
+    "instagram_url": null,
+    "phone_number": "+91 9581062000",
+    "lead_dermatologist": {
+      "name": "Dr. Kakollu Sravani",
+      "credentials": "MBBS, MD (DVL)"
+    },
+    "top_treatments": [
+      "Laser hair removal",
+      "PRP hair therapy",
+      "Chemical peels"
+    ]
+  },
+  {
+    "clinic_name": "The Skin Sensé by Dr. Alekya Singapore",
+    "address": "Bhavya's Fantastika, 201/208, Road No. 12, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://www.theskinsense.com",
+    "instagram_url": "https://www.instagram.com/dr.alekyasingapore/",
+    "phone_number": "+91 9014696430",
+    "lead_dermatologist": {
+      "name": "Dr. Alekya Singapore",
+      "credentials": "MBBS, DDVL"
+    },
+    "top_treatments": [
+      "Biostimulants (Sculptra/Radiesse)",
+      "HydraFacials",
+      "Double chin reduction"
+    ]
+  },
+  {
+    "clinic_name": "Sikara Clinics",
+    "address": "1st Floor, H.No: 8-2-120/77/1 & 3, Road No. 2, Opposite KBR Park, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://sikaraclinics.com",
+    "instagram_url": "https://www.instagram.com/sikaraclinics/",
+    "phone_number": "+91 8121968111",
+    "lead_dermatologist": {
+      "name": "Dr. Sanky Divya",
+      "credentials": "MBBS, DDVL"
+    },
+    "top_treatments": [
+      "Laser hair reduction",
+      "Skin tightening",
+      "Acne treatments"
+    ]
+  },
+  {
+    "clinic_name": "Dr. Syeda Nikhat's Skin Care Clinic",
+    "address": "Road No. 2, Beside Birth Place Hospital, L V Prasad Eye Hospital Road, Opposite Harley Davidson Showroom, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "http://www.drnikhatskincarecenter.com",
+    "instagram_url": null,
+    "phone_number": "+91 9492571972",
+    "lead_dermatologist": {
+      "name": "Dr. Syeda Nikhat Baquer",
+      "credentials": "MBBS, DDVL"
+    },
+    "top_treatments": [
+      "Pediatric dermatology",
+      "Hair loss treatment (PRP/Plasma therapy)",
+      "Laser scar revision"
+    ]
+  },
+  {
+    "clinic_name": "Labelle Slimming, Skin & Hair Clinic",
+    "address": "2nd Floor, Survey No. 403, Venkateshwara Co-operative House Building Society, 1 & 102/1, Lane No. 12, beside HDFC Bank, MLA Colony, Banjara Hills, Hyderabad, Telangana 500034",
+    "website_url": "https://www.labelle.in",
+    "instagram_url": null,
+    "phone_number": "+91 8019002020",
+    "lead_dermatologist": {
+      "name": "Dr. Pooja Tatapudi",
+      "credentials": "MBBS, MD, DNB"
+    },
+    "top_treatments": [
+      "Pigmentation treatment",
+      "Skin lightening",
+      "Acne scar removal"
+    ]
+  },
+  {
+    "clinic_name": "Manira Dermatology & Aesthetics",
+    "address": "1st Floor, House No. 8-2-601/A, Plot No. 159, Road No. 10, Banjara Hills, Hyderabad, Telangana 500028",
+    "website_url": "https://www.maniradermaclinic.com",
+    "instagram_url": null,
+    "phone_number": "+91 7569139558",
+    "lead_dermatologist": {
+      "name": "Dr. V. Manjula Priyadarshini",
+      "credentials": "MBBS, DDVL"
+    },
+    "top_treatments": [
+      "Botox & Fillers",
+      "Chemical peels",
+      "Hair PRP & GFC therapy"
+    ]
+  }
+]

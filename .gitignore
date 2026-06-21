@@ -3,3 +3,7 @@ node_modules
 .env
 .env.local
 data/antigravity_output.json
+.agents
+.next-worker-5
+.next-worker-*
+
