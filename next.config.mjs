@@ -1,3 +1,4 @@
-export default {
-  distDir: '.next-temp-build',
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default nextConfig;
