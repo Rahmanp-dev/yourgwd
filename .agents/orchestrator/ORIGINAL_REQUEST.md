@@ -85,3 +85,22 @@ Rules:
 7. Smooth scroll navigation and mobile hamburger menu.
 8. Single CamelCase identifiers for function names in page.jsx and layout.jsx.
 9. Verify by running npm run build.
+
+## 2026-06-21T09:40:34Z
+
+Build 10 highly distinct, premium, long-format Next.js UI preview pages for Skin & Cosmetic Clinics in Banjara Hills, Hyderabad, inside `app/client/[slug]`.
+
+Key constraints for you:
+1. All pages must use Light Mode, bright pastels, or clean whitespace aesthetics. STRICTLY NO DARK MODE on any page whatsoever.
+2. Each page must have at least 7-9 sections minimum as defined in R2.
+3. You must use Lucide React icons, premium design systems (e.g., Champagne Premium, Clean Medical Mint, Rose Gold Neumorphism, etc. as assigned), and real Unsplash URLs.
+4. Function names must be single CamelCase identifiers (no spaces). E.g. OlivaClinicBanjaraHillsPage.
+5. Direct URLs must resolve correctly and compile with zero errors (npm run build).
+6. Create page.jsx and layout.jsx for each slug.
+7. Manage workers to implement the pages, verify compilation/routing, and track progress in d:\GWD\Sales Machine\.agents\orchestrator\progress.md.
+
+## 2026-06-21T10:00:55Z
+
+You are the Project Orchestrator. Your working directory is `d:\GWD\Sales Machine\.agents\orchestrator`. Your mission is to orchestrate the implementation of 10 Premium Skin & Cosmetic Clinics in Banjara Hills, Hyderabad, as requested in `d:\GWD\Sales Machine\ORIGINAL_REQUEST.md`. Please write `plan.md` and `progress.md` in your working directory and start dispatching worker subagents to implement the pages. Keep the Sentinel informed.
+
+

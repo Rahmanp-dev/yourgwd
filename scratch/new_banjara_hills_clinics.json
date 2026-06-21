@@ -1,0 +1,152 @@
+[
+  {
+    "clinic_name": "Saanvi's Laser Skin & Hair Clinic",
+    "address": "6-3-252/3, EAPL Ascent, Opp: Bank of Bahrain & Kuwait, Irram Manzil Colony, Banjara Hills, Hyderabad, Telangana 500082",
+    "phone_number": "+91 9848230000",
+    "lead_dermatologist": {
+      "name": "Dr. G.S.S. Sandeep",
+      "credentials": "MBBS, MD (Dermatology, Venereology & Leprosy)"
+    },
+    "top_treatments": [
+      "PRP hair therapy",
+      "Laser skin resurfacing",
+      "Chemical peels"
+    ],
+    "slug": "saanvis-laser-skin-clinic-banjara-hills"
+  },
+  {
+    "clinic_name": "Beauty World Cosmetic & Skin Clinic",
+    "address": "Opposite Kotak Mahindra Bank, Road No. 1, Banjara Hills, Hyderabad, Telangana 500034",
+    "phone_number": "+91 9849015093",
+    "lead_dermatologist": {
+      "name": "Dr. Amarnath Patil",
+      "credentials": "MBBS, MD"
+    },
+    "top_treatments": [
+      "Botox & fillers",
+      "Laser hair reduction",
+      "Chemical peels"
+    ],
+    "slug": "beauty-world-skin-clinic-banjara-hills"
+  },
+  {
+    "clinic_name": "Transform Skin & Cosmetic Clinic",
+    "address": "Flora Apartment, No. 3, Near Almond House, Opposite SBH Mufakkam Jah College, Road No. 3, Banjara Hills, Hyderabad, Telangana 500034",
+    "phone_number": "+91 9032799498",
+    "lead_dermatologist": {
+      "name": "Dr. Madhuri T J",
+      "credentials": "MBBS, DVL"
+    },
+    "top_treatments": [
+      "Pigmentation treatment",
+      "Laser scar revision",
+      "Anti-aging therapy"
+    ],
+    "slug": "transform-skin-clinic-banjara-hills"
+  },
+  {
+    "clinic_name": "Riyaanz Aesthetic",
+    "address": "Flat No. 102, 8-2-686/C/6/5, Road Number 12, Banjara Hills, Hyderabad, Telangana 500034",
+    "phone_number": "+91 9989174576",
+    "lead_dermatologist": {
+      "name": "Dr. Namitha",
+      "credentials": "Cosmetologist"
+    },
+    "top_treatments": [
+      "Laser hair removal",
+      "Weight loss treatment",
+      "Skin tightening"
+    ],
+    "slug": "riyaanz-aesthetic-banjara-hills"
+  },
+  {
+    "clinic_name": "Dr. Ramesh's Dermatique",
+    "address": "#283, MLA Colony, Road No. 12, Above Subway Cafe, Beside Omega Hospital, Banjara Hills, Hyderabad - 500028",
+    "phone_number": "+91 8500302333",
+    "lead_dermatologist": {
+      "name": "Dr. Ramesh Vishwanath",
+      "credentials": "Dermatologist"
+    },
+    "top_treatments": [
+      "Advanced laser therapy",
+      "Hair restoration",
+      "Skin rejuvenation"
+    ],
+    "slug": "dr-rameshs-dermatique-banjara-hills"
+  },
+  {
+    "clinic_name": "Dr. Phanisri Skin Clinic",
+    "address": "#8-2-601/J, Plot No. 157, Road No. 10, Banjara Hills, Hyderabad - 500034",
+    "phone_number": "+91 9133481234",
+    "lead_dermatologist": {
+      "name": "Dr. Phanisri J.",
+      "credentials": "Dermatologist"
+    },
+    "top_treatments": [
+      "Acne scar revision",
+      "Laser resurfacing",
+      "Anti-aging procedures"
+    ],
+    "slug": "dr-phanisri-skin-clinic-banjara-hills"
+  },
+  {
+    "clinic_name": "Shayas Cosmetic Clinic",
+    "address": "Flat no-303, 'A' block, Maheshwari Tower, Road no-1, Banjara Hills, Hyderabad - 500034",
+    "phone_number": "+91 4066833447",
+    "lead_dermatologist": {
+      "name": "Dr. Meghana",
+      "credentials": "Dermatologist"
+    },
+    "top_treatments": [
+      "Laser hair reduction",
+      "Skin whitening",
+      "Chemical peels"
+    ],
+    "slug": "shayas-cosmetic-clinic-banjara-hills"
+  },
+  {
+    "clinic_name": "JDs Clinic",
+    "address": "Ground Floor G3, Ashoka Capitol, Road No. 2, Banjara Hills, Hyderabad, Telangana 500034",
+    "phone_number": "+91 9855155123",
+    "lead_dermatologist": {
+      "name": "Dr. Aparna Krishnappa",
+      "credentials": "MBBS, MD - DVL"
+    },
+    "top_treatments": [
+      "Aesthetic dermatology",
+      "Lasers & peels",
+      "Hair transplant"
+    ],
+    "slug": "jds-clinic-banjara-hills"
+  },
+  {
+    "clinic_name": "Reva Health & Skin",
+    "address": "3rd Floor, Merchant Tower, Road No. 4, Banjara Hills, Hyderabad (Above Origins)",
+    "phone_number": "+91 4044544335",
+    "lead_dermatologist": {
+      "name": "Dr. Rashmi Shetty",
+      "credentials": "Dermatologist"
+    },
+    "top_treatments": [
+      "Celebrity skincare",
+      "Ultherapy skin lifting",
+      "Laser rejuvenation"
+    ],
+    "slug": "reva-health-skin-clinic-banjara-hills"
+  },
+  {
+    "clinic_name": "Dermatrendz Skin Care Centre",
+    "address": "1st Floor, Plot 17-A, Journalist Colony, Jubilee Hills, Hyderabad, Telangana - 500033",
+    "phone_number": "+91 9966344442",
+    "lead_dermatologist": {
+      "name": "Dr. V K Somani",
+      "credentials": "MBBS, MD (Dermatology)"
+    },
+    "top_treatments": [
+      "Medical dermatology",
+      "Trichology & hair care",
+      "Acne & allergy treatments"
+    ],
+    "slug": "dermatrendz-skin-care-centre-jubilee-hills"
+  }
+]

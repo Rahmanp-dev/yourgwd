@@ -1,0 +1,24 @@
+export const metadata = {
+  title: 'Dermatrendz Skin Care Centre | Medical Dermatology & Trichology | Jubilee Hills, Hyderabad',
+  description: 'Experience clinical dermatology, trichology, and acne treatments under Dr. V K Somani at Dermatrendz Skin Care Centre, Jubilee Hills.',
+  openGraph: {
+    title: 'Dermatrendz Skin Care Centre - Jubilee Hills',
+    description: 'Expert skin & hair treatments by Dr. V K Somani in Hyderabad. Medical dermatology, trichology, and acne care. Call +91 9966344442.',
+    url: 'https://sales-machine.gwd.com/client/dermatrendz-skin-care-centre-jubilee-hills',
+    siteName: 'Dermatrendz Skin Care Centre',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800',
+        width: 800,
+        height: 600,
+        alt: 'Dermatrendz Skin Care Centre',
+      }
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  }
+};
+
+export default function DermatrendzSkinCareCentreLayout({ children }) {
+  return children;
+}
