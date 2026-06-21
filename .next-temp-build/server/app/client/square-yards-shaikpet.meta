@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/square-yards-shaikpet/layout,_N_T_/client/square-yards-shaikpet/page,_N_T_/client/square-yards-shaikpet"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/square-yards-shaikpet/__PAGE__",
+    "/client/square-yards-shaikpet",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/nakshatra-catering-uppal/layout,_N_T_/client/nakshatra-catering-uppal/page,_N_T_/client/nakshatra-catering-uppal"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/nakshatra-catering-uppal/__PAGE__",
+    "/client/nakshatra-catering-uppal",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,3 @@
+module.exports=[579147,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Totaram & Sons Jewellers - Jagdish Market, Abids | Legacy of Traditional Gold",description:"Heritage Nizam-inspired 22K gold temple jewelry, Polki chokers, and fine Basra pearls. Visited by families for generations in Jagdish Market, Abids, Hyderabad.",openGraph:{title:"Totaram & Sons Jewellers - Jagdish Market, Abids | Heritage Jewellery",description:"Heritage Nizam-inspired 22K gold temple jewelry, Polki chokers, and fine Basra pearls.",siteName:"Totaram & Sons Jewellers"}}])},396535,a=>{a.n(a.i(579147))}];
+
+//# sourceMappingURL=app_client_totaram-sons-jewellers-abids_layout_jsx_06y76_k._.js.map

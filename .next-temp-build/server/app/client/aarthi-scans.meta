@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/aarthi-scans/layout,_N_T_/client/aarthi-scans/page,_N_T_/client/aarthi-scans"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/aarthi-scans/__PAGE__",
+    "/client/aarthi-scans",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,3 @@
+module.exports=[295115,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Metro Dentistry - Official Website Preview",description:"Welcome to the new premium website preview for Metro Dentistry. Discover our services and book an appointment today.",openGraph:{title:"Metro Dentistry - Official Website Preview",description:"Welcome to the new premium website preview for Metro Dentistry. Discover our services and book an appointment today.",siteName:"Metro Dentistry"}}])},518934,a=>{a.n(a.i(295115))}];
+
+//# sourceMappingURL=app_client_metro-dentistry_layout_jsx_0yceq0t._.js.map

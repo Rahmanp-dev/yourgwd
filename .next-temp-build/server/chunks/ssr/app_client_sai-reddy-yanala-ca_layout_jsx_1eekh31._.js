@@ -1,0 +1,3 @@
+module.exports=[355732,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Sai Reddy Yanala CA - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Sai Reddy Yanala CA. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"Sai Reddy Yanala CA - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Sai Reddy Yanala CA. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"Sai Reddy Yanala CA"}}])},426927,a=>{a.n(a.i(355732))}];
+
+//# sourceMappingURL=app_client_sai-reddy-yanala-ca_layout_jsx_1eekh31._.js.map

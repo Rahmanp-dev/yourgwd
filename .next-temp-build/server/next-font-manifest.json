@@ -1,0 +1,383 @@
+{
+  "app": {
+    "[project]/app/client/aamir-hameeda-design-studio-banjara-hills/page": [
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2"
+    ],
+    "[project]/app/client/aamir-hameeda/page": [
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/app/client/afaq-laser-cosmetic-clinic/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/akoya-pearls-ghanshyamdas/page": [
+      "static/media/68019c21ced96fa9-s.p.0mhosx07nwlp0.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/amba-ji-caterers-uppal/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/annapurna-caterers-uppal/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2"
+    ],
+    "[project]/app/client/avm-pre-primary/page": [
+      "static/media/5d52bd6c4cb3f315-s.p.0ez3bnoxb63ra.woff2",
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/bachpan-play-school-tolichowki/page": [
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/balaji-caterers-uppal/page": [
+      "static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/beauty-world-skin-clinic-banjara-hills/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/boom-interiors-attapur/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/clear-skin-centre-tolichowki/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/clinica-derm-banjara-hills/page": [
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2"
+    ],
+    "[project]/app/client/cura-skin-hair-clinic/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/dermed-clinic-tolichowki/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/design-edge-banjara-hills/page": [
+      "static/media/4a7551bcc3548e67-s.p.3jc5sq-923m_s.woff2"
+    ],
+    "[project]/app/client/dlife-interiors-hyd/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/dlife-interiors-hyderabad/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/dr-nikhat-skin-clinic-banjara-hills/page": [
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/dr-phanisri-skin-clinic-banjara-hills/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/dr-rameshs-dermatique-banjara-hills/page": [
+      "static/media/248e1dc0efc99276-s.p.1d6sb5kuiz5lw.woff2",
+      "static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2"
+    ],
+    "[project]/app/client/eminent-tiny-tots/page": [
+      "static/media/b5893709a5ec98ee-s.p.1fehh6s44i8sz.woff2",
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/app/client/eternelle-aesthetics-tolichowki/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/eurokids-tolichowki/page": [
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/app/client/firstcry-intellitots-rajendranagar/page": [
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2",
+      "static/media/7ddd198311ba7843-s.p.3kq6k02b2ysv1.woff2"
+    ],
+    "[project]/app/client/flawless-skin-laser-clinic-tolichowki/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/footprints-play-school-tolichowki/page": [
+      "static/media/769a6a68ede5e496-s.p.1iap2soi8s-8q.woff2",
+      "static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2"
+    ],
+    "[project]/app/client/homelane-kokapet/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/infinite-architecture-studio-banjara-hills/page": [
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/jaswanth-caterers-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/jyothi-caterers-uppal/page": [
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/kangaroo-kids-tolichowki/page": [
+      "static/media/248e1dc0efc99276-s.p.1d6sb5kuiz5lw.woff2",
+      "static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2"
+    ],
+    "[project]/app/client/kaya-clinic-banjara-hills/page": [
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/kidzee-tolichowki/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/kosmoderma-skin-clinic-tolichowki/page": [
+      "static/media/5d52bd6c4cb3f315-s.p.0ez3bnoxb63ra.woff2",
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2"
+    ],
+    "[project]/app/client/labelle-skin-hair-clinic-tolichowki/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/little-elly-preschool-tolichowki/page": [
+      "static/media/4a7551bcc3548e67-s.p.3jc5sq-923m_s.woff2",
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/little-millennium-tolichowki/page": [
+      "static/media/a218039a3287bcfd-s.p.43zbiuwnnoiok.woff2",
+      "static/media/8e6fa89aa22d24ec-s.p.2o7m9ogm38dql.woff2",
+      "static/media/e2334d715941921e-s.p.3o_v2fun1jzxk.woff2",
+      "static/media/47fe1b7cd6e6ed85-s.p.3bh2vc0w-r-ll.woff2",
+      "static/media/829ba4228c966254-s.p.2mm3nq9i83l-m.woff2",
+      "static/media/4b766aa38fdaaae3-s.p.11-gljxdt344a.woff2"
+    ],
+    "[project]/app/client/luxe-designs-kokapet/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/luxe-designs-spaces-hyd/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/maharaja-caterers-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/maple-bear-preschool-tolichowki/page": [
+      "static/media/f30fd2e485acf1bc-s.p.35belnv3c2-b-.woff2",
+      "static/media/8e451580e5e95631-s.p.27vw08z6_vw0m.woff2",
+      "static/media/345c85a432359eed-s.p.0zem_9y19rte6.woff2",
+      "static/media/9be384ea93fe3f49-s.p.0ig786lf0ff2-.woff2",
+      "static/media/8c2eb9ceedecfc8e-s.p.23aeddxv5enbo.woff2"
+    ],
+    "[project]/app/client/maple-bear-rajendranagar/page": [
+      "static/media/5d52bd6c4cb3f315-s.p.0ez3bnoxb63ra.woff2",
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/morph-design-co/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/namasvi-interiors/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/new-vindu-caterers-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/oliva-clinic-banjara-hills/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/orchids-international-school-tolichowki/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/app/client/raaj-thaarak-caterers-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/raavera-interior-designer-banjara-hills/page": [
+      "static/media/c875c6f5d3e977ac-s.p.1h18_wedhzk4h.woff2",
+      "static/media/a218039a3287bcfd-s.p.43zbiuwnnoiok.woff2",
+      "static/media/8e6fa89aa22d24ec-s.p.2o7m9ogm38dql.woff2",
+      "static/media/e2334d715941921e-s.p.3o_v2fun1jzxk.woff2",
+      "static/media/47fe1b7cd6e6ed85-s.p.3bh2vc0w-r-ll.woff2",
+      "static/media/829ba4228c966254-s.p.2mm3nq9i83l-m.woff2"
+    ],
+    "[project]/app/client/reborn-skin-clinic-banjara-hills/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/rejuve-skin-hair-clinic-tolichowki/page": [
+      "static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/rgr-interiors-banjara-hills/page": [
+      "static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/riyaanz-aesthetic-banjara-hills/page": [
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2"
+    ],
+    "[project]/app/client/ruchi-caterers-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/saanvis-laser-skin-clinic-banjara-hills/page": [
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/sahani-interiors-banjara-hills/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/sap-kidney-center/page": [
+      "static/media/f7aa21714c1c53f8-s.p.0-95eo-012xnf.woff2",
+      "static/media/dc6d2a64e9dbf3bc-s.p.3mjzw95c0-_52.woff2"
+    ],
+    "[project]/app/client/seema-design-studio/page": [
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2"
+    ],
+    "[project]/app/client/shahi-darbar-caterers-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/shri-lakshmi-caterers-uppal/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/sikara-clinics-banjara-hills/page": [
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/app/client/simply-interiors-hyd/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/skinns-clinic-tolichowki/page": [
+      "static/media/0c89a48fa5027cee-s.p.2cyn07wtgehh0.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/spice-route-cloud-kitchen-uppal/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/sree-skin-care-clinic-tolichowki/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/sri-skin-clinic-banjara-hills/page": [
+      "static/media/07454f8ad8aaac57-s.p.2kjei9psvcorz.woff2"
+    ],
+    "[project]/app/client/sri-venkateshwara-caterers-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/srishti-cloud-kitchen-uppal/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/stem-kids-preschool-tolichowki/page": [
+      "static/media/0c89a48fa5027cee-s.p.2cyn07wtgehh0.woff2"
+    ],
+    "[project]/app/client/studio-infinite/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/769a6a68ede5e496-s.p.1iap2soi8s-8q.woff2"
+    ],
+    "[project]/app/client/suraj-bhan-jewellers/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/sv-caterers-uppal/page": [
+      "static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/app/client/swagath-caterers-uppal/page": [
+      "static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2",
+      "static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2"
+    ],
+    "[project]/app/client/the-skin-sense-banjara-hills/page": [
+      "static/media/248e1dc0efc99276-s.p.1d6sb5kuiz5lw.woff2",
+      "static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2"
+    ],
+    "[project]/app/client/transform-skin-clinic-banjara-hills/page": [
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/ulavacharu-cloud-kitchen-uppal/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2",
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/e8f2fbee2754df70-s.p.1dqa_6e_ad4sj.woff2"
+    ],
+    "[project]/app/client/vantillu-caterers-uppal/page": [
+      "static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+      "static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2"
+    ],
+    "[project]/app/client/vitalitys-laser-piles/page": [
+      "static/media/ca31d6821328a4e9-s.p.2svk7cnw5x6df.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.137759vg1sbmi.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

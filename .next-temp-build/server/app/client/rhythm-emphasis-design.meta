@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/rhythm-emphasis-design/layout,_N_T_/client/rhythm-emphasis-design/page,_N_T_/client/rhythm-emphasis-design"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/rhythm-emphasis-design/__PAGE__",
+    "/client/rhythm-emphasis-design",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

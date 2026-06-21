@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/dermed-clinic-tolichowki/layout,_N_T_/client/dermed-clinic-tolichowki/page,_N_T_/client/dermed-clinic-tolichowki"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/dermed-clinic-tolichowki/__PAGE__",
+    "/client/dermed-clinic-tolichowki",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/avm-pre-primary/layout,_N_T_/client/avm-pre-primary/page,_N_T_/client/avm-pre-primary"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/avm-pre-primary/__PAGE__",
+    "/client/avm-pre-primary",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

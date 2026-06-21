@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/maple-bear-preschool-tolichowki/layout,_N_T_/client/maple-bear-preschool-tolichowki/page,_N_T_/client/maple-bear-preschool-tolichowki"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/maple-bear-preschool-tolichowki/__PAGE__",
+    "/client/maple-bear-preschool-tolichowki",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

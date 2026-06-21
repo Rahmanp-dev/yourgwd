@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/sri-jagdamba-pearls/layout,_N_T_/client/sri-jagdamba-pearls/page,_N_T_/client/sri-jagdamba-pearls"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/sri-jagdamba-pearls/__PAGE__",
+    "/client/sri-jagdamba-pearls",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

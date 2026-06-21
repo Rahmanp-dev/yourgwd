@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/vasundhara-diamond-roof/layout,_N_T_/client/vasundhara-diamond-roof/page,_N_T_/client/vasundhara-diamond-roof"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/vasundhara-diamond-roof/__PAGE__",
+    "/client/vasundhara-diamond-roof",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

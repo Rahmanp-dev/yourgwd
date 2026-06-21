@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/style-home-interiors-attapur/layout,_N_T_/client/style-home-interiors-attapur/page,_N_T_/client/style-home-interiors-attapur"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/style-home-interiors-attapur/__PAGE__",
+    "/client/style-home-interiors-attapur",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

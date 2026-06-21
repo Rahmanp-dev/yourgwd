@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/darpan-mangatrai-pearls/layout,_N_T_/client/darpan-mangatrai-pearls/page,_N_T_/client/darpan-mangatrai-pearls"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/darpan-mangatrai-pearls/__PAGE__",
+    "/client/darpan-mangatrai-pearls",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

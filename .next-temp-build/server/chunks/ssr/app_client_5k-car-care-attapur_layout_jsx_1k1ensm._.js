@@ -1,0 +1,3 @@
+module.exports=[763119,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"5K Car Care Attapur | Premium Detailing & Nano Ceramic Coatings",description:"5K Car Care in Attapur, Hyderabad. Professional paint protection film, nano ceramic coatings, exterior polishing, and detailing packages with guaranteed results.",openGraph:{title:"5K Car Care Attapur | Premium Detailing & Bento Dashboard",description:"5K Car Care in Attapur, Hyderabad. Professional paint protection film, nano ceramic coatings, exterior polishing, and detailing packages with guaranteed results.",siteName:"5K Car Care Attapur"}}])},120843,a=>{a.n(a.i(763119))}];
+
+//# sourceMappingURL=app_client_5k-car-care-attapur_layout_jsx_1k1ensm._.js.map

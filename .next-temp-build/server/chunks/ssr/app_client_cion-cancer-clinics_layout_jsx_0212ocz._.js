@@ -1,0 +1,3 @@
+module.exports=[590762,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Cion Cancer Clinics - Official Website Preview",description:"Welcome to the new premium website preview for Cion Cancer Clinics. Discover our services and book an appointment today.",openGraph:{title:"Cion Cancer Clinics - Official Website Preview",description:"Welcome to the new premium website preview for Cion Cancer Clinics. Discover our services and book an appointment today.",siteName:"Cion Cancer Clinics"}}])},956103,a=>{a.n(a.i(590762))}];
+
+//# sourceMappingURL=app_client_cion-cancer-clinics_layout_jsx_0212ocz._.js.map

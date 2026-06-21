@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/duchenne-smile/layout,_N_T_/client/duchenne-smile/page,_N_T_/client/duchenne-smile"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/duchenne-smile/__PAGE__",
+    "/client/duchenne-smile",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

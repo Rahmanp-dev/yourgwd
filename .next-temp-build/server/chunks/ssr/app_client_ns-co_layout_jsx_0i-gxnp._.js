@@ -1,0 +1,3 @@
+module.exports=[928997,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"NS & Co - Chartered Accountants & Tax Consultants",description:"Official premium website preview for NS & Co. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"NS & Co - Chartered Accountants & Tax Consultants",description:"Official premium website preview for NS & Co. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"NS & Co"}}])},198657,a=>{a.n(a.i(928997))}];
+
+//# sourceMappingURL=app_client_ns-co_layout_jsx_0i-gxnp._.js.map

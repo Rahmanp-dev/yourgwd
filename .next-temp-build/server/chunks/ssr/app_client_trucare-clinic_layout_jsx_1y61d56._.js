@@ -1,0 +1,3 @@
+module.exports=[382322,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Trucare Clinic - Official Website Preview",description:"Welcome to the new premium website preview for Trucare Clinic. Discover our services and book an appointment today.",openGraph:{title:"Trucare Clinic - Official Website Preview",description:"Welcome to the new premium website preview for Trucare Clinic. Discover our services and book an appointment today.",siteName:"Trucare Clinic"}}])},104353,a=>{a.n(a.i(382322))}];
+
+//# sourceMappingURL=app_client_trucare-clinic_layout_jsx_1y61d56._.js.map

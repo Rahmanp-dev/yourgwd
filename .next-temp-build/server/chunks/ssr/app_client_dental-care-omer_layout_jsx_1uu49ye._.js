@@ -1,0 +1,3 @@
+module.exports=[974796,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Dental Care Omer - Official Website Preview",description:"Welcome to the new premium website preview for Dental Care Omer. Discover our services and book an appointment today.",openGraph:{title:"Dental Care Omer - Official Website Preview",description:"Welcome to the new premium website preview for Dental Care Omer. Discover our services and book an appointment today.",siteName:"Dental Care Omer"}}])},204281,a=>{a.n(a.i(974796))}];
+
+//# sourceMappingURL=app_client_dental-care-omer_layout_jsx_1uu49ye._.js.map

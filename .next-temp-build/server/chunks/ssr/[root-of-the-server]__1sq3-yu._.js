@@ -1,0 +1,7 @@
+module.exports=[537616,a=>{a.v({className:"quicksand_e9cbd8c2-module__Uam9FG__className",variable:"quicksand_e9cbd8c2-module__Uam9FG__variable"})},280854,a=>{"use strict";var b=a.i(907997),c=a.i(537616);let d={className:c.default.className,style:{fontFamily:"'Quicksand', 'Quicksand Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable),a.s(["default",0,function({children:a}){return(0,b.jsxs)("div",{className:`${d.variable} font-sans min-h-screen bg-[#E8F8F5] text-[#1E3F20] antialiased`,children:[(0,b.jsx)("style",{children:`
+        .font-quicksand {
+          font-family: var(--font-quicksand), sans-serif;
+        }
+      `}),a]})},"metadata",0,{title:"Design Edge | Corporate Offices & Luxury Residential Banjara Hills",description:"Bespoke turnkey interiors, luxury residential designs, and modern corporate offices by Ram K. Mahidhar in Banjara Hills, Hyderabad.",openGraph:{title:"Design Edge - Banjara Hills",description:"Bespoke turnkey interiors, luxury residential designs, and modern corporate offices by Ram K. Mahidhar in Banjara Hills, Hyderabad.",url:"https://gwd-sales.com/client/design-edge-banjara-hills",siteName:"Design Edge",images:[{url:"https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200&h=630",width:1200,height:630,alt:"Design Edge Turnkey Commercial Office"}]}}],280854)},553395,a=>{a.n(a.i(280854))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__1sq3-yu._.js.map

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/stem-kids-preschool-tolichowki/layout,_N_T_/client/stem-kids-preschool-tolichowki/page,_N_T_/client/stem-kids-preschool-tolichowki"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/stem-kids-preschool-tolichowki/__PAGE__",
+    "/client/stem-kids-preschool-tolichowki",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

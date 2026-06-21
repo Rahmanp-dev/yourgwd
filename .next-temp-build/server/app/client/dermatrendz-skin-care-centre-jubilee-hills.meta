@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/dermatrendz-skin-care-centre-jubilee-hills/layout,_N_T_/client/dermatrendz-skin-care-centre-jubilee-hills/page,_N_T_/client/dermatrendz-skin-care-centre-jubilee-hills"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/dermatrendz-skin-care-centre-jubilee-hills/__PAGE__",
+    "/client/dermatrendz-skin-care-centre-jubilee-hills",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

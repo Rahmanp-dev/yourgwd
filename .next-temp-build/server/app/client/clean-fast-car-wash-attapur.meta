@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/clean-fast-car-wash-attapur/layout,_N_T_/client/clean-fast-car-wash-attapur/page,_N_T_/client/clean-fast-car-wash-attapur"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/clean-fast-car-wash-attapur/__PAGE__",
+    "/client/clean-fast-car-wash-attapur",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

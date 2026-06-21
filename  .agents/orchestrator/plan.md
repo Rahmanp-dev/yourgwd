@@ -1,33 +1,60 @@
-# Execution Plan — 2026-06-15T22:45:21+05:30
+# Plan: Banjara Hills Skin Clinics Preview Pages (New Batch)
 
-## Task Overview
-Generate 20 distinct, premium LONG-FORMAT Next.js UI preview pages inside `app/client/[slug]` for the 20 Attapur Interior Design slugs, verify compilation correctness via Next.js production build, and notify completion.
+## Task Assessment
+- **Scope**: Create 10 premium, long-format, light-mode Next.js UI preview pages for Skin & Cosmetic Clinics in Banjara Hills, Hyderabad, under `app/client/[slug]/` (each with `page.jsx` and `layout.jsx`).
+- **Slugs to build**:
+  1. `saanvis-laser-skin-clinic-banjara-hills` (Joyful Pastel Coral)
+  2. `beauty-world-skin-clinic-banjara-hills` (Luxury Gold & Pearl)
+  3. `transform-skin-clinic-banjara-hills` (Clean Medical Mint)
+  4. `riyaanz-aesthetic-banjara-hills` (Lavender Glassmorphism)
+  5. `dr-rameshs-dermatique-banjara-hills` (Terracotta Organic Warmth)
+  6. `dr-phanisri-skin-clinic-banjara-hills` (Fresh Orchid Violet)
+  7. `shayas-cosmetic-clinic-banjara-hills` (Champagne Premium)
+  8. `jds-clinic-banjara-hills` (Sky Blue Wellness)
+  9. `reva-health-skin-clinic-banjara-hills` (Rose Gold Neumorphism)
+  10. `dermatrendz-skin-care-centre-jubilee-hills` (Sage Green Minimalist)
+- **Hard Constraints**:
+  - STRICTLY NO DARK MODE. Clean, light, bright pastels or clean whitespace aesthetics only.
+  - 9 Required Sections per page:
+    1. Hero Section
+    2. Stats Bar
+    3. Founder / Head Doctor Bio
+    4. Treatments & Services Selector
+    5. Interactive Skin Assessment Questionnaire
+    6. Results / Before & After Showcase
+    7. Patient Testimonials
+    8. Appointment Booking / Enquiry Form (with real-time validation and reference number confirmation screen)
+    9. Clinic Location & Hours Footer
+  - Single CamelCase function names in `page.jsx` and `layout.jsx` (e.g. `SaanvisLaserSkinClinicPage`, `SaanvisLaserSkinClinicLayout`).
+  - Use Lucide React icons only (no emojis as structural icons).
+  - Use real Unsplash images only (`?auto=format&fit=crop&q=80&w=800`).
+  - Mobile responsiveness with no horizontal overflow.
+  - Zero compilation errors on `npm run build`.
 
-## Decomposed Milestones
-1. **Milestone 1: Bespoke Next.js Frontend Development**
-    - Spawn 10 parallel frontend subagents (each handling 2 pages, total 20 pages).
-    - Each page must be coded under `app/client/[slug]/page.jsx` and `layout.jsx`.
-    - The subagents must strictly use Tailwind CSS classes and apply different premium design systems from the `ui-ux-pro-max` skill.
-    - Sibling `layout.jsx` must be created with custom metadata for WhatsApp unfurling (metadata fix).
-    - Output: 20 unique, premium long-format client preview folders.
+## Step-by-Step Execution Plan
 
-2. **Milestone 2: Build Verification & Git Deployment**
-    - Spawn a worker agent to run `npm run build` and verify production compilation with zero errors.
-    - The worker should also verify that all 20 client routes compile and are visible in the build log.
-    - Perform a git commit to save the progress.
-    - Output: Successful Next.js build compilation with no errors.
+### Step 1: Initialize Project Metadata & Plan
+- Write `plan.md`, `progress.md`, `PROJECT.md`, and `BRIEFING.md` in the orchestrator directory.
+- Start the heartbeat cron.
 
-## Strategy & Topology
-- Use Project Pattern (Implementation Track and parallel worker agents).
-- We will spawn 10 parallel Workers/Subagents for Bespoke UI Generation:
-  - Agent 1: `tara-design-solutions-attapur` & `livspace-attapur`
-  - Agent 2: `dasos-cabinets-hyderabad` & `mak-homes-construction`
-  - Agent 3: `luxe-designs-spaces-hyd` & `homelane-attapur`
-  - Agent 4: `apple-interiors-hyd` & `metal-and-more`
-  - Agent 5: `namasvi-interiors` & `simply-interiors-hyd`
-  - Agent 6: `dlife-interiors-hyd` & `seema-design-studio`
-  - Agent 7: `designcafe-hyderabad` & `bonito-designs-hyderabad`
-  - Agent 8: `decorpot-hyderabad` & `chary-interiors`
-  - Agent 9: `ss-interiors-secunderabad` & `icon-interior-design-attapur`
-  - Agent 10: `elements-design-lab` & `style-home-interiors-attapur`
-- After all 10 parallel agents complete, we will spawn an 11th agent for Build Verification and optional Git commit.
+### Step 2: Parallel Worker Dispatch
+- Spawn 5 parallel worker subagents using `teamwork_preview_worker` with the `ui-ux-pro-max` and `frontend-design` skills.
+- Each worker will implement exactly 2 clinic pages (`page.jsx` and `layout.jsx`) in their respective directories under `app/client/`.
+- Allocation:
+  - **Worker 1 (worker_clinic_1)**: `saanvis-laser-skin-clinic-banjara-hills` (Joyful Pastel Coral) & `beauty-world-skin-clinic-banjara-hills` (Luxury Gold & Pearl)
+  - **Worker 2 (worker_clinic_2)**: `transform-skin-clinic-banjara-hills` (Clean Medical Mint) & `riyaanz-aesthetic-banjara-hills` (Lavender Glassmorphism)
+  - **Worker 3 (worker_clinic_3)**: `dr-rameshs-dermatique-banjara-hills` (Terracotta Organic Warmth) & `dr-phanisri-skin-clinic-banjara-hills` (Fresh Orchid Violet)
+  - **Worker 4 (worker_clinic_4)**: `shayas-cosmetic-clinic-banjara-hills` (Champagne Premium) & `jds-clinic-banjara-hills` (Sky Blue Wellness)
+  - **Worker 5 (worker_clinic_5)**: `reva-health-skin-clinic-banjara-hills` (Rose Gold Neumorphism) & `dermatrendz-skin-care-centre-jubilee-hills` (Sage Green Minimalist)
+
+### Step 3: Monitor & Lifecycle Management
+- Track subagent progress via heartbeat checks.
+- If any subagent stalls or fails, apply the fault-tolerance ladder (Retry -> Replace).
+
+### Step 4: Verification & Build Compilation Check
+- Spawn a verification worker (`worker_build_verify`) to run `npm run build` and ensure the Next.js routes compile successfully with zero errors.
+- Confirm all pages conform to visual quality, layout, sections, and metadata constraints.
+
+### Step 5: Final Handover
+- Collect and synthesize results into `handoff.md`.
+- Report completion back to the Sentinel.

@@ -1,0 +1,3 @@
+module.exports=[265073,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Duchenne Smile - Official Website Preview",description:"Welcome to the new premium website preview for Duchenne Smile. Discover our services and book an appointment today.",openGraph:{title:"Duchenne Smile - Official Website Preview",description:"Welcome to the new premium website preview for Duchenne Smile. Discover our services and book an appointment today.",siteName:"Duchenne Smile"}}])},204681,a=>{a.n(a.i(265073))}];
+
+//# sourceMappingURL=app_client_duchenne-smile_layout_jsx_0eeys26._.js.map

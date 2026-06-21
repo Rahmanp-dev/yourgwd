@@ -1,0 +1,3 @@
+module.exports=[480820,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Vijaya Diagnostic Centre - Official Website Preview",description:"Welcome to the new premium website preview for Vijaya Diagnostic Centre. Discover our services and book an appointment today.",openGraph:{title:"Vijaya Diagnostic Centre - Official Website Preview",description:"Welcome to the new premium website preview for Vijaya Diagnostic Centre. Discover our services and book an appointment today.",siteName:"Vijaya Diagnostic Centre"}}])},152575,a=>{a.n(a.i(480820))}];
+
+//# sourceMappingURL=app_client_vijaya-diagnostic-centre_layout_jsx_1bg3pz0._.js.map

@@ -1,0 +1,3 @@
+module.exports=[776416,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Aarthi Scans - Official Website Preview",description:"Welcome to the new premium website preview for Aarthi Scans. Discover our services and book an appointment today.",openGraph:{title:"Aarthi Scans - Official Website Preview",description:"Welcome to the new premium website preview for Aarthi Scans. Discover our services and book an appointment today.",siteName:"Aarthi Scans"}}])},676136,a=>{a.n(a.i(776416))}];
+
+//# sourceMappingURL=app_client_aarthi-scans_layout_jsx_0vt0omq._.js.map

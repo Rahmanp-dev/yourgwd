@@ -1,0 +1,3 @@
+module.exports=[471855,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Phc Diagnostic - Official Website Preview",description:"Welcome to the new premium website preview for Phc Diagnostic. Discover our services and book an appointment today.",openGraph:{title:"Phc Diagnostic - Official Website Preview",description:"Welcome to the new premium website preview for Phc Diagnostic. Discover our services and book an appointment today.",siteName:"Phc Diagnostic"}}])},933743,a=>{a.n(a.i(471855))}];
+
+//# sourceMappingURL=app_client_phc-diagnostic_layout_jsx_0k_u43o._.js.map

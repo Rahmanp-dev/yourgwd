@@ -678,3 +678,169 @@ All pages must be fully mobile responsive with no horizontal overflow. Typograph
 - [ ] All 9 required sections are present on every page.
 - [ ] Interactive treatment widgets and skin questionnaires work dynamically on the client side.
 - [ ] The contact footer displays the correct authentic phone and address details.
+
+## 2026-06-21T16:16:39Z
+
+# Teamwork Project: Premium E-commerce Preview Page
+
+Build a highly distinct, premium, LONG FORMAT Next.js UI e-commerce preview page for the Boutique Clothing brand **Vastra by Sneha** in Cyberabad, Hyderabad, inside `app/client/vastra-by-sneha`.
+
+Working directory: d:\GWD\Sales Machine
+
+## Critical Rules (NON-NEGOTIABLE)
+- **STRICTLY NO DARK MODE** on any page whatsoever. All pages must use Light Mode, bright pastels, or clean whitespace aesthetics.
+- The page must be **long-format** (minimum 7 full content sections).
+- Use **Tailwind CSS** classes for all styling. No inline styles.
+- Use **Lucide React** icons only.
+- Fully mobile responsive with no horizontal overflow.
+- Use `"use client"` directive at the top of `page.jsx`.
+- You MUST use the `ui-ux-pro-max` and `frontend-design` skills to create a distinct, premium **Pastel Rainbow** or **Playful Geometric** design system.
+
+## Required Sections
+1. **Hero Section** — Large headline ("Vastra by Sneha"), tagline, engaging hero visual (use Unsplash), primary CTA ("Shop Collection").
+2. **Featured Collections / Lookbook** — Grid of high-quality ethnic wear imagery.
+3. **Product Grid (Shop)** — At least 4-6 products with names, prices (in INR), and "Add to Cart" buttons.
+4. **Brand Story / About** — Artisanal focus, craftsmanship.
+5. **Testimonials / Social Proof** — Customer reviews.
+6. **Trust Badges / Value Props** — E.g., Secure Payments, Custom Tailoring.
+7. **Footer** — Contact info, fake WhatsApp link using `https://wa.me/919876543214`.
+
+## File Structure
+Create:
+- `app/client/vastra-by-sneha/page.jsx`
+- `app/client/vastra-by-sneha/layout.jsx` (SEO metadata)
+
+Ensure `npm run build` passes with zero errors for this route.
+
+## 2026-06-21T16:16:39Z
+
+# Teamwork Project: Premium E-commerce Preview Page
+
+Build a highly distinct, premium, LONG FORMAT Next.js UI e-commerce preview page for the Boutique Clothing brand **Nayaab Silks & Cottons** in Cyberabad, Hyderabad, inside `app/client/nayaab-cyberabad`.
+
+Working directory: d:\GWD\Sales Machine
+
+## Critical Rules (NON-NEGOTIABLE)
+- **STRICTLY NO DARK MODE** on any page whatsoever. All pages must use Light Mode, bright pastels, or clean whitespace aesthetics.
+- The page must be **long-format** (minimum 7 full content sections).
+- Use **Tailwind CSS** classes for all styling. No inline styles.
+- Use **Lucide React** icons only.
+- Fully mobile responsive with no horizontal overflow.
+- Use `"use client"` directive at the top of `page.jsx`.
+- You MUST use the `ui-ux-pro-max` and `frontend-design` skills to create a distinct, premium **Luxury Pearl** or **Serif-Forward Editorial** design system.
+
+## Required Sections
+1. **Hero Section** — Large headline ("Nayaab Silks & Cottons"), tagline, engaging hero visual (use Unsplash), primary CTA ("Shop Collection").
+2. **Featured Collections / Lookbook** — Grid of high-quality ethnic wear imagery.
+3. **Product Grid (Shop)** — At least 4-6 products with names, prices (in INR), and "Add to Cart" buttons.
+4. **Brand Story / About** — Artisanal focus, craftsmanship.
+5. **Testimonials / Social Proof** — Customer reviews.
+6. **Trust Badges / Value Props** — E.g., Secure Payments, Custom Tailoring.
+7. **Footer** — Contact info, fake WhatsApp link using `https://wa.me/919876543213`.
+
+## File Structure
+Create:
+- `app/client/nayaab-cyberabad/page.jsx`
+- `app/client/nayaab-cyberabad/layout.jsx` (SEO metadata)
+
+Ensure `npm run build` passes with zero errors for this route.
+
+
+## 2026-06-21T16:16:39Z
+
+# Teamwork Project: Premium E-commerce Preview Page
+
+Build a highly distinct, premium, LONG FORMAT Next.js UI e-commerce preview page for the Boutique Clothing brand **Zoya Designer Wear** in Cyberabad, Hyderabad, inside `app/client/zoya-designs-hyd`.
+
+Working directory: d:\GWD\Sales Machine
+
+## Critical Rules (NON-NEGOTIABLE)
+- **STRICTLY NO DARK MODE** on any page whatsoever. All pages must use Light Mode, bright pastels, or clean whitespace aesthetics.
+- The page must be **long-format** (minimum 7 full content sections).
+- Use **Tailwind CSS** classes for all styling. No inline styles.
+- Use **Lucide React** icons only.
+- Fully mobile responsive with no horizontal overflow.
+- Use `"use client"` directive at the top of `page.jsx`.
+- You MUST use the `ui-ux-pro-max` and `frontend-design` skills to create a distinct, premium **Vibrant Flat Design** or **Editorial Looklook** design system.
+
+## Required Sections
+1. **Hero Section** — Large headline ("Zoya Designer Wear"), tagline, engaging hero visual (use Unsplash), primary CTA ("Shop Collection").
+2. **Featured Collections / Lookbook** — Grid of high-quality ethnic wear imagery.
+3. **Product Grid (Shop)** — At least 4-6 products with names, prices (in INR), and "Add to Cart" buttons.
+4. **Brand Story / About** — Artisanal focus, craftsmanship.
+5. **Testimonials / Social Proof** — Customer reviews.
+6. **Trust Badges / Value Props** — E.g., Secure Payments, Custom Tailoring.
+7. **Footer** — Contact info, fake WhatsApp link using `https://wa.me/919876543211`.
+
+## File Structure
+Create:
+- `app/client/zoya-designs-hyd/page.jsx`
+- `app/client/zoya-designs-hyd/layout.jsx` (SEO metadata)
+
+Ensure `npm run build` passes with zero errors for this route.
+
+## 2026-06-21T21:46:39Z
+
+# Teamwork Project: Premium E-commerce Preview Page
+
+Build a highly distinct, premium, LONG FORMAT Next.js UI e-commerce preview page for the Boutique Clothing brand **Aanya Ethnic Boutique** in Cyberabad, Hyderabad, inside `app/client/aanya-ethnic-cyberabad`.
+
+Working directory: d:\GWD\Sales Machine
+
+## Critical Rules (NON-NEGOTIABLE)
+- **STRICTLY NO DARK MODE** on any page whatsoever. All pages must use Light Mode, bright pastels, or clean whitespace aesthetics.
+- The page must be **long-format** (minimum 7 full content sections).
+- Use **Tailwind CSS** classes for all styling. No inline styles.
+- Use **Lucide React** icons only.
+- Fully mobile responsive with no horizontal overflow.
+- Use `"use client"` directive at the top of `page.jsx`.
+- You MUST use the `ui-ux-pro-max` and `frontend-design` skills to create a distinct, premium **Glassmorphism** or **Neumorphism** or **Soft Minimalist** design system.
+
+## Required Sections
+1. **Hero Section** — Large headline ("Aanya Ethnic Boutique"), tagline, engaging hero visual (use Unsplash), primary CTA ("Shop Collection").
+2. **Featured Collections / Lookbook** — Grid of high-quality ethnic wear imagery.
+3. **Product Grid (Shop)** — At least 4-6 products with names, prices (in INR), and "Add to Cart" buttons.
+4. **Brand Story / About** — Artisanal focus, craftsmanship.
+5. **Testimonials / Social Proof** — Customer reviews.
+6. **Trust Badges / Value Props** — E.g., Secure Payments, Custom Tailoring.
+7. **Footer** — Contact info, fake WhatsApp link using `https://wa.me/919876543210`.
+
+## File Structure
+Create:
+- `app/client/aanya-ethnic-cyberabad/page.jsx`
+- `app/client/aanya-ethnic-cyberabad/layout.jsx` (SEO metadata)
+
+Ensure `npm run build` passes with zero errors for this route.
+
+## Follow-up — 2026-06-21T21:46:39+05:30
+
+# Teamwork Project: Premium E-commerce Preview Page
+
+Build a highly distinct, premium, LONG FORMAT Next.js UI e-commerce preview page for the Boutique Clothing brand **Kriti Handlooms** in Cyberabad, Hyderabad, inside `app/client/kriti-handlooms-cyberabad`.
+
+Working directory: d:\GWD\Sales Machine
+
+## Critical Rules (NON-NEGOTIABLE)
+- **STRICTLY NO DARK MODE** on any page whatsoever. All pages must use Light Mode, bright pastels, or clean whitespace aesthetics.
+- The page must be **long-format** (minimum 7 full content sections).
+- Use **Tailwind CSS** classes for all styling. No inline styles.
+- Use **Lucide React** icons only.
+- Fully mobile responsive with no horizontal overflow.
+- Use `"use client"` directive at the top of `page.jsx`.
+- You MUST use the `ui-ux-pro-max` and `frontend-design` skills to create a distinct, premium **Earthy Organic** or **Claymorphism** design system.
+
+## Required Sections
+1. **Hero Section** — Large headline ("Kriti Handlooms"), tagline, engaging hero visual (use Unsplash), primary CTA ("Shop Collection").
+2. **Featured Collections / Lookbook** — Grid of high-quality ethnic wear imagery.
+3. **Product Grid (Shop)** — At least 4-6 products with names, prices (in INR), and "Add to Cart" buttons.
+4. **Brand Story / About** — Artisanal focus, craftsmanship.
+5. **Testimonials / Social Proof** — Customer reviews.
+6. **Trust Badges / Value Props** — E.g., Secure Payments, Custom Tailoring.
+7. **Footer** — Contact info, fake WhatsApp link using `https://wa.me/919876543212`.
+
+## File Structure
+Create:
+- `app/client/kriti-handlooms-cyberabad/page.jsx`
+- `app/client/kriti-handlooms-cyberabad/layout.jsx` (SEO metadata)
+
+Ensure `npm run build` passes with zero errors for this route.

@@ -1,31 +1,33 @@
-# BRIEFING — 2026-06-21T10:00:12Z
+# BRIEFING — 2026-06-21T21:46:39+05:30
 
 ## Mission
-Build 10 highly distinct, premium, long-format Next.js UI preview pages for 10 new website-less Skin & Cosmetic Clinics in Banjara Hills, Hyderabad, inside `app/client/[slug]`.
+Build a premium, long-format Next.js UI e-commerce preview page for the Boutique Clothing brand Nayaab Silks & Cottons in Cyberabad, Hyderabad.
 
 ## 🔒 My Identity
 - Archetype: sentinel
 - Working directory: d:\GWD\Sales Machine\.agents\sentinel
-- Orchestrator: 789c452d-9d42-49d1-812d-30c2531bf8a1
-- Victory Auditor: 32f113cc-2e58-4876-abfc-deb016061c73
+- Orchestrator: 40f45f05-ec9f-4a69-9cb7-caae9d82e504
+- Victory Auditor: TBD
 
 ## 🔒 Key Constraints
 - No technical decisions — relay only
 - Victory Audit is MANDATORY before reporting completion
+- STRICTLY NO DARK MODE on any page whatsoever
 
 ## User Context
-- **Last user request**: Build 10 highly distinct, premium, long-format Next.js UI preview pages for 10 new website-less Skin & Cosmetic Clinics in Banjara Hills, Hyderabad, inside `app/client/[slug]`.
+- **Last user request**: Build a premium, long-format Next.js UI e-commerce preview page for Nayaab Silks & Cottons in Cyberabad, Hyderabad inside `app/client/nayaab-cyberabad`.
 - **Pending clarifications**: none
 - **Delivered results**: none
 
 ## Project Status
-- **Phase**: auditing
+- **Phase**: in progress
 
 ## Victory Audit Status
-- **Triggered**: yes
+- **Triggered**: no
 - **Verdict**: pending
 - **Retry count**: 0
 
 ## Artifact Index
 - d:\GWD\Sales Machine\ORIGINAL_REQUEST.md — Verbatim user request record in root.
 - d:\GWD\Sales Machine\.agents\sentinel\BRIEFING.md — Sentinel persistent briefing.
+

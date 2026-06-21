@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/health-inn/layout,_N_T_/client/health-inn/page,_N_T_/client/health-inn"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/health-inn/__PAGE__",
+    "/client/health-inn",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

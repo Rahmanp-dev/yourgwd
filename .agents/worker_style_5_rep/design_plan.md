@@ -1,57 +1,103 @@
-# Design Plan: Premium Jewellery Store Previews
+# Design Plan — Premium Next.js UI Preview Pages
 
-We are designing two highly distinct, premium jewellery preview pages for historic Hyderabad-based jewellers, using the **Emerald & Ivory** design system with a **Classic Elegance / High-Contrast Serif** tone.
+This document details the design system, typography, color palettes, layouts, and signatures for the two premium interior design studio preview pages in Banjara Hills, Hyderabad.
 
 ---
 
-## 1. Manepally Jewellers (Secunderabad Legacy)
-*Theme: Traditional Nizami Opulence & Bridal Heritage*
+## 1. Aamir & Hameeda Design Studio
 
-### Token System
-- **Colors**:
-  - Background: Rich Ivory (`#FDFBF7`)
-  - Primary Text / Surfaces: Deep Royal Emerald (`#063B30`)
-  - Secondary Text: Slate Emerald (`#2E4E47`)
-  - Borders: Warm Bronze (`#C5A880`)
-  - Accent / Gold: Antique Gold (`#D4AF37`)
+### Subject & Grounding
+- **Client**: Aamir & Hameeda Design Studio
+- **Aesthetic**: Avant-Garde Glassmorphism. A high-fashion, bold, but light and airy look using frosted glass cards, subtle pinkish-lavender gradients, and bright violet accents.
+- **Audience**: HNWIs in Banjara Hills & Jubilee Hills looking for elite, luxury minimalist residences and high-concept retail/hospitality spaces.
+- **Signature Element**: **"Frosted Glass Material Board & Interactive Style Quiz Card"** — A floating card interface with high-blur background filters (`backdrop-blur-md`) that mimics real interior design physical sample boards (swatches of marble, violet fabric, metal trims) overlaid on a fluid pastel-lavender ambient background.
+
+### Design Tokens
+- **Color Palette**:
+  - `Base Gradient Start`: `#FFF0F5` (Lavender Blush)
+  - `Base Gradient End`: `#E6E6FA` (Lavender)
+  - `Frosted Card BG`: `rgba(255, 255, 255, 0.4)`
+  - `Accent Violet`: `#8E44AD` (Bright Violet)
+  - `Text Primary`: `#2C1A38` (Deep Plum/Charcoal)
+  - `Accent Violet Light`: `#A569BD` (Soft Violet)
 - **Typography**:
-  - Display Font: `Cinzel` (classical, formal Roman serif)
-  - Body Font: `Plus Jakarta Sans` (clean, contemporary sans-serif)
-- **Layout Structure**:
-  - Symmetrical, formal balance. Intricate double-line borders, traditional arch/dome framing, and gold ornamental dividers. Centered text alignments for titles.
-- **Signature Element**:
-  - **The Heritage Arch Gallery**: Frame showcasing temple jewellery inside hand-drawn architectural Mughal arch vector mockups (styled via CSS clip-paths/borders), creating a sense of visiting a physical royal vault in Secunderabad.
+  - **Heading/Display**: `Outfit` (Bold, letter-spacing tracking-tight)
+  - **Body & Captions**: `Outfit` (Regular/Medium, tracking-wide)
+- **Layout Concept**:
+  - A sophisticated asymmetric layout where text and image cards stagger, utilizing frosted cards with thin bright-violet borders (`border border-violet-200/50`) and soft plum text for elite readability.
+- **ASCII Layout Wireframe**:
+  ```text
+  +-------------------------------------------------------------+
+  |  [Logo: A&H]               [Nav Links]        [Book Button] |
+  +-------------------------------------------------------------+
+  |                                                             |
+  |  HERO: Frosted Glass Panel with Bold Violet Accent Text     |
+  |  "Luxury Minimalism Redefined."                             |
+  |                                                             |
+  |  +--------------------+   [Light Unsplash Luxury Interior]  |
+  |  |  Frosted CTA Card  |   |                                |
+  |  +--------------------+   +--------------------------------+  |
+  |                                                             |
+  +-------------------------------------------------------------+
+  |  STATS BAR: Staggered Frosted Pillars                       |
+  +-------------------------------------------------------------+
+  |  BIO: Staggered columns, principal photo & philosophy       |
+  +-------------------------------------------------------------+
+  |  STYLE SELECTOR & MATERIAL BOARD (Interactive Tabs)         |
+  +-------------------------------------------------------------+
+  |  INTERACTIVE DESIGN STYLE QUIZ                              |
+  +-------------------------------------------------------------+
+  |  STEP-BY-STEP DESIGN PROCESS                                |
+  +-------------------------------------------------------------+
+  |  TESTIMONIALS & CONTACT FORM                                |
+  +-------------------------------------------------------------+
+  ```
 
 ---
 
-## 2. Sri Krishna Jewellers (Banjara Hills Modern Elite)
-*Theme: Couture Diamonds & Contemporary Gemstone Luxury*
+## 2. Sahani Interiors
 
-### Token System
-- **Colors**:
-  - Background: Rich Ivory (`#FCFAF2`) and Deep Velvet Emerald (`#03221C`) for high-contrast section alternation.
-  - Primary Text: Charcoal Green (`#142421`) on light sections, Warm Ivory (`#FCFAF2`) on dark sections.
-  - Borders: Sleek Brass / Gold (`#CCA43B`)
-  - Accent: Brilliant Diamond Blue (`#E0F2FE` / `#38BDF8`) for highlights.
+### Subject & Grounding
+- **Client**: Sahani Interiors
+- **Aesthetic**: Coastal Wellness Light. Clean, breezy, therapeutic, high-whitespace look with soft sky blue backgrounds, crisp white cards, ocean blue highlights, and clean sans-serif typography.
+- **Audience**: Families in Hyderabad seeking highly functional space maximization, budget-conscious yet premium-feeling residential woodwork and renovations.
+- **Signature Element**: **"Breezy Space-Maximization Interactive Slider/Process Deck"** — A clean horizontal layout with oceanic highlights and crisp white cards representing modular layouts (smart wardrobes, hidden spaces) that transform on tap.
+
+### Design Tokens
+- **Color Palette**:
+  - `Background`: `#F7FBFD` (Ice Blue / Breezy white)
+  - `Card Background`: `#FFFFFF` (Crisp White)
+  - `Soft Sky Blue`: `#EBF5FB` (Soft Sky Blue)
+  - `Accent Ocean Blue`: `#2980B9` (Ocean Blue)
+  - `Text Primary`: `#1F3A52` (Deep Navy)
+  - `Highlight Sky Blue`: `#AED6F1` (Sky Highlight)
 - **Typography**:
-  - Display Font: `Prata` (didone-style serif, high-contrast, editorial fashion feel)
-  - Body Font: `Inter` (neutral, high-legibility sans-serif)
-- **Layout Structure**:
-  - Asymmetric grid, editorial magazine layout, large full-bleed imagery mockups, elegant thin border lines, spacious whitespace, and bold typographic treatments. Left-aligned headings with sophisticated subtitles.
-- **Signature Element**:
-  - **Dynamic Diamond Solitaire Facets**: A bespoke interactive visual in the customizer that dynamically renders a 3D-like rotating solitaire ring blueprint/wireframe (styled via Tailwind & SVG paths) responding to the metal and gemstone parameters in real-time.
-
----
-
-## Interactive Customizer Architecture
-Both widgets will offer choice of:
-- **Metal Type**: 22K Gold (rate: ₹7,200/g), 18K Rose Gold (rate: ₹6,100/g), Platinum (rate: ₹3,800/g)
-- **Gemstone**: Diamond (rate: ₹85,000/ct), Emerald (rate: ₹45,000/ct), Ruby (rate: ₹35,000/ct), Pearl (rate: ₹12,000/ct)
-- **Estimates**: Calculating subtotal based on weight (g), carat/size, making charges (12% for Manepally, 15% for Sri Krishna), and GST (3%).
-- **Interactive Visual**: Standard SVG rendering that changes color dynamically based on metal and gemstone.
-
-## Consultation Form
-- Interactive inputs: Name, Phone (validating 10-12 digits), Email (standard regex), Date, and Notes.
-- Form validation: client-side checks with inline error messaging.
-- Loading/Submitting state: Button shifts to spinner, disabling inputs, then shows a beautiful success card with booking ID.
-- Active tap feedback on all buttons: `active:scale-95 transition-all`.
+  - **Heading/Display**: `Plus Jakarta Sans` (Extra Bold/Semi Bold)
+  - **Body & Captions**: `Plus Jakarta Sans` (Regular/Medium)
+- **Layout Concept**:
+  - High-whitespace grid layout with clean blue borders, rounded card corners, and light ocean blue shadows (`shadow-[0_8px_30px_rgb(235,245,251,0.5)]`). Minimalist, structural, and inviting.
+- **ASCII Layout Wireframe**:
+  ```text
+  +-------------------------------------------------------------+
+  |  [Logo: Sahani]            [Nav Links]        [Book Button] |
+  +-------------------------------------------------------------+
+  |                                                             |
+  |  HERO: Breezy Light Sky Blue Background                     |
+  |  "Intelligent Spaces. Coastal Comfort."                     |
+  |                                                             |
+  |  [Crisp White Card CTA]      [Bright Airy Woodwork Photo]   |
+  |                                                             |
+  +-------------------------------------------------------------+
+  |  STATS BAR: White Cards with Ocean Blue Outlines            |
+  +-------------------------------------------------------------+
+  |  BIO: Clean columns introducing Sahani & Space Philosophy   |
+  +-------------------------------------------------------------+
+  |  PORTFOLIO SHOWCASE: Grid with Clean Highlights             |
+  +-------------------------------------------------------------+
+  |  STYLE QUIZ: Sky Blue Rounded Container                     |
+  +-------------------------------------------------------------+
+  |  DESIGN PROCESS: 5-step horizontal path                     |
+  +-------------------------------------------------------------+
+  |  TESTIMONIALS & CONSULTATION BOOKING                        |
+  +-------------------------------------------------------------+
+  ```

@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/client/studio-infinite/page": [
+      "static/media/cc014fcb166cf364-s.p.2cu9iw-l3ih8o.woff2",
+      "static/media/769a6a68ede5e496-s.p.1iap2soi8s-8q.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

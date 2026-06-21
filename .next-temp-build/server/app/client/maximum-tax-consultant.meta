@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/maximum-tax-consultant/layout,_N_T_/client/maximum-tax-consultant/page,_N_T_/client/maximum-tax-consultant"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/maximum-tax-consultant/__PAGE__",
+    "/client/maximum-tax-consultant",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

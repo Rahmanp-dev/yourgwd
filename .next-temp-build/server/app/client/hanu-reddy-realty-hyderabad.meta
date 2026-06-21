@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/hanu-reddy-realty-hyderabad/layout,_N_T_/client/hanu-reddy-realty-hyderabad/page,_N_T_/client/hanu-reddy-realty-hyderabad"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/hanu-reddy-realty-hyderabad/__PAGE__",
+    "/client/hanu-reddy-realty-hyderabad",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

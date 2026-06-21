@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/iris-diagnostic/layout,_N_T_/client/iris-diagnostic/page,_N_T_/client/iris-diagnostic"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/iris-diagnostic/__PAGE__",
+    "/client/iris-diagnostic",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

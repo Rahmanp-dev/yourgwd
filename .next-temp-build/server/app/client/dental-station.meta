@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/dental-station/layout,_N_T_/client/dental-station/page,_N_T_/client/dental-station"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/dental-station/__PAGE__",
+    "/client/dental-station",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

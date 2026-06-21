@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/livspace-kokapet/layout,_N_T_/client/livspace-kokapet/page,_N_T_/client/livspace-kokapet"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/livspace-kokapet/__PAGE__",
+    "/client/livspace-kokapet",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

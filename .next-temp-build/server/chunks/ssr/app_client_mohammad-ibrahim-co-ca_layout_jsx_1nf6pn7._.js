@@ -1,0 +1,3 @@
+module.exports=[581324,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Mohammad Ibrahim & Co. CA - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Mohammad Ibrahim & Co. CA. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"Mohammad Ibrahim & Co. CA - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Mohammad Ibrahim & Co. CA. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"Mohammad Ibrahim & Co. CA"}}])},74215,a=>{a.n(a.i(581324))}];
+
+//# sourceMappingURL=app_client_mohammad-ibrahim-co-ca_layout_jsx_1nf6pn7._.js.map

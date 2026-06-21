@@ -1,0 +1,3 @@
+module.exports=[878851,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Suhani Pittie - Banjara Hills | Contemporary Avant-Garde Jewellery",description:"Award-winning contemporary, sculptural, and handcrafted metal jewellery designs. Located in Banjara Hills, Hyderabad.",openGraph:{title:"Suhani Pittie - Banjara Hills | Contemporary Avant-Garde Jewellery",description:"Award-winning contemporary, sculptural, and handcrafted metal jewellery designs. Located in Banjara Hills, Hyderabad.",siteName:"Suhani Pittie"}}])},994983,a=>{a.n(a.i(878851))}];
+
+//# sourceMappingURL=app_client_suhani-pittie-banjara-hills_layout_jsx_0rnn3q_._.js.map

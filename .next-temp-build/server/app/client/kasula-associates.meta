@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/kasula-associates/layout,_N_T_/client/kasula-associates/page,_N_T_/client/kasula-associates"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/kasula-associates/__PAGE__",
+    "/client/kasula-associates",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

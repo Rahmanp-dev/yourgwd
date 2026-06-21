@@ -1,0 +1,3 @@
+module.exports=[833478,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"RK Property Consultants - Official Real Estate Platform",description:"Welcome to the new premium digital platform for RK Property Consultants. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"RK Property Consultants - Official Real Estate Platform",description:"Welcome to the new premium digital platform for RK Property Consultants. Explore smart listings and VR tours in Shaikpet.",siteName:"RK Property Consultants"}}])},511772,a=>{a.n(a.i(833478))}];
+
+//# sourceMappingURL=app_client_rk-property-consultants_layout_jsx_1qe_p9g._.js.map

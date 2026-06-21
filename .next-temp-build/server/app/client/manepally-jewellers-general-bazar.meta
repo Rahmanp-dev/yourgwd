@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/manepally-jewellers-general-bazar/layout,_N_T_/client/manepally-jewellers-general-bazar/page,_N_T_/client/manepally-jewellers-general-bazar"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/manepally-jewellers-general-bazar/__PAGE__",
+    "/client/manepally-jewellers-general-bazar",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

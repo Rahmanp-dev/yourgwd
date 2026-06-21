@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/studio-infinite/layout,_N_T_/client/studio-infinite/page,_N_T_/client/studio-infinite"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/studio-infinite/__PAGE__",
+    "/client/studio-infinite",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

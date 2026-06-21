@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/luxe-designs-kokapet/layout,_N_T_/client/luxe-designs-kokapet/page,_N_T_/client/luxe-designs-kokapet"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/luxe-designs-kokapet/__PAGE__",
+    "/client/luxe-designs-kokapet",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

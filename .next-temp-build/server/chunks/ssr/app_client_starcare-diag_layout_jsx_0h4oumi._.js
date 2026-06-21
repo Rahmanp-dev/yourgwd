@@ -1,0 +1,3 @@
+module.exports=[781477,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Starcare Diag - Official Website Preview",description:"Welcome to the new premium website preview for Starcare Diag. Discover our services and book an appointment today.",openGraph:{title:"Starcare Diag - Official Website Preview",description:"Welcome to the new premium website preview for Starcare Diag. Discover our services and book an appointment today.",siteName:"Starcare Diag"}}])},455942,a=>{a.n(a.i(781477))}];
+
+//# sourceMappingURL=app_client_starcare-diag_layout_jsx_0h4oumi._.js.map

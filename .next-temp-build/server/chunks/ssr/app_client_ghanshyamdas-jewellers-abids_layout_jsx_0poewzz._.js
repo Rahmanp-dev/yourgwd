@@ -1,0 +1,3 @@
+module.exports=[745817,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Ghanshyamdas Jewellers - Abids, Hyderabad | Cyber-Platinum Luxury",description:"Step into the future of luxury with Ghanshyamdas Jewellers at Abids Road. Cyber-Platinum & futuristic metal craftsmanship of high-end diamonds and gold.",openGraph:{title:"Ghanshyamdas Jewellers - Abids, Hyderabad | Cyber-Platinum Luxury",description:"Step into the future of luxury with Ghanshyamdas Jewellers at Abids Road. Cyber-Platinum & futuristic metal craftsmanship of high-end diamonds and gold.",siteName:"Ghanshyamdas Jewellers"}}])},247110,a=>{a.n(a.i(745817))}];
+
+//# sourceMappingURL=app_client_ghanshyamdas-jewellers-abids_layout_jsx_0poewzz._.js.map

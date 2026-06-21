@@ -1,0 +1,3 @@
+module.exports=[617075,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Sri Jagdamba Pearls - Secunderabad | Heritage Pearl Jewellers",description:"Exquisite, high-quality pearl strings, traditional Deccani chokers, and royal temple necklaces since 1924. Secunderabad, Hyderabad.",openGraph:{title:"Sri Jagdamba Pearls - Secunderabad | Heritage Pearl Jewellers",description:"Exquisite, high-quality pearl strings, traditional Deccani chokers, and royal temple necklaces since 1924. Secunderabad, Hyderabad.",siteName:"Sri Jagdamba Pearls"}}])},782687,a=>{a.n(a.i(617075))}];
+
+//# sourceMappingURL=app_client_sri-jagdamba-pearls_layout_jsx_0l59b-b._.js.map

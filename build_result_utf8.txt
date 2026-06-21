@@ -1,0 +1,12 @@
+
+> sales-machine@1.0.0 build
+> next build
+
+▲ Next.js 16.2.9 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: ENOENT: no such file or directory, open 'D:\GWD\Sales Machine\.next\turbopack'
+    at ignore-listed frames

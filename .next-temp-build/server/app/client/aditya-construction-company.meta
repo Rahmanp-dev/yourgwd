@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/aditya-construction-company/layout,_N_T_/client/aditya-construction-company/page,_N_T_/client/aditya-construction-company"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/aditya-construction-company/__PAGE__",
+    "/client/aditya-construction-company",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

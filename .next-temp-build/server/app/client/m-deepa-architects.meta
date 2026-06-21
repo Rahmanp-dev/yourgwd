@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/m-deepa-architects/layout,_N_T_/client/m-deepa-architects/page,_N_T_/client/m-deepa-architects"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/m-deepa-architects/__PAGE__",
+    "/client/m-deepa-architects",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

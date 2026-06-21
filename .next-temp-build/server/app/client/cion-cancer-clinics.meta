@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/cion-cancer-clinics/layout,_N_T_/client/cion-cancer-clinics/page,_N_T_/client/cion-cancer-clinics"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/cion-cancer-clinics/__PAGE__",
+    "/client/cion-cancer-clinics",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

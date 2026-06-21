@@ -1,0 +1,3 @@
+module.exports=[432611,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Vitalitys Laser Piles - Official Website Preview",description:"Welcome to the new premium website preview for Vitalitys Laser Piles. Discover our services and book an appointment today.",openGraph:{title:"Vitalitys Laser Piles - Official Website Preview",description:"Welcome to the new premium website preview for Vitalitys Laser Piles. Discover our services and book an appointment today.",siteName:"Vitalitys Laser Piles"}}])},79096,a=>{a.n(a.i(432611))}];
+
+//# sourceMappingURL=app_client_vitalitys-laser-piles_layout_jsx_1zu7vru._.js.map

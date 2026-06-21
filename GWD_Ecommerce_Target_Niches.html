@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GWD E-Commerce Target Niches — Instagram Outreach Intelligence</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,600;0,800;0,900;1,400&display=swap" rel="stylesheet"/>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    :root {
+      --bg: #060b16;
+      --surface: rgba(255,255,255,0.04);
+      --border: rgba(255,255,255,0.08);
+      --text: #f1f5f9;
+      --muted: #64748b;
+      --blue: #3b82f6;
+      --violet: #8b5cf6;
+      --emerald: #10b981;
+      --rose: #f43f5e;
+      --amber: #f59e0b;
+      --cyan: #06b6d4;
+      --pink: #ec4899;
+      --orange: #f97316;
+      --grad: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: "Inter", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 3rem; background: rgba(6,11,22,0.85);
+      backdrop-filter: blur(20px); border-bottom: 1px solid var(--border);
+    }
+    .logo { font-weight: 900; font-size: 1.4rem; background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text); }
+    .hero {
+      min-height: 100vh; display: flex; flex-direction: column; align-items: center;
+      justify-content: center; text-align: center; padding: 8rem 2rem 4rem; position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ""; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);
+      width: 900px; height: 500px;
+      background: radial-gradient(ellipse at center, rgba(59,130,246,0.18) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(59,130,246,0.12); border: 1px solid rgba(59,130,246,0.3); border-radius: 100px;
+      padding: 0.4rem 1rem; font-size: 0.85rem; font-weight: 600; color: #93c5fd;
+      letter-spacing: 1px; text-transform: uppercase; margin-bottom: 2rem;
+    }
+    .hero h1 { font-size: clamp(2.5rem, 6vw, 5.5rem); font-weight: 900; line-height: 1.05; margin-bottom: 1.5rem; max-width: 900px; }
+    .hero h1 span { background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .hero p { font-size: 1.3rem; color: var(--muted); max-width: 680px; margin-bottom: 3rem; }
+    .stats-row { display: flex; gap: 3rem; margin-top: 1rem; }
+    .stat { text-align: center; }
+    .stat-num { font-size: 2.5rem; font-weight: 900; background: var(--grad); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .stat-label { font-size: 0.85rem; color: var(--muted); margin-top: 0.2rem; }
+    section { padding: 6rem 3rem; max-width: 1200px; margin: 0 auto; }
+    .section-label { font-size: 0.8rem; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--blue); margin-bottom: 1rem; }
+    .section-title { font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; margin-bottom: 1rem; }
+    .section-sub { font-size: 1.1rem; color: var(--muted); max-width: 640px; margin-bottom: 3rem; }
+    .niche-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1.5rem; }
+    .niche-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 1.2rem;
+      padding: 2rem; position: relative; overflow: hidden; transition: border-color 0.3s, transform 0.3s;
+    }
+    .niche-card:hover { transform: translateY(-4px); }
+    .niche-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--card-accent); }
+    .card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.2rem; }
+    .card-icon { width: 48px; height: 48px; border-radius: 0.75rem; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.06); }
+    .priority-badge { font-size: 0.72rem; font-weight: 700; padding: 0.3rem 0.7rem; border-radius: 100px; letter-spacing: 1px; text-transform: uppercase; }
+    .priority-hot { background: rgba(244,63,94,0.15); color: #fb7185; border: 1px solid rgba(244,63,94,0.3); }
+    .priority-high { background: rgba(245,158,11,0.15); color: #fbbf24; border: 1px solid rgba(245,158,11,0.3); }
+    .priority-mid { background: rgba(16,185,129,0.15); color: #34d399; border: 1px solid rgba(16,185,129,0.3); }
+    .niche-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .niche-card p { font-size: 0.92rem; color: var(--muted); margin-bottom: 1.2rem; line-height: 1.6; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.2rem; }
+    .hashtag { font-size: 0.78rem; color: #60a5fa; font-weight: 500; }
+    .niche-meta { display: flex; gap: 1.5rem; border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 0.5rem; }
+    .meta-item { display: flex; flex-direction: column; gap: 0.2rem; }
+    .meta-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; font-weight: 600; }
+    .meta-value { font-size: 0.9rem; font-weight: 700; }
+    .steps-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .step-card { background: var(--surface); border: 1px solid var(--border); border-radius: 1.2rem; padding: 2rem; position: relative; }
+    .step-num { font-size: 3.5rem; font-weight: 900; color: rgba(59,130,246,0.15); position: absolute; top: 1rem; right: 1.5rem; line-height: 1; }
+    .step-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.7rem; }
+    .step-card p { font-size: 0.92rem; color: var(--muted); }
+    .pitch-box { background: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(139,92,246,0.08)); border: 1px solid rgba(139,92,246,0.25); border-radius: 1.5rem; padding: 3rem; margin-top: 2rem; }
+    .pitch-box h3 { font-size: 1.5rem; font-weight: 800; margin-bottom: 1rem; }
+    .pitch-box p { font-size: 1rem; color: #94a3b8; line-height: 1.8; }
+    .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .feature-card { background: var(--surface); border: 1px solid var(--border); border-radius: 1rem; padding: 1.8rem; }
+    .feature-card h4 { font-size: 1rem; font-weight: 700; margin: 0.8rem 0 0.5rem; display: flex; align-items: center; gap: 0.6rem; }
+    .feature-card p { font-size: 0.88rem; color: var(--muted); }
+    .divider { height: 1px; background: var(--border); margin: 0 3rem; }
+    footer { text-align: center; padding: 3rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">GWD Intelligence</div>
+    <ul class="nav-links">
+      <li><a href="#niches">Target Niches</a></li>
+      <li><a href="#crawl">How to Find Them</a></li>
+      <li><a href="#pitch">The Pitch</a></li>
+      <li><a href="#features">CRM Features</a></li>
+    </ul>
+  </nav>
+
+  <div class="hero">
+    <div class="eyebrow"><i data-lucide="instagram" style="width:14px;height:14px;"></i>E-Commerce Outreach Intelligence</div>
+    <h1>Find the brands<br/>hiding on <span>Instagram</span></h1>
+    <p>Millions of Indian businesses sell exclusively via DMs. No website, no checkout, no system. That is your market. Here are the exact niches to target.</p>
+    <div class="stats-row">
+      <div class="stat"><div class="stat-num">100M+</div><div class="stat-label">Instagram businesses in India</div></div>
+      <div class="stat"><div class="stat-num">~60%</div><div class="stat-label">Have no standalone website</div></div>
+      <div class="stat"><div class="stat-num">50K+</div><div class="stat-label">Avg e-comm build value (INR)</div></div>
+    </div>
+  </div>
+
+  <section id="niches">
+    <div class="section-label">Priority Targets</div>
+    <h2 class="section-title">The 9 Niches to Hit First</h2>
+    <p class="section-sub">Ranked by conversion potential and the visual richness of their Instagram pages, ideal for showcasing a custom e-commerce preview.</p>
+    <div class="niche-grid">
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #f43f5e, #ec4899);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="gem" style="color:#f43f5e;"></i></div><span class="priority-badge priority-hot">HOT</span></div>
+        <h3>Handmade and Designer Jewellery</h3>
+        <p>Artisan jewellers with stunning photography selling entirely via DM or WhatsApp links. Silver, oxidised, beaded, terracotta.</p>
+        <div class="tags"><span class="hashtag">#oxidisedjewellery</span><span class="hashtag">#handmadejewellery</span><span class="hashtag">#silverjewellery</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#f43f5e;">800-5K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Catalogue + Cart</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">Very High</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #f97316, #f59e0b);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="shirt" style="color:#f97316;"></i></div><span class="priority-badge priority-hot">HOT</span></div>
+        <h3>Boutique and Ethnic Clothing</h3>
+        <p>Small womens clothing brands dropping collections on Stories and processing orders manually through DMs and UPI transfers.</p>
+        <div class="tags"><span class="hashtag">#boutiquestore</span><span class="hashtag">#ethnicwear</span><span class="hashtag">#indifashion</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#f97316;">500-3K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Lookbook + Shop</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">Massive</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #10b981, #06b6d4);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="cookie" style="color:#10b981;"></i></div><span class="priority-badge priority-hot">HOT</span></div>
+        <h3>Home Bakeries and Custom Cakes</h3>
+        <p>Bakers with beautiful Reels who take orders manually. Custom cakes, dessert boxes, celebration hampers, cookies.</p>
+        <div class="tags"><span class="hashtag">#homebaker</span><span class="hashtag">#customcakes</span><span class="hashtag">#hyderabadbakes</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#10b981;">1K-8K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Menu + Booking</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">High</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #8b5cf6, #ec4899);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="sparkles" style="color:#8b5cf6;"></i></div><span class="priority-badge priority-high">HIGH</span></div>
+        <h3>Candles, Skincare and Lifestyle</h3>
+        <p>Artisan candle brands, natural skincare, handmade soaps with premium aesthetics on Instagram but zero checkout infrastructure.</p>
+        <div class="tags"><span class="hashtag">#handmadecandles</span><span class="hashtag">#naturalskincare</span><span class="hashtag">#luxurycandles</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#8b5cf6;">600-4K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Product + Story</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">High</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #06b6d4, #3b82f6);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="sofa" style="color:#06b6d4;"></i></div><span class="priority-badge priority-high">HIGH</span></div>
+        <h3>Handmade Home Decor and Craft</h3>
+        <p>Macrame, pottery, resin art — artisans with loyal fanbase but no way for followers to browse and buy without DMs.</p>
+        <div class="tags"><span class="hashtag">#macramewall</span><span class="hashtag">#handmadedecor</span><span class="hashtag">#resincrafts</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#06b6d4;">500-6K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Gallery + Cart</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">High</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #f59e0b, #f97316);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="baby" style="color:#f59e0b;"></i></div><span class="priority-badge priority-high">HIGH</span></div>
+        <h3>Kids Products and Toys</h3>
+        <p>Custom baby hampers, personalised gifts, handmade wooden toys with emotional repeat buyers and high order values.</p>
+        <div class="tags"><span class="hashtag">#kidstoys</span><span class="hashtag">#babyshower</span><span class="hashtag">#kidsclothing</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#f59e0b;">800-5K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Gifting Store</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">Med-High</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #ec4899, #f43f5e);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="printer" style="color:#ec4899;"></i></div><span class="priority-badge priority-high">HIGH</span></div>
+        <h3>Print-on-Demand and Custom Merch</h3>
+        <p>Artists selling custom tees, tote bags, prints and stickers to thousands of followers but using Google Forms for orders.</p>
+        <div class="tags"><span class="hashtag">#customtshirts</span><span class="hashtag">#merch</span><span class="hashtag">#artprint</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#ec4899;">400-2K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Merch Store</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">Medium</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #10b981, #3b82f6);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="wheat" style="color:#10b981;"></i></div><span class="priority-badge priority-mid">SOLID</span></div>
+        <h3>Healthy Food and Meal Kits</h3>
+        <p>Tiffin services, keto food, organic produce and specialty food brands taking bulk orders via WhatsApp with no subscription system.</p>
+        <div class="tags"><span class="hashtag">#tiffinservice</span><span class="hashtag">#healthyfood</span><span class="hashtag">#organicfood</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#10b981;">500-3K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Menu + Subscribe</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">Medium</span></div>
+        </div>
+      </div>
+      <div class="niche-card" style="--card-accent: linear-gradient(90deg, #3b82f6, #8b5cf6);">
+        <div class="card-top"><div class="card-icon"><i data-lucide="dog" style="color:#3b82f6;"></i></div><span class="priority-badge priority-mid">SOLID</span></div>
+        <h3>Pet Accessories and Products</h3>
+        <p>Handmade dog collars, pet portraits, custom bandanas. Passionate niche audience, emotional purchases, growing fast in India.</p>
+        <div class="tags"><span class="hashtag">#petbusiness</span><span class="hashtag">#dogaccessories</span><span class="hashtag">#petlovers</span></div>
+        <div class="niche-meta">
+          <div class="meta-item"><span class="meta-label">Avg Order</span><span class="meta-value" style="color:#3b82f6;">300-3K INR</span></div>
+          <div class="meta-item"><span class="meta-label">Site Need</span><span class="meta-value">Pet Store</span></div>
+          <div class="meta-item"><span class="meta-label">Volume</span><span class="meta-value">Growing Fast</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="crawl">
+    <div class="section-label">The Intelligence Play</div>
+    <h2 class="section-title">How to Find Them via Instagram</h2>
+    <p class="section-sub">This is not Google Maps. This requires crawling directly inside Instagram to find people who are actively selling but have no website in their bio.</p>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <h3><i data-lucide="hash" style="color:#3b82f6;width:20px;"></i>Hashtag Crawling</h3>
+        <p>Target niche hashtags like #oxidisedjewellery or #boutiquestore. Pull the top 100 posts. Extract the profile URL of each account that posted.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <h3><i data-lucide="user-search" style="color:#8b5cf6;width:20px;"></i>Bio Analysis: No Website Filter</h3>
+        <p>Visit each profile. If their bio link is a Linktree, WhatsApp, or Facebook — not a real domain — they qualify as a lead. Simple automated check.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <h3><i data-lucide="phone" style="color:#10b981;width:20px;"></i>Contact Extraction</h3>
+        <p>Pull WhatsApp number from bio text. Cross-reference with Google: site:instagram.com "[brand name]" email to find business contact details.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <h3><i data-lucide="mail-search" style="color:#f59e0b;width:20px;"></i>Email Finding via Hunter.io</h3>
+        <p>Run brand name and city through Hunter.io or Apollo.io API to find professional emails. Append to the MongoDB lead record automatically.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="pitch">
+    <div class="section-label">The Outreach Script</div>
+    <h2 class="section-title">The GWD Pitch That Converts</h2>
+    <p class="section-sub">Build them a fully working e-commerce preview before you contact them. Then show it to them. This is the most powerful move.</p>
+    <div class="pitch-box">
+      <h3>WhatsApp Message Template</h3>
+      <p>
+        Hi [Owner Name]<br/><br/>
+        I have been following [Brand Name] on Instagram and your products are absolutely stunning. I know most of your orders come through DMs, but I imagined what your brand would look like with a fully branded online store.<br/><br/>
+        So I just built you one, completely free as a preview:<br/>
+        https://yourgwd.vercel.app/client/[slug]<br/><br/>
+        It includes your product gallery, a custom checkout flow, and a page that matches your brand aesthetic. Not a template, built specifically for you.<br/><br/>
+        If you like it, I would love to get on a quick 10 minute call. We handle everything, design, development, payments. You just keep creating.<br/><br/>
+        Your name, GWD
+      </p>
+    </div>
+    <div class="pitch-box" style="margin-top:1.5rem; background: linear-gradient(135deg, rgba(16,185,129,0.06), rgba(6,182,212,0.06)); border-color: rgba(16,185,129,0.2);">
+      <h3>Email Subject Lines That Get Opens</h3>
+      <p>
+        I built [Brand Name] a website (you did not ask, but look...)<br/>
+        Your jewellery deserves more than Instagram DMs<br/>
+        Quick look, I made something for [Brand Name]<br/>
+        Re: Your Instagram store, here is what it could look like
+      </p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="features">
+    <div class="section-label">CRM Upgrades Needed</div>
+    <h2 class="section-title">What to Add to the System</h2>
+    <p class="section-sub">To fully automate this Instagram pipeline, the GWD CRM needs these new features built into it.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <i data-lucide="instagram" style="color:#ec4899;"></i>
+        <h4>Instagram Lead Importer</h4>
+        <p>Takes a hashtag as input and outputs Instagram profiles with no website in bio, along with their WhatsApp number and follower count.</p>
+      </div>
+      <div class="feature-card">
+        <i data-lucide="mail" style="color:#3b82f6;"></i>
+        <h4>Email Outreach Module</h4>
+        <p>A new Email tab in each lead CRM profile. Pre-populated with personalised message and their Vercel preview link. One-click send via SMTP or SendGrid.</p>
+      </div>
+      <div class="feature-card">
+        <i data-lucide="shopping-cart" style="color:#8b5cf6;"></i>
+        <h4>E-Commerce Preview Builder</h4>
+        <p>Instead of a landing page, generate a Shopify-style preview with product grid, cart, and checkout flow customized to the niche and brand colours from Instagram.</p>
+      </div>
+      <div class="feature-card">
+        <i data-lucide="search" style="color:#10b981;"></i>
+        <h4>Email Hunter Integration</h4>
+        <p>Run each Instagram brand through Hunter.io or Apollo.io API to auto-find professional emails and append them to the MongoDB lead record.</p>
+      </div>
+      <div class="feature-card">
+        <i data-lucide="message-square" style="color:#f59e0b;"></i>
+        <h4>WhatsApp and Email Status Tracker</h4>
+        <p>Track whether the lead was contacted via WhatsApp or Email, when it was sent, and whether they opened the preview link via UTM tracking.</p>
+      </div>
+      <div class="feature-card">
+        <i data-lucide="trending-up" style="color:#f43f5e;"></i>
+        <h4>Lead Scoring Engine</h4>
+        <p>Auto-score each lead by follower count, engagement rate, posting frequency, and whether they actively sell in posts. Prioritise warmest leads first.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>GWD Intelligence Report - E-Commerce Outreach Edition - 2026</p>
+  </footer>
+
+  <script>lucide.createIcons();</script>
+</body>
+</html>

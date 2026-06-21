@@ -1,0 +1,3 @@
+module.exports=[435673,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Vinayaka Car Wash & Premium Detailing - Attapur, Hyderabad",description:"Experience premium Swiss-precision washing & detailing in Attapur. Ceramic coating, paint correction, interior restoration, and high-end car care by master craftsmen.",openGraph:{title:"Vinayaka Car Wash & Detailing - Attapur | Premium Craftsmanship",description:"Experience ultimate car grooming and detailing at Vinayaka Car Wash, Attapur. NABL-level wash precision, ceramic coating, and deep interior detailing.",siteName:"Vinayaka Car Wash Attapur",type:"website"}}])},114752,a=>{a.n(a.i(435673))}];
+
+//# sourceMappingURL=app_client_vinayaka-car-wash-attapur_layout_jsx_02dw2rx._.js.map

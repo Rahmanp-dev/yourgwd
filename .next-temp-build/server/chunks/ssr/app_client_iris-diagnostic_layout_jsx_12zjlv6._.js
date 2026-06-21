@@ -1,0 +1,3 @@
+module.exports=[58296,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Iris Diagnostic - Official Website Preview",description:"Welcome to the new premium website preview for Iris Diagnostic. Discover our services and book an appointment today.",openGraph:{title:"Iris Diagnostic - Official Website Preview",description:"Welcome to the new premium website preview for Iris Diagnostic. Discover our services and book an appointment today.",siteName:"Iris Diagnostic"}}])},73782,a=>{a.n(a.i(58296))}];
+
+//# sourceMappingURL=app_client_iris-diagnostic_layout_jsx_12zjlv6._.js.map

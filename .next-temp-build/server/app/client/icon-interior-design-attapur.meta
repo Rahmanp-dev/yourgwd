@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/icon-interior-design-attapur/layout,_N_T_/client/icon-interior-design-attapur/page,_N_T_/client/icon-interior-design-attapur"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/icon-interior-design-attapur/__PAGE__",
+    "/client/icon-interior-design-attapur",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

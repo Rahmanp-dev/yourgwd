@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/client/vitalitys-laser-piles/page": [
+      "static/media/ca31d6821328a4e9-s.p.2svk7cnw5x6df.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.137759vg1sbmi.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

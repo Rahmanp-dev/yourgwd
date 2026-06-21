@@ -1,0 +1,3 @@
+module.exports=[27887,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Dental Station - Official Website Preview",description:"Welcome to the new premium website preview for Dental Station. Discover our services and book an appointment today.",openGraph:{title:"Dental Station - Official Website Preview",description:"Welcome to the new premium website preview for Dental Station. Discover our services and book an appointment today.",siteName:"Dental Station"}}])},986506,a=>{a.n(a.i(27887))}];
+
+//# sourceMappingURL=app_client_dental-station_layout_jsx_0klowky._.js.map

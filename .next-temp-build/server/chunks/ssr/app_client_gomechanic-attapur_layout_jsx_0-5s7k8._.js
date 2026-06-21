@@ -1,0 +1,3 @@
+module.exports=[681323,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"GoMechanic Attapur - Premium Car Detailing & Smart Workshop",description:"Get certified detailing, ceramic coating, PPF, and denting/painting at GoMechanic Attapur, Hyderabad. Hardcore quality, upfront pricing, and absolute car care.",openGraph:{title:"GoMechanic Attapur - Premium Car Detailing & Smart Workshop",description:"Get certified detailing, ceramic coating, PPF, and denting/painting at GoMechanic Attapur, Hyderabad. Hardcore quality, upfront pricing, and absolute car care.",siteName:"GoMechanic Attapur",type:"website"}}])},474247,a=>{a.n(a.i(681323))}];
+
+//# sourceMappingURL=app_client_gomechanic-attapur_layout_jsx_0-5s7k8._.js.map

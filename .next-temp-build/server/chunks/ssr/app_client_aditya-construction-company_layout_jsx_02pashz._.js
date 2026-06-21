@@ -1,0 +1,3 @@
+module.exports=[322756,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Aditya Construction Company - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Aditya Construction Company. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"Aditya Construction Company - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Aditya Construction Company. Explore smart listings and VR tours in Shaikpet.",siteName:"Aditya Construction Company"}}])},224053,a=>{a.n(a.i(322756))}];
+
+//# sourceMappingURL=app_client_aditya-construction-company_layout_jsx_02pashz._.js.map

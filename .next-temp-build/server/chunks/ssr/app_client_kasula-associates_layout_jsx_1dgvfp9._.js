@@ -1,0 +1,3 @@
+module.exports=[569131,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Kasula & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Kasula & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"Kasula & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Kasula & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"Kasula & Associates"}}])},539444,a=>{a.n(a.i(569131))}];
+
+//# sourceMappingURL=app_client_kasula-associates_layout_jsx_1dgvfp9._.js.map

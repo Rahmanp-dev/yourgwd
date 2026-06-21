@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWD Content Strategy: The Unsolicited Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --accent-primary: #3b82f6;
+            --accent-secondary: #8b5cf6;
+            --accent-gradient: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow: hidden; /* Hide scrollbars for presentation */
+        }
+
+        /* Presentation Container */
+        .presentation {
+            height: 100vh;
+            width: 100vw;
+            position: relative;
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            scroll-behavior: smooth;
+        }
+
+        /* Slide Base */
+        .slide {
+            height: 100vh;
+            width: 100vw;
+            scroll-snap-align: start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem;
+            position: relative;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .slide.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 5rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #cbd5e1;
+        }
+
+        p {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            color: #94a3b8;
+            max-width: 800px;
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            max-width: 1200px;
+            width: 100%;
+            margin-top: 3rem;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 2.5rem;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(59, 130, 246, 0.5);
+        }
+
+        .card h3 {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: white;
+        }
+
+        .card p {
+            text-align: left;
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            text-align: left;
+            font-size: 1.3rem;
+            color: #94a3b8;
+            max-width: 800px;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        ul li i {
+            color: var(--accent-primary);
+            margin-top: 0.2rem;
+        }
+
+        /* Navigation Hints */
+        .scroll-hint {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+            opacity: 0.5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.9rem;
+            color: #cbd5e1;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+            40% { transform: translateY(-20px) translateX(-50%); }
+            60% { transform: translateY(-10px) translateX(-50%); }
+        }
+
+        /* Decorative Elements */
+        .glow {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: var(--accent-primary);
+            border-radius: 50%;
+            filter: blur(150px);
+            opacity: 0.15;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .badge {
+            background: rgba(59, 130, 246, 0.2);
+            color: #60a5fa;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="presentation" id="deck">
+        
+        <!-- SLIDE 1: Title -->
+        <section class="slide active">
+            <div class="glow" style="top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+            <div class="badge">Strategic Blueprint</div>
+            <h1>The Unsolicited<br>Content Engine</h1>
+            <p>How to turn automated web generation into a scalable B2B lead and content machine for GWD.</p>
+            
+            <div class="scroll-hint">
+                <span>Scroll down or press Space</span>
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: The Mindset -->
+        <section class="slide">
+            <div class="glow" style="top: -10%; right: -10%;"></div>
+            <h2>The Core Mindset Shift</h2>
+            <p>Stop asking: <em>"What if they don't reply to my WhatsApp message?"</em></p>
+            <p style="color: white; font-weight: 600;">Start asking: "How do I use this demo to get 10,000 other people to see my work?"</p>
+            
+            <div class="grid-2">
+                <div class="card">
+                    <h3><i data-lucide="x-circle" style="color:#ef4444"></i> Old Model (Direct Sales)</h3>
+                    <p>Build 1 site → Message 1 owner → Wait for 1 reply. High rejection, zero leverage.</p>
+                </div>
+                <div class="card">
+                    <h3><i data-lucide="check-circle" style="color:#22c55e"></i> New Model (Media Company)</h3>
+                    <p>Build 1 site → Record the process → Post everywhere. The 1 owner might ignore you, but 10,000 others watch the video.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: Content Pillars -->
+        <section class="slide">
+            <div class="glow" style="bottom: 0; left: -20%;"></div>
+            <h2>Viral Content Pillars</h2>
+            <p>We don't need real clients to make content. We use the "Unsolicited Redesign" and "Build in Public" frameworks.</p>
+            
+            <div class="grid-2" style="grid-template-columns: 1fr 1fr 1fr; gap: 2rem;">
+                <div class="card">
+                    <h3><i data-lucide="zap"></i> The Teardown</h3>
+                    <p><strong>The Hook:</strong> "This premium clinic in Hyderabad is losing lakhs. Here's the million-dollar system I built them in 10 mins."<br><br>Show their weak current state, reveal your high-end Vercel demo.</p>
+                </div>
+                <div class="card">
+                    <h3><i data-lucide="hammer"></i> Watch Me Build</h3>
+                    <p><strong>The Hook:</strong> "Watch my AI agency generate a custom software system for a random business."<br><br>Screen-record the terminal, the DB injection, and the final site. Nerd out on the tech.</p>
+                </div>
+                <div class="card">
+                    <h3><i data-lucide="shield-check"></i> Concept Studies</h3>
+                    <p><strong>The Hook:</strong> "I loved Brand X, but their digital flow was broken. So we conceptualized this..."<br><br>This is the ethical "fake" testimonial. It proves your capability without lying about employment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: The Automation Pipeline -->
+        <section class="slide">
+            <h2>The Video Automation Factory</h2>
+            <p>To scale internationally, you cannot manually record 100 videos a day. We automate the content creation alongside the site creation.</p>
+            
+            <ul style="margin-top: 2rem;">
+                <li>
+                    <i data-lucide="bot"></i>
+                    <div>
+                        <strong>1. Auto-Screen Recording (Puppeteer)</strong>
+                        <p style="text-align:left; font-size:1.1rem; margin-top:0.5rem;">A script automatically opens your deployed `vercel.app/client/[slug]` URL, scrolls down smoothly, and saves a 15-second HD MP4 video.</p>
+                    </div>
+                </li>
+                <li>
+                    <i data-lucide="mic"></i>
+                    <div>
+                        <strong>2. AI Voiceover (ElevenLabs)</strong>
+                        <p style="text-align:left; font-size:1.1rem; margin-top:0.5rem;">Generate dynamic audio: "Hey [Founder Name], my team built this custom dashboard for [Clinic Name]..."</p>
+                    </div>
+                </li>
+                <li>
+                    <i data-lucide="video"></i>
+                    <div>
+                        <strong>3. Programmatic Assembly (FFmpeg/Remotion)</strong>
+                        <p style="text-align:left; font-size:1.1rem; margin-top:0.5rem;">Stitch the scrolling video, the AI voiceover, and a generic video of you pointing (green screen) into a final TikTok/Reel.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- SLIDE 5: International Scale -->
+        <section class="slide">
+            <div class="glow" style="top: 20%; right: 20%; background: var(--accent-secondary);"></div>
+            <h2>Expanding Internationally</h2>
+            <p>This system is geographically agnostic. The exact same infrastructure works globally.</p>
+            
+            <div class="grid-2">
+                <div class="card">
+                    <h3><i data-lucide="globe"></i> Shift Targets</h3>
+                    <p>Instead of Banjara Hills, tell the AI to scrape "Luxury MedSpas in Beverly Hills" or "High-end Architects in Mayfair, London."</p>
+                </div>
+                <div class="card">
+                    <h3><i data-lucide="palette"></i> Localize Aesthetics</h3>
+                    <p>US/UK markets prefer ultra-minimal, brutalist, or Apple-esque clean UI. Adjust the AI prompts for the specific region's taste.</p>
+                </div>
+                <div class="card">
+                    <h3><i data-lucide="send"></i> Shift Channels</h3>
+                    <p>WhatsApp dominates India. For US/UK B2B, use LinkedIn Automation (PhantomBuster) or Cold Email (Instantly.ai) to send the personalized Vercel links and videos.</p>
+                </div>
+                <div class="card">
+                    <h3><i data-lucide="trending-up"></i> TikTok SEO</h3>
+                    <p>Use hashtags like #LondonArchitects or #DubaiRealEstate on your videos. Let the algorithm find your clients for you.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 6: Next Steps -->
+        <section class="slide">
+            <h2>The Action Plan</h2>
+            <ul style="margin-top: 2rem;">
+                <li>
+                    <i data-lucide="arrow-right"></i>
+                    <div>
+                        <strong>Stop Waiting:</strong> Treat the 10 interior design sites we just built as content assets today.
+                    </div>
+                </li>
+                <li>
+                    <i data-lucide="arrow-right"></i>
+                    <div>
+                        <strong>Record Manually First:</strong> Do a screen recording with a voiceover: "I built 10 premium web systems for Hyderabad's top designers today. Here's how." Post it to Instagram.
+                    </div>
+                </li>
+                <li>
+                    <i data-lucide="arrow-right"></i>
+                    <div>
+                        <strong>Build the Factory:</strong> Instruct me (Antigravity) to build the Puppeteer automation script to start auto-recording scrolling videos of your preview pages.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <script>
+        // Initialize icons
+        lucide.createIcons();
+
+        // Simple Intersection Observer for scroll animations
+        const slides = document.querySelectorAll('.slide');
+        
+        const observerOptions = {
+            root: document.querySelector('.presentation'),
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                } else {
+                    // Optional: remove class when out of view to re-animate
+                    // entry.target.classList.remove('active'); 
+                }
+            });
+        }, observerOptions);
+
+        slides.forEach(slide => {
+            observer.observe(slide);
+        });
+
+        // Keyboard navigation support
+        document.addEventListener('keydown', (e) => {
+            const container = document.getElementById('deck');
+            const slideHeight = window.innerHeight;
+            
+            if (e.code === 'Space' || e.code === 'ArrowDown') {
+                e.preventDefault();
+                container.scrollBy({ top: slideHeight, behavior: 'smooth' });
+            } else if (e.code === 'ArrowUp') {
+                e.preventDefault();
+                container.scrollBy({ top: -slideHeight, behavior: 'smooth' });
+            }
+        });
+    </script>
+</body>
+</html>

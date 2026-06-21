@@ -1,67 +1,55 @@
-# BRIEFING — 2026-06-16T13:54:40+05:30
+# BRIEFING — 2026-06-21T10:35:45Z
 
 ## Mission
-Build 2 highly distinct, premium, long-format Next.js UI preview pages for independent jewellery stores Tibarumal & Sons and Tibarumal Ramnivas Jewellers under static client folders.
+Implement 2 distinct, premium, long-format Next.js UI preview pages for California Dreamworks and Percept Interior Solutions under [slug] routes.
 
 ## 🔒 My Identity
-- Archetype: worker_style_1_rep
+- Archetype: teamwork_preview_worker
 - Roles: implementer, qa, specialist
-- Working directory: d:\GWD\Sales Machine\.agents\worker_style_1_rep
-- Original parent: cce0474b-a2f9-4563-acd2-6ee5d1aea5dd
-- Milestone: Glassmorphism
+- Working directory: d:\GWD\Sales Machine\.agents\worker_style_1_rep/
+- Original parent: c9c92643-5208-4212-835b-f7d463c14215
+- Milestone: UI Preview Implementation
 
 ## 🔒 Key Constraints
-- Must write to static folders: `app/client/tibarumal-sons-shaikpet` and `app/client/tibarumal-ramnivas-jubilee-hills`.
-- DO NOT write to dynamic `[slug]` folder.
-- Design System: Modern Luxury / Glassmorphism (backdrop blur, translucent panels, glowing border gradients, glass card containers, refined modern serif headers).
-- paired display fonts (Prata/Cinzel) with body fonts (Inter/Plus Jakarta Sans).
-- Use Lucide icons, no emojis.
-- Active tap feedback for all buttons/tabs.
-- Pages must include: Hero Header, Brand Heritage, Interactive Jewelry Customizer, Signature Collection Grid, Virtual Design Consultation form (with validation and loading states), Customer Stories/Testimonials, and Store Details Footer.
-- Ensure build passes with zero errors using npm run build.
+- Light mode only, strictly no dark backgrounds or dark: selectors.
+- Both routes must resolve at app/client/[slug]/layout.jsx and app/client/[slug]/page.jsx.
+- Must have all 9 required sections in each page.
+- Function names must be single CamelCase: CaliforniaDreamworksPage, CaliforniaDreamworksLayout, PerceptInteriorSolutionsPage, PerceptInteriorSolutionsLayout.
+- "use client" on every page.jsx.
+- Lucide React icons only (no emojis).
+- Unsplash image URLs only with proper query parameters.
+- Mobile responsive, tap/click feedback, no horizontal overflow.
 
 ## Current Parent
-- Conversation ID: cce0474b-a2f9-4563-acd2-6ee5d1aea5dd
-- Updated: yes (completed task)
+- Conversation ID: c9c92643-5208-4212-835b-f7d463c14215
+- Updated: not yet
 
 ## Task Summary
-- **What to build**: Two Next.js pages representing Tibarumal & Sons (Shaikpet) and Tibarumal Ramnivas Jewellers (Jubilee Hills) using a premium Glassmorphism design style.
-- **Success criteria**: Beautiful UI, zero compilation errors, proper interactive components (customizer with estimate calculations and visual representation, fully validated booking form, premium typography).
-- **Interface contracts**: `app/client/tibarumal-sons-shaikpet/page.jsx`, `layout.jsx` and `app/client/tibarumal-ramnivas-jubilee-hills/page.jsx`, `layout.jsx`.
-- **Code layout**: Standard Next.js App Router folders.
+- **What to build**: Two Next.js pages/layouts under dynamic route `app/client/[slug]`.
+- **Success criteria**: Pages match user's design systems (Earthy Glassmorphism vs. Clean Modern Minimalist), compile cleanly, and support dynamic routing for the two specific slugs (`california-dreamworks-banjara-hills` and `percept-interior-solutions-banjara-hills`).
+- **Interface contracts**: [TBD]
+- **Code layout**: [TBD]
 
 ## Key Decisions Made
-- Design style: Tibarumal & Sons will use a rich, deep emerald and gold-tinted glass aesthetic ("Imperial Emerald Glass"). Typography: Prata and Inter.
-- Design style: Tibarumal Ramnivas Jewellers will use a sleek, deep sapphire/platinum and rose-gold tinted glass aesthetic ("Cosmopolitan Sapphire Glass"). Typography: Cinzel and Plus Jakarta Sans.
-- Interactive customizer computes weights, gem carats, making charges (12% for gold, 15% for platinum), and 3% GST, presenting dynamic pricing and updating the mock jewelry visual preview in real time.
-- Consultation form includes loading overlay/spinner and success message, showing validation errors inline.
+- Use a single dynamic router or conditional rendering based on the slug, or static-like routing inside a dynamic route. Wait, the requirement says "Create `app/client/[slug]/layout.jsx` and `app/client/[slug]/page.jsx` for both slugs." This is a single dynamic route folder! So inside `app/client/[slug]/page.jsx`, we should inspect the `slug` parameter (or `params.slug`) and render the appropriate page component: `CaliforniaDreamworksPage` for `california-dreamworks-banjara-hills` and `PerceptInteriorSolutionsPage` for `percept-interior-solutions-banjara-hills`. And similarly for layout.jsx. Let's make sure!
 
 ## Change Tracker
-- **Files modified**:
-  - `app/client/tibarumal-sons-shaikpet/page.jsx` — Implemented premium layout, customizer and booking form for Shaikpet branch.
-  - `app/client/tibarumal-sons-shaikpet/layout.jsx` — Configured SEO metadata layout for Shaikpet branch.
-  - `app/client/tibarumal-ramnivas-jubilee-hills/page.jsx` — Implemented premium layout, customizer and booking form for Jubilee Hills branch.
-  - `app/client/tibarumal-ramnivas-jubilee-hills/layout.jsx` — Configured SEO metadata layout for Jubilee Hills branch.
-- **Build status**: PASS (Build completes successfully, pages pre-render correctly)
+- **Files modified**: None
+- **Build status**: Untested
 - **Pending issues**: None
 
 ## Quality Status
-- **Build/test result**: PASS (zero errors)
-- **Lint status**: CLEAN
-- **Tests added/modified**: Verified all user flows manually (estimation calculations, form error handling, active tab/button highlights).
-
-## Artifact Index
-- `app/client/tibarumal-sons-shaikpet/page.jsx` — Main page for Tibarumal & Sons
-- `app/client/tibarumal-sons-shaikpet/layout.jsx` — Layout and SEO metadata for Tibarumal & Sons
-- `app/client/tibarumal-ramnivas-jubilee-hills/page.jsx` — Main page for Tibarumal Ramnivas Jewellers
-- `app/client/tibarumal-ramnivas-jubilee-hills/layout.jsx` — Layout and SEO metadata for Tibarumal Ramnivas Jewellers
-- `d:\GWD\Sales Machine\.agents\worker_style_1_rep\progress.md` — Progress tracker
+- **Build/test result**: Untested
+- **Lint status**: Untested
+- **Tests added/modified**: None
 
 ## Loaded Skills
 - **Source**: d:\GWD\Sales Machine\.agents\skills\ui-ux-pro-max\SKILL.md
 - **Local copy**: d:\GWD\Sales Machine\.agents\worker_style_1_rep\skills\ui-ux-pro-max\SKILL.md
-- **Core methodology**: Professional UI rules (no emojis, minimum 44px tap targets, light/dark mode contrast, performance, visual consistency).
-
+- **Core methodology**: Premium UI/UX design heuristics for web and mobile components.
 - **Source**: d:\GWD\Sales Machine\.agents\skills\frontend-design\SKILL.md
 - **Local copy**: d:\GWD\Sales Machine\.agents\worker_style_1_rep\skills\frontend-design\SKILL.md
-- **Core methodology**: Tailored visual identity, typography pairing, structure, copy and layout design.
+- **Core methodology**: Distinctive visual design and font pairings.
+
+## Artifact Index
+- None

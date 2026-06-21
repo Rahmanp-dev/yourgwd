@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/sv-builders-developers/layout,_N_T_/client/sv-builders-developers/page,_N_T_/client/sv-builders-developers"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/sv-builders-developers/__PAGE__",
+    "/client/sv-builders-developers",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

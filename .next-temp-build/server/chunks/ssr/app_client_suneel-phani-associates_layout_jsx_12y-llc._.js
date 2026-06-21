@@ -1,0 +1,3 @@
+module.exports=[398899,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Suneel Phani & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Suneel Phani & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"Suneel Phani & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Suneel Phani & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"Suneel Phani & Associates"}}])},17982,a=>{a.n(a.i(398899))}];
+
+//# sourceMappingURL=app_client_suneel-phani-associates_layout_jsx_12y-llc._.js.map

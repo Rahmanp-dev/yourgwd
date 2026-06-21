@@ -298,7 +298,7 @@ export default function PerceptInteriorSolutionsPage() {
             <a href="#quiz" className="hover:text-royal transition-colors">Style Quiz</a>
             <a href="#process" className="hover:text-royal transition-colors">Our Process</a>
             <a href="#testimonials" className="hover:text-royal transition-colors">Reviews</a>
-            <a href="#booking-section" className="px-5 py-3 border-2 border-charcoal hover:bg-charcoal hover:text-white transition-all text-xs font-bold active:scale-95">
+            <a href="#booking-section" className="px-5 py-3 border-2 border-royal text-royal hover:bg-royal hover:text-white transition-all text-xs font-bold active:scale-95">
               Book Consultation
             </a>
           </nav>
@@ -327,7 +327,7 @@ export default function PerceptInteriorSolutionsPage() {
             <a href="#quiz" onClick={() => setMobileMenuOpen(false)} className="hover:text-royal py-2 border-b border-zinc-100">Style Quiz</a>
             <a href="#process" onClick={() => setMobileMenuOpen(false)} className="hover:text-royal py-2 border-b border-zinc-100">Our Process</a>
             <a href="#testimonials" onClick={() => setMobileMenuOpen(false)} className="hover:text-royal py-2 border-b border-zinc-100">Reviews</a>
-            <a href="#booking-section" onClick={() => setMobileMenuOpen(false)} className="w-full text-center py-3 border-2 border-charcoal bg-charcoal text-white text-xs font-bold mt-2">
+            <a href="#booking-section" onClick={() => setMobileMenuOpen(false)} className="w-full text-center py-3 border-2 border-royal bg-royal text-white hover:bg-[#1b6ca1] text-xs font-bold mt-2">
               Book Consultation
             </a>
           </div>
@@ -633,7 +633,7 @@ export default function PerceptInteriorSolutionsPage() {
                   onClick={() => setActiveStep(step.id)}
                   className={`flex flex-col items-center gap-2 p-4 border transition-all active:scale-95 ${
                     activeStep === step.id 
-                      ? 'bg-charcoal text-white border-charcoal shadow-sm' 
+                      ? 'bg-royal text-white border-royal shadow-sm' 
                       : 'bg-white text-zinc-600 border-zinc-200 hover:bg-zinc-50'
                   }`}
                 >
@@ -732,18 +732,18 @@ export default function PerceptInteriorSolutionsPage() {
       <section id="booking-section" className="py-20 bg-zinc-50 border-t border-zinc-200 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-stretch">
           
-          <div className="lg:col-span-5 flex flex-col justify-between space-y-8 bg-charcoal text-white p-8 sm:p-10 shadow-md">
+          <div className="lg:col-span-5 flex flex-col justify-between space-y-8 bg-zinc-50 border border-zinc-200 text-zinc-800 p-8 sm:p-10 shadow-md">
             <div className="space-y-4">
               <span className="text-[9px] uppercase tracking-widest font-bold text-royal block">Project Intake</span>
               <h3 className="font-heading text-2xl font-extrabold uppercase leading-none tracking-tight">Initiate Blueprint</h3>
-              <p className="text-[11px] text-zinc-400 font-sans leading-relaxed">
+              <p className="text-[11px] text-zinc-500 font-sans leading-relaxed">
                 Provide details of your residential or corporate space for a structured budget assessment with Feroz.
               </p>
             </div>
 
             <div className="space-y-4 font-sans text-xs">
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 border border-zinc-700 flex items-center justify-center text-white">
+                <div className="w-8 h-8 border border-zinc-200 flex items-center justify-center text-zinc-800">
                   <Phone size={12} />
                 </div>
                 <div>
@@ -753,7 +753,7 @@ export default function PerceptInteriorSolutionsPage() {
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 border border-zinc-700 flex items-center justify-center text-white">
+                <div className="w-8 h-8 border border-zinc-200 flex items-center justify-center text-zinc-800">
                   <Mail size={12} />
                 </div>
                 <div>
@@ -763,7 +763,7 @@ export default function PerceptInteriorSolutionsPage() {
               </div>
 
               <div className="flex items-center gap-3">
-                <div className="w-8 h-8 border border-zinc-700 flex items-center justify-center text-white">
+                <div className="w-8 h-8 border border-zinc-200 flex items-center justify-center text-zinc-800">
                   <MapPin size={12} />
                 </div>
                 <div>
@@ -773,7 +773,7 @@ export default function PerceptInteriorSolutionsPage() {
               </div>
             </div>
             
-            <div className="pt-4 border-t border-zinc-800 flex items-center gap-2 text-[9px] text-zinc-500">
+            <div className="pt-4 border-t border-zinc-200 flex items-center gap-2 text-[9px] text-zinc-500">
               <Lock size={10} />
               <span>100% Encrypted Client Data Channel</span>
             </div>
@@ -925,7 +925,7 @@ export default function PerceptInteriorSolutionsPage() {
                 <button 
                   type="submit" 
                   disabled={isSubmitting}
-                  className="w-full py-4 mt-2 bg-charcoal text-white text-xs font-bold uppercase tracking-wider hover:bg-[#1a1a1a] active:scale-[0.99] disabled:opacity-55 transition-all flex items-center justify-center gap-2"
+                  className="w-full py-4 mt-2 bg-royal text-white text-xs font-bold uppercase tracking-wider hover:bg-[#1b6ca1] active:scale-[0.99] disabled:opacity-55 transition-all flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? (
                     <>
@@ -949,16 +949,16 @@ export default function PerceptInteriorSolutionsPage() {
       </section>
 
       {/* 9. Studio Location & Hours Footer */}
-      <footer className="bg-charcoal text-zinc-400 py-16 px-4 sm:px-6 lg:px-8 border-t border-zinc-800 font-sans text-xs">
+      <footer className="bg-zinc-50 text-zinc-600 py-16 px-4 sm:px-6 lg:px-8 border-t border-zinc-200 font-sans text-xs">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
           
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center gap-2.5">
-              <div className="w-10 h-10 border-2 border-white flex items-center justify-center text-white font-heading font-black text-xl">
+              <div className="w-10 h-10 border-2 border-royal flex items-center justify-center text-royal font-heading font-black text-xl">
                 P
               </div>
               <div>
-                <span className="font-heading text-lg font-black tracking-tight text-white uppercase block leading-none">Percept</span>
+                <span className="font-heading text-lg font-black tracking-tight text-zinc-900 uppercase block leading-none">Percept</span>
                 <span className="text-[10px] tracking-widest uppercase text-royal font-bold">Interior Solutions</span>
               </div>
             </div>
@@ -966,11 +966,11 @@ export default function PerceptInteriorSolutionsPage() {
               Precise, high-contrast layouts for modern home interior styling and office fit-outs. Registered in Banjara Hills, Hyderabad.
             </p>
             <div className="space-y-2">
-              <div className="flex items-center gap-2 text-zinc-200">
+              <div className="flex items-center gap-2 text-zinc-800">
                 <Phone size={14} className="text-royal" />
                 <span>+91 90000 04706</span>
               </div>
-              <div className="flex items-center gap-2 text-zinc-200">
+              <div className="flex items-center gap-2 text-zinc-800">
                 <Mail size={14} className="text-royal" />
                 <span>info@perceptsolutions.in</span>
               </div>
@@ -978,24 +978,24 @@ export default function PerceptInteriorSolutionsPage() {
           </div>
 
           <div className="lg:col-span-4 space-y-4">
-            <h4 className="font-heading text-xs font-bold uppercase tracking-widest text-white">Experience Center Hours</h4>
-            <div className="space-y-2 text-zinc-400">
-              <div className="flex justify-between pb-1 border-b border-zinc-800">
+            <h4 className="font-heading text-xs font-bold uppercase tracking-widest text-zinc-900">Experience Center Hours</h4>
+            <div className="space-y-2 text-zinc-600">
+              <div className="flex justify-between pb-1 border-b border-zinc-200">
                 <span>Monday - Friday</span>
-                <span className="font-semibold text-white">09:30 AM - 07:00 PM</span>
+                <span className="font-semibold text-zinc-900">09:30 AM - 07:00 PM</span>
               </div>
-              <div className="flex justify-between pb-1 border-b border-zinc-800">
+              <div className="flex justify-between pb-1 border-b border-zinc-200">
                 <span>Saturday</span>
-                <span className="font-semibold text-white">10:00 AM - 05:00 PM</span>
+                <span className="font-semibold text-zinc-900">10:00 AM - 05:00 PM</span>
               </div>
-              <div className="flex justify-between pb-1 border-b border-zinc-800">
+              <div className="flex justify-between pb-1 border-b border-zinc-200">
                 <span>Sunday</span>
                 <span className="text-royal font-bold">CLOSED</span>
               </div>
             </div>
             
             <div className="pt-2">
-              <h5 className="font-heading text-xs font-bold uppercase tracking-wider text-white">Studio Address</h5>
+              <h5 className="font-heading text-xs font-bold uppercase tracking-wider text-zinc-900">Studio Address</h5>
               <p className="mt-1 leading-relaxed">
                 Ground Floor, #8-2-310/1/10/1, Road No. 10, Nandi Nagar, Banjara Hills, Hyderabad, Telangana 500034
               </p>
@@ -1003,11 +1003,11 @@ export default function PerceptInteriorSolutionsPage() {
           </div>
 
           <div className="lg:col-span-4 space-y-4">
-            <h4 className="font-heading text-xs font-bold uppercase tracking-widest text-white">Map Coordinates</h4>
+            <h4 className="font-heading text-xs font-bold uppercase tracking-widest text-zinc-900">Map Coordinates</h4>
             {/* Embedded Map Placeholder */}
-            <div className="relative overflow-hidden border border-zinc-800 aspect-video lg:aspect-[1.5/1] shadow-inner bg-zinc-950 flex flex-col items-center justify-center text-center p-4">
+            <div className="relative overflow-hidden border border-zinc-200 aspect-video lg:aspect-[1.5/1] shadow-inner bg-zinc-100 flex flex-col items-center justify-center text-center p-4">
               <MapPin size={22} className="text-royal mb-2" />
-              <span className="text-xs font-bold uppercase tracking-wider text-white">Nandi Nagar Studio</span>
+              <span className="text-xs font-bold uppercase tracking-wider text-zinc-900">Nandi Nagar Studio</span>
               <p className="text-[10px] text-zinc-500 mt-1 max-w-[200px]">
                 Ground Floor, Road No. 10, Near Banjara Hills
               </p>
@@ -1015,7 +1015,7 @@ export default function PerceptInteriorSolutionsPage() {
                 href="https://maps.google.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="mt-3 px-4 py-1.5 border border-zinc-700 hover:bg-zinc-800 active:scale-95 text-[10px] font-bold text-white transition-all uppercase tracking-wider"
+                className="mt-3 px-4 py-1.5 bg-royal text-white hover:bg-[#1b6ca1] border border-transparent active:scale-95 text-[10px] font-bold transition-all uppercase tracking-wider"
               >
                 Launch Navigation
               </a>
@@ -1024,7 +1024,7 @@ export default function PerceptInteriorSolutionsPage() {
 
         </div>
 
-        <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-800 text-center text-[10px] text-zinc-600">
+        <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-zinc-200 text-center text-[10px] text-zinc-600">
           <p>© {new Date().getFullYear()} Percept Interior Solutions. All rights reserved.</p>
         </div>
       </footer>

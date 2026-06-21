@@ -1,0 +1,3 @@
+module.exports=[874070,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Modi Pearls - Laad Bazar, Hyderabad | Futuristic Pearl Artistry",description:"Experience the ultimate fusion of classic pearls and cyber-platinum design. Premium pearl collections near Charminar, Laad Bazar, Hyderabad.",openGraph:{title:"Modi Pearls - Laad Bazar, Hyderabad | Futuristic Pearl Artistry",description:"Experience the ultimate fusion of classic pearls and cyber-platinum design. Premium pearl collections near Charminar, Laad Bazar, Hyderabad.",siteName:"Modi Pearls"}}])},907599,a=>{a.n(a.i(874070))}];
+
+//# sourceMappingURL=app_client_modi-pearls-original_layout_jsx_0vihhrf._.js.map

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/totaram-sons-jewellers-abids/layout,_N_T_/client/totaram-sons-jewellers-abids/page,_N_T_/client/totaram-sons-jewellers-abids"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/totaram-sons-jewellers-abids/__PAGE__",
+    "/client/totaram-sons-jewellers-abids",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

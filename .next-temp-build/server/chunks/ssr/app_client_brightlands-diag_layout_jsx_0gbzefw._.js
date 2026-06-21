@@ -1,0 +1,3 @@
+module.exports=[666684,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Brightlands Diag - Official Website Preview",description:"Welcome to the new premium website preview for Brightlands Diag. Discover our services and book an appointment today.",openGraph:{title:"Brightlands Diag - Official Website Preview",description:"Welcome to the new premium website preview for Brightlands Diag. Discover our services and book an appointment today.",siteName:"Brightlands Diag"}}])},573954,a=>{a.n(a.i(666684))}];
+
+//# sourceMappingURL=app_client_brightlands-diag_layout_jsx_0gbzefw._.js.map

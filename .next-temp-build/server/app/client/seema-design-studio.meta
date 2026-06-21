@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/seema-design-studio/layout,_N_T_/client/seema-design-studio/page,_N_T_/client/seema-design-studio"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/seema-design-studio/__PAGE__",
+    "/client/seema-design-studio",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

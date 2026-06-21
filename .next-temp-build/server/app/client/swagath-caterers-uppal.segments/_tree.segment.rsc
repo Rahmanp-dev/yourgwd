@@ -1,0 +1,7 @@
+:HL["/_next/static/chunks/3qif4-6a8jdy1.css","style"]
+:HL["/_next/static/chunks/03i21rjdsrh0t.css","style"]
+:HL["/_next/static/chunks/29jzmt54nxz7a.css","style"]
+:HL["/_next/static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"client","param":null,"prefetchHints":0,"slots":{"children":{"name":"swagath-caterers-uppal","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"6CjSYK-8Roc6bmlgcaRuh"}

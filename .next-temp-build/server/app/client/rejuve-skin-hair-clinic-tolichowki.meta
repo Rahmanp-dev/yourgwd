@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/rejuve-skin-hair-clinic-tolichowki/layout,_N_T_/client/rejuve-skin-hair-clinic-tolichowki/page,_N_T_/client/rejuve-skin-hair-clinic-tolichowki"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/rejuve-skin-hair-clinic-tolichowki/__PAGE__",
+    "/client/rejuve-skin-hair-clinic-tolichowki",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

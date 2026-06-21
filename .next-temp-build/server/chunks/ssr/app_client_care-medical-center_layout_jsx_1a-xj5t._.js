@@ -1,0 +1,3 @@
+module.exports=[248176,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Care Medical Center - Official Website Preview",description:"Welcome to the new premium website preview for Care Medical Center. Discover our services and book an appointment today.",openGraph:{title:"Care Medical Center - Official Website Preview",description:"Welcome to the new premium website preview for Care Medical Center. Discover our services and book an appointment today.",siteName:"Care Medical Center"}}])},318961,a=>{a.n(a.i(248176))}];
+
+//# sourceMappingURL=app_client_care-medical-center_layout_jsx_1a-xj5t._.js.map

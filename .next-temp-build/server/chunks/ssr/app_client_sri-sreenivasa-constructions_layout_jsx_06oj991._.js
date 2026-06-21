@@ -1,0 +1,3 @@
+module.exports=[643,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Sri Sreenivasa Constructions - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Sri Sreenivasa Constructions. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"Sri Sreenivasa Constructions - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Sri Sreenivasa Constructions. Explore smart listings and VR tours in Shaikpet.",siteName:"Sri Sreenivasa Constructions"}}])},499371,a=>{a.n(a.i(643))}];
+
+//# sourceMappingURL=app_client_sri-sreenivasa-constructions_layout_jsx_06oj991._.js.map

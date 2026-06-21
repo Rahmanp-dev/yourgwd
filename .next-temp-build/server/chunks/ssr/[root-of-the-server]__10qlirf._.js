@@ -1,0 +1,7 @@
+module.exports=[954290,a=>{a.v({className:"poppins_43251beb-module__Q3Cwiq__className",variable:"poppins_43251beb-module__Q3Cwiq__variable"})},130248,a=>{"use strict";var b=a.i(907997),c=a.i(954290);let d={className:c.default.className,style:{fontFamily:"'Poppins', 'Poppins Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable),a.s(["default",0,function({children:a}){return(0,b.jsxs)("div",{className:`${d.variable} font-sans min-h-screen bg-[#FAF8F5] text-[#3E2E20] antialiased`,children:[(0,b.jsx)("style",{children:`
+        .font-poppins {
+          font-family: var(--font-poppins), sans-serif;
+        }
+      `}),a]})},"metadata",0,{title:"Raavera Interior Designer | Warm Neumorphic Spaces Banjara Hills",description:"Elevated residential interiors and space planning by Principal Designer Raavera. Experience warm luxury custom home decor in Banjara Hills, Hyderabad.",openGraph:{title:"Raavera Interior Designer - Banjara Hills",description:"Elevated residential interiors and space planning by Principal Designer Raavera. Experience warm luxury custom home decor in Banjara Hills, Hyderabad.",url:"https://gwd-sales.com/client/raavera-interior-designer-banjara-hills",siteName:"Raavera Interior Designer",images:[{url:"https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1200&h=630",width:1200,height:630,alt:"Raavera Premium Residential Interiors"}]}}],130248)},136070,a=>{a.n(a.i(130248))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__10qlirf._.js.map

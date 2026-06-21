@@ -1,0 +1,3 @@
+module.exports=[124462,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Hanu Reddy Realty - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Hanu Reddy Realty. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"Hanu Reddy Realty - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Hanu Reddy Realty. Explore smart listings and VR tours in Shaikpet.",siteName:"Hanu Reddy Realty"}}])},196440,a=>{a.n(a.i(124462))}];
+
+//# sourceMappingURL=app_client_hanu-reddy-realty-hyderabad_layout_jsx_0a7jmrb._.js.map

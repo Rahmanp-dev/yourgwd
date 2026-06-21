@@ -1,0 +1,3 @@
+module.exports=[363863,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"3m Diagnostics - Official Website Preview",description:"Welcome to the new premium website preview for 3m Diagnostics. Discover our services and book an appointment today.",openGraph:{title:"3m Diagnostics - Official Website Preview",description:"Welcome to the new premium website preview for 3m Diagnostics. Discover our services and book an appointment today.",siteName:"3m Diagnostics"}}])},224033,a=>{a.n(a.i(363863))}];
+
+//# sourceMappingURL=app_client_3m-diagnostics_layout_jsx_0jmz6mx._.js.map

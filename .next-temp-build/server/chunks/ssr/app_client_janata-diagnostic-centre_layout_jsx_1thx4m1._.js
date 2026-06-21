@@ -1,0 +1,3 @@
+module.exports=[712747,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Janata Diagnostic Centre - Official Website Preview",description:"Welcome to the new premium website preview for Janata Diagnostic Centre. Discover our services and book an appointment today.",openGraph:{title:"Janata Diagnostic Centre - Official Website Preview",description:"Welcome to the new premium website preview for Janata Diagnostic Centre. Discover our services and book an appointment today.",siteName:"Janata Diagnostic Centre"}}])},574072,a=>{a.n(a.i(712747))}];
+
+//# sourceMappingURL=app_client_janata-diagnostic-centre_layout_jsx_1thx4m1._.js.map

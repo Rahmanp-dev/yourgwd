@@ -1,0 +1,14 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/client/maple-bear-preschool-tolichowki/page": [
+      "static/media/f30fd2e485acf1bc-s.p.35belnv3c2-b-.woff2",
+      "static/media/8e451580e5e95631-s.p.27vw08z6_vw0m.woff2",
+      "static/media/345c85a432359eed-s.p.0zem_9y19rte6.woff2",
+      "static/media/9be384ea93fe3f49-s.p.0ig786lf0ff2-.woff2",
+      "static/media/8c2eb9ceedecfc8e-s.p.23aeddxv5enbo.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

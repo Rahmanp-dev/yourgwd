@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/dr-nivedita-dadu-dermatology/layout,_N_T_/client/dr-nivedita-dadu-dermatology/page,_N_T_/client/dr-nivedita-dadu-dermatology"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/dr-nivedita-dadu-dermatology/__PAGE__",
+    "/client/dr-nivedita-dadu-dermatology",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

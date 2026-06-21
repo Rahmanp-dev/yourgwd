@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/mak-homes-construction/layout,_N_T_/client/mak-homes-construction/page,_N_T_/client/mak-homes-construction"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/mak-homes-construction/__PAGE__",
+    "/client/mak-homes-construction",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

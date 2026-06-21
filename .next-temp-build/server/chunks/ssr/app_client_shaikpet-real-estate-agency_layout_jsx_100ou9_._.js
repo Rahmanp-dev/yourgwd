@@ -1,0 +1,3 @@
+module.exports=[630140,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Shaikpet Real Estate Agency - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Shaikpet Real Estate Agency. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"Shaikpet Real Estate Agency - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Shaikpet Real Estate Agency. Explore smart listings and VR tours in Shaikpet.",siteName:"Shaikpet Real Estate Agency"}}])},153745,a=>{a.n(a.i(630140))}];
+
+//# sourceMappingURL=app_client_shaikpet-real-estate-agency_layout_jsx_100ou9_._.js.map

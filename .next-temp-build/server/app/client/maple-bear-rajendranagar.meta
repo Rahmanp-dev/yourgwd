@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/maple-bear-rajendranagar/layout,_N_T_/client/maple-bear-rajendranagar/page,_N_T_/client/maple-bear-rajendranagar"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/maple-bear-rajendranagar/__PAGE__",
+    "/client/maple-bear-rajendranagar",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

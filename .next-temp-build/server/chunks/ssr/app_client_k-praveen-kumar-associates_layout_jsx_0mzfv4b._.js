@@ -1,0 +1,3 @@
+module.exports=[309412,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"K Praveen Kumar & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for K Praveen Kumar & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"K Praveen Kumar & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for K Praveen Kumar & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"K Praveen Kumar & Associates"}}])},272824,a=>{a.n(a.i(309412))}];
+
+//# sourceMappingURL=app_client_k-praveen-kumar-associates_layout_jsx_0mzfv4b._.js.map

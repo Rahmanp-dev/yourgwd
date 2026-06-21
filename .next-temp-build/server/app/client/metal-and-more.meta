@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/metal-and-more/layout,_N_T_/client/metal-and-more/page,_N_T_/client/metal-and-more"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/metal-and-more/__PAGE__",
+    "/client/metal-and-more",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

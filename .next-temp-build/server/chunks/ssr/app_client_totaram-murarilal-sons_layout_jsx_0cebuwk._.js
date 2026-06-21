@@ -1,0 +1,3 @@
+module.exports=[628858,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Totaram Murarilal & Sons - Abids Road | Elite Contemporary Diamond Artistry",description:"Explore signature imperial diamonds, bespoke solitaire bands, and modern rose gold & platinum settings. Flagship boutique on Abids Road, Hyderabad.",openGraph:{title:"Totaram Murarilal & Sons - Abids Road | Elite Contemporary Diamonds",description:"Explore signature imperial diamonds, bespoke solitaire bands, and modern rose gold & platinum settings.",siteName:"Totaram Murarilal & Sons"}}])},320496,a=>{a.n(a.i(628858))}];
+
+//# sourceMappingURL=app_client_totaram-murarilal-sons_layout_jsx_0cebuwk._.js.map

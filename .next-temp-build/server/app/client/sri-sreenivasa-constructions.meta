@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/sri-sreenivasa-constructions/layout,_N_T_/client/sri-sreenivasa-constructions/page,_N_T_/client/sri-sreenivasa-constructions"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/sri-sreenivasa-constructions/__PAGE__",
+    "/client/sri-sreenivasa-constructions",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

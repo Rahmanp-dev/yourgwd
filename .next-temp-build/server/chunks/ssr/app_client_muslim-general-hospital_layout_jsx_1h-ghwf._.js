@@ -1,0 +1,3 @@
+module.exports=[97704,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Muslim General Hospital - Official Website Preview",description:"Welcome to the new premium website preview for Muslim General Hospital. Discover our services and book an appointment today.",openGraph:{title:"Muslim General Hospital - Official Website Preview",description:"Welcome to the new premium website preview for Muslim General Hospital. Discover our services and book an appointment today.",siteName:"Muslim General Hospital"}}])},544295,a=>{a.n(a.i(97704))}];
+
+//# sourceMappingURL=app_client_muslim-general-hospital_layout_jsx_1h-ghwf._.js.map

@@ -1,0 +1,3 @@
+module.exports=[678501,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Gorgeous Car Detailers Attapur | Ultra-Premium Car Detailing Hyderabad",description:"Experience Hyderabad's finest luxury car detailing. Specializing in Gold-Class Ceramic Coating, Self-Healing PPF, and Luxury Interior Restoration in Attapur.",openGraph:{title:"Gorgeous Car Detailers Attapur | Ultra-Premium Car Detailing",description:"Experience Hyderabad's finest luxury car detailing. Specializing in Gold-Class Ceramic Coating, Self-Healing PPF, and Luxury Interior Restoration in Attapur.",siteName:"Gorgeous Car Detailers Attapur"}}])},623553,a=>{a.n(a.i(678501))}];
+
+//# sourceMappingURL=app_client_gorgeous-car-detailers-attapur_layout_jsx_0048_2h._.js.map

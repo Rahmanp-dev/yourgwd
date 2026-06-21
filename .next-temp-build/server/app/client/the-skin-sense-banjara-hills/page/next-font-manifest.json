@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/client/the-skin-sense-banjara-hills/page": [
+      "static/media/248e1dc0efc99276-s.p.1d6sb5kuiz5lw.woff2",
+      "static/media/cf514f5d0007dafa-s.p.1wc2mf9hp9pav.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

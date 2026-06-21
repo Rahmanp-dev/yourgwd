@@ -1,0 +1,3 @@
+module.exports=[666379,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"SPR & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for SPR & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"SPR & Associates - Chartered Accountants & Tax Consultants",description:"Official premium website preview for SPR & Associates. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"SPR & Associates"}}])},479197,a=>{a.n(a.i(666379))}];
+
+//# sourceMappingURL=app_client_spr-associates_layout_jsx_0h8yrq3._.js.map

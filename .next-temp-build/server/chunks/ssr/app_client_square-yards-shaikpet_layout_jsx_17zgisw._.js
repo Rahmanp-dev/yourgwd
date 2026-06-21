@@ -1,0 +1,3 @@
+module.exports=[859924,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Square Yards Shaikpet - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Square Yards Shaikpet. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"Square Yards Shaikpet - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Square Yards Shaikpet. Explore smart listings and VR tours in Shaikpet.",siteName:"Square Yards Shaikpet"}}])},576025,a=>{a.n(a.i(859924))}];
+
+//# sourceMappingURL=app_client_square-yards-shaikpet_layout_jsx_17zgisw._.js.map

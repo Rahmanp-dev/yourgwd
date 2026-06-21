@@ -1,0 +1,3 @@
+module.exports=[328352,a=>{a.v({className:"plus_jakarta_sans_79aee3c2-module__jMqizW__className"})},914275,a=>{"use strict";var b=a.i(907997),c=a.i(328352);let d={className:c.default.className,style:{fontFamily:"'Plus Jakarta Sans', 'Plus Jakarta Sans Fallback'",fontStyle:"normal"}};null!=c.default.variable&&(d.variable=c.default.variable),a.s(["default",0,function({children:a}){return(0,b.jsx)("div",{className:d.className,children:a})},"metadata",0,{title:"Kidzee Tolichowki - Fresh Neumorphic Preschool & Daycare",description:"Welcome to Kidzee Tolichowki, Hyderabad. Providing interactive learning, modern playgroup, daycare programs and a nurturing environment."}],914275)},503580,a=>{a.n(a.i(914275))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__1c1w8fa._.js.map

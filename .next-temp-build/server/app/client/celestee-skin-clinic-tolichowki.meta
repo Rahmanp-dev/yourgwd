@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/celestee-skin-clinic-tolichowki/layout,_N_T_/client/celestee-skin-clinic-tolichowki/page,_N_T_/client/celestee-skin-clinic-tolichowki"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/celestee-skin-clinic-tolichowki/__PAGE__",
+    "/client/celestee-skin-clinic-tolichowki",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[339756,["/_next/static/chunks/1sl-443e7306_.js"],"default"]
+3:I[837457,["/_next/static/chunks/1sl-443e7306_.js"],"default"]
+0:{"rsc":["$","$1","c",{"children":[null,["$","div",null,{"className":"bg-[#FAF8F5] text-[#4A4238] min-h-screen font-serif selection:bg-[#C2A888] selection:text-white","children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"\n        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500&display=swap');\n        .font-serif { font-family: 'Playfair Display', serif; }\n        .font-sans-alt { font-family: 'Outfit', sans-serif; }\n      "}}],["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6CjSYK-8Roc6bmlgcaRuh"}

@@ -1,0 +1,3 @@
+module.exports=[126322,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"The Detailing Mafia Attapur - Premium Car Detailing Hyderabad",description:"Experience premium glassmorphic car detailing at The Detailing Mafia Attapur. Ultra-premium PPF, ceramic coating, and deep detailing services near PVNR Expressway.",openGraph:{title:"The Detailing Mafia Attapur - Premium Car Detailing Hyderabad",description:"Experience premium glassmorphic car detailing at The Detailing Mafia Attapur. Ultra-premium PPF, ceramic coating, and deep detailing services near PVNR Expressway.",siteName:"The Detailing Mafia Attapur"}}])},221717,a=>{a.n(a.i(126322))}];
+
+//# sourceMappingURL=app_client_detailing-mafia-attapur_layout_jsx_1nbepm-._.js.map

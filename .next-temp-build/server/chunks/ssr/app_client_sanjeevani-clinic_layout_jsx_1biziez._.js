@@ -1,0 +1,3 @@
+module.exports=[805534,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Sanjeevani Clinic - Official Website Preview",description:"Welcome to the new premium website preview for Sanjeevani Clinic. Discover our services and book an appointment today.",openGraph:{title:"Sanjeevani Clinic - Official Website Preview",description:"Welcome to the new premium website preview for Sanjeevani Clinic. Discover our services and book an appointment today.",siteName:"Sanjeevani Clinic"}}])},888076,a=>{a.n(a.i(805534))}];
+
+//# sourceMappingURL=app_client_sanjeevani-clinic_layout_jsx_1biziez._.js.map

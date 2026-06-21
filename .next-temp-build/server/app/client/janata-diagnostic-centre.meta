@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/janata-diagnostic-centre/layout,_N_T_/client/janata-diagnostic-centre/page,_N_T_/client/janata-diagnostic-centre"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/janata-diagnostic-centre/__PAGE__",
+    "/client/janata-diagnostic-centre",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

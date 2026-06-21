@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/vijaya-diagnostic-centre/layout,_N_T_/client/vijaya-diagnostic-centre/page,_N_T_/client/vijaya-diagnostic-centre"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/vijaya-diagnostic-centre/__PAGE__",
+    "/client/vijaya-diagnostic-centre",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

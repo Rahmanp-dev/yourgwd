@@ -1,0 +1,3 @@
+module.exports=[616254,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"JDs Clinic | Banjara Hills, Hyderabad",description:"Expert aesthetic dermatology, advanced lasers & peels, and hair transplant procedures at JDs Clinic, Banjara Hills. Expert care by lead dermatologist Dr. Aparna Krishnappa.",openGraph:{title:"JDs Clinic - Banjara Hills",description:"Transform your look with advanced clinical treatments. Under lead dermatologist Dr. Aparna Krishnappa (MBBS, MD - DVL). Call +91 9855155123.",siteName:"JDs Clinic",url:"https://sales-machine.gwd.com/client/jds-clinic-banjara-hills",type:"website"}}])},485725,a=>{a.n(a.i(616254))}];
+
+//# sourceMappingURL=app_client_jds-clinic-banjara-hills_layout_jsx_1b8xva5._.js.map

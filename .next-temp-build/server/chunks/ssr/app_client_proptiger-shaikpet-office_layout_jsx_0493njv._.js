@@ -1,0 +1,3 @@
+module.exports=[466707,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"PropTiger Shaikpet Office - Official Real Estate Platform",description:"Welcome to the new premium digital platform for PropTiger Shaikpet Office. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"PropTiger Shaikpet Office - Official Real Estate Platform",description:"Welcome to the new premium digital platform for PropTiger Shaikpet Office. Explore smart listings and VR tours in Shaikpet.",siteName:"PropTiger Shaikpet Office"}}])},601429,a=>{a.n(a.i(466707))}];
+
+//# sourceMappingURL=app_client_proptiger-shaikpet-office_layout_jsx_0493njv._.js.map

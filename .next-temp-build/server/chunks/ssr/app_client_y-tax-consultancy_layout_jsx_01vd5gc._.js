@@ -1,0 +1,3 @@
+module.exports=[625037,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Y Tax Consultancy - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Y Tax Consultancy. Discover our bespoke auditing, tax compliance, and financial consulting services.",openGraph:{title:"Y Tax Consultancy - Chartered Accountants & Tax Consultants",description:"Official premium website preview for Y Tax Consultancy. Discover our bespoke auditing, tax compliance, and financial consulting services.",siteName:"Y Tax Consultancy"}}])},80725,a=>{a.n(a.i(625037))}];
+
+//# sourceMappingURL=app_client_y-tax-consultancy_layout_jsx_01vd5gc._.js.map

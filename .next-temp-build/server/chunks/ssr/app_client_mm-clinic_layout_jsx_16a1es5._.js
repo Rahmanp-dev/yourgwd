@@ -1,0 +1,3 @@
+module.exports=[100217,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Mm Clinic - Official Website Preview",description:"Welcome to the new premium website preview for Mm Clinic. Discover our services and book an appointment today.",openGraph:{title:"Mm Clinic - Official Website Preview",description:"Welcome to the new premium website preview for Mm Clinic. Discover our services and book an appointment today.",siteName:"Mm Clinic"}}])},22399,a=>{a.n(a.i(100217))}];
+
+//# sourceMappingURL=app_client_mm-clinic_layout_jsx_16a1es5._.js.map

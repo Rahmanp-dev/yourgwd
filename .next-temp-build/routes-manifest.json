@@ -1,0 +1,1334 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/api/leads/[id]/status",
+      "regex": "^/api/leads/([^/]+?)/status(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/api/leads/(?<nxtPid>[^/]+?)/status(?:/)?$"
+    },
+    {
+      "page": "/client/[slug]",
+      "regex": "^/client/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/client/(?<nxtPslug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/api/auth/login",
+      "regex": "^/api/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/login(?:/)?$"
+    },
+    {
+      "page": "/api/auth/register",
+      "regex": "^/api/auth/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/register(?:/)?$"
+    },
+    {
+      "page": "/api/leads",
+      "regex": "^/api/leads(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/leads(?:/)?$"
+    },
+    {
+      "page": "/api/settings",
+      "regex": "^/api/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/settings(?:/)?$"
+    },
+    {
+      "page": "/api/sync/commit",
+      "regex": "^/api/sync/commit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sync/commit(?:/)?$"
+    },
+    {
+      "page": "/client/3m-diagnostics",
+      "regex": "^/client/3m\\-diagnostics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/3m\\-diagnostics(?:/)?$"
+    },
+    {
+      "page": "/client/5k-car-care-attapur",
+      "regex": "^/client/5k\\-car\\-care\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/5k\\-car\\-care\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/aamir-hameeda",
+      "regex": "^/client/aamir\\-hameeda(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/aamir\\-hameeda(?:/)?$"
+    },
+    {
+      "page": "/client/aamir-hameeda-design-studio-banjara-hills",
+      "regex": "^/client/aamir\\-hameeda\\-design\\-studio\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/aamir\\-hameeda\\-design\\-studio\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/aarthi-scans",
+      "regex": "^/client/aarthi\\-scans(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/aarthi\\-scans(?:/)?$"
+    },
+    {
+      "page": "/client/aditya-construction-company",
+      "regex": "^/client/aditya\\-construction\\-company(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/aditya\\-construction\\-company(?:/)?$"
+    },
+    {
+      "page": "/client/afaq-laser-cosmetic-clinic",
+      "regex": "^/client/afaq\\-laser\\-cosmetic\\-clinic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/afaq\\-laser\\-cosmetic\\-clinic(?:/)?$"
+    },
+    {
+      "page": "/client/akoya-pearls-ghanshyamdas",
+      "regex": "^/client/akoya\\-pearls\\-ghanshyamdas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/akoya\\-pearls\\-ghanshyamdas(?:/)?$"
+    },
+    {
+      "page": "/client/amba-ji-caterers-uppal",
+      "regex": "^/client/amba\\-ji\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/amba\\-ji\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/ambrosia-clinic-tolichowki",
+      "regex": "^/client/ambrosia\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ambrosia\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/annapurna-caterers-uppal",
+      "regex": "^/client/annapurna\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/annapurna\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/apple-interiors-hyd",
+      "regex": "^/client/apple\\-interiors\\-hyd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/apple\\-interiors\\-hyd(?:/)?$"
+    },
+    {
+      "page": "/client/apple-interiors-kokapet",
+      "regex": "^/client/apple\\-interiors\\-kokapet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/apple\\-interiors\\-kokapet(?:/)?$"
+    },
+    {
+      "page": "/client/aqua-shine-detailing-attapur",
+      "regex": "^/client/aqua\\-shine\\-detailing\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/aqua\\-shine\\-detailing\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/arts-of-architecture",
+      "regex": "^/client/arts\\-of\\-architecture(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/arts\\-of\\-architecture(?:/)?$"
+    },
+    {
+      "page": "/client/avm-pre-primary",
+      "regex": "^/client/avm\\-pre\\-primary(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/avm\\-pre\\-primary(?:/)?$"
+    },
+    {
+      "page": "/client/b-design-studios",
+      "regex": "^/client/b\\-design\\-studios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/b\\-design\\-studios(?:/)?$"
+    },
+    {
+      "page": "/client/bachpan-play-school-rajendranagar",
+      "regex": "^/client/bachpan\\-play\\-school\\-rajendranagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/bachpan\\-play\\-school\\-rajendranagar(?:/)?$"
+    },
+    {
+      "page": "/client/bachpan-play-school-tolichowki",
+      "regex": "^/client/bachpan\\-play\\-school\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/bachpan\\-play\\-school\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/balaji-caterers-uppal",
+      "regex": "^/client/balaji\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/balaji\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/beauty-world-skin-clinic-banjara-hills",
+      "regex": "^/client/beauty\\-world\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/beauty\\-world\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/boom-interiors-attapur",
+      "regex": "^/client/boom\\-interiors\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/boom\\-interiors\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/brightlands-diag",
+      "regex": "^/client/brightlands\\-diag(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/brightlands\\-diag(?:/)?$"
+    },
+    {
+      "page": "/client/california-dreamworks-banjara-hills",
+      "regex": "^/client/california\\-dreamworks\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/california\\-dreamworks\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/care-medical-center",
+      "regex": "^/client/care\\-medical\\-center(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/care\\-medical\\-center(?:/)?$"
+    },
+    {
+      "page": "/client/celestee-skin-clinic-tolichowki",
+      "regex": "^/client/celestee\\-skin\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/celestee\\-skin\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/ceramic-pro-hyderabad",
+      "regex": "^/client/ceramic\\-pro\\-hyderabad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ceramic\\-pro\\-hyderabad(?:/)?$"
+    },
+    {
+      "page": "/client/ceramic-pro-jubilee-hills",
+      "regex": "^/client/ceramic\\-pro\\-jubilee\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ceramic\\-pro\\-jubilee\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/chary-interiors",
+      "regex": "^/client/chary\\-interiors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/chary\\-interiors(?:/)?$"
+    },
+    {
+      "page": "/client/cion-cancer-clinics",
+      "regex": "^/client/cion\\-cancer\\-clinics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/cion\\-cancer\\-clinics(?:/)?$"
+    },
+    {
+      "page": "/client/civilization-architects-banjara-hills",
+      "regex": "^/client/civilization\\-architects\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/civilization\\-architects\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/clean-fast-car-wash-attapur",
+      "regex": "^/client/clean\\-fast\\-car\\-wash\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/clean\\-fast\\-car\\-wash\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/clear-skin-centre-tolichowki",
+      "regex": "^/client/clear\\-skin\\-centre\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/clear\\-skin\\-centre\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/clinica-derm-banjara-hills",
+      "regex": "^/client/clinica\\-derm\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/clinica\\-derm\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/cura-skin-hair-clinic",
+      "regex": "^/client/cura\\-skin\\-hair\\-clinic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/cura\\-skin\\-hair\\-clinic(?:/)?$"
+    },
+    {
+      "page": "/client/darpan-mangatrai-pearls",
+      "regex": "^/client/darpan\\-mangatrai\\-pearls(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/darpan\\-mangatrai\\-pearls(?:/)?$"
+    },
+    {
+      "page": "/client/dasos-cabinets-hyderabad",
+      "regex": "^/client/dasos\\-cabinets\\-hyderabad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dasos\\-cabinets\\-hyderabad(?:/)?$"
+    },
+    {
+      "page": "/client/decorpot-hyderabad",
+      "regex": "^/client/decorpot\\-hyderabad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/decorpot\\-hyderabad(?:/)?$"
+    },
+    {
+      "page": "/client/dental-care-omer",
+      "regex": "^/client/dental\\-care\\-omer(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dental\\-care\\-omer(?:/)?$"
+    },
+    {
+      "page": "/client/dental-station",
+      "regex": "^/client/dental\\-station(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dental\\-station(?:/)?$"
+    },
+    {
+      "page": "/client/dermaclinix-hyderabad-tolichowki",
+      "regex": "^/client/dermaclinix\\-hyderabad\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dermaclinix\\-hyderabad\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/dermatrendz-skin-care-centre-jubilee-hills",
+      "regex": "^/client/dermatrendz\\-skin\\-care\\-centre\\-jubilee\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dermatrendz\\-skin\\-care\\-centre\\-jubilee\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/dermed-clinic-tolichowki",
+      "regex": "^/client/dermed\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dermed\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/design-edge-banjara-hills",
+      "regex": "^/client/design\\-edge\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/design\\-edge\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/detailing-mafia-attapur",
+      "regex": "^/client/detailing\\-mafia\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/detailing\\-mafia\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/detailing-mafia-banjara-hills",
+      "regex": "^/client/detailing\\-mafia\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/detailing\\-mafia\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/dlife-interiors-hyd",
+      "regex": "^/client/dlife\\-interiors\\-hyd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dlife\\-interiors\\-hyd(?:/)?$"
+    },
+    {
+      "page": "/client/dlife-interiors-hyderabad",
+      "regex": "^/client/dlife\\-interiors\\-hyderabad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dlife\\-interiors\\-hyderabad(?:/)?$"
+    },
+    {
+      "page": "/client/dr-nikhat-skin-clinic-banjara-hills",
+      "regex": "^/client/dr\\-nikhat\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dr\\-nikhat\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/dr-nivedita-dadu-dermatology",
+      "regex": "^/client/dr\\-nivedita\\-dadu\\-dermatology(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dr\\-nivedita\\-dadu\\-dermatology(?:/)?$"
+    },
+    {
+      "page": "/client/dr-phanisri-skin-clinic-banjara-hills",
+      "regex": "^/client/dr\\-phanisri\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dr\\-phanisri\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/dr-rameshs-dermatique-banjara-hills",
+      "regex": "^/client/dr\\-rameshs\\-dermatique\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/dr\\-rameshs\\-dermatique\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/duchenne-smile",
+      "regex": "^/client/duchenne\\-smile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/duchenne\\-smile(?:/)?$"
+    },
+    {
+      "page": "/client/elite-skin-hair-clinic-tolichowki",
+      "regex": "^/client/elite\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/elite\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/eminent-tiny-tots",
+      "regex": "^/client/eminent\\-tiny\\-tots(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/eminent\\-tiny\\-tots(?:/)?$"
+    },
+    {
+      "page": "/client/eternelle-aesthetics-tolichowki",
+      "regex": "^/client/eternelle\\-aesthetics\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/eternelle\\-aesthetics\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/eurokids-preschool-rajendranagar",
+      "regex": "^/client/eurokids\\-preschool\\-rajendranagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/eurokids\\-preschool\\-rajendranagar(?:/)?$"
+    },
+    {
+      "page": "/client/eurokids-tolichowki",
+      "regex": "^/client/eurokids\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/eurokids\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/firstcry-intellitots-rajendranagar",
+      "regex": "^/client/firstcry\\-intellitots\\-rajendranagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/firstcry\\-intellitots\\-rajendranagar(?:/)?$"
+    },
+    {
+      "page": "/client/flawless-skin-laser-clinic-tolichowki",
+      "regex": "^/client/flawless\\-skin\\-laser\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/flawless\\-skin\\-laser\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/footprints-play-school-tolichowki",
+      "regex": "^/client/footprints\\-play\\-school\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/footprints\\-play\\-school\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/ghanshyamdas-jewellers-abids",
+      "regex": "^/client/ghanshyamdas\\-jewellers\\-abids(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ghanshyamdas\\-jewellers\\-abids(?:/)?$"
+    },
+    {
+      "page": "/client/golden-caterers-uppal",
+      "regex": "^/client/golden\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/golden\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/gomechanic-attapur",
+      "regex": "^/client/gomechanic\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/gomechanic\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/gopal-jewellers-moula-ali",
+      "regex": "^/client/gopal\\-jewellers\\-moula\\-ali(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/gopal\\-jewellers\\-moula\\-ali(?:/)?$"
+    },
+    {
+      "page": "/client/gorgeous-car-detailers-attapur",
+      "regex": "^/client/gorgeous\\-car\\-detailers\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/gorgeous\\-car\\-detailers\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/hanu-reddy-realty-hyderabad",
+      "regex": "^/client/hanu\\-reddy\\-realty\\-hyderabad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/hanu\\-reddy\\-realty\\-hyderabad(?:/)?$"
+    },
+    {
+      "page": "/client/happy-living-interiors-manikonda",
+      "regex": "^/client/happy\\-living\\-interiors\\-manikonda(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/happy\\-living\\-interiors\\-manikonda(?:/)?$"
+    },
+    {
+      "page": "/client/hayatt-diag",
+      "regex": "^/client/hayatt\\-diag(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/hayatt\\-diag(?:/)?$"
+    },
+    {
+      "page": "/client/health-inn",
+      "regex": "^/client/health\\-inn(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/health\\-inn(?:/)?$"
+    },
+    {
+      "page": "/client/homelane-kokapet",
+      "regex": "^/client/homelane\\-kokapet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/homelane\\-kokapet(?:/)?$"
+    },
+    {
+      "page": "/client/icon-interior-design-attapur",
+      "regex": "^/client/icon\\-interior\\-design\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/icon\\-interior\\-design\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/infinite-architecture-studio-banjara-hills",
+      "regex": "^/client/infinite\\-architecture\\-studio\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/infinite\\-architecture\\-studio\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/iris-diagnostic",
+      "regex": "^/client/iris\\-diagnostic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/iris\\-diagnostic(?:/)?$"
+    },
+    {
+      "page": "/client/iris-diagnostics",
+      "regex": "^/client/iris\\-diagnostics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/iris\\-diagnostics(?:/)?$"
+    },
+    {
+      "page": "/client/janata-diagnostic-centre",
+      "regex": "^/client/janata\\-diagnostic\\-centre(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/janata\\-diagnostic\\-centre(?:/)?$"
+    },
+    {
+      "page": "/client/jaswanth-caterers-uppal",
+      "regex": "^/client/jaswanth\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/jaswanth\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/jds-clinic-banjara-hills",
+      "regex": "^/client/jds\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/jds\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/jyothi-caterers-uppal",
+      "regex": "^/client/jyothi\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/jyothi\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/k-praveen-kumar-associates",
+      "regex": "^/client/k\\-praveen\\-kumar\\-associates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/k\\-praveen\\-kumar\\-associates(?:/)?$"
+    },
+    {
+      "page": "/client/kangaroo-kids-rajendranagar",
+      "regex": "^/client/kangaroo\\-kids\\-rajendranagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kangaroo\\-kids\\-rajendranagar(?:/)?$"
+    },
+    {
+      "page": "/client/kangaroo-kids-tolichowki",
+      "regex": "^/client/kangaroo\\-kids\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kangaroo\\-kids\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/kasula-associates",
+      "regex": "^/client/kasula\\-associates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kasula\\-associates(?:/)?$"
+    },
+    {
+      "page": "/client/kaya-clinic-banjara-hills",
+      "regex": "^/client/kaya\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kaya\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/kaya-skin-clinic-tolichowki",
+      "regex": "^/client/kaya\\-skin\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kaya\\-skin\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/kidzee-rajendranagar",
+      "regex": "^/client/kidzee\\-rajendranagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kidzee\\-rajendranagar(?:/)?$"
+    },
+    {
+      "page": "/client/kidzee-tolichowki",
+      "regex": "^/client/kidzee\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kidzee\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/kj-interior-designs-attapur",
+      "regex": "^/client/kj\\-interior\\-designs\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kj\\-interior\\-designs\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/kosmoderma-skin-clinic-tolichowki",
+      "regex": "^/client/kosmoderma\\-skin\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/kosmoderma\\-skin\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/krishna-pearls-jewellers",
+      "regex": "^/client/krishna\\-pearls\\-jewellers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/krishna\\-pearls\\-jewellers(?:/)?$"
+    },
+    {
+      "page": "/client/labelle-clinic-banjara-hills",
+      "regex": "^/client/labelle\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/labelle\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/labelle-skin-hair-clinic-tolichowki",
+      "regex": "^/client/labelle\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/labelle\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/linear-ads-attapur",
+      "regex": "^/client/linear\\-ads\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/linear\\-ads\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/little-elly-preschool-tolichowki",
+      "regex": "^/client/little\\-elly\\-preschool\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/little\\-elly\\-preschool\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/little-millennium-rajendranagar",
+      "regex": "^/client/little\\-millennium\\-rajendranagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/little\\-millennium\\-rajendranagar(?:/)?$"
+    },
+    {
+      "page": "/client/little-millennium-tolichowki",
+      "regex": "^/client/little\\-millennium\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/little\\-millennium\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/livspace-kokapet",
+      "regex": "^/client/livspace\\-kokapet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/livspace\\-kokapet(?:/)?$"
+    },
+    {
+      "page": "/client/luxe-designs-kokapet",
+      "regex": "^/client/luxe\\-designs\\-kokapet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/luxe\\-designs\\-kokapet(?:/)?$"
+    },
+    {
+      "page": "/client/luxe-designs-spaces-hyd",
+      "regex": "^/client/luxe\\-designs\\-spaces\\-hyd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/luxe\\-designs\\-spaces\\-hyd(?:/)?$"
+    },
+    {
+      "page": "/client/m-deepa-architects",
+      "regex": "^/client/m\\-deepa\\-architects(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/m\\-deepa\\-architects(?:/)?$"
+    },
+    {
+      "page": "/client/maharaja-caterers-uppal",
+      "regex": "^/client/maharaja\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/maharaja\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/mak-homes-construction",
+      "regex": "^/client/mak\\-homes\\-construction(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/mak\\-homes\\-construction(?:/)?$"
+    },
+    {
+      "page": "/client/manepally-jewellers-general-bazar",
+      "regex": "^/client/manepally\\-jewellers\\-general\\-bazar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/manepally\\-jewellers\\-general\\-bazar(?:/)?$"
+    },
+    {
+      "page": "/client/manira-dermatology-banjara-hills",
+      "regex": "^/client/manira\\-dermatology\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/manira\\-dermatology\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/maple-bear-preschool-tolichowki",
+      "regex": "^/client/maple\\-bear\\-preschool\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/maple\\-bear\\-preschool\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/maple-bear-rajendranagar",
+      "regex": "^/client/maple\\-bear\\-rajendranagar(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/maple\\-bear\\-rajendranagar(?:/)?$"
+    },
+    {
+      "page": "/client/maximum-tax-consultant",
+      "regex": "^/client/maximum\\-tax\\-consultant(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/maximum\\-tax\\-consultant(?:/)?$"
+    },
+    {
+      "page": "/client/meena-jewellers-banjara-hills",
+      "regex": "^/client/meena\\-jewellers\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/meena\\-jewellers\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/metal-and-more",
+      "regex": "^/client/metal\\-and\\-more(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/metal\\-and\\-more(?:/)?$"
+    },
+    {
+      "page": "/client/metal-and-more-interiors",
+      "regex": "^/client/metal\\-and\\-more\\-interiors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/metal\\-and\\-more\\-interiors(?:/)?$"
+    },
+    {
+      "page": "/client/metro-dentistry",
+      "regex": "^/client/metro\\-dentistry(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/metro\\-dentistry(?:/)?$"
+    },
+    {
+      "page": "/client/mm-clinic",
+      "regex": "^/client/mm\\-clinic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/mm\\-clinic(?:/)?$"
+    },
+    {
+      "page": "/client/modi-pearls-original",
+      "regex": "^/client/modi\\-pearls\\-original(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/modi\\-pearls\\-original(?:/)?$"
+    },
+    {
+      "page": "/client/mohammad-ibrahim-co-ca",
+      "regex": "^/client/mohammad\\-ibrahim\\-co\\-ca(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/mohammad\\-ibrahim\\-co\\-ca(?:/)?$"
+    },
+    {
+      "page": "/client/moriq",
+      "regex": "^/client/moriq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/moriq(?:/)?$"
+    },
+    {
+      "page": "/client/morph-design-co",
+      "regex": "^/client/morph\\-design\\-co(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/morph\\-design\\-co(?:/)?$"
+    },
+    {
+      "page": "/client/musaddilal-jewellers-basheer-bagh",
+      "regex": "^/client/musaddilal\\-jewellers\\-basheer\\-bagh(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/musaddilal\\-jewellers\\-basheer\\-bagh(?:/)?$"
+    },
+    {
+      "page": "/client/muslim-general-hospital",
+      "regex": "^/client/muslim\\-general\\-hospital(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/muslim\\-general\\-hospital(?:/)?$"
+    },
+    {
+      "page": "/client/nakshatra-catering-uppal",
+      "regex": "^/client/nakshatra\\-catering\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/nakshatra\\-catering\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/namasvi-interiors",
+      "regex": "^/client/namasvi\\-interiors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/namasvi\\-interiors(?:/)?$"
+    },
+    {
+      "page": "/client/namasvi-interiors-narsingi",
+      "regex": "^/client/namasvi\\-interiors\\-narsingi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/namasvi\\-interiors\\-narsingi(?:/)?$"
+    },
+    {
+      "page": "/client/neelkanth-jewellers-somajiguda",
+      "regex": "^/client/neelkanth\\-jewellers\\-somajiguda(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/neelkanth\\-jewellers\\-somajiguda(?:/)?$"
+    },
+    {
+      "page": "/client/new-vindu-caterers-uppal",
+      "regex": "^/client/new\\-vindu\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/new\\-vindu\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/ns-co",
+      "regex": "^/client/ns\\-co(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ns\\-co(?:/)?$"
+    },
+    {
+      "page": "/client/oliva-clinic-banjara-hills",
+      "regex": "^/client/oliva\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/oliva\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/oliva-skin-clinic-tolichowki",
+      "regex": "^/client/oliva\\-skin\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/oliva\\-skin\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/orchids-international-school-tolichowki",
+      "regex": "^/client/orchids\\-international\\-school\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/orchids\\-international\\-school\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/percept-interior-solutions-banjara-hills",
+      "regex": "^/client/percept\\-interior\\-solutions\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/percept\\-interior\\-solutions\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/phc-diagnostic",
+      "regex": "^/client/phc\\-diagnostic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/phc\\-diagnostic(?:/)?$"
+    },
+    {
+      "page": "/client/pmj-jewels-banjara-hills",
+      "regex": "^/client/pmj\\-jewels\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/pmj\\-jewels\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/proptiger-shaikpet-office",
+      "regex": "^/client/proptiger\\-shaikpet\\-office(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/proptiger\\-shaikpet\\-office(?:/)?$"
+    },
+    {
+      "page": "/client/raaj-thaarak-caterers-uppal",
+      "regex": "^/client/raaj\\-thaarak\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/raaj\\-thaarak\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/raavera-interior-designer-banjara-hills",
+      "regex": "^/client/raavera\\-interior\\-designer\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/raavera\\-interior\\-designer\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/radiance-skin-clinic-tolichowki",
+      "regex": "^/client/radiance\\-skin\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/radiance\\-skin\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/raja-architects",
+      "regex": "^/client/raja\\-architects(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/raja\\-architects(?:/)?$"
+    },
+    {
+      "page": "/client/reborn-skin-clinic-banjara-hills",
+      "regex": "^/client/reborn\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/reborn\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/rejuve-skin-hair-clinic-tolichowki",
+      "regex": "^/client/rejuve\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/rejuve\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/reva-health-skin-clinic-banjara-hills",
+      "regex": "^/client/reva\\-health\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/reva\\-health\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/rgr-interiors-banjara-hills",
+      "regex": "^/client/rgr\\-interiors\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/rgr\\-interiors\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/rhythm-emphasis-design",
+      "regex": "^/client/rhythm\\-emphasis\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/rhythm\\-emphasis\\-design(?:/)?$"
+    },
+    {
+      "page": "/client/riyaanz-aesthetic-banjara-hills",
+      "regex": "^/client/riyaanz\\-aesthetic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/riyaanz\\-aesthetic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/rk-property-consultants",
+      "regex": "^/client/rk\\-property\\-consultants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/rk\\-property\\-consultants(?:/)?$"
+    },
+    {
+      "page": "/client/ruchi-caterers-uppal",
+      "regex": "^/client/ruchi\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ruchi\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/saandhya-architects-banjara-hills",
+      "regex": "^/client/saandhya\\-architects\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/saandhya\\-architects\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/saanvis-laser-skin-clinic-banjara-hills",
+      "regex": "^/client/saanvis\\-laser\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/saanvis\\-laser\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/sahani-interiors-banjara-hills",
+      "regex": "^/client/sahani\\-interiors\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sahani\\-interiors\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/sai-reddy-yanala-ca",
+      "regex": "^/client/sai\\-reddy\\-yanala\\-ca(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sai\\-reddy\\-yanala\\-ca(?:/)?$"
+    },
+    {
+      "page": "/client/sanjeevani-clinic",
+      "regex": "^/client/sanjeevani\\-clinic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sanjeevani\\-clinic(?:/)?$"
+    },
+    {
+      "page": "/client/sap-kidney-center",
+      "regex": "^/client/sap\\-kidney\\-center(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sap\\-kidney\\-center(?:/)?$"
+    },
+    {
+      "page": "/client/seema-design-studio",
+      "regex": "^/client/seema\\-design\\-studio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/seema\\-design\\-studio(?:/)?$"
+    },
+    {
+      "page": "/client/sep-architects",
+      "regex": "^/client/sep\\-architects(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sep\\-architects(?:/)?$"
+    },
+    {
+      "page": "/client/shahi-darbar-caterers-uppal",
+      "regex": "^/client/shahi\\-darbar\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/shahi\\-darbar\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/shaikpet-property-advisors",
+      "regex": "^/client/shaikpet\\-property\\-advisors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/shaikpet\\-property\\-advisors(?:/)?$"
+    },
+    {
+      "page": "/client/shaikpet-real-estate-agency",
+      "regex": "^/client/shaikpet\\-real\\-estate\\-agency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/shaikpet\\-real\\-estate\\-agency(?:/)?$"
+    },
+    {
+      "page": "/client/shayas-cosmetic-clinic-banjara-hills",
+      "regex": "^/client/shayas\\-cosmetic\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/shayas\\-cosmetic\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/shiv-kumar-mididoddi-tax",
+      "regex": "^/client/shiv\\-kumar\\-mididoddi\\-tax(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/shiv\\-kumar\\-mididoddi\\-tax(?:/)?$"
+    },
+    {
+      "page": "/client/shri-lakshmi-caterers-uppal",
+      "regex": "^/client/shri\\-lakshmi\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/shri\\-lakshmi\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/sikara-clinics-banjara-hills",
+      "regex": "^/client/sikara\\-clinics\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sikara\\-clinics\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/simply-interiors-gachibowli",
+      "regex": "^/client/simply\\-interiors\\-gachibowli(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/simply\\-interiors\\-gachibowli(?:/)?$"
+    },
+    {
+      "page": "/client/simply-interiors-hyd",
+      "regex": "^/client/simply\\-interiors\\-hyd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/simply\\-interiors\\-hyd(?:/)?$"
+    },
+    {
+      "page": "/client/skinns-clinic-tolichowki",
+      "regex": "^/client/skinns\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/skinns\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/spice-route-cloud-kitchen-uppal",
+      "regex": "^/client/spice\\-route\\-cloud\\-kitchen\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/spice\\-route\\-cloud\\-kitchen\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/spr-associates",
+      "regex": "^/client/spr\\-associates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/spr\\-associates(?:/)?$"
+    },
+    {
+      "page": "/client/square-yards-shaikpet",
+      "regex": "^/client/square\\-yards\\-shaikpet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/square\\-yards\\-shaikpet(?:/)?$"
+    },
+    {
+      "page": "/client/sree-skin-care-clinic-tolichowki",
+      "regex": "^/client/sree\\-skin\\-care\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sree\\-skin\\-care\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/sri-jagdamba-pearls",
+      "regex": "^/client/sri\\-jagdamba\\-pearls(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sri\\-jagdamba\\-pearls(?:/)?$"
+    },
+    {
+      "page": "/client/sri-krishna-jewellers-banjara-hills",
+      "regex": "^/client/sri\\-krishna\\-jewellers\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sri\\-krishna\\-jewellers\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/sri-skin-clinic-banjara-hills",
+      "regex": "^/client/sri\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sri\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/sri-sreenivasa-constructions",
+      "regex": "^/client/sri\\-sreenivasa\\-constructions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sri\\-sreenivasa\\-constructions(?:/)?$"
+    },
+    {
+      "page": "/client/sri-venkateshwara-caterers-uppal",
+      "regex": "^/client/sri\\-venkateshwara\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sri\\-venkateshwara\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/srishti-cloud-kitchen-uppal",
+      "regex": "^/client/srishti\\-cloud\\-kitchen\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/srishti\\-cloud\\-kitchen\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/ss-interiors-secunderabad",
+      "regex": "^/client/ss\\-interiors\\-secunderabad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ss\\-interiors\\-secunderabad(?:/)?$"
+    },
+    {
+      "page": "/client/starcare-diag",
+      "regex": "^/client/starcare\\-diag(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/starcare\\-diag(?:/)?$"
+    },
+    {
+      "page": "/client/stem-kids-preschool-tolichowki",
+      "regex": "^/client/stem\\-kids\\-preschool\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/stem\\-kids\\-preschool\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/studio-infinite",
+      "regex": "^/client/studio\\-infinite(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/studio\\-infinite(?:/)?$"
+    },
+    {
+      "page": "/client/style-home-interiors-attapur",
+      "regex": "^/client/style\\-home\\-interiors\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/style\\-home\\-interiors\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/suhani-pittie-banjara-hills",
+      "regex": "^/client/suhani\\-pittie\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/suhani\\-pittie\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/sun-shine-interiors-mehdipatnam",
+      "regex": "^/client/sun\\-shine\\-interiors\\-mehdipatnam(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sun\\-shine\\-interiors\\-mehdipatnam(?:/)?$"
+    },
+    {
+      "page": "/client/suneel-phani-associates",
+      "regex": "^/client/suneel\\-phani\\-associates(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/suneel\\-phani\\-associates(?:/)?$"
+    },
+    {
+      "page": "/client/suraj-bhan-jewellers",
+      "regex": "^/client/suraj\\-bhan\\-jewellers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/suraj\\-bhan\\-jewellers(?:/)?$"
+    },
+    {
+      "page": "/client/sv-builders-developers",
+      "regex": "^/client/sv\\-builders\\-developers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sv\\-builders\\-developers(?:/)?$"
+    },
+    {
+      "page": "/client/sv-caterers-uppal",
+      "regex": "^/client/sv\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/sv\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/swagath-caterers-uppal",
+      "regex": "^/client/swagath\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/swagath\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/tara-design-solutions",
+      "regex": "^/client/tara\\-design\\-solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/tara\\-design\\-solutions(?:/)?$"
+    },
+    {
+      "page": "/client/tara-design-solutions-attapur",
+      "regex": "^/client/tara\\-design\\-solutions\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/tara\\-design\\-solutions\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/the-skin-sense-banjara-hills",
+      "regex": "^/client/the\\-skin\\-sense\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/the\\-skin\\-sense\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/tibarumal-ramnivas-jubilee-hills",
+      "regex": "^/client/tibarumal\\-ramnivas\\-jubilee\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/tibarumal\\-ramnivas\\-jubilee\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/tibarumal-sons-shaikpet",
+      "regex": "^/client/tibarumal\\-sons\\-shaikpet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/tibarumal\\-sons\\-shaikpet(?:/)?$"
+    },
+    {
+      "page": "/client/totaram-murarilal-sons",
+      "regex": "^/client/totaram\\-murarilal\\-sons(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/totaram\\-murarilal\\-sons(?:/)?$"
+    },
+    {
+      "page": "/client/totaram-sons-jewellers-abids",
+      "regex": "^/client/totaram\\-sons\\-jewellers\\-abids(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/totaram\\-sons\\-jewellers\\-abids(?:/)?$"
+    },
+    {
+      "page": "/client/transform-skin-clinic-banjara-hills",
+      "regex": "^/client/transform\\-skin\\-clinic\\-banjara\\-hills(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/transform\\-skin\\-clinic\\-banjara\\-hills(?:/)?$"
+    },
+    {
+      "page": "/client/treasure-land-creche",
+      "regex": "^/client/treasure\\-land\\-creche(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/treasure\\-land\\-creche(?:/)?$"
+    },
+    {
+      "page": "/client/trucare-clinic",
+      "regex": "^/client/trucare\\-clinic(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/trucare\\-clinic(?:/)?$"
+    },
+    {
+      "page": "/client/ulavacharu-cloud-kitchen-uppal",
+      "regex": "^/client/ulavacharu\\-cloud\\-kitchen\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/ulavacharu\\-cloud\\-kitchen\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/vantillu-caterers-uppal",
+      "regex": "^/client/vantillu\\-caterers\\-uppal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/vantillu\\-caterers\\-uppal(?:/)?$"
+    },
+    {
+      "page": "/client/vasavi-group-shaikpet",
+      "regex": "^/client/vasavi\\-group\\-shaikpet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/vasavi\\-group\\-shaikpet(?:/)?$"
+    },
+    {
+      "page": "/client/vasundhara-diamond-roof",
+      "regex": "^/client/vasundhara\\-diamond\\-roof(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/vasundhara\\-diamond\\-roof(?:/)?$"
+    },
+    {
+      "page": "/client/vcare-skin-hair-clinic-tolichowki",
+      "regex": "^/client/vcare\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/vcare\\-skin\\-hair\\-clinic\\-tolichowki(?:/)?$"
+    },
+    {
+      "page": "/client/vijaya-diagnostic-centre",
+      "regex": "^/client/vijaya\\-diagnostic\\-centre(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/vijaya\\-diagnostic\\-centre(?:/)?$"
+    },
+    {
+      "page": "/client/vinayaka-car-wash-attapur",
+      "regex": "^/client/vinayaka\\-car\\-wash\\-attapur(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/vinayaka\\-car\\-wash\\-attapur(?:/)?$"
+    },
+    {
+      "page": "/client/vitalitys-laser-piles",
+      "regex": "^/client/vitalitys\\-laser\\-piles(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/vitalitys\\-laser\\-piles(?:/)?$"
+    },
+    {
+      "page": "/client/y-tax-consultancy",
+      "regex": "^/client/y\\-tax\\-consultancy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/client/y\\-tax\\-consultancy(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/mm-clinic/layout,_N_T_/client/mm-clinic/page,_N_T_/client/mm-clinic"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/mm-clinic/__PAGE__",
+    "/client/mm-clinic",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

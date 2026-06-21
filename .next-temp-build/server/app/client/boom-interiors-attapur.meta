@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/boom-interiors-attapur/layout,_N_T_/client/boom-interiors-attapur/page,_N_T_/client/boom-interiors-attapur"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/boom-interiors-attapur/__PAGE__",
+    "/client/boom-interiors-attapur",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

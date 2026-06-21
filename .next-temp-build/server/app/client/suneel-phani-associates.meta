@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/suneel-phani-associates/layout,_N_T_/client/suneel-phani-associates/page,_N_T_/client/suneel-phani-associates"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/suneel-phani-associates/__PAGE__",
+    "/client/suneel-phani-associates",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

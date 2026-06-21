@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/tibarumal-sons-shaikpet/layout,_N_T_/client/tibarumal-sons-shaikpet/page,_N_T_/client/tibarumal-sons-shaikpet"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/tibarumal-sons-shaikpet/__PAGE__",
+    "/client/tibarumal-sons-shaikpet",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

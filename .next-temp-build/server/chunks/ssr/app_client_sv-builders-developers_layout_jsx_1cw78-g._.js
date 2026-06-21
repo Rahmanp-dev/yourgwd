@@ -1,0 +1,3 @@
+module.exports=[867269,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"SV Builders & Developers - Official Real Estate Platform",description:"Welcome to the new premium digital platform for SV Builders & Developers. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"SV Builders & Developers - Official Real Estate Platform",description:"Welcome to the new premium digital platform for SV Builders & Developers. Explore smart listings and VR tours in Shaikpet.",siteName:"SV Builders & Developers"}}])},362368,a=>{a.n(a.i(867269))}];
+
+//# sourceMappingURL=app_client_sv-builders-developers_layout_jsx_1cw78-g._.js.map

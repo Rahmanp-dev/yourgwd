@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/neelkanth-jewellers-somajiguda/layout,_N_T_/client/neelkanth-jewellers-somajiguda/page,_N_T_/client/neelkanth-jewellers-somajiguda"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/neelkanth-jewellers-somajiguda/__PAGE__",
+    "/client/neelkanth-jewellers-somajiguda",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

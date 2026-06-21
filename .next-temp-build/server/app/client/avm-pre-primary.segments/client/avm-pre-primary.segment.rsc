@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[339756,["/_next/static/chunks/1sl-443e7306_.js"],"default"]
+3:I[837457,["/_next/static/chunks/1sl-443e7306_.js"],"default"]
+:HL["/_next/static/chunks/0rdpj042ol5f5.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0rdpj042ol5f5.css","precedence":"next"}]],["$","div",null,{"className":"nunito_d36bb99d-module__Vo3-Rq__className bg-[#FEFCE8] text-[#1E1B4B] min-h-screen selection:bg-[#F43F5E] selection:text-white","children":[["$","style",null,{"children":"\n        .heading-font {\n          font-family: 'Fredoka', 'Fredoka Fallback', sans-serif;\n        }\n        .blob-shape {\n          border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;\n        }\n        .blob-shape-2 {\n          border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;\n        }\n      "}],["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6CjSYK-8Roc6bmlgcaRuh"}

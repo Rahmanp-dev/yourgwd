@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/raaj-thaarak-caterers-uppal/layout,_N_T_/client/raaj-thaarak-caterers-uppal/page,_N_T_/client/raaj-thaarak-caterers-uppal"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/raaj-thaarak-caterers-uppal/__PAGE__",
+    "/client/raaj-thaarak-caterers-uppal",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

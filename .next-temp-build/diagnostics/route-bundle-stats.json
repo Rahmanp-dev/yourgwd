@@ -1,0 +1,2956 @@
+[
+  {
+    "route": "/client/[slug]",
+    "firstLoadUncompressedJsBytes": 1091424,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\18rta3utkvxc2.js",
+      ".next-temp-build\\static\\chunks\\270p1l_c6_s4q.js",
+      ".next-temp-build\\static\\chunks\\1f19c6q_jthz_.js",
+      ".next-temp-build\\static\\chunks\\41ul1hrl5ea5b.js",
+      ".next-temp-build\\static\\chunks\\00ecxxsipzgo5.js",
+      ".next-temp-build\\static\\chunks\\3b1kl1jueu7ai.js",
+      ".next-temp-build\\static\\chunks\\37q4f6xx_2z7r.js",
+      ".next-temp-build\\static\\chunks\\14xm1y0zcxkq_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/dashboard",
+    "firstLoadUncompressedJsBytes": 963072,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\3t8h5ee4m-kmp.js",
+      ".next-temp-build\\static\\chunks\\0qu-prcfyq2hx.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/clean-fast-car-wash-attapur",
+    "firstLoadUncompressedJsBytes": 582778,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3ykrzh8-qiq-x.js",
+      ".next-temp-build\\static\\chunks\\2ec_5h5y22rfz.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/apple-interiors-kokapet",
+    "firstLoadUncompressedJsBytes": 582528,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0jvfbmt9sawoz.js",
+      ".next-temp-build\\static\\chunks\\0w9bih5_gqm_p.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/livspace-kokapet",
+    "firstLoadUncompressedJsBytes": 581632,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1l76uekoz-mh6.js",
+      ".next-temp-build\\static\\chunks\\2vydex_h-rk1_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/reva-health-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 581537,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0_cnje0pfmc4s.js",
+      ".next-temp-build\\static\\chunks\\3ldtj4djoux6_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/manira-dermatology-banjara-hills",
+    "firstLoadUncompressedJsBytes": 579944,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0ovbf-41jrsz4.js",
+      ".next-temp-build\\static\\chunks\\0irj4i0du8meq.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/labelle-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 579180,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\4559v3_oxa3iz.js",
+      ".next-temp-build\\static\\chunks\\1a_-ncvca_jwo.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/rejuve-skin-hair-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 578139,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0rzbcmxf6qg33.js",
+      ".next-temp-build\\static\\chunks\\2s-j_o7at5618.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dermatrendz-skin-care-centre-jubilee-hills",
+    "firstLoadUncompressedJsBytes": 577887,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\247pb3f6vd3b6.js",
+      ".next-temp-build\\static\\chunks\\1zr19axfx9jrg.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dr-rameshs-dermatique-banjara-hills",
+    "firstLoadUncompressedJsBytes": 577616,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2ww64reex4e1_.js",
+      ".next-temp-build\\static\\chunks\\1ide1pevwj27i.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dr-phanisri-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 577491,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2ww64reex4e1_.js",
+      ".next-temp-build\\static\\chunks\\21o05345-kc33.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/maharaja-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 576401,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3vz-en8ei4nrh.js",
+      ".next-temp-build\\static\\chunks\\1qnap272awlzt.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/linear-ads-attapur",
+    "firstLoadUncompressedJsBytes": 574686,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3mb59xi6o1ypz.js",
+      ".next-temp-build\\static\\chunks\\07y2rgxnh18qc.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/vcare-skin-hair-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 574366,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\33pr9lh7wxilk.js",
+      ".next-temp-build\\static\\chunks\\1xt4kfu30kkcd.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/shri-lakshmi-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 574247,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0s1i7ea07d9hq.js",
+      ".next-temp-build\\static\\chunks\\1g68kg9a-b06n.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/shahi-darbar-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 574053,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2yvhthcktspjy.js",
+      ".next-temp-build\\static\\chunks\\0p2bf8cs0h56t.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/namasvi-interiors-narsingi",
+    "firstLoadUncompressedJsBytes": 574041,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\09ppw8ttqn7h0.js",
+      ".next-temp-build\\static\\chunks\\01ev0f609xzip.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/style-home-interiors-attapur",
+    "firstLoadUncompressedJsBytes": 573514,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2hgxk3vfur_yt.js",
+      ".next-temp-build\\static\\chunks\\0y83cfsfalff1.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/gopal-jewellers-moula-ali",
+    "firstLoadUncompressedJsBytes": 573488,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2n_ypi-lkuzn8.js",
+      ".next-temp-build\\static\\chunks\\29m0f4_1o7zgk.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/namasvi-interiors",
+    "firstLoadUncompressedJsBytes": 573369,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\146hd9-ufbg4i.js",
+      ".next-temp-build\\static\\chunks\\0bky43bplsqec.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/the-skin-sense-banjara-hills",
+    "firstLoadUncompressedJsBytes": 572713,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1pk_64ewekzve.js",
+      ".next-temp-build\\static\\chunks\\3uc6jhob48d5g.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dr-nikhat-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 572704,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\4125e17xvujd3.js",
+      ".next-temp-build\\static\\chunks\\1_czdzm1m4p2_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sikara-clinics-banjara-hills",
+    "firstLoadUncompressedJsBytes": 572225,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3v34ehxd7f4zw.js",
+      ".next-temp-build\\static\\chunks\\0tf0azaau3xb7.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/akoya-pearls-ghanshyamdas",
+    "firstLoadUncompressedJsBytes": 572089,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2zd2m2r1kxeon.js",
+      ".next-temp-build\\static\\chunks\\3j4n0el_sxj5d.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/reborn-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 572021,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1altkzuq192i7.js",
+      ".next-temp-build\\static\\chunks\\3ziyh_fj9z88q.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/radiance-skin-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 571993,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3y5_rkso1uddf.js",
+      ".next-temp-build\\static\\chunks\\264ekic0-z16z.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/stem-kids-preschool-tolichowki",
+    "firstLoadUncompressedJsBytes": 571667,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\04kg0j-vmeysb.js",
+      ".next-temp-build\\static\\chunks\\3ox2ukx7ceyp8.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/vantillu-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 571661,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2__6nrz_9qz65.js",
+      ".next-temp-build\\static\\chunks\\0kgfgz8pqt93s.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/jds-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 571408,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\302_tftjfko7z.js",
+      ".next-temp-build\\static\\chunks\\20xf-8q5hm-qm.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ruchi-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 571201,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1ebtcqizut59d.js",
+      ".next-temp-build\\static\\chunks\\36b7dyb5p2ruy.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ulavacharu-cloud-kitchen-uppal",
+    "firstLoadUncompressedJsBytes": 571183,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0-96wriac9ofb.js",
+      ".next-temp-build\\static\\chunks\\3vfetognjs8ct.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/maple-bear-preschool-tolichowki",
+    "firstLoadUncompressedJsBytes": 571173,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1mu4x-f016-a3.js",
+      ".next-temp-build\\static\\chunks\\37kcac5hcylt5.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dlife-interiors-hyd",
+    "firstLoadUncompressedJsBytes": 570813,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\06kvdogye1h0g.js",
+      ".next-temp-build\\static\\chunks\\0ft7aiu5y71zd.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/suraj-bhan-jewellers",
+    "firstLoadUncompressedJsBytes": 570508,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0tf-hsjgigaim.js",
+      ".next-temp-build\\static\\chunks\\3api8y8l9nf5g.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/seema-design-studio",
+    "firstLoadUncompressedJsBytes": 570362,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0ir6txquw9sn0.js",
+      ".next-temp-build\\static\\chunks\\1zuqsqt_zmbxw.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/shayas-cosmetic-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 570041,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3f50obdd5fwe0.js",
+      ".next-temp-build\\static\\chunks\\1m2e0-kp8ouo2.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/suhani-pittie-banjara-hills",
+    "firstLoadUncompressedJsBytes": 569842,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0ga34swltfsuz.js",
+      ".next-temp-build\\static\\chunks\\0a8e4jv965kfc.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/neelkanth-jewellers-somajiguda",
+    "firstLoadUncompressedJsBytes": 569785,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\26qimfn25b_-m.js",
+      ".next-temp-build\\static\\chunks\\0x1mrpbu3pb_1.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/detailing-mafia-banjara-hills",
+    "firstLoadUncompressedJsBytes": 569747,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\397dl8yleu14x.js",
+      ".next-temp-build\\static\\chunks\\2p-zrt4p_gb1r.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/california-dreamworks-banjara-hills",
+    "firstLoadUncompressedJsBytes": 569742,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\208q66vlsdrcl.js",
+      ".next-temp-build\\static\\chunks\\00ecxxsipzgo5.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/balaji-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 569165,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1rj26jdai3c6p.js",
+      ".next-temp-build\\static\\chunks\\0b-ptxvf2q_7j.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/detailing-mafia-attapur",
+    "firstLoadUncompressedJsBytes": 569040,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2_yx6yvhv9jft.js",
+      ".next-temp-build\\static\\chunks\\1dpnu727vh5qo.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kangaroo-kids-tolichowki",
+    "firstLoadUncompressedJsBytes": 568936,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3d4z1hdzh7e0a.js",
+      ".next-temp-build\\static\\chunks\\1s-i6tnh6bp1l.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dlife-interiors-hyderabad",
+    "firstLoadUncompressedJsBytes": 568929,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\01fby3zy7342v.js",
+      ".next-temp-build\\static\\chunks\\12-mawywyw8rs.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/manepally-jewellers-general-bazar",
+    "firstLoadUncompressedJsBytes": 568841,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\160j_qsuc2s1o.js",
+      ".next-temp-build\\static\\chunks\\3k5gml7d-86m5.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sri-jagdamba-pearls",
+    "firstLoadUncompressedJsBytes": 568516,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0ga34swltfsuz.js",
+      ".next-temp-build\\static\\chunks\\23ib56cxm3ubt.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/percept-interior-solutions-banjara-hills",
+    "firstLoadUncompressedJsBytes": 568440,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1of-9jlg-ddxw.js",
+      ".next-temp-build\\static\\chunks\\18rta3utkvxc2.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/little-elly-preschool-tolichowki",
+    "firstLoadUncompressedJsBytes": 568421,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\12w48px4mcdmt.js",
+      ".next-temp-build\\static\\chunks\\3k66rx9v21gpk.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/beauty-world-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 568296,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\35y2g3p2aar7k.js",
+      ".next-temp-build\\static\\chunks\\32g2vftueg2se.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/srishti-cloud-kitchen-uppal",
+    "firstLoadUncompressedJsBytes": 568140,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\287pd9bgpdm9d.js",
+      ".next-temp-build\\static\\chunks\\43kr647rx3a5n.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/orchids-international-school-tolichowki",
+    "firstLoadUncompressedJsBytes": 567908,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2yz-q7tcdtaul.js",
+      ".next-temp-build\\static\\chunks\\26zcupa36g3ch.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sri-krishna-jewellers-banjara-hills",
+    "firstLoadUncompressedJsBytes": 567883,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\160j_qsuc2s1o.js",
+      ".next-temp-build\\static\\chunks\\0j_deak05nw8w.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/saanvis-laser-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 567718,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2mlozkzzpmw2p.js",
+      ".next-temp-build\\static\\chunks\\01w19tzz0a-9b.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/flawless-skin-laser-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 567463,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\38l86x2m52qd5.js",
+      ".next-temp-build\\static\\chunks\\13kkqajah15a9.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/clinica-derm-banjara-hills",
+    "firstLoadUncompressedJsBytes": 567437,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3o0zpevmrhbwj.js",
+      ".next-temp-build\\static\\chunks\\43xl-esza0d9d.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/simply-interiors-hyd",
+    "firstLoadUncompressedJsBytes": 567403,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2mj0csm7mc80m.js",
+      ".next-temp-build\\static\\chunks\\1dv5bohzfd4c9.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/new-vindu-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 567179,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\03hg_ztzfkowu.js",
+      ".next-temp-build\\static\\chunks\\0f1khou32cx2e.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dr-nivedita-dadu-dermatology",
+    "firstLoadUncompressedJsBytes": 567110,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3peuhqehd5d14.js",
+      ".next-temp-build\\static\\chunks\\1d9top-5s52yk.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/apple-interiors-hyd",
+    "firstLoadUncompressedJsBytes": 566886,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0fxhol7epva8z.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/civilization-architects-banjara-hills",
+    "firstLoadUncompressedJsBytes": 566805,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3mh6__w3rp9p0.js",
+      ".next-temp-build\\static\\chunks\\3b1kl1jueu7ai.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/saandhya-architects-banjara-hills",
+    "firstLoadUncompressedJsBytes": 566805,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3smarg4879qn2.js",
+      ".next-temp-build\\static\\chunks\\1f19c6q_jthz_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/afaq-laser-cosmetic-clinic",
+    "firstLoadUncompressedJsBytes": 566802,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1vd6y_m5rp0qh.js",
+      ".next-temp-build\\static\\chunks\\41ul1hrl5ea5b.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/luxe-designs-spaces-hyd",
+    "firstLoadUncompressedJsBytes": 566745,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0phx1np4oja8o.js",
+      ".next-temp-build\\static\\chunks\\2pdjrkv6x9kj-.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sun-shine-interiors-mehdipatnam",
+    "firstLoadUncompressedJsBytes": 566726,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\085oho5rd-f4i.js",
+      ".next-temp-build\\static\\chunks\\2nn5nwqlkn14b.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kosmoderma-skin-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 566532,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0t3o9hw9eatv0.js",
+      ".next-temp-build\\static\\chunks\\1g5q1lazhpy2e.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sv-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 566305,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\37jdsd5ewxqcg.js",
+      ".next-temp-build\\static\\chunks\\0-w3yzfx-872b.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/aqua-shine-detailing-attapur",
+    "firstLoadUncompressedJsBytes": 566184,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2h-629snw-k2t.js",
+      ".next-temp-build\\static\\chunks\\2oapmma_gmwx2.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sri-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 566183,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2px2khj68m1pa.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/spice-route-cloud-kitchen-uppal",
+    "firstLoadUncompressedJsBytes": 565991,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1metfjf0slupt.js",
+      ".next-temp-build\\static\\chunks\\03t960r2xts6g.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/footprints-play-school-tolichowki",
+    "firstLoadUncompressedJsBytes": 565974,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2k4fjvqwt1lpn.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/transform-skin-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 565926,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\00assd91uxve0.js",
+      ".next-temp-build\\static\\chunks\\3co3bhllrk-4x.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/happy-living-interiors-manikonda",
+    "firstLoadUncompressedJsBytes": 565923,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1fo73p76f0p5d.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kasula-associates",
+    "firstLoadUncompressedJsBytes": 565776,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2wjulpnn2scgv.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/cura-skin-hair-clinic",
+    "firstLoadUncompressedJsBytes": 565710,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1aay7xs-35xh2.js",
+      ".next-temp-build\\static\\chunks\\2940lyu8zv089.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sree-skin-care-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 565704,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1aay7xs-35xh2.js",
+      ".next-temp-build\\static\\chunks\\3spbqtfi_bd9v.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/labelle-skin-hair-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 565691,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1aay7xs-35xh2.js",
+      ".next-temp-build\\static\\chunks\\2q13l4ufu6z5v.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dermed-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 565684,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1aay7xs-35xh2.js",
+      ".next-temp-build\\static\\chunks\\270p1l_c6_s4q.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/eternelle-aesthetics-tolichowki",
+    "firstLoadUncompressedJsBytes": 565681,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1aay7xs-35xh2.js",
+      ".next-temp-build\\static\\chunks\\3_hd39e7s_ysj.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/clear-skin-centre-tolichowki",
+    "firstLoadUncompressedJsBytes": 565676,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1aay7xs-35xh2.js",
+      ".next-temp-build\\static\\chunks\\0gcm9ara0kp59.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kidzee-tolichowki",
+    "firstLoadUncompressedJsBytes": 565640,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\15qpxd4s55i88.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/boom-interiors-attapur",
+    "firstLoadUncompressedJsBytes": 565404,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0y77cka448srt.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/raaj-thaarak-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 565296,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0nou5d4t7mz2l.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/vinayaka-car-wash-attapur",
+    "firstLoadUncompressedJsBytes": 565103,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3y_yh1fs3g-n7.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/morph-design-co",
+    "firstLoadUncompressedJsBytes": 564904,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3y5al6dix0m4e.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/infinite-architecture-studio-banjara-hills",
+    "firstLoadUncompressedJsBytes": 564650,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2fyqwejzrzbic.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ceramic-pro-hyderabad",
+    "firstLoadUncompressedJsBytes": 564629,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3f_jsdofq0r5z.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/amba-ji-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 564523,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3x2m8jxka2i46.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/bachpan-play-school-tolichowki",
+    "firstLoadUncompressedJsBytes": 564344,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3216aw32201le.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/rgr-interiors-banjara-hills",
+    "firstLoadUncompressedJsBytes": 564344,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0lww8ap9vlrcn.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/jyothi-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 564322,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2-y-x9zetin7d.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/oliva-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 564219,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1tzobnz3malw6.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/simply-interiors-gachibowli",
+    "firstLoadUncompressedJsBytes": 564190,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0wr_xl8mf96bu.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/aamir-hameeda-design-studio-banjara-hills",
+    "firstLoadUncompressedJsBytes": 564154,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3g5h49izapx0s.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/shiv-kumar-mididoddi-tax",
+    "firstLoadUncompressedJsBytes": 563944,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\43zhblsb7c6ld.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sri-venkateshwara-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 563932,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3hpf--8ug1qp2.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dasos-cabinets-hyderabad",
+    "firstLoadUncompressedJsBytes": 563910,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\39quf3w2g88m0.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/little-millennium-tolichowki",
+    "firstLoadUncompressedJsBytes": 563898,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2x_p5mdildpvf.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kj-interior-designs-attapur",
+    "firstLoadUncompressedJsBytes": 563783,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0gkr9ks57aj1z.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/riyaanz-aesthetic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 563769,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0h33dlw7_nmif.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/maximum-tax-consultant",
+    "firstLoadUncompressedJsBytes": 563733,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2zhj8wzttinyj.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/icon-interior-design-attapur",
+    "firstLoadUncompressedJsBytes": 563603,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3by137niwsj2b.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/tara-design-solutions-attapur",
+    "firstLoadUncompressedJsBytes": 563487,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\08tb6oj7jm2yu.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/darpan-mangatrai-pearls",
+    "firstLoadUncompressedJsBytes": 563450,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3dh1f24j_yfp5.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/skinns-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 563227,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\20ece843iome6.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/swagath-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 563096,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\105eoq5ypn0gp.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kaya-clinic-banjara-hills",
+    "firstLoadUncompressedJsBytes": 563032,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1u0midfc-csgz.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/tibarumal-sons-shaikpet",
+    "firstLoadUncompressedJsBytes": 562890,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\08rgn01xmdnia.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/tibarumal-ramnivas-jubilee-hills",
+    "firstLoadUncompressedJsBytes": 562624,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1-2_sq3at3om0.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/annapurna-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 562596,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1f48qo8kzkm8p.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/eurokids-tolichowki",
+    "firstLoadUncompressedJsBytes": 562431,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\42wqe_doji7wh.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ss-interiors-secunderabad",
+    "firstLoadUncompressedJsBytes": 562391,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2n4-ankjqd_wg.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ghanshyamdas-jewellers-abids",
+    "firstLoadUncompressedJsBytes": 562179,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\10c-4_y8j79rm.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sahani-interiors-banjara-hills",
+    "firstLoadUncompressedJsBytes": 562098,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2kqvru4g9fk0m.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/jaswanth-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 562041,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0xmsv1z6_iy-b.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/raavera-interior-designer-banjara-hills",
+    "firstLoadUncompressedJsBytes": 561649,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3ifxe5ae5gcag.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ceramic-pro-jubilee-hills",
+    "firstLoadUncompressedJsBytes": 561629,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1xn0-zleni_g-.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/metal-and-more",
+    "firstLoadUncompressedJsBytes": 561563,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\03yt29dwjosy0.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/modi-pearls-original",
+    "firstLoadUncompressedJsBytes": 561434,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\42tonip1wuv5c.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/celestee-skin-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 561166,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\368bccz2daw_6.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/chary-interiors",
+    "firstLoadUncompressedJsBytes": 560959,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2swkq4_gac1df.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/luxe-designs-kokapet",
+    "firstLoadUncompressedJsBytes": 560407,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0ncns4q9_-pqb.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ambrosia-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 560261,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\00fd4oiwsdi2w.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/nakshatra-catering-uppal",
+    "firstLoadUncompressedJsBytes": 559380,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\31t0enruu0b8_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/design-edge-banjara-hills",
+    "firstLoadUncompressedJsBytes": 559294,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2q088bob5136-.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/gorgeous-car-detailers-attapur",
+    "firstLoadUncompressedJsBytes": 559213,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\050zt4er8_oap.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/totaram-sons-jewellers-abids",
+    "firstLoadUncompressedJsBytes": 559090,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3y57rjie19de2.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sai-reddy-yanala-ca",
+    "firstLoadUncompressedJsBytes": 558503,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3611wb5jqdiwb.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/gomechanic-attapur",
+    "firstLoadUncompressedJsBytes": 558279,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0egxebhbcg-6p.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/mohammad-ibrahim-co-ca",
+    "firstLoadUncompressedJsBytes": 558253,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3jx3-rd3_fo56.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/ns-co",
+    "firstLoadUncompressedJsBytes": 558198,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0ij7_8nuy2dt9.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/mak-homes-construction",
+    "firstLoadUncompressedJsBytes": 558190,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2zvqyuebl5-b_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/homelane-kokapet",
+    "firstLoadUncompressedJsBytes": 557942,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0hfatyk5rp7dd.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/decorpot-hyderabad",
+    "firstLoadUncompressedJsBytes": 557620,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2op4ftc94xzpz.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/totaram-murarilal-sons",
+    "firstLoadUncompressedJsBytes": 557620,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3p_5k423i0m_l.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dermaclinix-hyderabad-tolichowki",
+    "firstLoadUncompressedJsBytes": 557088,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\14dfkqm6h505q.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/y-tax-consultancy",
+    "firstLoadUncompressedJsBytes": 557022,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1-2rdgc2zmbcy.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/golden-caterers-uppal",
+    "firstLoadUncompressedJsBytes": 556115,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3o-wgftk0kpso.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/suneel-phani-associates",
+    "firstLoadUncompressedJsBytes": 555830,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3-33w9b_rbgv6.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/elite-skin-hair-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 555761,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2mu54n1tekzhp.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/krishna-pearls-jewellers",
+    "firstLoadUncompressedJsBytes": 554866,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1ptfshxi36j8o.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/oliva-skin-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 554780,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\08shi9kpneun7.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/metal-and-more-interiors",
+    "firstLoadUncompressedJsBytes": 554187,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3rn4lnqnfd1zt.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kaya-skin-clinic-tolichowki",
+    "firstLoadUncompressedJsBytes": 554081,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1x-vnx9gykgeq.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/k-praveen-kumar-associates",
+    "firstLoadUncompressedJsBytes": 553131,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\07t6v7qy01m2x.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/tara-design-solutions",
+    "firstLoadUncompressedJsBytes": 552983,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3uzhs9g4wq3t2.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/spr-associates",
+    "firstLoadUncompressedJsBytes": 550754,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1b0a7eoa3onoi.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/5k-car-care-attapur",
+    "firstLoadUncompressedJsBytes": 550513,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1kr9fa24hfns7.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/vitalitys-laser-piles",
+    "firstLoadUncompressedJsBytes": 544173,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1l9bybqx6igsi.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sap-kidney-center",
+    "firstLoadUncompressedJsBytes": 543145,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1txjcdrj7razk.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/vasundhara-diamond-roof",
+    "firstLoadUncompressedJsBytes": 541059,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0hljbg14wmm7h.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/musaddilal-jewellers-basheer-bagh",
+    "firstLoadUncompressedJsBytes": 541046,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2t-drb8svpmxb.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/meena-jewellers-banjara-hills",
+    "firstLoadUncompressedJsBytes": 541035,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3v_meun5pz4w7.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/pmj-jewels-banjara-hills",
+    "firstLoadUncompressedJsBytes": 541020,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\12l9p7s01zybi.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/aarthi-scans",
+    "firstLoadUncompressedJsBytes": 538632,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\26rxkgihayz0i.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/muslim-general-hospital",
+    "firstLoadUncompressedJsBytes": 535822,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\14zybzr5ms7gn.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/b-design-studios",
+    "firstLoadUncompressedJsBytes": 533567,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\00509pdrxxq47.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sep-architects",
+    "firstLoadUncompressedJsBytes": 531466,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3v6bvm-jg4gye.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/trucare-clinic",
+    "firstLoadUncompressedJsBytes": 530249,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2sn8kraeuakcw.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/health-inn",
+    "firstLoadUncompressedJsBytes": 530239,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0adhk17li9guw.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/mm-clinic",
+    "firstLoadUncompressedJsBytes": 530183,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1pt9au097d5it.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/metro-dentistry",
+    "firstLoadUncompressedJsBytes": 530181,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3xn7trncmp7cm.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/brightlands-diag",
+    "firstLoadUncompressedJsBytes": 530177,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\254hhzfn6o7al.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/hayatt-diag",
+    "firstLoadUncompressedJsBytes": 530176,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0qe76dwja3hr_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/starcare-diag",
+    "firstLoadUncompressedJsBytes": 530171,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0-_po-xmsdty5.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dental-care-omer",
+    "firstLoadUncompressedJsBytes": 530144,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\351127__etv-x.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/dental-station",
+    "firstLoadUncompressedJsBytes": 530128,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2ch1eubrokk8d.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/duchenne-smile",
+    "firstLoadUncompressedJsBytes": 530123,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1i61-blo29f3a.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/raja-architects",
+    "firstLoadUncompressedJsBytes": 529787,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\215jkeyr8b2l-.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/moriq",
+    "firstLoadUncompressedJsBytes": 529469,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\06jl4l0ydy5vu.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/firstcry-intellitots-rajendranagar",
+    "firstLoadUncompressedJsBytes": 528967,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3sjwtufi5gt10.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/hanu-reddy-realty-hyderabad",
+    "firstLoadUncompressedJsBytes": 527677,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\08h5qbchuzm8a.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/maple-bear-rajendranagar",
+    "firstLoadUncompressedJsBytes": 527519,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\330xyodwqat_1.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/shaikpet-real-estate-agency",
+    "firstLoadUncompressedJsBytes": 527378,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1j61tyuzczg_o.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sri-sreenivasa-constructions",
+    "firstLoadUncompressedJsBytes": 527369,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\44x9ygx5uncv-.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/proptiger-shaikpet-office",
+    "firstLoadUncompressedJsBytes": 527368,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0g0lpvqo7z6ll.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/rk-property-consultants",
+    "firstLoadUncompressedJsBytes": 527359,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1fdb-zi_4by76.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sv-builders-developers",
+    "firstLoadUncompressedJsBytes": 527353,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3xw9lxw_syj6w.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/aditya-construction-company",
+    "firstLoadUncompressedJsBytes": 527327,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\1erktxopyj7vm.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/square-yards-shaikpet",
+    "firstLoadUncompressedJsBytes": 527314,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\030jmz6al3djg.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/vasavi-group-shaikpet",
+    "firstLoadUncompressedJsBytes": 527297,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\3r4kvcvicog01.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/shaikpet-property-advisors",
+    "firstLoadUncompressedJsBytes": 527104,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\07oiw0x9popl3.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/iris-diagnostic",
+    "firstLoadUncompressedJsBytes": 526986,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\2fe2nwv-2na_t.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/sanjeevani-clinic",
+    "firstLoadUncompressedJsBytes": 526491,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\0xpuvxkvm3blw.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/phc-diagnostic",
+    "firstLoadUncompressedJsBytes": 526417,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\306qn86zky3fg.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/3m-diagnostics",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/aamir-hameeda",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/arts-of-architecture",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/avm-pre-primary",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/bachpan-play-school-rajendranagar",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/care-medical-center",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/cion-cancer-clinics",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/eminent-tiny-tots",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/eurokids-preschool-rajendranagar",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/iris-diagnostics",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/janata-diagnostic-centre",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kangaroo-kids-rajendranagar",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/kidzee-rajendranagar",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/little-millennium-rajendranagar",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/m-deepa-architects",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/rhythm-emphasis-design",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/studio-infinite",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/treasure-land-creche",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/client/vijaya-diagnostic-centre",
+    "firstLoadUncompressedJsBytes": 520402,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\1v323kvxmb5ix.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/login",
+    "firstLoadUncompressedJsBytes": 520239,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\3ge87c-z8kel2.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 515184,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 515184,
+    "firstLoadChunkPaths": [
+      ".next-temp-build\\static\\chunks\\1sl-443e7306_.js",
+      ".next-temp-build\\static\\chunks\\25o8na-23099b.js",
+      ".next-temp-build\\static\\chunks\\02y017-194raj.js",
+      ".next-temp-build\\static\\chunks\\1wlxucwnlwns2.js",
+      ".next-temp-build\\static\\chunks\\29ccmlyv2t_h-.js",
+      ".next-temp-build\\static\\chunks\\turbopack-3qwe3i2l27e_i.js"
+    ]
+  }
+]

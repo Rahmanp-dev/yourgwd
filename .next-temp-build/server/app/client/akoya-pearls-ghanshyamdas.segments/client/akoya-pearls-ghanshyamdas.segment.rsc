@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[339756,["/_next/static/chunks/1sl-443e7306_.js"],"default"]
+3:I[837457,["/_next/static/chunks/1sl-443e7306_.js"],"default"]
+:HL["/_next/static/chunks/42gyj1o1ik4wo.css","style"]
+:HL["/_next/static/chunks/1d41i7g8o4jh0.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/42gyj1o1ik4wo.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/1d41i7g8o4jh0.css","precedence":"next"}]],["$","div",null,{"className":"prata_b2000e55-module__vLPMRq__variable plus_jakarta_sans_5e2566db-module__-MbcEG__variable font-sans min-h-screen bg-[#FAF8F4] text-[#2D3A31] antialiased","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"6CjSYK-8Roc6bmlgcaRuh"}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/akoya-pearls-ghanshyamdas/layout,_N_T_/client/akoya-pearls-ghanshyamdas/page,_N_T_/client/akoya-pearls-ghanshyamdas"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/akoya-pearls-ghanshyamdas/__PAGE__",
+    "/client/akoya-pearls-ghanshyamdas",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

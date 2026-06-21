@@ -1,0 +1,3 @@
+module.exports=[796281,a=>{"use strict";a.s(["default",0,function({children:a}){return a},"metadata",0,{title:"Vasavi Group - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Vasavi Group. Explore smart listings and VR tours in Shaikpet.",openGraph:{title:"Vasavi Group - Official Real Estate Platform",description:"Welcome to the new premium digital platform for Vasavi Group. Explore smart listings and VR tours in Shaikpet.",siteName:"Vasavi Group"}}])},562714,a=>{a.n(a.i(796281))}];
+
+//# sourceMappingURL=app_client_vasavi-group-shaikpet_layout_jsx_0---wla._.js.map

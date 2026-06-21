@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/client/layout,_N_T_/client/namasvi-interiors/layout,_N_T_/client/namasvi-interiors/page,_N_T_/client/namasvi-interiors"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/client/namasvi-interiors/__PAGE__",
+    "/client/namasvi-interiors",
+    "/client",
+    "/_index",
+    "/_head"
+  ]
+}

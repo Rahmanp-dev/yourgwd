@@ -1,0 +1,3 @@
+module.exports=[872123,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(211857);a.n(d("[project]/node_modules/next/dist/client/script.js <module evaluation>"))},944536,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(211857);a.n(d("[project]/node_modules/next/dist/client/script.js"))},411153,a=>{"use strict";a.i(872123);var b=a.i(944536);a.n(b)},371618,(a,b,c)=>{b.exports=a.r(411153)},178852,a=>{"use strict";var b=a.i(907997),c=a.i(371618);a.s(["default",0,function({children:a}){return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)(c.default,{src:"https://cdn.tailwindcss.com",strategy:"beforeInteractive"}),a]})}])},50028,a=>{a.n(a.i(178852))}];
+
+//# sourceMappingURL=_1epi4n8._.js.map
