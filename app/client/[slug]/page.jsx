@@ -3,6 +3,17 @@ import React, { useState } from 'react';
 import { useParams } from 'next/navigation';
 import DermedClinicPage from '../dermed-clinic-tolichowki/page';
 import AfaqClinicPage from '../afaq-laser-cosmetic-clinic/page';
+import RgrInteriorsPage from '../rgr-interiors-banjara-hills/page';
+import InfiniteArchitectureStudioPage from '../infinite-architecture-studio-banjara-hills/page';
+import RaaveraInteriorDesignerPage from '../raavera-interior-designer-banjara-hills/page';
+import DesignEdgePage from '../design-edge-banjara-hills/page';
+import CivilizationArchitectsPage from '../civilization-architects-banjara-hills/page';
+import SaandhyaArchitectsPage from '../saandhya-architects-banjara-hills/page';
+import CaliforniaDreamworksPage from '../california-dreamworks-banjara-hills/page';
+import PerceptInteriorSolutionsPage from '../percept-interior-solutions-banjara-hills/page';
+import AamirHameedaDesignStudioPage from '../aamir-hameeda-design-studio-banjara-hills/page';
+import SahaniInteriorsPage from '../sahani-interiors-banjara-hills/page';
+
 import { 
   Phone, MapPin, Mail, Award, Clock, Star, Sparkles, ChevronRight, 
   Send, Compass, HelpCircle, RefreshCw, Scissors, Gem, Crown, 
@@ -1772,6 +1783,36 @@ export default function DynamicClientPage() {
   }
   if (slug === 'afaq-laser-cosmetic-clinic') {
     return <AfaqClinicPage />;
+  }
+  if (slug === 'rgr-interiors-banjara-hills') {
+    return <RgrInteriorsPage />;
+  }
+  if (slug === 'infinite-architecture-studio-banjara-hills') {
+    return <InfiniteArchitectureStudioPage />;
+  }
+  if (slug === 'civilization-architects-banjara-hills') {
+    return <CivilizationArchitectsPage />;
+  }
+  if (slug === 'saandhya-architects-banjara-hills') {
+    return <SaandhyaArchitectsPage />;
+  }
+  if (slug === 'raavera-interior-designer-banjara-hills') {
+    return <RaaveraInteriorDesignerPage />;
+  }
+  if (slug === 'design-edge-banjara-hills') {
+    return <DesignEdgePage />;
+  }
+  if (slug === 'california-dreamworks-banjara-hills') {
+    return <CaliforniaDreamworksPage />;
+  }
+  if (slug === 'percept-interior-solutions-banjara-hills') {
+    return <PerceptInteriorSolutionsPage />;
+  }
+  if (slug === 'aamir-hameeda-design-studio-banjara-hills') {
+    return <AamirHameedaDesignStudioPage />;
+  }
+  if (slug === 'sahani-interiors-banjara-hills') {
+    return <SahaniInteriorsPage />;
   }
 
   // Fallback to Healthtech Preview

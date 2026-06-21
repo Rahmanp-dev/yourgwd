@@ -170,6 +170,196 @@ export async function generateMetadata({ params }) {
         ]
       }
     };
+  } else if (slug === 'rgr-interiors-banjara-hills') {
+    return {
+      title: 'RGR Interiors & Designers | Luxury Interiors Banjara Hills',
+      description: 'Principal Designer Rajgopal Reddy crafts bespoke platinum premium luxury residences in Banjara Hills, Hyderabad. Specializing in exquisite woodwork, false ceilings, and custom kitchens.',
+      openGraph: {
+        title: 'RGR Interiors & Designers | Luxury Interiors Banjara Hills',
+        description: 'Principal Designer Rajgopal Reddy crafts bespoke platinum premium luxury residences in Banjara Hills, Hyderabad. Specializing in exquisite woodwork, false ceilings, and custom kitchens.',
+        url: 'https://gwd-sales.com/client/rgr-interiors-banjara-hills',
+        siteName: 'RGR Interiors & Designers',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'RGR Interiors Luxury Living Room'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'infinite-architecture-studio-banjara-hills') {
+    return {
+      title: 'Infinite Architecture Studio | Bespoke Architecture Banjara Hills',
+      description: 'Principal Architect V. Sandeep crafts modern residential, traditional Indian, and minimalistic designs in Banjara Hills, Hyderabad. Book a private consultation today.',
+      openGraph: {
+        title: 'Infinite Architecture Studio | Bespoke Architecture Banjara Hills',
+        description: 'Principal Architect V. Sandeep crafts modern residential, traditional Indian, and minimalistic designs in Banjara Hills, Hyderabad. Book a private consultation today.',
+        url: 'https://gwd-sales.com/client/infinite-architecture-studio-banjara-hills',
+        siteName: 'Infinite Architecture Studio',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Infinite Architecture Studio Residence'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'civilization-architects-banjara-hills') {
+    return {
+      title: 'Civilization Architects & Planners | Banjara Hills, Hyderabad',
+      description: 'Premium architectural design, custom residential interiors, and commercial office design in Banjara Hills, Hyderabad. Led by Principal Designer S. Vijay Kumar.',
+      openGraph: {
+        title: 'Civilization Architects & Planners | Banjara Hills, Hyderabad',
+        description: 'Premium architectural design, custom residential interiors, and commercial office design in Banjara Hills, Hyderabad. Led by Principal Designer S. Vijay Kumar.',
+        url: 'https://gwd-sales.com/client/civilization-architects-banjara-hills',
+        siteName: 'Civilization Architects & Planners',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Civilization Architects Premium Design'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'saandhya-architects-banjara-hills') {
+    return {
+      title: 'Saandhya Architects and Interior Designer | Banjara Hills, Hyderabad',
+      description: 'High-end residential interiors, landscape and lighting design, and master planning in Hyderabad. Led by Principal Designer Saandhya Reddy.',
+      openGraph: {
+        title: 'Saandhya Architects and Interior Designer | Banjara Hills, Hyderabad',
+        description: 'High-end residential interiors, landscape and lighting design, and master planning in Hyderabad. Led by Principal Designer Saandhya Reddy.',
+        url: 'https://gwd-sales.com/client/saandhya-architects-banjara-hills',
+        siteName: 'Saandhya Architects and Interior Designer',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Saandhya Architects Luxury Residence Design'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'california-dreamworks-banjara-hills') {
+    return {
+      title: 'California Dreamworks - Luxury Residential & Custom Cabinetry',
+      description: 'Experience Earthy Glassmorphism by Principal Designer Aliraza in Banjara Hills, Hyderabad. Specializing in luxury residential design, bespoke custom cabinetry, and high-end retail spaces.',
+      openGraph: {
+        title: 'California Dreamworks - Luxury Residential & Custom Cabinetry',
+        description: 'Experience Earthy Glassmorphism by Principal Designer Aliraza in Banjara Hills, Hyderabad. Specializing in luxury residential design, bespoke custom cabinetry, and high-end retail spaces.',
+        url: 'https://gwd-sales.com/client/california-dreamworks-banjara-hills',
+        siteName: 'California Dreamworks',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'California Dreamworks Premium Earthy Glassmorphism Interior'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'percept-interior-solutions-banjara-hills') {
+    return {
+      title: 'Percept Interior Solutions - Modern Residential & Office Fit-outs',
+      description: 'Discover Clean Modern Minimalism by Principal Designer Feroz in Banjara Hills, Hyderabad. Specializing in modern residential, premium office fit-outs, and custom wall decor.',
+      openGraph: {
+        title: 'Percept Interior Solutions - Modern Residential & Office Fit-outs',
+        description: 'Discover Clean Modern Minimalism by Principal Designer Feroz in Banjara Hills, Hyderabad. Specializing in modern residential, premium office fit-outs, and custom wall decor.',
+        url: 'https://gwd-sales.com/client/percept-interior-solutions-banjara-hills',
+        siteName: 'Percept Interior Solutions',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Percept Interior Solutions Premium Modern Minimalist Office Showcase'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'raavera-interior-designer-banjara-hills') {
+    return {
+      title: 'Raavera Interior Designer | Warm Neumorphic Spaces Banjara Hills',
+      description: 'Elevated residential interiors and space planning by Principal Designer Raavera. Experience warm luxury custom home decor in Banjara Hills, Hyderabad.',
+      openGraph: {
+        title: 'Raavera Interior Designer - Banjara Hills',
+        description: 'Elevated residential interiors and space planning by Principal Designer Raavera. Experience warm luxury custom home decor in Banjara Hills, Hyderabad.',
+        url: 'https://gwd-sales.com/client/raavera-interior-designer-banjara-hills',
+        siteName: 'Raavera Interior Designer',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Raavera Premium Residential Interiors'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'design-edge-banjara-hills') {
+    return {
+      title: 'Design Edge | Corporate Offices & Luxury Residential Banjara Hills',
+      description: 'Bespoke turnkey interiors, luxury residential designs, and modern corporate offices by Ram K. Mahidhar in Banjara Hills, Hyderabad.',
+      openGraph: {
+        title: 'Design Edge - Banjara Hills',
+        description: 'Bespoke turnkey interiors, luxury residential designs, and modern corporate offices by Ram K. Mahidhar in Banjara Hills, Hyderabad.',
+        url: 'https://gwd-sales.com/client/design-edge-banjara-hills',
+        siteName: 'Design Edge',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Design Edge Turnkey Commercial Office'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'aamir-hameeda-design-studio-banjara-hills') {
+    return {
+      title: 'Aamir & Hameeda Design Studio | Luxury Minimalist Interior Design Hyderabad',
+      description: 'Elite avant-garde interior design studio in Banjara Hills, Hyderabad. Specializing in luxury minimalist residential design, urban chic retail & hospitality, and bespoke furniture curation.',
+      openGraph: {
+        title: 'Aamir & Hameeda Design Studio | Avant-Garde Luxury Interiors',
+        description: 'Explore premium luxury minimalist design by Aamir & Hameeda in Banjara Hills, Hyderabad. Bespoke residential and retail transformations.',
+        url: 'https://gwd-sales.com/client/aamir-hameeda-design-studio-banjara-hills',
+        siteName: 'Aamir & Hameeda Design Studio',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Aamir & Hameeda Luxury Interior Design'
+          }
+        ]
+      }
+    };
+  } else if (slug === 'sahani-interiors-banjara-hills') {
+    return {
+      title: 'Sahani Interiors | Premium Residential Woodwork & Space Maximization Hyderabad',
+      description: 'Expert residential woodwork and smart space maximization by Sahani in Banjara Hills, Hyderabad. Specializing in space-efficient wardrobes, premium modular kitchens, and budget-friendly renovations.',
+      openGraph: {
+        title: 'Sahani Interiors | Coastal Wellness Home Design',
+        description: 'Explore space-optimized residential woodwork and coastal wellness aesthetics in Banjara Hills, Hyderabad by Sahani.',
+        url: 'https://gwd-sales.com/client/sahani-interiors-banjara-hills',
+        siteName: 'Sahani Interiors',
+        images: [
+          {
+            url: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&q=80&w=1200&h=630',
+            width: 1200,
+            height: 630,
+            alt: 'Sahani Interiors Premium Woodwork'
+          }
+        ]
+      }
+    };
   }
 
   return {
