@@ -1,52 +1,35 @@
-# Plan: Kriti Handlooms E-commerce Preview Page
+# Plan: Fix Styling & Compile Issues in Aanya Ethnic Boutique Page
 
 ## Task Assessment
-- **Brand**: Kriti Handlooms (Boutique Clothing / Handloom heritage)
-- **Location**: Cyberabad, Hyderabad
-- **Folder Path**: `app/client/kriti-handlooms-cyberabad/`
-- **Output Files**: `page.jsx` (interactive React page), `layout.jsx` (SEO metadata layout)
-- **Design System**: Premium **Earthy Organic Claymorphism**
-  - Elegant serif display typography (Playfair Display), paired with a modern clean sans-serif (Plus Jakarta Sans).
-  - Colors: Terracotta (#C27A5B), Olive/Sage Green (#5D6E54), Soft Gold/Wheat (#D8B88F), Warm Cream backgrounds (#FAF7F2).
-  - Claymorphism: Soft pillowy shadows, double outer/inner borders, and light pastel gradients for card items.
-- **Required Sections (Minimum 7 Sections)**:
-  1. **Hero Section** — Large headline ("Kriti Handlooms"), tagline, engaging hero visual showcasing handloom sarees/tunics (use Unsplash), primary CTA ("Shop Collection").
-  2. **Featured Collections / Lookbook** — Grid of high-quality ethnic wear imagery with smooth hover effects.
-  3. **Product Grid (Shop)** — At least 4-6 products with names, prices (in INR), and "Add to Cart" buttons. Interactive cart slide-over/panel.
-  4. **Brand Story / About** — Artisanal focus, Hyderabad legacy, craftsmanship.
-  5. **Testimonials / Social Proof** — Customer reviews from Cyberabad residents.
-  6. **Trust Badges / Value Props** — Secure Payments, Custom Tailoring, 100% Organic Handloom, Direct-from-Weavers.
-  7. **Footer** — Contact info (Cyberabad, Hyderabad), fake WhatsApp link using `https://wa.me/919876543212`.
-- **Hard Constraints (NON-NEGOTIABLE)**:
-  - STRICTLY NO DARK MODE. All elements must use light background aesthetics.
-  - Lucide React icons only (no emojis as structural icons).
-  - Fully mobile responsive with no horizontal overflow.
-  - `"use client"` at the top of `page.jsx`.
-  - Single CamelCase identifiers for function names in `page.jsx` and `layout.jsx` (`KritiHandloomsCyberabadPage`, `KritiHandloomsCyberabadLayout`).
-  - Next.js must compile successfully with zero errors under `npm run build`.
+- **Target File**: `app/client/aanya-ethnic-cyberabad/page.jsx`
+- **Bugs/Styling Violations**:
+  1. **Dark background violation**: The footer uses `bg-gray-900` and dark borders (`border-t border-gray-800`). We need to change the footer to a light mode/whitespace or soft pastel design.
+  2. **Invalid Tailwind classes**: Replace invalid classes (`bg-text-rose-600`, `border-text-rose-600/20`, `from-text-rose-600/20`, `hover:bg-text-rose-600`) with correct Tailwind classes (e.g. `rose-600`, `bg-rose-600`, etc.).
+  3. **Function casing**: Change the export default function name in `page.jsx` to a single PascalCase identifier, specifically `AanyaEthnicCyberabadPage`.
+  4. **Compilation check**: Run `npm run build` to verify the page compiles with zero errors.
 
 ## Step-by-Step Execution Plan
 
-### Step 1: Initialize Project Metadata & Briefing
-- Create/update `plan.md`, `progress.md`, `PROJECT.md`, and `BRIEFING.md` inside `.agents/orchestrator/`.
-- Start heartbeat cron timer.
+### Step 1: Update metadata files
+- Update `progress.md`, `plan.md`, and `BRIEFING.md` (done).
+- Start heartbeat cron (done).
 
-### Step 2: Design Exploration & Analysis (Explorer)
-- Spawn an Explorer agent to explore design systems, pick high-quality Unsplash image URLs, define layout structures, and document the complete specification.
+### Step 2: Spawn Worker to fix page.jsx
+- Delegate code modifications to a `teamwork_preview_worker` agent.
+- Instruct worker to:
+  - Read `app/client/aanya-ethnic-cyberabad/page.jsx`.
+  - Fix the function name casing of the default export to `AanyaEthnicCyberabadPage`.
+  - Replace `bg-text-rose-600` with `bg-rose-600`.
+  - Replace other `*-text-rose-600*` classes with valid equivalents:
+    - `border-text-rose-600/20` -> `border-rose-600/20`
+    - `from-text-rose-600/20` -> `from-rose-600/20`
+    - `bg-text-rose-600/10` -> `bg-rose-600/10`
+    - `hover:bg-text-rose-600` -> `hover:bg-rose-600`
+  - Re-design the footer section to eliminate all dark backgrounds (`bg-gray-900`, `bg-gray-800`) and dark borders (`border-gray-800`), changing them to a light mode/whitespace or soft pastel design matching the theme (e.g. `bg-rose-100/50` or white background with light borders `border-rose-100`).
+  - Run build command `npm run build` to verify compilation passes with zero errors.
+  - Return the handoff report summarizing the modifications and verification command outputs.
 
-### Step 3: Code Implementation (Worker)
-- Spawn a Worker agent with `ui-ux-pro-max` and `frontend-design` skills to generate the premium Next.js UI (`page.jsx` and `layout.jsx`).
-- Ensure no dark mode, correct function names, proper Lucide React usage, and dynamic interactive client-side customizers.
-
-### Step 4: Multi-Agent Review & Code Quality (Reviewer)
-- Spawn a Reviewer agent to verify correctness, visual style conformance, mobile responsiveness, and contrast levels.
-
-### Step 5: Forensic Integrity Audit (Auditor)
-- Spawn a Forensic Auditor agent to verify that the implementation is genuine and doesn't contain hardcoded test overrides, dummy functions, or dark mode violations.
-
-### Step 6: Build Verification (Worker)
-- Spawn a Worker to run `npm run build` and ensure Next.js compiles the route with zero errors.
-
-### Step 7: Final Verification & Sentinel Notification
-- Verify all requirements are met.
-- Notify the Sentinel (main agent) with a victory report.
+### Step 3: Monitor Worker & Review Handoff
+- Check worker progress.
+- Once completed, review the handoff and verify the build passed.
+- Present final report to user.
