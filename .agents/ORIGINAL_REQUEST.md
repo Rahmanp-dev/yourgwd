@@ -844,3 +844,30 @@ Create:
 - `app/client/kriti-handlooms-cyberabad/layout.jsx` (SEO metadata)
 
 Ensure `npm run build` passes with zero errors for this route.
+
+## 2026-06-25T09:09:46Z
+
+Find and verify 20 genuine real-world Dental clinics located in Georgetown, Texas (US) that currently operate strictly without an active website, extracting their authenticated contact numbers and business information from any online sources (social media, maps, local directories).
+
+Working directory: d:\GWD\Sales Machine
+Integrity mode: development
+
+## Requirements
+
+### R1. Research 20 No-Website Dental Clinics in Georgetown, TX
+Identify exactly 20 real-world dental practices in Georgetown, Texas (suburb of Austin) that have zero active website presence (no official .com/.net/.org domain).
+
+### R2. Authentic Contact Extraction
+For each clinic, extract verified genuine contact details: Clinic Name, Physical Address in Georgetown, Authentic US Telephone Number (+1), and primary online reference URL (e.g., Instagram handle, Facebook page, Yelp, or Google Maps listing).
+
+### R3. Dataset Export & CRM Storage
+Save the verified dataset to `scratch/georgetown_tx_dental_clinics.json` and ingest them into our MongoDB database (`gwd_leads.leads`) with status `"Researched_Georgetown_TX"`. Strictly gather contacts (do not build Next.js preview pages).
+
+## Acceptance Criteria
+
+### Data Authenticity & Compliance
+- [ ] Exactly 20 distinct dental practices identified in Georgetown, Texas.
+- [ ] 100% of listed clinics verified to have NO active official website.
+- [ ] Every record includes a genuine US telephone number (+1 format).
+- [ ] Final output listed clearly in chat as a structured markdown table.
+
